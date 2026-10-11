@@ -15,7 +15,7 @@ for entry in entries:
     assert path.is_file(), f'Missing bundled source: {entry["path"]}'
     assert hashlib.sha256(path.read_bytes()).hexdigest() == entry['sha256'], f'Changed bundled source: {entry["path"]}'
 baseline_path = ROOT/'PTR_transactions_2025_ACCEPTED_STOCK_PURCHASES.csv'
-assert hashlib.sha256(baseline_path.read_bytes()).hexdigest() == manifest['baseline_sha256'] == '809bf153d2fe9ce842ae738d73008a53979446c697b2bc6c66f237b1baf89ad0'
+assert hashlib.sha256(baseline_path.read_bytes()).hexdigest() == manifest['baseline_sha256'] == '967a49115179d5458ff339c89e561cbe49913956172cfd2313183d997cfdabeb'
 source, accepted, baseline = [read_csv(p) for p in [DATA/'transactions.csv',DATA/'accepted-stock-purchases.csv',baseline_path]]
 assert len(source) == 7797 and all(r['transaction_date'].startswith('2025-') for r in source)
 candidate = [r for r in source if r['transaction_type']=='P' and r['asset_type']=='ST' and r['ticker_parse_status']=='accepted' and r['ticker_v8_2_cleaned'].strip()]

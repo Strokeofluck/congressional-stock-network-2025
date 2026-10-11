@@ -6,7 +6,9 @@
   "upstream_full_csv_sha256": "18a5b9f4e7abd51db676ac9466388746cda4ac5de76a0a43c2f2173aad32e51a",
   "upstream_full_csv_path": "data/06_public/house_ptr_transactions_latest.csv",
   "upstream_updated_at": "2026-10-11T18:21:47+00:00",
-  "baseline_sha256": "809bf153d2fe9ce842ae738d73008a53979446c697b2bc6c66f237b1baf89ad0",
+  "baseline_sha256": "967a49115179d5458ff339c89e561cbe49913956172cfd2313183d997cfdabeb",
+  "baseline_source_url": "https://raw.githubusercontent.com/StrokeOfLuck/congressional-stock-network-2025/4aa2cfe1c3023d96d6328d77a90b31095f502d03/PTR_transactions_2025_ACCEPTED_STOCK_PURCHASES.csv",
+  "baseline_line_endings": "Git-stored LF bytes; .gitattributes disables checkout newline conversion",
   "filter": "transaction_date starts with 2025-; preserve source order and all source columns",
   "files": {
     "transactions.csv": {

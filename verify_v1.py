@@ -36,7 +36,7 @@ assert metrics['source_ticker_strings'] == len({r['ticker_v8_2_cleaned'] for r i
 assert metrics['normalized_alias_rows'] == sum(r['ticker_v8_2_cleaned'] == 'SQ' and 'block' in r['asset_v8_2_cleaned'].lower() for r in rows) == 2
 assert metrics['displayed_rows'] == sum((('XYZ' if r['ticker_v8_2_cleaned'] == 'SQ' and 'block' in r['asset_v8_2_cleaned'].lower() else r['ticker_v8_2_cleaned']) in shared) for r in rows) == 2404
 assert metrics['hidden_tickers'] == len(stocks) - len(shared) == 499
-assert hashlib.sha256(Path('PTR_transactions_2025_ACCEPTED_STOCK_PURCHASES.csv').read_bytes()).hexdigest() == '809bf153d2fe9ce842ae738d73008a53979446c697b2bc6c66f237b1baf89ad0'
+assert hashlib.sha256(Path('PTR_transactions_2025_ACCEPTED_STOCK_PURCHASES.csv').read_bytes()).hexdigest() == '967a49115179d5458ff339c89e561cbe49913956172cfd2313183d997cfdabeb'
 assert metrics['identical_excess_rows'] == len(rows) - len({tuple(r.values()) for r in rows}) == 124
 rich = list(csv.DictReader(open('data/2025/accepted-stock-purchases.csv',encoding='utf-8')))
 assert metrics['unique_parsed_record_ids'] == len({r['record_id'] for r in rich}) == 3179

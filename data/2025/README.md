@@ -6,7 +6,7 @@ This directory makes the analysis rebuild independent of the portfolio, the Hous
 
 The period is **transaction dates in calendar 2025**, not filing year. `transactions.csv` contains 7,797 parsed rows, retaining all 61 source columns and transaction types. Of these, 634 were filed in 2026. The network's accepted stock-purchase subset contains 3,179 rows, including 212 reported in 2026 filings. Other transaction years are excluded.
 
-The snapshot was imported on October 11, 2026 from [house-ptr-scraper at a064720](https://github.com/StrokeOfLuck/house-ptr-scraper/tree/a064720e90e715f516cd2a725ece0b6f7a73632b). `source-manifest.json` records the full upstream CSV hash, exact source URLs, transformations and hashes of the bundled files. The original accepted CSV at the repository root is preserved byte-for-byte for reconciliation.
+The snapshot was imported on October 11, 2026 from [house-ptr-scraper at a064720](https://github.com/StrokeOfLuck/house-ptr-scraper/tree/a064720e90e715f516cd2a725ece0b6f7a73632b). `source-manifest.json` records the full upstream CSV hash, exact source URLs, transformations and hashes of the bundled files. The original accepted CSV at the repository root is preserved byte-for-byte in its Git-stored LF representation for reconciliation. `.gitattributes` prevents Windows checkout conversion from changing its integrity hash.
 
 ## Files and reproduction
 
