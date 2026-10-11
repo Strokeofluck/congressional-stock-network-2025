@@ -37,3 +37,5 @@ jobs:
         run: Rscript render.R
       - name: Independently verify network calculations
         run: python3 verify_v1.py
+      - name: Verify recorded filing coverage evidence
+        run: python3 scripts/audit_filing_coverage.py

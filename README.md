@@ -24,14 +24,20 @@ This repository is intentionally separate from `sean-data-portfolio`. The portfo
 
 The rendered page contains four internal sections:
 
-- **Explore** — force-directed politician / stock / committee network, with a lower-left **Member overlap** toggle for the full member projection
+- **Explore** — lower-left buttons identify **Member–stock · Two-mode (bipartite)**, **Member–member · One-mode projection**, and mixed networks with three or four node types. The active button and legend identify the current network.
 - **About** — source definitions, provenance, and caveats
 - **Methodology** — design and analytical choices
-- **Compare members** — projected member overlap, all accepted affiliations, and descriptive party mixing
+- **Comparison details** — projected member overlap, all accepted affiliations, and descriptive party mixing
 
 The interface also includes graph search, reset/recenter controls, institution drawers, original PTR links, shareable selections, CSV export, House coverage diagnostics, and a compact mobile view/legend control.
 
-Member overlap uses the same comparison widget on the main canvas and the detailed comparison page. Its separate minimum-shared-stocks control filters member-pair lines; it does not change the opening stock rule, remove members or recalculate analytical statistics. The main search, zoom and reset controls apply to the selected graph. On phones, select Member overlap in the View menu and use Options for its threshold and legend.
+Member overlap uses the same comparison widget on the main canvas and the detailed comparison page. Its separate minimum-shared-stocks control filters member-pair lines; it does not change the opening stock rule, remove members or recalculate analytical statistics. The main search, zoom and reset controls apply to the selected graph. On phones, select Member–member · one-mode projection and use Options for its threshold and legend. A member–stock–member path becomes a direct member–member edge; committee views add node types and are mixed networks.
+
+## Confirmed extraction gap
+
+The [October 11 coverage audit](FILING_COVERAGE_AUDIT.md) established a **partial extraction**: 66 of 515 indexed 2025 PTRs are scanned filings with no extracted rows (451 pages, 14 reporters). Another 52 scanned 2026 filings have zero rows (401 pages); their transaction years still require review. A reviewed Khanna filing contains marked 2025 common-stock purchases absent from the extract. The 55 reporters are the accepted-extract population, not all House purchasers. Archive completeness is not transaction completeness.
+
+Recover and verify the scanned filings, resolve symbols and amendments, then rebuild before making full-year coverage claims. The current graph uses the frozen accepted records. See the [executed notebook](validation/filing-coverage-audit.ipynb), [filing inventory](validation/filing-coverage.csv) and [audit results](validation/filing-coverage.json).
 
 ## Analysis input
 

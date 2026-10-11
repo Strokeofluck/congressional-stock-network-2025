@@ -5569,6 +5569,21 @@ body.embed-mode:not(.explore-page-active) .topbar .nav-actions {
   border-color: rgba(216,220,226,.78);
 }
 
+.graph-layer-panel .view-button .network-type-label {
+  display: block;
+  margin-top: 3px;
+  font-size: 10px;
+  font-weight: 500;
+  opacity: .8;
+}
+
+.graph-coverage-note {
+  font-size: 11px;
+  line-height: 1.5;
+  margin: 10px 0 0;
+  color: #75561e;
+}
+
 .graph-layer-panel .view-button:hover {
   background: rgba(255,255,255,.72);
 }
@@ -6042,8 +6057,7 @@ page <- tags$div(
       class = "nav-actions",
       tags$button(id = "navExplore", class = "nav-button active", "Explore"),
       tags$button(id = "navAbout", class = "nav-button", "About"),
-      tags$button(id = "navCode", class = "nav-button", "Methodology"),
-      tags$button(id = "navV1", class = "nav-button", "Compare members")
+      tags$button(id = "navCode", class = "nav-button", "Methodology")
     )
   ),
 
@@ -6094,7 +6108,8 @@ page <- tags$div(
               if (default_view == "full") "active" else ""
             ),
             disabled = if (!has_committee_file || nrow(subcommittee_edges) == 0) "disabled" else NULL,
-            "Stocks + committees + subcommittees"
+            tags$span("Stocks + committees + subcommittees"),
+            tags$span(class = "network-type-label", "Mixed network · 4 node types")
           ),
           tags$button(
             id = "committeeBtn",
@@ -6103,7 +6118,8 @@ page <- tags$div(
               if (default_view == "committee") "active" else ""
             ),
             disabled = if (!has_committee_file || nrow(committee_edges) == 0) "disabled" else NULL,
-            "Stocks + committees only"
+            tags$span("Stocks + committees"),
+            tags$span(class = "network-type-label", "Mixed network · 3 node types")
           ),
           tags$button(
             id = "stockOnlyBtn",
@@ -6111,11 +6127,15 @@ page <- tags$div(
               "view-button",
               if (default_view == "stock") "active" else ""
             ),
-            "Stocks only"
+            tags$span("Member–stock"),
+            tags$span(class = "network-type-label", "Two-mode (bipartite)")
           ),
           tags$button(
             id = "memberOverlapBtn", class = "view-button", type = "button",
-            `aria-pressed` = "false", "Member overlap"
+            `aria-pressed` = "false",
+            title = "Member–stock–member paths projected into direct member–member lines",
+            tags$span("Member–member"),
+            tags$span(class = "network-type-label", "One-mode projection")
           )
         ),
 
@@ -6153,7 +6173,9 @@ page <- tags$div(
 
         tags$div(
           class = "graph-legend",
-          tags$div(id = "graphLegendTitle", class = "graph-legend-title", "Legend"),
+          tags$div(id = "graphLegendTitle", class = "graph-legend-title",
+            if (default_view == "full") "Mixed network · 4 node types" else
+              if (default_view == "committee") "Mixed network · 3 node types" else "Two-mode · member–stock"),
           tags$span(HTML("<span class='legend-dot' style='background:#2F6FDB'></span>Democrat")),
           tags$span(HTML("<span class='legend-dot' style='background:#D64B4B'></span>Republican")),
           tags$span(class = "affiliation-legend-item", HTML("<span class='legend-dot' style='background:#D9A928'></span>Stock")),
@@ -6167,11 +6189,12 @@ page <- tags$div(
               " politicians"
             )
           ),
+          tags$p(class = "graph-coverage-note", "Partial extraction: 66 scanned 2025 filings have no parsed transactions. See About for the coverage audit."),
           tags$div(id = "mainOverlapOptions",
             tags$label(`for` = "mainOverlapThreshold", "Minimum shared stocks"),
             tags$input(id = "mainOverlapThreshold", type = "number", min = 1,
               max = max(v1_edges$shared_stocks), value = 1),
-            tags$p("Thicker lines mean more shared stocks. Node size counts distinct reported stocks. Annual overlap does not establish coordination."),
+            tags$p("One-mode projection of the two-mode member–stock network: member → stock → member becomes a direct member–member line. Thicker lines mean more shared stocks. Node size counts distinct reported stocks. Annual overlap does not establish coordination."),
             tags$button(id = "mainOverlapDetails", class = "nav-button", "Comparison details"),
             tags$div(id = "mainOverlapSelection", role = "status", "Select a member or line to inspect it.")
           )
@@ -6322,7 +6345,7 @@ page <- tags$div(
             ),
             tags$div(
               class = "coverage-subtitle",
-              "This uses the 119th-Congress House roster (Jan. 3-Dec. 31, 2025). It separates politicians in the main shared-stock graph from accepted purchasers hidden only by the 2+ politician ticker filter, and roster members for whom this project found no accepted 2025 public-stock purchase. The last group is not proof of no trading."
+              "This uses the 119th-Congress House roster (Jan. 3-Dec. 31, 2025). It separates politicians with shared-stock ties from accepted purchasers whose stocks do not overlap, and roster members for whom this partial extraction found no accepted purchase. The last group is not proof of no trading. The October 11 audit confirmed that 66 indexed 2025 filings are scanned PDFs with zero extracted rows; 52 scanned 2026 filings are also unextracted, and their transaction years still require review."
             )
           ),
           tags$div(
@@ -6570,11 +6593,11 @@ purchases_network <- purchases_2025_all %>%
         )
       ),
 
-      tags$p("Stock and committee views use equal-width binary affiliation edges; record frequency does not make them thicker. Politician node size reflects distinct displayed stocks, not influence. Member overlap, available on the main canvas and in Compare members, uses full accepted stock degree and distinct shared tickers. ", v1_book("Textbook §2.1.2: Binary vs. Valued Matrices", "networks.html#binary-vs.-valued-matrices"), " · ", v1_book("§13.4: Degree in two-mode networks", "two_mode.html#degree-centrality-in-two-mode-networks")),
+      tags$p("Stock and committee views use equal-width binary affiliation edges; record frequency does not make them thicker. Politician node size reflects distinct displayed stocks, not influence. Member overlap, available on the main canvas and in Comparison details, uses full accepted stock degree and distinct shared tickers. ", v1_book("Textbook §2.1.2: Binary vs. Valued Matrices", "networks.html#binary-vs.-valued-matrices"), " · ", v1_book("§13.4: Degree in two-mode networks", "two_mode.html#degree-centrality-in-two-mode-networks")),
       tags$h2("3. Encode party as color"),
       tags$div(class = "book-reference", "Textbook connection: ", v1_book("Chapter 3 §3.5: Visualizaing Node Attributes; Chapter 8 separately measures assortativity", "network_viz.html#visualizaing-node-attributes")),
       tags$p(
-        "Party is treated as a visual attribute of the politician node and of that politician's purchase edges. Colors identify party affiliation; they do not establish partisan clustering. The Compare members tab separately measures party assortativity on the member projection."
+        "Party is treated as a visual attribute of the politician node and of that politician's purchase edges. Colors identify party affiliation; they do not establish partisan clustering. The Comparison details tab separately measures party assortativity on the member projection."
       ),
       tags$pre(
         class = "r-code-block",
@@ -6818,7 +6841,7 @@ visPhysics(
       ),
 
       tags$h2("11. Project members and measure party mixing"),
-      tags$p("Compare members starts from distinct member–ticker affiliations, forms the member projection, and weights each pair by distinct shared tickers. Ten members with no shared ticker remain as isolates. Party assortativity is reported for unweighted ties and, separately, shared-ticker weights; it is descriptive, without a significance test. The display threshold never changes the reported complete-projection statistic."),
+      tags$p("Comparison details starts from distinct member–ticker affiliations, forms the member projection, and weights each pair by distinct shared tickers. Ten members with no shared ticker remain as isolates. Party assortativity is reported for unweighted ties and, separately, shared-ticker weights; it is descriptive, without a significance test. The display threshold never changes the reported complete-projection statistic."),
       tags$p(v1_book("§13.6: Projection", "two_mode.html#projecting-one-mode-networks"), " · ", v1_book("§8.1: Assortativity", "assortitivity.html#estimating-assortativity")),
       tags$pre(class = "r-code-block", tags$code("pairs <- distinct(purchases_2025_all, politician_clean, ticker)\nB <- as.matrix(xtabs(~ politician_clean + ticker, pairs))\nshared <- tcrossprod(B)\ndiag(shared) <- 0\n# Positive upper-triangle values are member-pair shared-ticker counts.\n# For nominal mixing matrix e normalized to sum 1:\n# r = (sum(diag(e)) - sum(rowSums(e)^2)) / (1 - sum(rowSums(e)^2))")),
       tags$p("Full executable construction and export logic: v1-analysis.R. Independent checks: verify_v1.py. Reference: McDonald, Leppard, Davis, and Mallavarapu (2026), Introduction to Social Network Analysis. No claim is made that the textbook validates the source scraping or that the layout demonstrates misconduct."),
@@ -7427,7 +7450,6 @@ visPhysics(
           memberOverlapBtn.classList.remove('active');
           memberOverlapBtn.setAttribute('aria-pressed', 'false');
           document.body.classList.remove('member-overlap-mode');
-          graphLegendTitle.textContent = 'Legend';
           graphFilterNote.textContent = stockFilterNoteText;
           networkSearchInput.placeholder = 'Search graph: politician, ticker, company, committee, subcommittee…';
           if (window.unmountMemberOverlap) window.unmountMemberOverlap();
@@ -7444,8 +7466,8 @@ visPhysics(
           memberOverlapBtn.classList.add('active');
           memberOverlapBtn.setAttribute('aria-pressed', 'true');
           document.body.classList.add('member-overlap-mode');
-          graphLegendTitle.textContent = 'Member overlap';
-          graphFilterNote.textContent = 'Lines = shared stocks · all 55 reporting members';
+          graphLegendTitle.textContent = 'One-mode projection · member–member';
+          graphFilterNote.textContent = 'Lines = shared stocks · 55 reporters in this partial extract';
           networkSearchInput.placeholder = 'Search reporting members…';
           networkSearchInput.value = '';
           closeSearchResults();
@@ -7460,6 +7482,7 @@ visPhysics(
 
         function showStock(suppressUrl) {
           leaveMemberOverlap();
+          graphLegendTitle.textContent = 'Two-mode · member–stock';
           stockView.classList.add('active');
           committeeView.classList.remove('active');
           subcommitteeView.classList.remove('active');
@@ -7477,6 +7500,7 @@ visPhysics(
         function showCommittee(suppressUrl) {
           if (committeeBtn.disabled) return;
           leaveMemberOverlap();
+          graphLegendTitle.textContent = 'Mixed network · 3 node types';
 
           committeeView.classList.add('active');
           stockView.classList.remove('active');
@@ -7495,6 +7519,7 @@ visPhysics(
         function showSubcommittee(suppressUrl) {
           if (subcommitteeBtn.disabled) return;
           leaveMemberOverlap();
+          graphLegendTitle.textContent = 'Mixed network · 4 node types';
 
           subcommitteeView.classList.add('active');
           stockView.classList.remove('active');

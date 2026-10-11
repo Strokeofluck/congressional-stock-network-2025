@@ -82,7 +82,7 @@ for filename, expected in reference_baseline.items():
     assert len(reference_rows) == expected['rows']
     assert hashlib.sha256(canonical).hexdigest() == expected['canonical_sha256'], filename
 html = Path('index.html').read_text(encoding='utf-8')
-for marker in ['v1Page', 'v1Threshold', 'v1StockSets', 'Compare members',
+for marker in ['v1Page', 'v1Threshold', 'v1StockSets', 'Comparison details',
                'v1DirectoryFilter', 'Reading guide:', 'sna-deferred-widget', 'Jaccard',
                'two_mode.html#projecting-one-mode-networks',
                'assortitivity.html#estimating-assortativity']:

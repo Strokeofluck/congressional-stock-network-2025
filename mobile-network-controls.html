@@ -268,10 +268,10 @@
     menu.hidden = true;
 
     const views = [
-      { source: fullButton, label: 'Full network', menuLabel: 'Stocks + committees + subcommittees' },
-      { source: committeeButton, label: 'Committees only', menuLabel: 'Stocks + committees only' },
-      { source: stockButton, label: 'Stocks only', menuLabel: 'Stocks only' },
-      { source: memberButton, label: 'Member overlap', menuLabel: 'Member overlap' }
+      { source: fullButton, label: 'Mixed · 4 types', menuLabel: 'Stocks + committees + subcommittees · mixed network (4 node types)' },
+      { source: committeeButton, label: 'Mixed · 3 types', menuLabel: 'Stocks + committees · mixed network (3 node types)' },
+      { source: stockButton, label: 'Two-mode · member–stock', menuLabel: 'Member–stock · two-mode (bipartite)' },
+      { source: memberButton, label: 'One-mode · member–member', menuLabel: 'Member–member · one-mode projection' }
     ];
 
     const options = views.map(function (view) {
