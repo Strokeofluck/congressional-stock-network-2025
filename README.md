@@ -6,7 +6,9 @@
 
 Branch: `review/methodology-audit-2026-10`. The portfolio and production network stay on their existing versions. This branch adds member overlap, all accepted member–stock ties, party assortativity, a corrected roster boundary, and textbook references alongside the methods. This review preview is rendered from the R source and independently verified. It is separate from the main Pages deployment.
 
-**[Open the textbook methodology guide](https://raw.githack.com/StrokeOfLuck/congressional-stock-network-2025/review/methodology-audit-2026-10/preview/index.html?methods=1)**
+**[Open the textbook and class methodology guide](https://raw.githack.com/StrokeOfLuck/congressional-stock-network-2025/review/methodology-audit-2026-10/preview/index.html?methods=1)**
+
+The guide links actual project methods to the SNA book and relevant [DSA 495 class modules](https://courseweb.site/dsa495-2026/materials.html#12), with scheduled dates and a presentation review path. It distinguishes adapted course principles from implemented methods and labels future sessions as of the October 11, 2026 review.
 
 Read [Version 1.1 scope and limitations](VERSION_1_NOTES.md), [the executable new analysis](v1-analysis.R), and [the independent checks](verify_v1.py). Generated counts and analytical exports are in [validation](validation/).
 

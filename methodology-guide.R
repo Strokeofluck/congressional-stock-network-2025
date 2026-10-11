@@ -1,4 +1,40 @@
 # Specific textbook readings beside their actual application.
+v1_course_link <- function(label, page) tags$a(label,
+ href=paste0('https://courseweb.site/dsa495-2026/',page),
+ target='_blank',rel='noopener noreferrer')
+v1_class_readings <- list(
+ c('Reproducibility','01','Module 1 · Reproducible workflows','August 17, 2026',
+   'Run render.R and verify_v1.py; retain the frozen input and source commits. This adapts the course’s reproducible-workflow principle. The renderer uses R Markdown, not a Colab notebook.'),
+ c('Validation and error review','05','Module 5 · Evaluation and errors','September 21, 2026',
+   'Inspect duplicate rows, ticker aliases, roster boundaries and committee-date mismatches against source evidence. This adapts error review to data and network checks; classifier accuracy, precision and recall are not calculated here.'),
+ c('Claims linked to evidence','07','Module 7 · Source grounding','October 5, 2026',
+   'Use original filing links, the Block ticker announcement and exact textbook sections to check each claim. This applies a grounding principle; the project does not implement retrieval-augmented generation (RAG).'),
+ c('Compare changes consistently','08','Module 8 · Evaluation and improvement','October 12, 2026 · planned as of October 11',
+   'Use the same frozen extract when comparing versions. Independent checks separate numerical corrections from display changes. This is a connection to planned evaluation material, not a completed RAG evaluation.'),
+ c('Explain findings and limits','12','Module 12 · Project presentations','November 30, 2026 · planned as of October 11',
+   'Present the question, data, workflow, validation, findings and limitations. See the review path below. Treat annual shared purchases as descriptive overlap, with no claim of coordinated trading.')
+)
+v1_class_connections <- tags$section(id='classConnections',
+ tags$h2('Class connections: DSA 495 · Fall 2026'),
+ tags$p('DSA 495 teaches text analysis. These connections use its published workflow, evaluation and presentation principles; the network formulas remain tied to the SNA textbook. ',
+   v1_course_link('Class materials','materials.html#12'), ' and ',
+   v1_course_link('class schedule','schedule.html'),
+   ' were checked October 11, 2026. Dates are scheduled sessions, not confirmation that a lecture occurred. These links identify modules, not unverified slide numbers or recording timestamps.'),
+ tags$div(class='method-table-wrap',tags$table(class='method-table',
+   tags$thead(tags$tr(tags$th('Project method'),tags$th('Class material and scheduled date'),tags$th('Connection and scope'))),
+   tags$tbody(lapply(v1_class_readings,function(x)tags$tr(
+     tags$td(x[1]),tags$td(v1_course_link(x[3],paste0('materials.html#',x[2])),tags$br(),x[4]),tags$td(x[5])))))),
+ tags$h3('Review path for Module 12'),
+ tags$ol(
+   tags$li('Question and data — Open About. Explain that the extract covers accepted 2025 House stock purchases, not complete trading or current holdings.'),
+   tags$li('Workflow — Use the textbook table below to explain binary member–stock affiliations, the two-member display rule and the member projection.'),
+   tags$li('Evidence — Open Compare members. Show raw shared-stock counts beside Jaccard, include isolates and explain descriptive party mixing. Use validation/ and original filings to review the calculations and unresolved records.'),
+   tags$li('Limitations — Explain missing ownership and amendment identifiers, uncertain duplicates, snapshot timing and unverified filing coverage. Graph proximity and overlap do not establish influence or misconduct.')
+ ),
+ tags$p(v1_course_link('Module 12 presentation guidance','materials.html#12'), ' · ',
+   v1_course_link('Course project guidance','project.html'),
+   '. The course project asks for a Python text-analysis workflow from unstructured text. This repository currently analyzes a structured extract with R and independent Python checks; these references do not establish that course-project requirement.')
+)
 v1_readings <- list(
  c('Affiliation edges','Chapter 2 · §2.0.1 Networks as edgelists','networks.html#networks-as-edgelists','Distinct reporting member–stock pairs form undirected affiliations. Purchase/year/accepted-ticker filters are project decisions.'),
  c('Two-mode network','Chapter 13 · §13.1 Two Mode Networks from Edgelists','two_mode.html#two-mode-networks-from-edgelists','Stocks-only has members and stocks. Committee and subcommittee layers add other relationship types.'),
@@ -13,6 +49,7 @@ v1_readings <- list(
  c('Dates: background only','Chapter 15 · Dynamic Networks','dynamic.html','Purchases are aggregated annually. Dated committee matching does not implement dynamic SNA. Communities, brokerage and time-window similarity remain future work.')
 )
 v1_methodology_guide <- tags$div(
+ v1_class_connections,
  tags$h2('Reading guide: method → textbook → application'),
  tags$p('Start with Chapter 13: Two Mode Networks, then Chapter 8: Assortativity. Other readings are Chapter 2: What is a Network?, Chapter 3: Visualizing Networks, Chapter 4: Graph Layouts, and Appendix B: Interactive Network Visualization. Links open the exact section. The book explains methods; it does not certify the scraped input or completeness.'),
  tags$div(class='method-table-wrap', tags$table(class='method-table',
