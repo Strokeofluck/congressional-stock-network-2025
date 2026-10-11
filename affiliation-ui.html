@@ -25,7 +25,7 @@ body.explore-page-active:not(.member-overlap-mode) .graph-legend{max-height:calc
     function stateFor(n,key){
       if(states.has(n))return states.get(n);
       const nodes=n.body.data.nodes.get(),edges=n.body.data.edges.get();
-      const state={key,mode:null,focus:null,positions:null,headings:[],
+      const state={key,mode:null,focus:null,purchasePairs:[],positions:null,headings:[],
         nodes:new Map(nodes.map(node=>[node.id,{label:node.label,font:copy(n.body.nodes[node.id].options.font),color:copy(n.body.nodes[node.id].options.color)}])),
         edges:new Map(edges.map(edge=>[edge.id,copy(edge.color)]))};
       state.nodeStyles=new Map(Array.from(state.nodes,([id,base])=>[id,JSON.stringify(base)]));
@@ -76,6 +76,14 @@ body.explore-page-active:not(.member-overlap-mode) .graph-legend{max-height:calc
       const nodes=n.body.data.nodes.get(),edges=n.body.data.edges.get();
       const incident=state.focus===null?[]:edges.filter(e=>!e.hidden&&(e.from===state.focus||e.to===state.focus));
       const visible=new Set([state.focus,...incident.flatMap(e=>[e.from,e.to])]),edgeIds=new Set(incident.map(e=>e.id));
+      // Institution drawers supply only buyer–ticker pairs backed by purchases
+      // matched to that institution's transaction-date membership snapshots.
+      const pairs=new Set(state.purchasePairs.map(pair=>JSON.stringify(pair)));
+      edges.forEach(edge=>{
+        if(edge.hidden)return;
+        const pair=String(edge.from).startsWith('POL_')?[edge.from,edge.to]:[edge.to,edge.from];
+        if(pairs.has(JSON.stringify(pair))){edgeIds.add(edge.id);visible.add(edge.from);visible.add(edge.to);}
+      });
       const nodeUpdates=[];
       nodes.forEach(node=>{
         const base=state.nodes.get(node.id),faded=state.focus!==null&&!visible.has(node.id);
@@ -134,14 +142,18 @@ body.explore-page-active:not(.member-overlap-mode) .graph-legend{max-height:calc
       // A deferred widget can finish constructor stabilization before R handlers attach.
       setTimeout(()=>{if(!(window.networkInitialPositions||{})[key])n.stabilize(200);},250);
     };
-    window.highlightAffiliationNode=function(n,id){
+    window.highlightAffiliationNode=function(n,id,purchasePairs){
       const key=Object.keys(hosts).find(key=>(window.networkInstances||{})[key]===n);if(!key)return;
       window.bindAffiliationNetwork(key,n);const state=states.get(n);if(!state.nodes.has(id))return;
-      state.focus=id;paintFocus(n,state);
+      const sameFocus=state.focus===id;
+      state.focus=id;
+      state.purchasePairs=/^(SUB)?COMMITTEE_/.test(String(id))
+        ?(Array.isArray(purchasePairs)?purchasePairs:sameFocus?state.purchasePairs:[]):[];
+      paintFocus(n,state);
     };
     window.clearAffiliationFocus=function(n){
       const state=states.get(n);if(!state)return;
-      state.focus=null;if(window.clearInstitutionFocusForNetwork)window.clearInstitutionFocusForNetwork(n);
+      state.focus=null;state.purchasePairs=[];
       n.unselectAll();paintFocus(n,state);
     };
     window.fitAffiliationNetwork=function(){
