@@ -7,7 +7,9 @@ const nodeCounts=[400,422,504],edgeCounts=[1292,1383,1618];
 const rows=(columns,count)=>Array.from({length:count},(_,i)=>Object.fromEntries(Object.entries(columns).map(([key,value])=>[key,Array.isArray(value)?value[i]:value])));
 const colors={Democrat:'#2F6FDB',Republican:'#D64B4B',Stock:'#D6B54A',Committee:'#667A70',Subcommittee:'#A8B7AE'};
 let active='stock';
-const elements={affiliationLayout:{value:'network'},affiliationLayoutNote:{textContent:''},affiliationClearFocus:{hidden:true}};
+assert.match(html, /id="affiliationLayout"[^>]*>\s*<option value="party"/);
+assert.match(html, /params\.get\('layout'\) === 'network' \? 'network' : 'party'/);
+const elements={affiliationLayout:{value:'party'},affiliationLayoutNote:{textContent:''},affiliationClearFocus:{hidden:true}};
 for(let i=0;i<widgets.length;i++){
   const key=keys[i],nodes=rows(widgets[i].nodes,nodeCounts[i]),edges=rows(widgets[i].edges,edgeCounts[i]).map((e,index)=>({...e,id:'e'+index}));
   data[key]={nodes,edges};
@@ -23,7 +25,7 @@ const baseline=immutable(),baseColors=Object.fromEntries(keys.map(key=>[key,data
 const scope={document:{readyState:'complete',getElementById:id=>elements[id],querySelector:()=>null,body:{classList:{contains:()=>true}},createElement(){return {style:{},remove(){}};}},window:{innerWidth:1280,networkInstances:networks,networkInitialPositions:initial,addEventListener(){},updateNetworkShareUrl(){},clearInstitutionFocusForNetwork(){}},setTimeout(){throw Error('No delayed stabilization needed');}};
 vm.createContext(scope);vm.runInContext(controller.match(/<script[^>]*>([\s\S]*?)<\/script>/)[1],scope);
 function same(actual,expected){assert.equal(JSON.stringify(actual),JSON.stringify(expected));}
-elements.affiliationLayout.value='party';elements.affiliationLayout.onchange();
+assert.match(elements.affiliationLayoutNote.textContent,/Democrats left/);
 for(const key of keys){
  active=key;assert.equal(scope.window.fitAffiliationNetwork(),true);
  const {nodes,edges}=data[key],n=networks[key];assert.equal(nodes.length,nodeCounts[keys.indexOf(key)]);assert.equal(edges.length,edgeCounts[keys.indexOf(key)]);
@@ -46,4 +48,41 @@ for(const key of keys){
  n.positions[id]={x:12345,y:67890};scope.window.highlightAffiliationNode(n,id);assert.equal(scope.window.resetAffiliationNetwork(n),true);same(n.positions,grouped);assert.equal(elements.affiliationClearFocus.hidden,true);
  assert.equal(immutable(),baseline);
 }
-console.log('PASS: all three real datasets; party separation; preserved central geometry; unique positions; exact original-position restoration; direct-neighbor highlighting; focus across layouts; clearing; reset; original edge colors; unchanged node/edge analytical fields.');
+// Exercise the production HTML-to-pairs parser against every rendered drawer.
+const decode=text=>text.replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"').replace(/&#(?:39|x27);/g,"'");
+const parser=html.slice(html.indexOf('        function institutionFocusFromHtml(html) {'),html.indexOf('        function highlightInstitutionSharedStocks('));
+assert.ok(parser);
+const parseScope={document:{createElement(){return {innerHTML:'',get content(){const markup=this.innerHTML;return {querySelectorAll(){return [...markup.matchAll(/<div class='shared-stock-row'>([\s\S]*?)<\/div><\/div>/g)].map(m=>({querySelector(){const ticker=m[1].match(/class='shared-stock-ticker'[^>]*>([^<]*)/);return ticker?{textContent:decode(ticker[1])}:null;},querySelectorAll(){return [...m[1].matchAll(/class='shared-buyer-name'>([^<]*)/g)].map(b=>({textContent:decode(b[1])}));}}));}};}};}}};
+vm.createContext(parseScope);vm.runInContext(parser,parseScope);
+let institutions=0,purchases=0,unmatchedBuyerPairs=0;
+for(const key of ['committee','full']){
+ active=key;const {nodes,edges}=data[key],n=networks[key];
+ const types=key==='committee'?['committee']:['committee','subcommittee'];
+ for(const type of types){
+  const details=JSON.parse(html.match(new RegExp('window\\.'+type+'Details = (\\{[\\s\\S]*?\\});'))[1]);
+  for(const [id,markup] of Object.entries(details)){
+   const focus=(type==='committee'?'COMMITTEE_':'SUBCOMMITTEE_')+id;if(!nodes.some(node=>node.id===focus))continue;
+   const pairs=parseScope.institutionFocusFromHtml(markup).purchasePairs,pairSet=new Set(pairs.map(pair=>JSON.stringify(pair)));
+   const expected=edges.filter(e=>e.from===focus||e.to===focus||pairSet.has(JSON.stringify([e.from,e.to]))||pairSet.has(JSON.stringify([e.to,e.from])));
+   const expectedIds=new Set(expected.map(e=>e.id)),visible=new Set([focus,...expected.flatMap(e=>[e.from,e.to])]);
+   scope.window.highlightAffiliationNode(n,focus,pairs);
+   // Search subsequently centers the same node without repeating drawer metadata.
+   scope.window.highlightAffiliationNode(n,focus);
+   for(const e of edges)assert.equal(e.color.color==='rgba(71,85,105,0.8)',expectedIds.has(e.id),focus+' edge '+e.from+' → '+e.to);
+   for(const node of nodes)assert.equal(node.font.color==='#c4cbd3',!visible.has(node.id),focus+' node '+node.id);
+   const tickers=new Set(pairs.map(pair=>pair[1]));
+   unmatchedBuyerPairs+=edges.filter(e=>tickers.has(e.to)&&!pairSet.has(JSON.stringify([e.from,e.to]))).length;
+   const edgeStyles=edges.map(e=>structuredClone(e.color));
+   elements.affiliationLayout.value='network';elements.affiliationLayout.onchange();edges.forEach((e,j)=>same(e.color,edgeStyles[j]));
+   elements.affiliationLayout.value='party';elements.affiliationLayout.onchange();
+   scope.window.clearAffiliationFocus(n);edges.forEach((e,j)=>same(e.color,baseColors[key][j]));
+   institutions++;purchases+=pairs.length;assert.equal(immutable(),baseline);
+  }
+ }
+ // A later member selection must discard the previous institution's extra pairs.
+ scope.window.highlightAffiliationNode(n,'POL_James French Hill');
+ assert.equal(edges.filter(e=>e.color.color==='rgba(71,85,105,0.8)').length,edges.filter(e=>e.from==='POL_James French Hill'||e.to==='POL_James French Hill').length);
+ scope.window.clearAffiliationFocus(n);
+}
+assert.ok(institutions>100&&purchases>1000&&unmatchedBuyerPairs>0);
+console.log('PASS: default party layout; all three real datasets; preserved geometry and analytical fields; direct-neighbor highlighting; '+institutions+' institution selections, '+purchases+' time-matched buyer–ticker pairs; unmatched buyers stay faded; focus survives layouts and clears; reset and original colors.');
