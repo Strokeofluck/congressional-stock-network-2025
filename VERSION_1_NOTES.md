@@ -1,4 +1,4 @@
-# Version 1.1 review branch
+# Version 1.1 release
 
 This version is an exploratory analysis of a frozen extract, not a certification of complete House trading coverage.
 
@@ -26,7 +26,7 @@ This version is an exploratory analysis of a frozen extract, not a certification
 
 Run `Rscript render.R`, then `python3 verify_v1.py`. The latter independently checks counts, projected weight distribution, party mixing, and the corrected roster boundary. Rendering exports inspectable CSVs and JSON under `validation/`.
 
-The branch-only workflow renders `preview/index.html` without deploying GitHub Pages. It does not modify the portfolio or the production network deployment. The preview link uses a third-party HTML preview host and may cache updates briefly.
+The main Pages workflow rebuilds and verifies the network before deploying the standalone site. The portfolio embeds that deployment. `preview/index.html` preserves the reviewed snapshot; its third-party preview host may cache updates briefly.
 
 ## Accuracy and performance review — October 11, 2026
 

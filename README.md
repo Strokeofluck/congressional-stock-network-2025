@@ -1,12 +1,12 @@
-# Version 1.1 — review preview
+# Version 1.1 — 2025 House purchase network
 
-**[Open the interactive 1.1 preview](https://raw.githack.com/StrokeOfLuck/congressional-stock-network-2025/review/methodology-audit-2026-10/preview/index.html)**
+**[Open the interactive network](https://strokeofluck.github.io/congressional-stock-network-2025/)**
 
-**[Open the new member comparison](https://raw.githack.com/StrokeOfLuck/congressional-stock-network-2025/review/methodology-audit-2026-10/preview/index.html?analysis=1)**
+**[Compare reporting members](https://strokeofluck.github.io/congressional-stock-network-2025/?analysis=1)**
 
-Branch: `review/methodology-audit-2026-10`. The portfolio and production network stay on their existing versions. This branch adds member overlap, all accepted member–stock ties, party assortativity, a corrected roster boundary, textbook/class references and a self-contained 2025 source snapshot. This review preview is rendered from the R source and independently verified. It is separate from the main Pages deployment.
+Version 1.1 adds member overlap, all accepted member–stock ties, party assortativity, a corrected roster boundary, textbook/class references and a self-contained 2025 source snapshot. The main Pages deployment renders the R source and independently verifies the result before publishing. The portfolio embeds this standalone network.
 
-**[Open the textbook and class methodology guide](https://raw.githack.com/StrokeOfLuck/congressional-stock-network-2025/review/methodology-audit-2026-10/preview/index.html?methods=1)**
+**[Open the textbook and class methodology guide](https://strokeofluck.github.io/congressional-stock-network-2025/?methods=1)**
 
 The guide links actual project methods to the SNA book and relevant [DSA 495 class modules](https://courseweb.site/dsa495-2026/materials.html#12), with scheduled dates and a presentation review path. It distinguishes adapted course principles from implemented methods and labels future sessions as of the October 11, 2026 review.
 
