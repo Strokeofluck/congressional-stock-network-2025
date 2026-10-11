@@ -6200,7 +6200,9 @@ page <- tags$div(
             tags$input(id = "mainOverlapThreshold", type = "number", min = 1,
               max = max(v1_edges$shared_stocks), value = 1),
             tags$p("One-mode projection of the two-mode member–stock network: member → stock → member becomes a direct member–member line. Thicker lines mean more shared stocks. Node size counts distinct reported stocks. Annual overlap does not establish coordination."),
+            tags$p("Click a member to highlight their connected members and lines; others fade. Click empty space or Clear highlight to restore the full view."),
             tags$button(id = "mainOverlapDetails", class = "nav-button", "Comparison details"),
+            tags$button(id = "mainOverlapClearFocus", class = "nav-button member-clear-focus", hidden = "hidden", "Clear highlight"),
             tags$div(id = "mainOverlapSelection", role = "status", "Select a member or line to inspect it.")
           )
         ),

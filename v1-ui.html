@@ -19,6 +19,7 @@ body.member-overlap-mode #mainOverlapOptions{display:block}
 @media(min-width:761px){body.embed-mode .member-party-heading{margin-top:35px}}
 #mainOverlapOptions p{font-size:11px;line-height:1.5;margin:10px 0}
 #mainOverlapOptions .nav-button{font-size:11px;padding:6px 9px}
+.member-clear-focus[hidden]{display:none!important}
 #mainOverlapSelection{white-space:pre-wrap;overflow-wrap:anywhere;max-height:220px;overflow:auto;font-size:11px;line-height:1.5;margin-top:10px}
 body.explore-page-active .graph-legend{flex-wrap:nowrap;overflow-x:hidden}
 body.explore-page-active .graph-legend> *{flex-shrink:0;max-width:100%}
@@ -45,6 +46,7 @@ body.explore-page-active.member-overlap-mode .graph-legend{max-width:280px;max-h
     let partyPositions=null, partyHeadings=[];
     const boundNetworks=new WeakSet();
     const preparingNetworks=new WeakSet();
+    let focusedMember=null;
     const memberHome=document.createElement('div');
     memberHome.id='v1MembersHome';memberGraph.before(memberHome);
     function setSelection(text){byId('v1Selection').textContent=text;byId('mainOverlapSelection').textContent=text;}
@@ -57,6 +59,48 @@ body.explore-page-active.member-overlap-mode .graph-legend{max-width:280px;max-h
       document.querySelectorAll('.v1-directory-row').forEach(row=>{row.hidden=!row.textContent.toLowerCase().includes(q);});
     };
     const network=()=>window.v1Networks&&window.v1Networks[mode];
+    function memberNeighborhood(n,id){
+      // Use the displayed projection, so threshold-hidden lines never create highlighted neighbors.
+      const edges=n.body.data.edges.get().filter(e=>!e.hidden&&(e.from===id||e.to===id));
+      const neighbors=edges.map(e=>({id:e.from===id?e.to:e.from,shared:e.shared_stocks}))
+        .sort((a,b)=>b.shared-a.shared||String(a.id).localeCompare(String(b.id)));
+      return {edges,neighbors,ids:new Set([id,...neighbors.map(x=>x.id)])};
+    }
+    function paintMemberFocus(n){
+      const neighborhood=focusedMember===null?null:memberNeighborhood(n,focusedMember);
+      const activeEdges=new Set(neighborhood?neighborhood.edges.map(e=>e.id):[]);
+      const colors={Democrat:'#2F6FDB',Republican:'#D64B4B',Independent:'#8A63B8',Unknown:'#888888'};
+      n.body.data.nodes.update(n.body.data.nodes.get().map(node=>{
+        const faded=neighborhood&&!neighborhood.ids.has(node.id);
+        const color=faded?'rgba(148,163,184,0.18)':colors[node.party||node.group]||colors.Unknown;
+        const border=node.id===focusedMember?'#111827':color;
+        return {id:node.id,color:{background:color,border,highlight:{background:color,border},hover:{background:color,border}},
+          borderWidth:node.id===focusedMember?3:1,borderWidthSelected:3,
+          font:{...node.font,color:faded?'#c4cbd3':'#343434'}};
+      }));
+      n.body.data.edges.update(n.body.data.edges.get().map(edge=>{
+        const color=neighborhood?(activeEdges.has(edge.id)?'rgba(71,85,105,0.8)':'rgba(90,105,120,0.035)'):'rgba(90,105,120,0.25)';
+        return {id:edge.id,color:{color,highlight:color,hover:color,inherit:false}};
+      }));
+      ['mainOverlapClearFocus','v1ClearFocus'].forEach(id=>byId(id).hidden=focusedMember===null);
+    }
+    function describeFocusedMember(n){
+      const {neighbors}=memberNeighborhood(n,focusedMember),minimum=byId('mainOverlapThreshold').value;
+      const stocks=(window.v1StockSets||{})[focusedMember]||[];
+      const connections=neighbors.length
+        ?'Connected members (shared stocks):\n'+neighbors.map(x=>x.id+' ('+x.shared+')').join('\n')
+        :'No connections at this threshold in the accepted extract.';
+      setSelection(focusedMember+' — '+neighbors.length+' connected '+(neighbors.length===1?'member':'members')+' at ≥ '+minimum+' shared stocks.\n'+connections+
+        '\n\n'+stocks.length+' distinct accepted '+(stocks.length===1?'stock':'stocks')+':\n'+stocks.join(', '));
+    }
+    function clearMemberFocus(n){
+      if(focusedMember!==null){focusedMember=null;paintMemberFocus(n);}
+      n.unselectAll();
+      setSelection('Click a member to highlight their connections, or a line to inspect shared stocks. Click empty space to clear the highlight.');
+    }
+    ['mainOverlapClearFocus','v1ClearFocus'].forEach(id=>byId(id).onclick=()=>{
+      const n=window.v1Networks&&window.v1Networks.members;if(n)clearMemberFocus(n);
+    });
     function fitMemberNetwork(n){
       if(memberLayout!=='party'){n.fit({animation:false});return;}
       const width=n.body.container.clientWidth,height=n.body.container.clientHeight;
@@ -138,6 +182,7 @@ body.explore-page-active.member-overlap-mode .graph-legend{max-width:280px;max-h
         if(line)lines.push(line);
         return {id:node.id,label:memberLayout==='party'?lines.join('\n'):node.id,font:{size:memberLayout==='party'?24:12,strokeWidth:3,strokeColor:'#ffffff'}};
       }));
+      if(focusedMember!==null)paintMemberFocus(n);
       positionPartyHeadings(n);n.redraw();
     }
     layoutControls.forEach(control=>control.onchange=function(){byId('mainOverlapLayout').value=this.value;applyMemberLayout();fit();if(inMain&&window.updateNetworkShareUrl)window.updateNetworkShareUrl();});
@@ -163,6 +208,8 @@ body.explore-page-active.member-overlap-mode .graph-legend{max-width:280px;max-h
     });
     function selectMode(next){
       mode=next;
+      const memberNetwork=window.v1Networks&&window.v1Networks.members;
+      if(mode!=='members'&&memberNetwork)clearMemberFocus(memberNetwork);
       byId('v1MembersGraph').style.display=mode==='members'?'block':'none';
       byId('v1AllGraph').style.display=mode==='all'?'block':'none';
       byId('v1MembersBtn').classList.toggle('active',mode==='members');
@@ -172,9 +219,10 @@ body.explore-page-active.member-overlap-mode .graph-legend{max-width:280px;max-h
       byId('v1LayoutNote').style.display=mode==='members'?'block':'none';
       if(mode==='members')applyMemberLayout();
       byId('v1GraphNote').textContent=mode==='members'
-        ?'Member overlap: thicker lines mean more distinct shared tickers. Node size counts all distinct accepted stocks. Red = Republican; blue = Democrat. Click a line for its tickers or a member for their accepted stocks. The threshold changes the display only; statistics below always use the complete projection.'
+        ?'Member overlap: thicker lines mean more distinct shared tickers. Node size counts all distinct accepted stocks. Red = Republican; blue = Democrat. Click a member to highlight their connected members and lines; others fade. Click empty space or Clear highlight to restore the full view. Click a line for its shared tickers. The threshold changes the display only; statistics below always use the complete projection.'
         :'All accepted affiliations: circles are members; gold diamonds are stocks. Each equal-width line means at least one reported purchase. This includes stocks reported by just one member. Click a member or stock to inspect its connections.';
-      setSelection('Select a member or connection to inspect it.');fit();
+      if(mode==='members'&&focusedMember!==null)describeFocusedMember(memberNetwork);
+      else setSelection('Select a member or connection to inspect it.');fit();
     }
     byId('v1MembersBtn').onclick=()=>selectMode('members');
     byId('v1AllBtn').onclick=()=>selectMode('all');
@@ -185,10 +233,11 @@ body.explore-page-active.member-overlap-mode .graph-legend{max-width:280px;max-h
       const n=window.v1Networks&&window.v1Networks.members;if(!n)return;
       const edges=n.body.data.edges.get();
       n.body.data.edges.update(edges.map(e=>({id:e.id,hidden:e.shared_stocks<minimum})));
-      setSelection(edges.filter(e=>e.shared_stocks>=minimum).length+' visible member pairs at ≥ '+minimum+' shared stocks. All 55 members are retained; analytical statistics are unchanged.');
+      if(focusedMember!==null){paintMemberFocus(n);describeFocusedMember(n);}
+      else setSelection(edges.filter(e=>e.shared_stocks>=minimum).length+' visible member pairs at ≥ '+minimum+' shared stocks. All 55 members are retained; analytical statistics are unchanged.');
     }
     [byId('v1Threshold'),byId('mainOverlapThreshold')].forEach(input=>input.oninput=function(){applyThreshold(this.value);if(inMain&&window.updateNetworkShareUrl)window.updateNetworkShareUrl();});
-    window.resetMemberOverlap=function(){applyThreshold(1);applyMemberLayout();const n=window.v1Networks&&window.v1Networks.members;if(n)n.unselectAll();fit();setSelection('Select a member or line to inspect it.');if(window.updateNetworkShareUrl)window.updateNetworkShareUrl();};
+    window.resetMemberOverlap=function(){const n=window.v1Networks&&window.v1Networks.members;if(n)clearMemberFocus(n);applyThreshold(1);applyMemberLayout();fit();setSelection('Click a member to highlight their connections, or a line to inspect shared stocks.');if(window.updateNetworkShareUrl)window.updateNetworkShareUrl();};
     window.onV1NetworkReady=function(key){if(key==='members'){applyThreshold(inMain?byId('mainOverlapThreshold').value:byId('v1Threshold').value);applyMemberLayout();}if(key===mode)fit();};
     byId('mainOverlapDetails').onclick=open;
     function find(){
@@ -201,16 +250,20 @@ body.explore-page-active.member-overlap-mode .graph-legend{max-width:280px;max-h
     byId('v1FindBtn').onclick=find;
     byId('v1Search').onkeydown=e=>{if(e.key==='Enter')find();};
     window.v1Inspect=function(key,p,n){
-      const out=byId('v1Selection');
       if(p.nodes&&p.nodes.length){
         const id=p.nodes[0], node=n.body.data.nodes.get(id);
+        if(key==='members'){focusedMember=id;paintMemberFocus(n);describeFocusedMember(n);return;}
         const name=key==='members'?id:String(id).replace(/^M:/,'');
         const stocks=(window.v1StockSets||{})[name];
         setSelection(stocks?name+' — '+stocks.length+' distinct accepted '+(stocks.length===1?'stock':'stocks')+':\n'+stocks.join(', ')
           :node.label+' — connected members:\n'+n.getConnectedNodes(id).map(x=>n.body.data.nodes.get(x).label).sort().join(', '));
       }else if(key==='members'&&p.edges&&p.edges.length){
+        clearMemberFocus(n);
         const e=n.body.data.edges.get(p.edges[0]);
+        n.selectEdges([e.id]);
         setSelection(e.from+' + '+e.to+'\n'+e.shared_stocks+' shared tickers: '+e.tickers+'\nFull stock lists: '+e.from_degree+' and '+e.to_degree+'; Jaccard overlap: '+(100*e.jaccard).toFixed(1)+'%.\nShared annual purchases do not establish coordination or simultaneous ownership.');
+      }else if(key==='members'){
+        clearMemberFocus(n);
       }
     };
     if(mainHost.classList.contains('active'))window.mountMemberOverlap();
