@@ -1,4 +1,6 @@
 packages <- c(
+  "rmarkdown",
+  "knitr",
   "dplyr",
   "readr",
   "stringr",

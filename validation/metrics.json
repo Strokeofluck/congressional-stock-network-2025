@@ -12,6 +12,9 @@
   "assortativity": -0.03288505285695,
   "weighted_assortativity": -0.05361669740347,
   "identical_excess_rows": 124,
+  "unique_parsed_record_ids": 3179,
+  "missing_owner_codes": 1951,
+  "parser_review_flagged_rows": 107,
   "early_future_snapshot_rows": 130,
   "roster_count": 445
 }

@@ -66,7 +66,7 @@ min_politicians_per_stock <- 2
 
 # Optional manual filename overrides. Leave NA to auto-detect files
 # in the same folder as this Rmd.
-ptr_file_override <- "PTR_transactions_2025_ACCEPTED_STOCK_PURCHASES.csv"
+ptr_file_override <- "data/2025/accepted-stock-purchases.csv"
 
 # Committee provenance and transaction-date matching for this project.
 #
@@ -92,6 +92,17 @@ committee_file_override <- "committee-membership-2025-TRANSACTION_MATCHED.csv"
 committee_snapshot_index_file <- "committee-snapshot-index-2025.csv"
 committee_reference_file <- "committee-membership-2025-TRANSACTION_MATCHED-REFERENCE.md"
 house_roster_2025_cache_file <- "house-roster-119th-congress-2025-v1.csv"
+
+# Reuse derived tables only when source manifest, build code and table bytes match.
+reference_cache_stamp <- 'build/reference-cache.json'
+reference_manifest_hash <- unname(tools::md5sum('data/2025/source-manifest.json'))
+reference_build_hash <- unname(tools::md5sum('2025_Congressional_Stock_Network.Rmd'))
+reference_cache_meta <- if (file.exists(reference_cache_stamp)) jsonlite::fromJSON(reference_cache_stamp) else list()
+valid_reference_cache <- function(path,key) {
+  isTRUE(reference_cache_meta$manifest_hash == reference_manifest_hash) &&
+    isTRUE(reference_cache_meta$build_hash == reference_build_hash) && file.exists(path) &&
+    isTRUE(reference_cache_meta[[key]] == unname(tools::md5sum(path)))
+}
 
 committee_snapshot_index <- tibble::tribble(
   ~snapshot_date, ~source_commit, ~snapshot_note,
@@ -168,21 +179,13 @@ normalize_party_early <- function(x) {
 }
 
 read_pinned_yaml_url <- function(url_string) {
-  # Optional cache preserves the exact commit/path; never substitutes a newer source.
-  cache_relative <- sub('^https://raw.githubusercontent.com/unitedstates/congress-legislators/', '', url_string)
-  cache_path <- file.path('source-cache', cache_relative)
-  if (file.exists(cache_path)) {
-    return(yaml::yaml.load(paste(readLines(cache_path, warn = FALSE, encoding = 'UTF-8'), collapse = '\n')))
-  }
-  con <- base::url(url_string, open = "rb")
-  on.exit(close(con), add = TRUE)
-
-  yaml_text <- paste(
-    readLines(con, warn = FALSE, encoding = "UTF-8"),
-    collapse = "\n"
-  )
-
-  yaml::yaml.load(yaml_text)
+  # Source URLs are provenance; render reads only the versioned House subsets.
+  prefix <- 'https://raw.githubusercontent.com/unitedstates/congress-legislators/'
+  if (!startsWith(url_string,prefix)) stop('Unsupported reference source URL')
+  relative <- substring(url_string,nchar(prefix)+1)
+  source_path <- file.path('data/2025/reference',relative)
+  if (!file.exists(source_path)) stop(paste('Missing bundled reference:',source_path))
+  yaml::yaml.load(paste(readLines(source_path,warn=FALSE,encoding='UTF-8'),collapse='\n'))
 }
 
 github_raw_url <- function(commit_sha, path) {
@@ -344,7 +347,7 @@ build_committee_history <- function() {
       snapshot_row <- committee_snapshot_index[i, ]
 
       message(
-        "Fetching committee snapshot ",
+        "Reading bundled committee snapshot ",
         format(snapshot_row$snapshot_date, "%Y-%m-%d"),
         " (",
         substr(snapshot_row$source_commit, 1, 7),
@@ -375,7 +378,7 @@ build_committee_history <- function() {
     )
 }
 
-if (!file.exists(committee_file_override)) {
+if (!valid_reference_cache(committee_file_override,'committee_hash')) {
   tryCatch(
     {
       committee_history_cache <- build_committee_history()
@@ -406,7 +409,7 @@ if (!file.exists(committee_file_override)) {
       stop(
         paste0(
           "Could not build the time-aware 2025 committee history. ",
-          "The first render needs internet access to GitHub. ",
+          "Restore the bundled data/2025/reference files from this repository. ",
           "\nOriginal error: ",
           conditionMessage(e)
         )
@@ -546,7 +549,7 @@ build_2025_house_roster <- function() {
     arrange(state, district, full_name)
 }
 
-if (!file.exists(house_roster_2025_cache_file)) {
+if (!valid_reference_cache(house_roster_2025_cache_file,'roster_hash')) {
   tryCatch(
     {
       house_roster_2025_cache <- build_2025_house_roster()
@@ -564,7 +567,7 @@ if (!file.exists(house_roster_2025_cache_file)) {
       stop(
         paste0(
           "Could not build the 2025 House coverage roster. ",
-          "The first render needs internet access to GitHub. ",
+          "Restore the bundled data/2025/reference files from this repository. ",
           "\nOriginal error: ",
           conditionMessage(e)
         )
@@ -574,6 +577,11 @@ if (!file.exists(house_roster_2025_cache_file)) {
 }
 
 # ============================================================
+dir.create('build',showWarnings=FALSE)
+jsonlite::write_json(list(manifest_hash=reference_manifest_hash,build_hash=reference_build_hash,
+  committee_hash=unname(tools::md5sum(committee_file_override)),
+  roster_hash=unname(tools::md5sum(house_roster_2025_cache_file))),reference_cache_stamp,auto_unbox=TRUE)
+
 # FILE DETECTION
 # ============================================================
 # ============================================================
@@ -898,8 +906,10 @@ df <- readr::read_csv(
   show_col_types = FALSE,
   progress = FALSE
 )
-original_ptr_columns <- names(df)
-df$exact_repeat_flag <- duplicated(df) | duplicated(df, fromLast = TRUE)
+original_ptr_columns <- names(readr::read_csv('PTR_transactions_2025_ACCEPTED_STOCK_PURCHASES.csv',n_max=0,show_col_types=FALSE))
+# Compare reduced signatures separately from the imported parsed record IDs.
+reduced_signatures <- df[,original_ptr_columns]
+df$exact_repeat_flag <- duplicated(reduced_signatures) | duplicated(reduced_signatures,fromLast=TRUE)
 
 required_ptr_columns <- required_ptr_columns_for_detection
 
@@ -975,7 +985,7 @@ purchase_edges <- purchases_network %>%
     width = 1.2,
     title = paste0(
       "<b>", politician_clean, " → ", ticker, "</b>",
-      "<br>Retained purchase records (unresolved repeats possible): ", purchase_count
+      "<br>Reported purchase records (amendment linkage unverified): ", purchase_count
     ),
     color = "rgba(150, 155, 165, 0.16)",
     dashes = FALSE
@@ -1820,6 +1830,10 @@ build_stock_detail_html <- function(ticker_value) {
             htmltools::htmlEscape(r$transaction_date_display),
             " · ", htmltools::htmlEscape(r$amount_display),
             " · source symbol: ", htmltools::htmlEscape(r$reported_ticker),
+            "<br>Parsed record: ", htmltools::htmlEscape(r$record_id),
+            " · owner code: ", ifelse(is.na(r$owner) || trimws(r$owner)=='','Not parsed',htmltools::htmlEscape(r$owner)),
+            " · filing status: ", htmltools::htmlEscape(r$filing_status),
+            if (isTRUE(r$needs_review)) " · parser flagged for review" else "",
             "<br><span class='snapshot-inline'>Committee snapshot used: ",
               htmltools::htmlEscape(r$committee_snapshot_display),
               if (!is.na(r$snapshot_lag_days)) paste0(" (", ifelse(r$snapshot_lag_days < 0, paste0(abs(r$snapshot_lag_days), " days later; approximate"), paste0(r$snapshot_lag_days, " days before; snapshot proxy")), ")") else "",
@@ -1846,9 +1860,9 @@ build_stock_detail_html <- function(ticker_value) {
       "<div class='detail-stat'><b>", format(s$purchase_count, big.mark = ","), "</b><span>purchase records</span></div>",
       "<div class='detail-stat'><b>", format(s$filing_count, big.mark = ","), "</b><span>PTR filings</span></div>",
       "<div class='detail-stat wide'><b>", format(s$first_purchase, "%b %d"), " – ", format(s$last_purchase, "%b %d, %Y"), "</b><span>2025 purchase-date span</span></div>",
-      "<div class='detail-stat wide'><b>", format_dollars(s$disclosed_min), " – ", format_dollars(s$disclosed_max), "</b><span>sum of retained record bounds; repeats unresolved</span></div>",
+      "<div class='detail-stat wide'><b>", format_dollars(s$disclosed_min), " – ", format_dollars(s$disclosed_max), "</b><span>sum of reported record bounds; amendment linkage unverified</span></div>",
     "</div>",
-    "<div class='method-note'>", s$repeat_affected_rows, " rows for this stock belong to exact-repeat groups. Totals and record counts retain those rows; they are not verified unique transactions or personal spending. Owner and amendment fields are absent. ",
+    "<div class='method-note'>", s$repeat_affected_rows, " rows for this stock share a reduced signature with another row. Imported parsed record IDs distinguish them; equal signatures alone do not prove duplicates. Owner codes are incomplete and amendment-to-original links are unverified. Totals are not verified personal spending. ",
     if (ticker_value == 'XYZ') "Block Class A is combined under XYZ: the original SQ values remain beside the source records. The ticker changed January 21, 2025." else "",
     "</div>",
     "<div class='detail-section-title'>Reported 2025 purchases</div>",
@@ -3231,7 +3245,7 @@ stock_nodes <- stock_detail_summary %>%
       "<b>", ticker, "</b>",
       "<br>", company_name,
       "<br>Politicians in displayed network: ", politician_count,
-      "<br>Retained purchase records (repeats unresolved): ", purchase_count,
+      "<br>Reported purchase records (amendment linkage unverified): ", purchase_count,
       "<br><i>Click for full 2025 transaction details</i>"
     )
   ) %>%
@@ -6565,7 +6579,7 @@ purchases_network <- purchases_2025_all %>%
 
       tags$h2("4. Build the 2025 committee snapshot history"),
       tags$p(
-        "The institutional source is not one annual roster. The project downloads 15 exact 2025 versions of committee-membership-current.yaml and committees-current.yaml from pinned unitedstates/congress-legislators commits. Those snapshots are flattened into one local history table with a snapshot date and source commit attached to every membership row."
+        "The institutional source is not one annual roster. The repository bundles House-only subsets of 15 pinned committee snapshots (including the December 2024 boundary needed for January 1–2). Their source commits, original hashes, subset transformations and bundled-file hashes are in data/2025/source-manifest.json. Rendering reads these local snapshots and reconstructs the history table without another repository or source download."
       ),
       tags$pre(
         class = "r-code-block",

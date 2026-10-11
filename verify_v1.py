@@ -38,6 +38,10 @@ assert metrics['displayed_rows'] == sum((('XYZ' if r['ticker_v8_2_cleaned'] == '
 assert metrics['hidden_tickers'] == len(stocks) - len(shared) == 499
 assert hashlib.sha256(Path('PTR_transactions_2025_ACCEPTED_STOCK_PURCHASES.csv').read_bytes()).hexdigest() == '809bf153d2fe9ce842ae738d73008a53979446c697b2bc6c66f237b1baf89ad0'
 assert metrics['identical_excess_rows'] == len(rows) - len({tuple(r.values()) for r in rows}) == 124
+rich = list(csv.DictReader(open('data/2025/accepted-stock-purchases.csv',encoding='utf-8')))
+assert metrics['unique_parsed_record_ids'] == len({r['record_id'] for r in rich}) == 3179
+assert metrics['missing_owner_codes'] == sum(not r['owner'].strip() for r in rich) == 1951
+assert metrics['parser_review_flagged_rows'] == sum(r['needs_review'].lower() == 'true' for r in rich) == 107
 assert metrics['projected_edges'] == len(expected_weights) == len(edges)
 assert {tuple(sorted((e['from'], e['to']))): int(e['shared_stocks']) for e in edges} == dict(expected_weights)
 for e in edges:
@@ -67,6 +71,16 @@ roster = list(csv.DictReader(open('house-roster-119th-congress-2025-v1.csv')))
 assert metrics['roster_count'] == len(roster)
 assert all(r['last_2025_term_date'] > '2025-01-03' for r in roster)
 assert not any(r['full_name'] == 'Katie Porter' for r in roster)
+# House subsetting must preserve every prior snapshot assignment (including HLIG).
+reference_baseline = json.loads(Path('validation/reference-baseline.json').read_text())
+for filename, expected in reference_baseline.items():
+    if filename == 'provenance':
+        continue
+    with open(filename,encoding='utf-8-sig',newline='') as handle:
+        reference_rows = list(csv.DictReader(handle))
+    canonical = json.dumps(sorted(tuple(sorted(r.items())) for r in reference_rows),separators=(',',':'),ensure_ascii=True).encode()
+    assert len(reference_rows) == expected['rows']
+    assert hashlib.sha256(canonical).hexdigest() == expected['canonical_sha256'], filename
 html = Path('index.html').read_text(encoding='utf-8')
 for marker in ['v1Page', 'v1Threshold', 'v1StockSets', 'Compare members',
                'v1DirectoryFilter', 'Reading guide:', 'sna-deferred-widget', 'Jaccard',
@@ -74,4 +88,4 @@ for marker in ['v1Page', 'v1Threshold', 'v1StockSets', 'Compare members',
                'assortitivity.html#estimating-assortativity']:
     assert marker in html, marker
 print(json.dumps(metrics, indent=2))
-print('PASS: independent counts, projection weights, both assortativity definitions, roster boundary, and preview content.')
+print('PASS: independent counts, projection weights, both assortativity definitions, all reference-table values, roster boundary, and preview content.')

@@ -1,0 +1,35 @@
+{
+  "transaction_year": 2025,
+  "upstream_commit": "a064720e90e715f516cd2a725ece0b6f7a73632b",
+  "all_parsed_2025_transactions": 7797,
+  "accepted_stock_purchases": 3179,
+  "accepted_members": 55,
+  "accepted_extract_sequence_matches_baseline": true,
+  "unique_parsed_record_ids": 3179,
+  "excess_equal_baseline_signatures": 124,
+  "rows_in_equal_baseline_signature_groups": 227,
+  "missing_owner_codes": 1951,
+  "owner_codes": {
+    "SP": 835,
+    "not parsed": 1951,
+    "JT": 265,
+    "DC": 128
+  },
+  "filing_status_values": {
+    "New": 3148,
+    "New $200?": 28,
+    "Amended": 3
+  },
+  "parser_review_flagged_rows": 107,
+  "transaction_rows_by_filing_year": {
+    "2025": 7163,
+    "2026": 634
+  },
+  "accepted_rows_by_filing_year": {
+    "2025": 2967,
+    "2026": 212
+  },
+  "scope": "Transaction dates in calendar 2025, including late reports filed in 2026. Parsed source rows are not a certified census of all purchases.",
+  "identity_limit": "Record IDs are parser-assigned within a source filing, not official transaction identifiers or amendment-to-original links.",
+  "repeat_limit": "Equal signatures in the former reduced extract are not proof of duplicate transactions. Distinct parsed row IDs do not certify extraction accuracy or remove amendment double counting."
+}

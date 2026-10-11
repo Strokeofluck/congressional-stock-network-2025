@@ -48,6 +48,9 @@ jobs:
       - name: Render interactive network
         run: Rscript render.R
 
+      - name: Verify rendered calculations
+        run: python3 verify_v1.py
+
       - name: Prepare Pages artifact
         run: |
           mkdir -p _site

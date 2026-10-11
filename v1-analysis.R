@@ -56,7 +56,9 @@ v1_assortativity <- function(weighted = FALSE) {
 }
 v1_r <- v1_assortativity(FALSE)
 v1_rw <- v1_assortativity(TRUE)
-v1_duplicate_excess <- sum(duplicated(df[, names(readr::read_csv(ptr_file, n_max = 0, show_col_types = FALSE))]))
+v1_duplicate_excess <- sum(duplicated(df[,original_ptr_columns]))
+v1_missing_owners <- sum(is.na(df$owner) | trimws(df$owner)=='')
+v1_review_flags <- sum(df$needs_review %in% TRUE)
 v1_hidden_rows <- nrow(purchases_2025_all) - nrow(purchases_network)
 v1_hidden_tickers <- n_distinct(v1_pairs$ticker) - length(keep_tickers)
 v1_isolates <- sum(v1_members$shared_member_degree == 0)
@@ -101,9 +103,9 @@ v1_book <- function(label, page, anchor = '') tags$a(label,
 v1_caveats <- tags$div(class = 'method-note',
   tags$b('Version 1.1 scope and limits. '),
   paste0('This is a frozen extract of accepted 2025 House public-stock purchase records, not a complete census of trading. ',
-    'Owner/spouse/dependent fields are absent, so edges represent member-reported purchases, not necessarily personal decisions. ',
-    v1_duplicate_excess, ' excess rows are identical across the retained source columns. They are retained pending original-filing review; ',
-    'record counts and summed dollar bounds may therefore be inflated. Binary affiliations and distinct-shared-ticker weights are unchanged by exact repeats. ',
+    v1_missing_owners, ' records have no parsed owner code, so edges represent member-reported purchases, not necessarily personal decisions. ',
+    v1_duplicate_excess, ' additional rows share the original reduced-field signature, but imported parsed record IDs distinguish them. Equal signatures are not proof of duplicates. ',
+    'Parser-assigned row IDs and filing status do not establish amendment-to-original linkage or certify extraction accuracy. Binary affiliations and shared-ticker weights do not depend on record frequency. ',
     'Amounts are disclosure bounds, not exact spending, holdings, or profit. ',
     'Two members can purchase on different dates; overlap is not evidence of communication, coordination, influence, or misconduct.'))
 
@@ -168,6 +170,8 @@ jsonlite::write_json(list(
   projected_edges = nrow(v1_edges), isolates = v1_isolates,
   assortativity = v1_r, weighted_assortativity = v1_rw,
   identical_excess_rows = v1_duplicate_excess,
+  unique_parsed_record_ids = n_distinct(purchases_2025_all$record_id),
+  missing_owner_codes = v1_missing_owners, parser_review_flagged_rows = v1_review_flags,
   early_future_snapshot_rows = v1_early_matches,
   roster_count = nrow(house_roster_2025)
 ), 'validation/metrics.json', auto_unbox = TRUE, pretty = TRUE, digits = 12)

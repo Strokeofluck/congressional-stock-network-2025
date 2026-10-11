@@ -1,0 +1,3 @@
+# Integrity manifests describe bytes; keep data snapshots unchanged across platforms.
+data/** -text whitespace=cr-at-eol
+PTR_transactions_2025_ACCEPTED_STOCK_PURCHASES.csv -text

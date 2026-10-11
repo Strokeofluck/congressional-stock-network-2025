@@ -24,3 +24,4 @@ house-roster-119th-congress-2025-v1.csv
 !preview/index.html
 __pycache__/
 source-cache/
+build/
