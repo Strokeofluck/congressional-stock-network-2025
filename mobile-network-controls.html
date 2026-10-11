@@ -50,6 +50,8 @@
   body.explore-page-active .network-toolbar.graph-search-panel,
   body.embed-mode.explore-page-active .network-toolbar.graph-search-panel {
     top: var(--mobile-search-top, 76px) !important;
+    /* Search results extend over the view picker; keep those results tappable. */
+    z-index: 4520 !important;
   }
 
   /* Keep the existing desktop controls in the DOM for graph logic, but use a
