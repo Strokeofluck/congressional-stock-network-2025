@@ -1,4 +1,4 @@
-# Version 1.0 analytical views. Sourced by the canonical Rmd after data cleaning.
+# Version 1.1 analytical views. Sourced by the canonical Rmd after data cleaning.
 # Binary affiliations prevent repeat records from increasing shared-stock weights.
 v1_pairs <- purchases_2025_all %>% distinct(politician_clean, ticker)
 v1_matrix <- as.matrix(xtabs(~ politician_clean + ticker, data = v1_pairs))
@@ -26,10 +26,14 @@ v1_edges$tickers <- vapply(seq_len(nrow(v1_edges)), function(i) {
     v1_stock_sets[[v1_edges$to[i]]])), collapse = ', ')
 }, character(1))
 v1_edges <- v1_edges %>% mutate(
+  from_degree = lengths(v1_stock_sets[from]),
+  to_degree = lengths(v1_stock_sets[to]),
+  jaccard = shared_stocks / (from_degree + to_degree - shared_stocks),
   id = paste0('pair_', row_number()), width = 0.6 + log1p(shared_stocks),
   color = 'rgba(90,105,120,0.25)',
   title = paste0('<b>', htmlEscape(from), ' + ', htmlEscape(to), '</b><br>',
-    shared_stocks, ' shared stocks<br>', tickers)
+    shared_stocks, ' shared stocks<br>Jaccard: ', sprintf('%.1f%%', 100 * jaccard),
+    ' of combined stock lists (', from_degree, ' and ', to_degree, ' stocks)<br>', tickers)
 )
 
 # Nominal assortativity: r = (trace(e) - sum(a^2)) / (1 - sum(a^2)).
@@ -79,8 +83,9 @@ v1_widget <- function(nodes, edges, key) {
     visEdges(smooth = FALSE) %>% visLayout(randomSeed = 42) %>%
     visPhysics(solver = 'forceAtlas2Based',
       forceAtlas2Based = list(avoidOverlap = 1, gravitationalConstant = -70),
-      stabilization = list(iterations = 400)) %>%
-    visInteraction(hover = TRUE, navigationButtons = FALSE) %>%
+      stabilization = list(iterations = 150)) %>%
+    visInteraction(hover = TRUE, hoverConnectedEdges = FALSE,
+      hideEdgesOnDrag = TRUE, hideEdgesOnZoom = TRUE, navigationButtons = FALSE) %>%
     visEvents(
       afterDrawing = sprintf("function(){window.v1Networks=window.v1Networks||{};window.v1Networks['%s']=this;}", key),
       stabilizationIterationsDone = 'function(){this.setOptions({physics:false});this.fit();}',
@@ -94,7 +99,7 @@ v1_book <- function(label, page, anchor = '') tags$a(label,
   href = paste0('https://stevemcd1.github.io/introSNA/', page, anchor),
   target = '_blank', rel = 'noopener noreferrer')
 v1_caveats <- tags$div(class = 'method-note',
-  tags$b('Version 1.0 scope and limits. '),
+  tags$b('Version 1.1 scope and limits. '),
   paste0('This is a frozen extract of accepted 2025 House public-stock purchase records, not a complete census of trading. ',
     'Owner/spouse/dependent fields are absent, so edges represent member-reported purchases, not necessarily personal decisions. ',
     v1_duplicate_excess, ' excess rows are identical across the retained source columns. They are retained pending original-filing review; ',
@@ -104,8 +109,9 @@ v1_caveats <- tags$div(class = 'method-note',
 
 v1_panel <- tags$div(id = 'v1Page', class = 'page', style = 'display:none;',
   tags$div(class = 'code-wrap',
-    tags$h1('Compare reported purchases · 1.0'),
+    tags$h1('Compare reported purchases · 1.1'),
     tags$p('Which members reported purchases of the same stocks, and how much of that overlap crosses party lines?'),
+    tags$p('Two different display rules: Explore keeps a stock when at least two members reported it. The control here keeps a member-pair line when the pair shares at least the chosen number of stocks. Single-member stocks cannot create pair overlap, so Explore’s stock cutoff removes no pair connections.'),
     tags$p('The member projection keeps all 55 accepted purchasers, including members without a shared-stock connection. ',
       v1_book('Textbook §13.6: Projecting One Mode Networks', 'two_mode.html', '#projecting-one-mode-networks')),
     tags$div(class = 'v1-controls',
@@ -122,6 +128,8 @@ v1_panel <- tags$div(id = 'v1Page', class = 'page', style = 'display:none;',
     tags$div(id = 'v1MembersGraph', class = 'v1-graph', v1_member_widget),
     tags$div(id = 'v1AllGraph', class = 'v1-graph', style = 'display:none;', v1_all_widget),
     tags$div(id = 'v1Selection', class = 'method-note', role = 'status', 'Select a member or connection to inspect it.'),
+    tags$h2('How to interpret overlap'),
+    tags$p('Shared-stock counts grow with broad purchasing lists and popular stocks. Each pair also reports Jaccard overlap: shared stocks divided by the union of both full accepted stock lists. This adjusts for list size, but is not a significance test and does not control for stock popularity or trading dates.'),
     tags$h2('Party mixing in the complete member projection'),
     tags$div(class = 'output-box', sprintf(
       '%s members · %s connected pairs · %s members with no shared ticker. Unweighted party assortativity r = %.3f; shared-ticker-weighted r = %.3f.',
@@ -139,7 +147,7 @@ v1_panel <- tags$div(id = 'v1Page', class = 'page', style = 'display:none;',
       v1_book('Textbook §§13.1–13.4: Two-mode construction and degree', 'two_mode.html')),
     v1_caveats,
     tags$p('Committees are intentionally excluded from these purchasing comparisons. The original Explore tab retains institutional context. ',
-      'Community detection, brokerage, sector exposure, and time-window similarity are future analyses; version 1.0 does not claim to measure them.'),
+      'Community detection, brokerage, sector exposure, and time-window similarity are future analyses; version 1.1 does not claim to measure them.'),
     tags$p(v1_book('Textbook §4.1: Force-directed layouts', 'graph_layouts.html', '#force-directed-layouts'),
       ' · ', v1_book('Appendix B.3: visNetwork', 'interact_vis.html', '#interactive-visualization-with-visnetwork'),
       '. Layout positions aid exploration; distances are not numerical measures of similarity.'),
@@ -149,11 +157,13 @@ v1_panel <- tags$div(id = 'v1Page', class = 'page', style = 'display:none;',
 )
 
 dir.create('validation', showWarnings = FALSE)
-readr::write_csv(v1_edges %>% select(from, to, shared_stocks, tickers), 'validation/member-overlap.csv')
+readr::write_csv(v1_edges %>% select(from, to, shared_stocks, from_degree, to_degree, jaccard, tickers), 'validation/member-overlap.csv')
 readr::write_csv(v1_members %>% select(id, party, full_stock_degree, shared_member_degree), 'validation/member-metrics.csv')
 jsonlite::write_json(list(
   accepted_rows = nrow(purchases_2025_all), displayed_rows = nrow(purchases_network),
   accepted_members = nrow(v1_members), accepted_tickers = ncol(v1_matrix),
+  source_ticker_strings = n_distinct(purchases_2025_all$reported_ticker),
+  normalized_alias_rows = sum(purchases_2025_all$reported_ticker != purchases_2025_all$ticker),
   hidden_rows = v1_hidden_rows, hidden_tickers = v1_hidden_tickers,
   projected_edges = nrow(v1_edges), isolates = v1_isolates,
   assortativity = v1_r, weighted_assortativity = v1_rw,

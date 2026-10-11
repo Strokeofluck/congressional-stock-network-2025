@@ -1,12 +1,12 @@
-# Version 1.0 review branch
+# Version 1.1 review branch
 
 This version is an exploratory analysis of a frozen extract, not a certification of complete House trading coverage.
 
 ## Defensible claims
 
-- The accepted extract contains 3,179 reported purchase records, 55 members, and 855 tickers.
+- The accepted extract contains 3,179 reported purchase records, 55 members, and 854 normalized stock symbols (855 retained source ticker strings).
 - A two-mode affiliation represents at least one accepted member-reported stock purchase in calendar 2025.
-- The original shared-stock display retains 355 tickers, 45 members, and 1,291 distinct affiliations. It hides 777 records and 500 one-member tickers without deleting them.
+- The original shared-stock display retains 355 tickers, 45 members, and 1,292 distinct affiliations. It hides 775 records and 499 one-member tickers without deleting them.
 - The member projection uses distinct affiliations. Each pair's weight is its number of distinct shared tickers. All 55 purchasers are retained, including 10 isolates.
 - Party assortativity is descriptive. The primary statistic weights each connected member pair equally. A separately labeled sensitivity statistic weights pairs by shared tickers. Neither statistic is recomputed when the display threshold changes.
 - Committee links are context; they are not included in purchasing-similarity statistics.
@@ -27,6 +27,16 @@ This version is an exploratory analysis of a frozen extract, not a certification
 Run `Rscript render.R`, then `python3 verify_v1.py`. The latter independently checks counts, projected weight distribution, party mixing, and the corrected roster boundary. Rendering exports inspectable CSVs and JSON under `validation/`.
 
 The branch-only workflow renders `preview/index.html` without deploying GitHub Pages. It does not modify the portfolio or the production network deployment. The preview link uses a third-party HTML preview host and may cache updates briefly.
+
+## Accuracy and performance review — October 11, 2026
+
+- Combines Block Class A SQ/XYZ under XYZ in the derived analysis, with original symbols preserved. Two additional rows and one affiliation enter the shared-stock display; pair count stays 494.
+- Uses equal-width binary Explore edges because 124 excess identical rows remain unresolved. Stock inspectors label retained-record amount sums, repeats and snapshot age.
+- Adds pair list sizes and Jaccard overlap without treating it as significance or unusual coordination.
+- Adds a searchable directory of all 55 reporting members, including the ten outside Explore.
+- Adds a specific method-to-chapter reading guide, distinguishing applied methods from contextual/future readings.
+- Initializes hidden graphs when opened, caps Explore layout at 200 iterations and Compare at 150, and hides edges while dragging/zooming. No transaction rows are removed for performance.
+- Complete binary calculations are independently verified. Completeness of upstream filings, all ticker histories, household ownership and definitive duplicate resolution remain outside this extract.
 
 ## Textbook
 

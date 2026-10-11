@@ -3,6 +3,7 @@ import csv
 import json
 import math
 import re
+import hashlib
 from collections import Counter, defaultdict
 from itertools import combinations
 from pathlib import Path
@@ -15,7 +16,10 @@ edges = list(csv.DictReader(open('validation/member-overlap.csv')))
 metrics = json.loads(Path('validation/metrics.json').read_text())
 stocks = defaultdict(set)
 for row in rows:
-    stocks[row['ticker_v8_2_cleaned'].strip().upper()].add(clean(row['politician']))
+    symbol = row['ticker_v8_2_cleaned'].strip().upper()
+    if symbol == 'SQ' and 'block' in row['asset_v8_2_cleaned'].lower():
+        symbol = 'XYZ'
+    stocks[symbol].add(clean(row['politician']))
 shared = {ticker for ticker, buyers in stocks.items() if len(buyers) >= 2}
 raw_sets = defaultdict(set)
 for ticker, buyers in stocks.items():
@@ -27,15 +31,23 @@ for buyers in stocks.values():
         expected_weights[pair] += 1
 assert metrics['accepted_rows'] == len(rows) == 3179
 assert metrics['accepted_members'] == len(raw_sets) == 55
-assert metrics['accepted_tickers'] == len(stocks) == 855
-assert metrics['displayed_rows'] == sum(r['ticker_v8_2_cleaned'] in shared for r in rows) == 2402
-assert metrics['hidden_tickers'] == len(stocks) - len(shared) == 500
+assert metrics['accepted_tickers'] == len(stocks) == 854
+assert metrics['source_ticker_strings'] == len({r['ticker_v8_2_cleaned'] for r in rows}) == 855
+assert metrics['normalized_alias_rows'] == sum(r['ticker_v8_2_cleaned'] == 'SQ' and 'block' in r['asset_v8_2_cleaned'].lower() for r in rows) == 2
+assert metrics['displayed_rows'] == sum((('XYZ' if r['ticker_v8_2_cleaned'] == 'SQ' and 'block' in r['asset_v8_2_cleaned'].lower() else r['ticker_v8_2_cleaned']) in shared) for r in rows) == 2404
+assert metrics['hidden_tickers'] == len(stocks) - len(shared) == 499
+assert hashlib.sha256(Path('PTR_transactions_2025_ACCEPTED_STOCK_PURCHASES.csv').read_bytes()).hexdigest() == '809bf153d2fe9ce842ae738d73008a53979446c697b2bc6c66f237b1baf89ad0'
 assert metrics['identical_excess_rows'] == len(rows) - len({tuple(r.values()) for r in rows}) == 124
 assert metrics['projected_edges'] == len(expected_weights) == len(edges)
 assert {tuple(sorted((e['from'], e['to']))): int(e['shared_stocks']) for e in edges} == dict(expected_weights)
 for e in edges:
     assert set(e['tickers'].split(', ')) == raw_sets[e['from']] & raw_sets[e['to']]
-assert sorted(int(m['full_stock_degree']) for m in members) == sorted(map(len, raw_sets.values()))
+    a,b = raw_sets[e['from']], raw_sets[e['to']]
+    assert int(e['from_degree']) == len(a) and int(e['to_degree']) == len(b)
+    assert math.isclose(float(e['jaccard']),len(a & b)/len(a | b),abs_tol=1e-12)
+for m in members:
+    assert int(m['full_stock_degree']) == len(raw_sets[m['id']])
+    assert int(m['shared_member_degree']) == sum(bool(raw_sets[m['id']] & ss) for n,ss in raw_sets.items() if n != m['id'])
 assert metrics['isolates'] == sum(int(m['shared_member_degree']) == 0 for m in members) == 10
 parties = {m['id']: m['party'] for m in members}
 for weighted, key in [(False, 'assortativity'), (True, 'weighted_assortativity')]:
@@ -55,8 +67,9 @@ roster = list(csv.DictReader(open('house-roster-119th-congress-2025-v1.csv')))
 assert metrics['roster_count'] == len(roster)
 assert all(r['last_2025_term_date'] > '2025-01-03' for r in roster)
 assert not any(r['full_name'] == 'Katie Porter' for r in roster)
-html = Path('index.html').read_text()
+html = Path('index.html').read_text(encoding='utf-8')
 for marker in ['v1Page', 'v1Threshold', 'v1StockSets', 'Compare members',
+               'v1DirectoryFilter', 'Reading guide:', 'sna-deferred-widget', 'Jaccard',
                'two_mode.html#projecting-one-mode-networks',
                'assortitivity.html#estimating-assortativity']:
     assert marker in html, marker

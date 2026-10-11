@@ -1,0 +1,27 @@
+<script>
+// Hydrate hidden networks only when their containing view becomes visible.
+// htmlwidgets marks bound widgets itself, so staticRender does not rebind existing ones.
+(function(){
+  const deferred=[];
+  document.querySelectorAll('.html-widget').forEach(function(el){
+    if(!el.getClientRects().length){el.classList.remove('html-widget','visNetwork');el.classList.add('sna-deferred-widget');deferred.push(el);}
+  });
+  let queued=false;
+  function hydrateVisible(){
+    queued=false;let changed=false;
+    deferred.forEach(function(el){
+      if(el.classList.contains('sna-deferred-widget')&&el.getClientRects().length){
+        el.classList.remove('sna-deferred-widget');el.classList.add('html-widget','visNetwork');changed=true;
+      }
+    });
+    if(changed&&window.HTMLWidgets)window.HTMLWidgets.staticRender();
+  }
+  const observer=new MutationObserver(function(){
+    if(!queued){queued=true;requestAnimationFrame(hydrateVisible);}
+  });
+  document.querySelectorAll('.page,.network-view,.v1-graph').forEach(function(el){
+    observer.observe(el,{attributes:true,attributeFilter:['style','class']});
+  });
+  document.addEventListener('click',function(){if(!queued){queued=true;requestAnimationFrame(hydrateVisible);}});
+})();
+</script>

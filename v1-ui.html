@@ -9,6 +9,9 @@
 @media(max-width:760px){.topbar .nav-actions{flex-wrap:wrap!important;overflow:visible!important;border-radius:14px!important}body:not(.explore-page-active) .topbar .nav-actions{max-width:calc(100vw - 16px)!important}.topbar .nav-actions .nav-button{font-size:10px!important;padding:6px 9px!important}#v1Page{padding-bottom:90px}}
 @media(max-width:600px){.v1-graph{height:480px}.v1-controls{gap:8px}.v1-controls .nav-button{padding:8px 10px}#v1Page .code-wrap{padding:18px 12px}}
 </style>
+<style>.method-table-wrap{overflow-x:auto;margin:14px 0}.method-table{width:100%;border-collapse:collapse}.method-table th,.method-table td{padding:10px;text-align:left;vertical-align:top;border-bottom:1px solid #d8dee5}.method-table td{min-width:130px}.v1-directory-member{white-space:normal;text-align:left}
+@media(max-width:600px){#codePage .method-table thead{display:none}#codePage .method-table,#codePage .method-table tbody,#codePage .method-table tr,#codePage .method-table td{display:block;width:auto;min-width:0}#codePage .method-table tr{padding:12px 0;border-bottom:1px solid #d8dee5}#codePage .method-table td{border:0;padding:5px 0}#codePage .method-table td:first-child{font-weight:700}}
+</style>
 <script>
 (function(){
   function init(){
@@ -16,6 +19,14 @@
     if(!page||!nav)return;
     let mode='members';
     const byId=id=>document.getElementById(id);
+    document.querySelectorAll('.v1-directory-member').forEach(button=>{
+      button.addEventListener('click',()=>{selectMode('members');byId('v1Search').value=button.dataset.member;setTimeout(find,250);});
+    });
+    const directoryFilter=byId('v1DirectoryFilter');
+    if(directoryFilter)directoryFilter.oninput=function(){
+      const q=this.value.toLowerCase().trim();
+      document.querySelectorAll('.v1-directory-row').forEach(row=>{row.hidden=!row.textContent.toLowerCase().includes(q);});
+    };
     const network=()=>window.v1Networks&&window.v1Networks[mode];
     function fit(){window.dispatchEvent(new Event('resize'));setTimeout(()=>{const n=network();if(n){n.redraw();n.fit({animation:false});}},180);}
     function open(){
@@ -70,10 +81,11 @@
           :node.label+' — connected members:\n'+n.getConnectedNodes(id).map(x=>n.body.data.nodes.get(x).label).sort().join(', ');
       }else if(key==='members'&&p.edges&&p.edges.length){
         const e=n.body.data.edges.get(p.edges[0]);
-        out.textContent=e.from+' + '+e.to+'\n'+e.shared_stocks+' shared tickers: '+e.tickers+'\nShared annual purchases do not establish coordination or simultaneous ownership.';
+        out.textContent=e.from+' + '+e.to+'\n'+e.shared_stocks+' shared tickers: '+e.tickers+'\nFull stock lists: '+e.from_degree+' and '+e.to_degree+'; Jaccard overlap: '+(100*e.jaccard).toFixed(1)+'%.\nShared annual purchases do not establish coordination or simultaneous ownership.';
       }
     };
     if(new URLSearchParams(location.search).get('analysis')==='1')setTimeout(open,500);
+    if(new URLSearchParams(location.search).get('methods')==='1')setTimeout(()=>byId('navCode').click(),500);
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
 })();

@@ -1,12 +1,14 @@
-# Version 1.0 — review preview
+# Version 1.1 — review preview
 
-**[Open the interactive 1.0 preview](https://raw.githack.com/StrokeOfLuck/congressional-stock-network-2025/review/network-v1.0/preview/index.html)**
+**[Open the interactive 1.1 preview](https://raw.githack.com/StrokeOfLuck/congressional-stock-network-2025/review/methodology-audit-2026-10/preview/index.html)**
 
-**[Open the new member comparison](https://raw.githack.com/StrokeOfLuck/congressional-stock-network-2025/review/network-v1.0/preview/index.html?analysis=1)**
+**[Open the new member comparison](https://raw.githack.com/StrokeOfLuck/congressional-stock-network-2025/review/methodology-audit-2026-10/preview/index.html?analysis=1)**
 
-Branch: `review/network-v1.0`. The portfolio and production network stay on their existing versions. This branch adds member overlap, all accepted member–stock ties, party assortativity, a corrected roster boundary, and textbook references alongside the methods. The branch workflow generates this preview from the R source; allow a short build/cache delay after changes.
+Branch: `review/methodology-audit-2026-10`. The portfolio and production network stay on their existing versions. This branch adds member overlap, all accepted member–stock ties, party assortativity, a corrected roster boundary, and textbook references alongside the methods. This review preview is rendered from the R source and independently verified. It is separate from the main Pages deployment.
 
-Read [Version 1.0 scope and limitations](VERSION_1_NOTES.md), [the executable new analysis](v1-analysis.R), and [the independent checks](verify_v1.py). Generated counts and analytical exports are in [validation](validation/).
+**[Open the textbook methodology guide](https://raw.githack.com/StrokeOfLuck/congressional-stock-network-2025/review/methodology-audit-2026-10/preview/index.html?methods=1)**
+
+Read [Version 1.1 scope and limitations](VERSION_1_NOTES.md), [the executable new analysis](v1-analysis.R), and [the independent checks](verify_v1.py). Generated counts and analytical exports are in [validation](validation/).
 
 ---
 

@@ -23,3 +23,4 @@ house-roster-119th-congress-2025-v1.csv
 # The isolated review preview is intentionally versioned.
 !preview/index.html
 __pycache__/
+source-cache/
