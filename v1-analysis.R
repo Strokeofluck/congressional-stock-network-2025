@@ -90,7 +90,7 @@ v1_widget <- function(nodes, edges, key) {
       hideEdgesOnDrag = FALSE, hideEdgesOnZoom = FALSE, navigationButtons = FALSE) %>%
     visEvents(
       afterDrawing = sprintf("function(){window.v1Networks=window.v1Networks||{};if(window.v1Networks['%s']!==this){window.v1Networks['%s']=this;if('%s'==='members'){window.networkInstances=window.networkInstances||{};window.networkInstances.members=this;}if(window.onV1NetworkReady)window.onV1NetworkReady('%s',this);}}", key, key, key, key),
-      stabilizationIterationsDone = sprintf("function(){this.setOptions({physics:false});this.fit();if('%s'==='members'){window.networkInitialPositions=window.networkInitialPositions||{};window.networkInitialPositions.members=window.networkInitialPositions.members||this.getPositions();window.networkReadyViews=window.networkReadyViews||{};window.networkReadyViews.members=true;window.dispatchEvent(new CustomEvent('congress-network-ready-view',{detail:{view:'members'}}));}}", key),
+      stabilizationIterationsDone = sprintf("function(){this.setOptions({physics:false});this.fit();if('%s'==='members'){window.networkInitialPositions=window.networkInitialPositions||{};window.networkInitialPositions.members=window.networkInitialPositions.members||this.getPositions();if(window.onV1MemberStabilized)window.onV1MemberStabilized(this);window.networkReadyViews=window.networkReadyViews||{};window.networkReadyViews.members=true;window.dispatchEvent(new CustomEvent('congress-network-ready-view',{detail:{view:'members'}}));}}", key),
       click = sprintf("function(p){if(window.v1Inspect)window.v1Inspect('%s',p,this);}", key)
     )
 }
@@ -122,6 +122,10 @@ v1_panel <- tags$div(id = 'v1Page', class = 'page', style = 'display:none;',
       tags$button(id = 'v1MembersBtn', class = 'nav-button active', 'Member overlap'),
       tags$button(id = 'v1AllBtn', class = 'nav-button', 'All member–stock ties'),
       tags$button(id = 'v1FitBtn', class = 'nav-button', 'Fit graph'),
+      tags$label(id = 'v1LayoutLabel', `for` = 'v1MemberLayout', 'Member layout ',
+        tags$select(id = 'v1MemberLayout',
+          tags$option(value = 'party', 'Democrats left · Republicans right'),
+          tags$option(value = 'network', 'Network structure (force-directed)'))),
       tags$label('Find member or stock ', tags$input(id = 'v1Search', type = 'search', placeholder = 'Name or ticker')),
       tags$button(id = 'v1FindBtn', class = 'nav-button', 'Find'),
       tags$label(id = 'v1ThresholdLabel', 'Minimum shared stocks ',
@@ -129,6 +133,7 @@ v1_panel <- tags$div(id = 'v1Page', class = 'page', style = 'display:none;',
           max = max(v1_edges$shared_stocks), value = 1, style = 'width:75px;'))
     ),
     tags$p(id = 'v1GraphNote', 'Member overlap: each line represents at least one shared ticker; thicker lines mean more distinct shared tickers. Node size counts all distinct accepted stocks. Red = Republican; blue = Democrat. Click a line to see its shared tickers, or a member to see their accepted stock list. Threshold changes only this display, not the statistics below.'),
+    tags$p(id = 'v1LayoutNote', 'Democrats left; Republicans right. Members are alphabetical within each party. Positions are assigned by party, not detected communities or similarity.'),
     tags$div(id = 'v1MembersGraph', class = 'v1-graph', v1_member_widget),
     tags$div(id = 'v1AllGraph', class = 'v1-graph', style = 'display:none;', v1_all_widget),
     tags$div(id = 'v1Selection', class = 'method-note', role = 'status', 'Select a member or connection to inspect it.'),

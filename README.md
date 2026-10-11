@@ -29,6 +29,8 @@ The rendered page contains four internal sections:
 - **Methodology** — design and analytical choices
 - **Comparison details** — projected member overlap, all accepted affiliations, and descriptive party mixing
 
+The member projection opens with **Democrats left · Republicans right** and retains all 55 reporters and their shared-stock lines. Members are alphabetical within each party; the positions are assigned, not detected communities or numerical similarities. The **Member layout** control switches to the original stabilized **Network structure (force-directed)** layout. Main-view and comparison-page controls stay synchronized; shared links preserve `layout=party` or `layout=network`. Layout changes do not alter the accepted data, edge weights, threshold, or analytical statistics.
+
 The interface also includes graph search, reset/recenter controls, institution drawers, original PTR links, shareable selections, CSV export, House coverage diagnostics, and a compact mobile view/legend control.
 
 Member overlap uses the same comparison widget on the main canvas and the detailed comparison page. Its separate minimum-shared-stocks control filters member-pair lines; it does not change the opening stock rule, remove members or recalculate analytical statistics. The main search, zoom and reset controls apply to the selected graph. On phones, select Member–member · one-mode projection and use Options for its threshold and legend. A member–stock–member path becomes a direct member–member edge; committee views add node types and are mixed networks.
