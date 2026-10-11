@@ -47,6 +47,12 @@ The main Pages workflow rebuilds and verifies the network before deploying the s
 - Adds deterministic preparation, input integrity checks and a source-field audit. Missing or modified inputs stop rendering; other repositories are not downloaded as a fallback. Derived cache reuse requires source, code and cache hashes to match.
 - The CI verification build and Pages workflow check source inputs and rendered calculations. Original PDFs remain linked external evidence, not a complete offline archive.
 
+## Main-canvas comparison controls — October 11, 2026
+
+- Adds Member overlap to the lower-left Explore controls and the mobile View menu. The existing projection widget is moved between the main canvas and its detailed comparison page, rather than creating a duplicate graph.
+- Main search covers all 55 reporting members in this mode; zoom, recenter, reset, inspection and a separate shared-stock threshold apply to the projection. Shared links preserve the view and threshold. The affiliation view retains the two-member stock cutoff.
+- Binary affiliations, projected weights, Jaccard, party mixing and every reference-table value are unchanged and independently verified.
+
 ## Textbook
 
 McDonald, Steve, Tom R. Leppard, Andrew P. Davis, and Aditi Mallavarapu. 2026. *Introduction to Social Network Analysis*. https://stevemcd1.github.io/introSNA/

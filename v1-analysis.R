@@ -89,8 +89,8 @@ v1_widget <- function(nodes, edges, key) {
     visInteraction(hover = TRUE, hoverConnectedEdges = FALSE,
       hideEdgesOnDrag = FALSE, hideEdgesOnZoom = FALSE, navigationButtons = FALSE) %>%
     visEvents(
-      afterDrawing = sprintf("function(){window.v1Networks=window.v1Networks||{};window.v1Networks['%s']=this;}", key),
-      stabilizationIterationsDone = 'function(){this.setOptions({physics:false});this.fit();}',
+      afterDrawing = sprintf("function(){window.v1Networks=window.v1Networks||{};if(window.v1Networks['%s']!==this){window.v1Networks['%s']=this;if('%s'==='members'){window.networkInstances=window.networkInstances||{};window.networkInstances.members=this;}if(window.onV1NetworkReady)window.onV1NetworkReady('%s',this);}}", key, key, key, key),
+      stabilizationIterationsDone = sprintf("function(){this.setOptions({physics:false});this.fit();if('%s'==='members'){window.networkInitialPositions=window.networkInitialPositions||{};window.networkInitialPositions.members=window.networkInitialPositions.members||this.getPositions();window.networkReadyViews=window.networkReadyViews||{};window.networkReadyViews.members=true;window.dispatchEvent(new CustomEvent('congress-network-ready-view',{detail:{view:'members'}}));}}", key),
       click = sprintf("function(p){if(window.v1Inspect)window.v1Inspect('%s',p,this);}", key)
     )
 }
@@ -113,6 +113,7 @@ v1_panel <- tags$div(id = 'v1Page', class = 'page', style = 'display:none;',
   tags$div(class = 'code-wrap',
     tags$h1('Compare reported purchases · 1.1'),
     tags$p('Which members reported purchases of the same stocks, and how much of that overlap crosses party lines?'),
+    tags$p('For a full-screen comparison, choose Member overlap in the lower-left Explore controls. The main view and this detailed page reuse the same graph and threshold.'),
     tags$p('Two different display rules: Explore keeps a stock when at least two members reported it. The control here keeps a member-pair line when the pair shares at least the chosen number of stocks. Single-member stocks cannot create pair overlap, so Explore’s stock cutoff removes no pair connections.'),
     tags$p('The member projection keeps all 55 accepted purchasers, including members without a shared-stock connection. ',
       v1_book('Textbook §13.6: Projecting One Mode Networks', 'two_mode.html', '#projecting-one-mode-networks')),

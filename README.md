@@ -24,12 +24,14 @@ This repository is intentionally separate from `sean-data-portfolio`. The portfo
 
 The rendered page contains four internal sections:
 
-- **Explore** — force-directed politician / stock / committee network
+- **Explore** — force-directed politician / stock / committee network, with a lower-left **Member overlap** toggle for the full member projection
 - **About** — source definitions, provenance, and caveats
 - **Methodology** — design and analytical choices
 - **Compare members** — projected member overlap, all accepted affiliations, and descriptive party mixing
 
 The interface also includes graph search, reset/recenter controls, institution drawers, original PTR links, shareable selections, CSV export, House coverage diagnostics, and a compact mobile view/legend control.
+
+Member overlap uses the same comparison widget on the main canvas and the detailed comparison page. Its separate minimum-shared-stocks control filters member-pair lines; it does not change the opening stock rule, remove members or recalculate analytical statistics. The main search, zoom and reset controls apply to the selected graph. On phones, select Member overlap in the View menu and use Options for its threshold and legend.
 
 ## Analysis input
 

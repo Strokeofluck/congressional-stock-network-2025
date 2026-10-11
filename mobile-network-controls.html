@@ -242,6 +242,7 @@
     const stockButton = document.getElementById('stockOnlyBtn');
     const committeeButton = document.getElementById('committeeBtn');
     const fullButton = document.getElementById('subcommitteeBtn');
+    const memberButton = document.getElementById('memberOverlapBtn');
 
     if (!networkCard || !layerPanel || !legend || !stockButton || !committeeButton || !fullButton) {
       return;
@@ -269,7 +270,8 @@
     const views = [
       { source: fullButton, label: 'Full network', menuLabel: 'Stocks + committees + subcommittees' },
       { source: committeeButton, label: 'Committees only', menuLabel: 'Stocks + committees only' },
-      { source: stockButton, label: 'Stocks only', menuLabel: 'Stocks only' }
+      { source: stockButton, label: 'Stocks only', menuLabel: 'Stocks only' },
+      { source: memberButton, label: 'Member overlap', menuLabel: 'Member overlap' }
     ];
 
     const options = views.map(function (view) {
@@ -366,6 +368,7 @@
       const current = activeView();
       const label = trigger.querySelector('.mobile-view-trigger-label');
       if (label) label.textContent = 'View: ' + current.label;
+      legendToggle.textContent = current.source === memberButton ? 'Options' : 'Legend';
 
       options.forEach(function (item) {
         item.option.classList.toggle('active', item.view === current);
