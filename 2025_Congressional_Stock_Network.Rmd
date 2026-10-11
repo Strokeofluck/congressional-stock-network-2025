@@ -3616,8 +3616,8 @@ make_network <- function(
       dragNodes = TRUE,
       hover = TRUE,
       hoverConnectedEdges = FALSE,
-      hideEdgesOnDrag = TRUE,
-      hideEdgesOnZoom = TRUE,
+      hideEdgesOnDrag = FALSE,
+      hideEdgesOnZoom = FALSE,
       multiselect = TRUE
     ) %>%
     visOptions(
@@ -6749,7 +6749,7 @@ buyers <- matched_purchase_rows %>%
       tags$h2("10. Use a collision-aware force-directed layout"),
       tags$div(class = "book-reference", "Textbook connection: ", v1_book("§4.1: Force Directed Layouts (general principle; the implementation uses ForceAtlas2)", "graph_layouts.html#force-directed-layouts")),
       tags$p(
-        "ForceAtlas2 keeps the exploratory network shape while avoidOverlap reduces circle-on-circle collisions. Stabilization is capped at 200 iterations, and dragging no longer restarts whole-network physics. Hidden networks initialize only when opened; edges are temporarily hidden during dragging and zooming to reduce redraw work; hover hit-testing still pauses briefly while the viewer is moving. The lower label draw threshold is unchanged so names stay visible farther out while zooming."
+        "ForceAtlas2 keeps the exploratory network shape while avoidOverlap reduces circle-on-circle collisions. Stabilization is capped at 200 iterations, and dragging no longer restarts whole-network physics. Hidden networks initialize only when opened. Edges stay visible during dragging and zooming; hover hit-testing still pauses briefly while the viewer is moving. The lower label draw threshold is unchanged so names stay visible farther out while zooming."
       ),
       tags$pre(
         class = "r-code-block",

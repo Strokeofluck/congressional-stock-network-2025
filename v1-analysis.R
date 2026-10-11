@@ -85,7 +85,7 @@ v1_widget <- function(nodes, edges, key) {
       forceAtlas2Based = list(avoidOverlap = 1, gravitationalConstant = -70),
       stabilization = list(iterations = 150)) %>%
     visInteraction(hover = TRUE, hoverConnectedEdges = FALSE,
-      hideEdgesOnDrag = TRUE, hideEdgesOnZoom = TRUE, navigationButtons = FALSE) %>%
+      hideEdgesOnDrag = FALSE, hideEdgesOnZoom = FALSE, navigationButtons = FALSE) %>%
     visEvents(
       afterDrawing = sprintf("function(){window.v1Networks=window.v1Networks||{};window.v1Networks['%s']=this;}", key),
       stabilizationIterationsDone = 'function(){this.setOptions({physics:false});this.fit();}',

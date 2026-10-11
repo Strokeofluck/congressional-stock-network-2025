@@ -35,7 +35,7 @@ The branch-only workflow renders `preview/index.html` without deploying GitHub P
 - Adds pair list sizes and Jaccard overlap without treating it as significance or unusual coordination.
 - Adds a searchable directory of all 55 reporting members, including the ten outside Explore.
 - Adds a specific method-to-chapter reading guide, distinguishing applied methods from contextual/future readings.
-- Initializes hidden graphs when opened, caps Explore layout at 200 iterations and Compare at 150, and hides edges while dragging/zooming. No transaction rows are removed for performance.
+- Initializes hidden graphs when opened and caps Explore layout at 200 iterations and Compare at 150. Edges stay visible during dragging and zooming. No transaction rows are removed for performance.
 - Complete binary calculations are independently verified. Completeness of upstream filings, all ticker histories, household ownership and definitive duplicate resolution remain outside this extract.
 
 ## Textbook
