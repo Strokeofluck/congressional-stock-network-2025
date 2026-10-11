@@ -1,0 +1,165 @@
+<style id="affiliation-layout-styles">
+#affiliationOptions{width:100%;margin-top:10px}
+body.member-overlap-mode #affiliationOptions{display:none}
+#affiliationOptions label{display:block;font-weight:700;margin:5px 0}
+#affiliationLayout{width:100%;padding:6px;border:1px solid #ccd2d8;border-radius:7px;background:white;font-size:11px}
+#affiliationOptions p{font-size:11px;line-height:1.5;margin:9px 0}
+#affiliationClearFocus{font-size:11px;padding:6px 9px}
+#affiliationClearFocus[hidden]{display:none!important}
+.affiliation-party-heading{position:absolute;transform:translateX(-50%);pointer-events:none;z-index:2;padding:4px 8px;background:rgba(255,255,255,.94);border-radius:5px;font-size:13px;font-weight:700;white-space:nowrap}
+body.explore-page-active:not(.member-overlap-mode) .graph-legend{max-height:calc(100dvh - 340px);overflow-y:auto}
+@media(max-width:760px){.affiliation-party-heading{font-size:11px}body.explore-page-active:not(.member-overlap-mode) .graph-legend{max-height:calc(100dvh - var(--mobile-legend-top,188px) - 70px)}}
+</style>
+<script id="affiliation-layout-controller">
+(function(){
+  function init(){
+    const control=document.getElementById('affiliationLayout');if(!control)return;
+    const note=document.getElementById('affiliationLayoutNote');
+    const clear=document.getElementById('affiliationClearFocus');
+    const states=new WeakMap();
+    const hosts={stock:'stockView',committee:'committeeView',full:'subcommitteeView'};
+    function activeKey(){return Object.keys(hosts).find(key=>document.getElementById(hosts[key]).classList.contains('active'));}
+    function activeNetwork(){return (window.networkInstances||{})[activeKey()];}
+    function layout(){return control.value==='party'?'party':'network';}
+    function copy(value){return JSON.parse(JSON.stringify(value));}
+    function stateFor(n,key){
+      if(states.has(n))return states.get(n);
+      const nodes=n.body.data.nodes.get(),edges=n.body.data.edges.get();
+      const state={key,mode:null,focus:null,positions:null,headings:[],
+        nodes:new Map(nodes.map(node=>[node.id,{label:node.label,font:copy(n.body.nodes[node.id].options.font),color:copy(n.body.nodes[node.id].options.color)}])),
+        edges:new Map(edges.map(edge=>[edge.id,copy(edge.color)]))};
+      state.nodeStyles=new Map(Array.from(state.nodes,([id,base])=>[id,JSON.stringify(base)]));
+      state.edgeStyles=new Map(Array.from(state.edges,([id,color])=>[id,JSON.stringify(color)]));
+      states.set(n,state);n.on('afterDrawing',()=>positionHeadings(n,state));
+      return state;
+    }
+    function buildPartyPositions(n,state,initial){
+      const nodes=n.body.data.nodes.get(),members=nodes.filter(node=>String(node.id).startsWith('POL_'));
+      const other=nodes.filter(node=>!String(node.id).startsWith('POL_'));
+      const points=other.map(node=>initial[node.id]).filter(Boolean);
+      const minX=Math.min(...points.map(p=>p.x)),maxX=Math.max(...points.map(p=>p.x));
+      const minY=Math.min(...points.map(p=>p.y)),maxY=Math.max(...points.map(p=>p.y));
+      const cx=(minX+maxX)/2,cy=(minY+maxY)/2;
+      // Compress the central arrangement vertically for a wide party-oriented view.
+      const verticalScale=.5;
+      const positions={};other.forEach(node=>{const p=initial[node.id];positions[node.id]={x:p.x-cx,y:(p.y-cy)*verticalScale};});
+      const parties=['Democrat','Republican',...Array.from(new Set(members.map(node=>node.group))).filter(p=>!['Democrat','Republican'].includes(p)).sort()];
+      state.headings.forEach(h=>h.element.remove());state.headings=[];
+      parties.forEach((party,index)=>{
+        const rows=members.filter(node=>node.group===party).sort((a,b)=>state.nodes.get(a.id).label.localeCompare(state.nodes.get(b.id).label));
+        if(!rows.length)return;
+        const columns=2,rowCount=Math.ceil(rows.length/columns),height=Math.max((maxY-minY)*verticalScale,(rowCount-1)*160);
+        const center=party==='Democrat'?minX-cx-550:party==='Republican'?maxX-cx+550:maxX-cx+1250+(index-2)*700;
+        rows.forEach((node,i)=>{
+          const row=Math.floor(i/columns),column=i%columns,count=Math.min(columns,rows.length-row*columns);
+          positions[node.id]={x:center+(column-(count-1)/2)*300,y:rowCount===1?0:(row/(rowCount-1)-.5)*height};
+        });
+        const element=document.createElement('div');element.className='affiliation-party-heading';
+        element.textContent=(party==='Democrat'?'Democrats':party==='Republican'?'Republicans':party)+' ('+rows.length+')';
+        document.getElementById(hosts[state.key]).appendChild(element);state.headings.push({element,x:center});
+      });
+      return positions;
+    }
+    function positionHeadings(n,state){
+      const box=n.body.container,host=document.getElementById(hosts[state.key]);
+      const search=document.querySelector('.graph-search-panel'),mobile=document.querySelector('.mobile-network-controls');
+      const bottom=Math.max(search?search.getBoundingClientRect().bottom:0,mobile?mobile.getBoundingClientRect().bottom:0);
+      const top=Math.max(12,bottom-host.getBoundingClientRect().top+12);
+      state.headings.forEach(h=>{
+        h.element.hidden=state.mode!=='party';
+        h.element.style.top=top+'px';
+        h.element.style.left=Math.max(75,Math.min(box.clientWidth-75,n.canvasToDOM({x:h.x,y:0}).x))+'px';
+      });
+    }
+    function wrappedLabel(label){const lines=[];let line='';String(label).split(' ').forEach(word=>{if(line&&(line+' '+word).length>22){lines.push(line);line=word;}else line+=(line?' ':'')+word;});if(line)lines.push(line);return lines.join('\n');}
+    function paintFocus(n,state){
+      const nodes=n.body.data.nodes.get(),edges=n.body.data.edges.get();
+      const incident=state.focus===null?[]:edges.filter(e=>!e.hidden&&(e.from===state.focus||e.to===state.focus));
+      const visible=new Set([state.focus,...incident.flatMap(e=>[e.from,e.to])]),edgeIds=new Set(incident.map(e=>e.id));
+      const nodeUpdates=[];
+      nodes.forEach(node=>{
+        const base=state.nodes.get(node.id),faded=state.focus!==null&&!visible.has(node.id);
+        const color=faded?{background:'rgba(148,163,184,0.16)',border:'rgba(148,163,184,0.2)',highlight:{background:'rgba(148,163,184,0.16)',border:'rgba(148,163,184,0.2)'},hover:{background:'rgba(148,163,184,0.16)',border:'rgba(148,163,184,0.2)'}}:copy(base.color);
+        const font={...base.font};
+        if(state.mode==='party'&&String(node.id).startsWith('POL_'))font.size=36;
+        if(faded)font.color='#c4cbd3';
+        const style={label:state.mode==='party'&&String(node.id).startsWith('POL_')?wrappedLabel(base.label):base.label,font,color};
+        const signature=JSON.stringify(style);
+        if(state.nodeStyles.get(node.id)!==signature){state.nodeStyles.set(node.id,signature);nodeUpdates.push({id:node.id,...style});}
+      });
+      if(nodeUpdates.length)n.body.data.nodes.update(nodeUpdates);
+      const edgeUpdates=[];
+      edges.forEach(edge=>{
+        const color=state.focus===null?copy(state.edges.get(edge.id)):{color:edgeIds.has(edge.id)?'rgba(71,85,105,0.8)':'rgba(90,105,120,0.025)',highlight:edgeIds.has(edge.id)?'rgba(71,85,105,0.8)':'rgba(90,105,120,0.025)',hover:'rgba(71,85,105,0.8)',inherit:false};
+        const signature=JSON.stringify(color);
+        if(state.edgeStyles.get(edge.id)!==signature){state.edgeStyles.set(edge.id,signature);edgeUpdates.push({id:edge.id,color});}
+      });
+      if(edgeUpdates.length)n.body.data.edges.update(edgeUpdates);
+      if(n===activeNetwork())clear.hidden=state.focus===null;
+    }
+    function applyLayout(n,state){
+      const initial=(window.networkInitialPositions||{})[state.key];if(!initial)return false;
+      state.mode=layout();
+      if(!state.positions)state.positions=buildPartyPositions(n,state,initial);
+      const positions=state.mode==='party'?state.positions:initial;
+      n.setOptions({physics:false});
+      // moveNode redraws immediately when physics is stopped; batch all coordinates instead.
+      n.body.data.nodes.update(Object.entries(positions).map(([id,p])=>({id,x:p.x,y:p.y})));
+      paintFocus(n,state);positionHeadings(n,state);return true;
+    }
+    function updateNote(){note.textContent=layout()==='party'
+      ?'Democrats left; Republicans right. Members are alphabetical within party. Stocks and institutions occupy the middle. Positions are assigned for navigation, not detected communities or numerical similarity.'
+      :'Force-directed layout: positions follow the network structure. Screen distance is not a numerical similarity measure.';}
+    function fit(n,state){
+      const box=n.body.container,host=document.getElementById(hosts[state.key]);
+      if(host.clientWidth&&host.clientHeight)n.setSize(host.clientWidth+'px',host.clientHeight+'px');
+      if(state.mode!=='party'){n.fit({animation:false});return;}
+      const points=Object.values(state.positions),width=box.clientWidth,height=box.clientHeight;
+      if(!width||!height)return;
+      const minX=Math.min(...points.map(p=>p.x))-220,maxX=Math.max(...points.map(p=>p.x))+220;
+      const minY=Math.min(...points.map(p=>p.y))-120,maxY=Math.max(...points.map(p=>p.y))+120;
+      const left=width>760?330:20,right=25,top=190,bottom=width>760?145:70;
+      const scale=Math.max(.02,Math.min((width-left-right)/(maxX-minX),(height-top-bottom)/(maxY-minY)));
+      n.moveTo({position:{x:(minX+maxX)/2,y:(minY+maxY)/2},scale,offset:{x:(left-right)/2,y:(top-bottom)/2},animation:false});
+    }
+    window.bindAffiliationNetwork=function(key,n){
+      if(!hosts[key]||states.has(n))return;
+      const state=stateFor(n,key);
+      if((window.networkInitialPositions||{})[key]){applyLayout(n,state);return;}
+      n.once('stabilizationIterationsDone',()=>{
+        window.networkInitialPositions=window.networkInitialPositions||{};
+        window.networkInitialPositions[key]=window.networkInitialPositions[key]||n.getPositions();
+        if(applyLayout(n,state)&&activeKey()===key)fit(n,state);
+      });
+      // A deferred widget can finish constructor stabilization before R handlers attach.
+      setTimeout(()=>{if(!(window.networkInitialPositions||{})[key])n.stabilize(200);},250);
+    };
+    window.highlightAffiliationNode=function(n,id){
+      const key=Object.keys(hosts).find(key=>(window.networkInstances||{})[key]===n);if(!key)return;
+      window.bindAffiliationNetwork(key,n);const state=states.get(n);if(!state.nodes.has(id))return;
+      state.focus=id;paintFocus(n,state);
+    };
+    window.clearAffiliationFocus=function(n){
+      const state=states.get(n);if(!state)return;
+      state.focus=null;if(window.clearInstitutionFocusForNetwork)window.clearInstitutionFocusForNetwork(n);
+      n.unselectAll();paintFocus(n,state);
+    };
+    window.fitAffiliationNetwork=function(){
+      updateNote();const key=activeKey(),n=activeNetwork();if(!n)return false;
+      window.bindAffiliationNetwork(key,n);const state=states.get(n);
+      if(state.mode!==layout()&&!applyLayout(n,state))return false;
+      fit(n,state);clear.hidden=state.focus===null;return true;
+    };
+    window.afterAffiliationStabilized=function(key,n){if(activeKey()===key)window.fitAffiliationNetwork();};
+    window.resetAffiliationNetwork=function(n){const state=states.get(n);if(!state)return false;window.clearAffiliationFocus(n);if(!applyLayout(n,state))return false;fit(n,state);return true;};
+    control.onchange=function(){updateNote();const n=activeNetwork();if(n){window.bindAffiliationNetwork(activeKey(),n);const state=states.get(n);if(applyLayout(n,state))fit(n,state);}if(window.updateNetworkShareUrl)window.updateNetworkShareUrl();};
+    clear.onclick=()=>{const n=activeNetwork();if(n)window.clearAffiliationFocus(n);};
+    window.addEventListener('congress-network-ready-view',event=>{
+      const key=event.detail.view,n=(window.networkInstances||{})[key];if(!hosts[key]||!n)return;
+      window.bindAffiliationNetwork(key,n);const state=states.get(n);if(applyLayout(n,state)&&activeKey()===key)fit(n,state);
+    });
+    updateNote();Object.keys(hosts).forEach(key=>{const n=(window.networkInstances||{})[key];if(n)window.bindAffiliationNetwork(key,n);});
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
+})();
+</script>
