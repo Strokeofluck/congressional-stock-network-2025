@@ -1,0 +1,7897 @@
+- id:
+    bioguide: A000055
+  name:
+    first: Robert
+    last: Aderholt
+    official_full: Robert B. Aderholt
+    middle: B.
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: AL
+    district: 4
+    party: Republican
+    url: https://aderholt.house.gov
+    rss_url: http://aderholt.house.gov/common/rss//index.cfm?rss=20
+    address: 272 Cannon House Office Building Washington DC 20515-0104
+    office: 272 Cannon House Office Building
+    phone: 202-225-4876
+- id:
+    bioguide: B001257
+  name:
+    first: Gus
+    last: Bilirakis
+    official_full: Gus M. Bilirakis
+    middle: M.
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: FL
+    district: 12
+    party: Republican
+    url: https://bilirakis.house.gov
+    rss_url: http://bilirakis.house.gov/index.php?format=feed&amp;type=rss
+    address: 2306 Rayburn House Office Building Washington DC 20515-0912
+    office: 2306 Rayburn House Office Building
+    phone: 202-225-5755
+- id:
+    bioguide: B000490
+  name:
+    first: Sanford
+    middle: D.
+    last: Bishop
+    suffix: Jr.
+    official_full: Sanford D. Bishop, Jr.
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: GA
+    district: 2
+    party: Democrat
+    url: https://bishop.house.gov
+    rss_url: http://bishop.house.gov/rss.xml
+    address: 2407 Rayburn House Office Building Washington DC 20515-1002
+    office: 2407 Rayburn House Office Building
+    phone: 202-225-3631
+- id:
+    bioguide: B001260
+  name:
+    first: Vern
+    last: Buchanan
+    official_full: Vern Buchanan
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: FL
+    district: 16
+    party: Republican
+    url: https://buchanan.house.gov
+    rss_url: http://buchanan.house.gov/index.php?option=com_bca-rss-syndicator&amp;feed_id=2
+    address: 2409 Rayburn House Office Building Washington DC 20515-0916
+    office: 2409 Rayburn House Office Building
+    phone: 202-225-5015
+- id:
+    bioguide: C000059
+  name:
+    first: Ken
+    middle: S.
+    last: Calvert
+    official_full: Ken Calvert
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 41
+    party: Republican
+    url: https://calvert.house.gov
+    rss_url: http://calvert.house.gov/news/rss.aspx
+    address: 2205 Rayburn House Office Building Washington DC 20515-0541
+    office: 2205 Rayburn House Office Building
+    phone: 202-225-1986
+- id:
+    bioguide: C001072
+  name:
+    first: André
+    last: Carson
+    official_full: André Carson
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IN
+    district: 7
+    party: Democrat
+    url: https://carson.house.gov
+    rss_url: http://carson.house.gov/index.php?option=com_bca-rss-syndicator&amp;feed_id=1
+    address: 2135 Rayburn House Office Building Washington DC 20515-1407
+    office: 2135 Rayburn House Office Building
+    phone: 202-225-4011
+- id:
+    bioguide: C001051
+  name:
+    first: John
+    middle: R.
+    last: Carter
+    official_full: John R. Carter
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 31
+    party: Republican
+    url: https://carter.house.gov
+    rss_url: http://carter.house.gov/common/rss/?rss=40
+    address: 2208 Rayburn House Office Building Washington DC 20515-4331
+    office: 2208 Rayburn House Office Building
+    phone: 202-225-3864
+- id:
+    bioguide: C001066
+  name:
+    first: Kathy
+    last: Castor
+    official_full: Kathy Castor
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: FL
+    district: 14
+    party: Democrat
+    url: https://castor.house.gov
+    rss_url: http://castor.house.gov/news/rss.aspx
+    address: 2188 Rayburn House Office Building Washington DC 20515-0914
+    office: 2188 Rayburn House Office Building
+    phone: 202-225-3376
+- id:
+    bioguide: C001080
+  name:
+    first: Judy
+    middle: M.
+    last: Chu
+    official_full: Judy Chu
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 28
+    party: Democrat
+    url: https://chu.house.gov
+    rss_url: http://chu.house.gov/rss.xml
+    address: 2423 Rayburn House Office Building Washington DC 20515-0528
+    office: 2423 Rayburn House Office Building
+    phone: 202-225-5464
+- id:
+    bioguide: C001067
+  name:
+    first: Yvette
+    middle: D.
+    last: Clarke
+    official_full: Yvette D. Clarke
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NY
+    district: 9
+    party: Democrat
+    url: https://clarke.house.gov
+    rss_url: http://clarke.house.gov/news/rss.aspx
+    address: 2058 Rayburn House Office Building Washington DC 20515-3209
+    office: 2058 Rayburn House Office Building
+    phone: 202-225-6231
+- id:
+    bioguide: C001061
+  name:
+    first: Emanuel
+    last: Cleaver
+    suffix: II
+    official_full: Emanuel Cleaver
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MO
+    district: 5
+    party: Democrat
+    url: https://cleaver.house.gov
+    rss_url: http://cleaver.house.gov/rss.xml
+    address: 2217 Rayburn House Office Building Washington DC 20515-2505
+    office: 2217 Rayburn House Office Building
+    phone: 202-225-4535
+- id:
+    bioguide: C000537
+  name:
+    first: James
+    middle: E.
+    last: Clyburn
+    nickname: Jim
+    official_full: James E. Clyburn
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: SC
+    district: 6
+    party: Democrat
+    url: https://clyburn.house.gov
+    rss_url: http://clyburn.house.gov/rss.xml
+    address: 274 Cannon House Office Building Washington DC 20515-4006
+    office: 274 Cannon House Office Building
+    phone: 202-225-3315
+- id:
+    bioguide: C001068
+  name:
+    first: Steve
+    last: Cohen
+    official_full: Steve Cohen
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TN
+    district: 9
+    party: Democrat
+    url: https://cohen.house.gov
+    rss_url: http://cohen.house.gov/rss.xml
+    address: 2268 Rayburn House Office Building Washington DC 20515-4209
+    office: 2268 Rayburn House Office Building
+    phone: 202-225-3265
+- id:
+    bioguide: C001053
+  name:
+    first: Tom
+    last: Cole
+    official_full: Tom Cole
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: OK
+    district: 4
+    party: Republican
+    url: https://cole.house.gov
+    rss_url: http://cole.house.gov/rss.xml
+    address: 2207 Rayburn House Office Building Washington DC 20515-3604
+    office: 2207 Rayburn House Office Building
+    phone: 202-225-6165
+- id:
+    bioguide: C001059
+  name:
+    first: Jim
+    last: Costa
+    official_full: Jim Costa
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 21
+    party: Democrat
+    url: https://costa.house.gov
+    rss_url: http://costa.house.gov/index.php?format=feed&amp;type=rss
+    address: 2081 Rayburn House Office Building Washington DC 20515-0521
+    office: 2081 Rayburn House Office Building
+    phone: 202-225-3341
+- id:
+    bioguide: C001069
+  name:
+    first: Joe
+    last: Courtney
+    official_full: Joe Courtney
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CT
+    district: 2
+    party: Democrat
+    url: https://courtney.house.gov
+    rss_url: http://courtney.house.gov/index.php?format=feed&amp;type=rss
+    address: 2449 Rayburn House Office Building Washington DC 20515-0702
+    office: 2449 Rayburn House Office Building
+    phone: 202-225-2076
+- id:
+    bioguide: C001087
+  name:
+    first: Eric
+    middle: A.
+    last: Crawford
+    official_full: Eric A. "Rick" Crawford
+    nickname: Rick
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: AR
+    district: 1
+    party: Republican
+    url: https://crawford.house.gov
+    rss_url: http://crawford.house.gov/news/rss.aspx
+    address: 2422 Rayburn House Office Building Washington DC 20515-0401
+    office: 2422 Rayburn House Office Building
+    phone: 202-225-4076
+- id:
+    bioguide: C001063
+  name:
+    first: Henry
+    last: Cuellar
+    official_full: Henry Cuellar
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 28
+    party: Democrat
+    url: https://cuellar.house.gov
+    rss_url: http://cuellar.house.gov/news/rss.aspx
+    address: 2308 Rayburn House Office Building Washington DC 20515-4328
+    office: 2308 Rayburn House Office Building
+    phone: 202-225-1640
+- id:
+    bioguide: D000096
+  name:
+    first: Danny
+    middle: K.
+    last: Davis
+    official_full: Danny K. Davis
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IL
+    district: 7
+    party: Democrat
+    url: https://davis.house.gov
+    rss_url: http://davis.house.gov/index.php?format=feed&type=rss
+    address: 2159 Rayburn House Office Building Washington DC 20515-1307
+    office: 2159 Rayburn House Office Building
+    phone: 202-225-5006
+- id:
+    bioguide: D000197
+  name:
+    first: Diana
+    middle: L.
+    last: DeGette
+    official_full: Diana DeGette
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CO
+    district: 1
+    party: Democrat
+    url: https://degette.house.gov
+    rss_url: http://degette.house.gov/index.php?option=com_ninjarsssyndicator&amp;feed_id=1&amp;format=raw
+    address: 2111 Rayburn House Office Building Washington DC 20515-0601
+    office: 2111 Rayburn House Office Building
+    phone: 202-225-4431
+- id:
+    bioguide: D000216
+  name:
+    first: Rosa
+    middle: L.
+    last: DeLauro
+    official_full: Rosa L. DeLauro
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CT
+    district: 3
+    party: Democrat
+    url: https://delauro.house.gov
+    rss_url: http://delauro.house.gov/index.php?format=feed&amp;type=rss
+    address: 2413 Rayburn House Office Building Washington DC 20515-0703
+    office: 2413 Rayburn House Office Building
+    phone: 202-225-3661
+- id:
+    bioguide: D000616
+  name:
+    first: Scott
+    last: DesJarlais
+    official_full: Scott DesJarlais
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TN
+    district: 4
+    party: Republican
+    url: https://desjarlais.house.gov
+    rss_url: http://desjarlais.house.gov/news/rss.aspx
+    address: 2304 Rayburn House Office Building Washington DC 20515-4204
+    office: 2304 Rayburn House Office Building
+    phone: 202-225-6831
+- id:
+    bioguide: D000600
+  name:
+    first: Mario
+    last: Diaz-Balart
+    official_full: Mario Diaz-Balart
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: FL
+    district: 26
+    party: Republican
+    url: https://mariodiazbalart.house.gov
+    rss_url: http://mariodiazbalart.house.gov/rss.xml
+    address: 374 Cannon House Office Building Washington DC 20515-0926
+    office: 374 Cannon House Office Building
+    phone: 202-225-4211
+- id:
+    bioguide: D000399
+  name:
+    first: Lloyd
+    middle: A.
+    last: Doggett
+    official_full: Lloyd Doggett
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 37
+    party: Democrat
+    url: https://doggett.house.gov
+    rss_url: http://doggett.house.gov/index.php/component/ninjarsssyndicator/?feed_id=1&amp;format=raw
+    address: 2307 Rayburn House Office Building Washington DC 20515-0001
+    office: 2307 Rayburn House Office Building
+    phone: 202-225-4865
+- id:
+    bioguide: F000459
+  name:
+    first: Charles
+    last: Fleischmann
+    official_full: Charles J. "Chuck" Fleischmann
+    middle: J.
+    nickname: Chuck
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TN
+    district: 3
+    party: Republican
+    url: https://fleischmann.house.gov
+    rss_url: http://fleischmann.house.gov/rss.xml
+    address: 2187 Rayburn House Office Building Washington DC 20515-4203
+    office: 2187 Rayburn House Office Building
+    phone: 202-225-3271
+- id:
+    bioguide: F000450
+  name:
+    first: Virginia
+    last: Foxx
+    official_full: Virginia Foxx
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NC
+    district: 5
+    party: Republican
+    url: https://foxx.house.gov
+    rss_url: http://foxx.house.gov/common/rss/?rss=55
+    address: 2462 Rayburn House Office Building Washington DC 20515-3305
+    office: 2462 Rayburn House Office Building
+    phone: 202-225-2071
+- id:
+    bioguide: G000559
+  name:
+    first: John
+    last: Garamendi
+    official_full: John Garamendi
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 8
+    party: Democrat
+    url: https://garamendi.house.gov
+    rss_url: http://garamendi.house.gov/rss.xml
+    address: 2428 Rayburn House Office Building Washington DC 20515-0508
+    office: 2428 Rayburn House Office Building
+    phone: 202-225-1880
+- id:
+    bioguide: G000565
+  name:
+    first: Paul
+    last: Gosar
+    official_full: Paul A. Gosar
+    middle: A.
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: AZ
+    district: 9
+    party: Republican
+    url: https://gosar.house.gov
+    rss_url: http://gosar.house.gov/rss.xml
+    address: 2057 Rayburn House Office Building Washington DC 20515-0309
+    office: 2057 Rayburn House Office Building
+    phone: 202-225-2315
+- id:
+    bioguide: G000546
+  name:
+    first: Sam
+    middle: B.
+    last: Graves
+    official_full: Sam Graves
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MO
+    district: 6
+    party: Republican
+    url: https://graves.house.gov
+    rss_url: http://graves.house.gov/common/rss/index.cfm?rss=25
+    address: 1135 Longworth House Office Building Washington DC 20515-2506
+    office: 1135 Longworth House Office Building
+    phone: 202-225-7041
+- id:
+    bioguide: G000553
+  name:
+    first: Al
+    last: Green
+    official_full: Al Green
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 9
+    party: Democrat
+    url: https://algreen.house.gov
+    rss_url: http://algreen.house.gov/rss.xml
+    address: 2347 Rayburn House Office Building Washington DC 20515-4309
+    office: 2347 Rayburn House Office Building
+    phone: 202-225-7508
+- id:
+    bioguide: G000568
+  name:
+    first: H.
+    middle: Morgan
+    last: Griffith
+    official_full: H. Morgan Griffith
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: VA
+    district: 9
+    party: Republican
+    url: https://morgangriffith.house.gov
+    rss_url: http://morgangriffith.house.gov/news/rss.aspx
+    address: 2110 Rayburn House Office Building Washington DC 20515-4609
+    office: 2110 Rayburn House Office Building
+    phone: 202-225-3861
+- id:
+    bioguide: G000558
+  name:
+    first: Brett
+    last: Guthrie
+    official_full: Brett Guthrie
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: KY
+    district: 2
+    party: Republican
+    url: https://guthrie.house.gov
+    rss_url: http://guthrie.house.gov/common/rss/?rss=24
+    address: 2161 Rayburn House Office Building Washington DC 20515-1702
+    office: 2161 Rayburn House Office Building
+    phone: 202-225-3501
+- id:
+    bioguide: H001052
+  name:
+    first: Andy
+    last: Harris
+    official_full: Andy Harris
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MD
+    district: 1
+    party: Republican
+    url: https://harris.house.gov
+    rss_url: http://harris.house.gov/rss.xml
+    address: 1536 Longworth House Office Building Washington DC 20515-2001
+    office: 1536 Longworth House Office Building
+    phone: 202-225-5311
+- id:
+    bioguide: H001047
+  name:
+    first: James
+    nickname: Jim
+    middle: A.
+    last: Himes
+    official_full: James A. Himes
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CT
+    district: 4
+    party: Democrat
+    url: https://himes.house.gov
+    rss_url: http://himes.house.gov/rss.xml
+    address: 2137 Rayburn House Office Building Washington DC 20515-0704
+    office: 2137 Rayburn House Office Building
+    phone: 202-225-5541
+- id:
+    bioguide: H000874
+  name:
+    first: Steny
+    middle: H.
+    last: Hoyer
+    official_full: Steny H. Hoyer
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MD
+    district: 5
+    party: Democrat
+    url: https://hoyer.house.gov
+    rss_url: http://hoyer.house.gov/index.php?format=feed&amp;type=rss
+    address: 1705 Longworth House Office Building Washington DC 20515-2005
+    office: 1705 Longworth House Office Building
+    phone: 202-225-4131
+- id:
+    bioguide: H001058
+  name:
+    first: Bill
+    last: Huizenga
+    official_full: Bill Huizenga
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MI
+    district: 4
+    party: Republican
+    url: https://huizenga.house.gov
+    rss_url: http://huizenga.house.gov/news/rss.aspx
+    address: 2232 Rayburn House Office Building Washington DC 20515-2204
+    office: 2232 Rayburn House Office Building
+    phone: 202-225-4401
+- id:
+    bioguide: J000288
+  name:
+    first: Henry
+    middle: C.
+    last: Johnson
+    suffix: Jr.
+    nickname: Hank
+    official_full: Henry C. "Hank" Johnson, Jr.
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: GA
+    district: 4
+    party: Democrat
+    url: https://hankjohnson.house.gov
+    rss_url: http://hankjohnson.house.gov/rss.xml
+    address: 2240 Rayburn House Office Building Washington DC 20515-1004
+    office: 2240 Rayburn House Office Building
+    phone: 202-225-1605
+- id:
+    bioguide: J000289
+  name:
+    first: Jim
+    last: Jordan
+    official_full: Jim Jordan
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: OH
+    district: 4
+    party: Republican
+    url: https://jordan.house.gov
+    rss_url: http://jordan.house.gov/news/rss.aspx
+    address: 2056 Rayburn House Office Building Washington DC 20515-3504
+    office: 2056 Rayburn House Office Building
+    phone: 202-225-2676
+- id:
+    bioguide: K000009
+  name:
+    first: Marcy
+    last: Kaptur
+    official_full: Marcy Kaptur
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: OH
+    district: 9
+    party: Democrat
+    url: https://kaptur.house.gov
+    rss_url: http://kaptur.house.gov/index.php?format=feed&amp;type=rss
+    address: 2314 Rayburn House Office Building Washington DC 20515-3509
+    office: 2314 Rayburn House Office Building
+    phone: 202-225-4146
+- id:
+    bioguide: K000375
+  name:
+    first: William
+    last: Keating
+    official_full: William R. Keating
+    middle: R.
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MA
+    district: 9
+    party: Democrat
+    url: https://keating.house.gov
+    rss_url: http://keating.house.gov/index.php?format=feed&amp;type=rss
+    address: 2372 Rayburn House Office Building Washington DC 20515-2109
+    office: 2372 Rayburn House Office Building
+    phone: 202-225-3111
+- id:
+    bioguide: K000376
+  name:
+    first: Mike
+    last: Kelly
+    official_full: Mike Kelly
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: PA
+    district: 16
+    party: Republican
+    url: https://kelly.house.gov
+    rss_url: http://kelly.house.gov/rss.xml
+    address: 1707 Longworth House Office Building Washington DC 20515-3816
+    office: 1707 Longworth House Office Building
+    phone: 202-225-5406
+- id:
+    bioguide: L000560
+  name:
+    first: Rick
+    last: Larsen
+    official_full: Rick Larsen
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: WA
+    district: 2
+    party: Democrat
+    url: https://larsen.house.gov
+    rss_url: http://larsen.house.gov/rss.xml
+    address: 2163 Rayburn House Office Building Washington DC 20515-4702
+    office: 2163 Rayburn House Office Building
+    phone: 202-225-2605
+- id:
+    bioguide: L000557
+  name:
+    first: John
+    middle: B.
+    last: Larson
+    official_full: John B. Larson
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CT
+    district: 1
+    party: Democrat
+    url: https://larson.house.gov
+    rss_url: http://www.larson.house.gov/index.php?format=feed&amp;type=rss
+    address: 1501 Longworth House Office Building Washington DC 20515-0701
+    office: 1501 Longworth House Office Building
+    phone: 202-225-2265
+- id:
+    bioguide: L000566
+  name:
+    first: Robert
+    middle: E.
+    last: Latta
+    official_full: Robert E. Latta
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: OH
+    district: 5
+    party: Republican
+    url: https://latta.house.gov
+    rss_url: http://latta.house.gov/news/rss.aspx
+    address: 2470 Rayburn House Office Building Washington DC 20515-3505
+    office: 2470 Rayburn House Office Building
+    phone: 202-225-6405
+- id:
+    bioguide: L000397
+  name:
+    first: Zoe
+    last: Lofgren
+    official_full: Zoe Lofgren
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 18
+    party: Democrat
+    url: https://lofgren.house.gov
+    rss_url: http://lofgren.house.gov/index.php?format=feed&amp;type=rss
+    address: 1401 Longworth House Office Building Washington DC 20515-0518
+    office: 1401 Longworth House Office Building
+    phone: 202-225-3072
+- id:
+    bioguide: L000491
+  name:
+    first: Frank
+    middle: D.
+    last: Lucas
+    official_full: Frank D. Lucas
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: OK
+    district: 3
+    party: Republican
+    url: https://lucas.house.gov
+    rss_url: http://lucas.house.gov/rss.xml
+    address: 2405 Rayburn House Office Building Washington DC 20515-3603
+    office: 2405 Rayburn House Office Building
+    phone: 202-225-5565
+- id:
+    bioguide: L000562
+  name:
+    first: Stephen
+    middle: F.
+    last: Lynch
+    official_full: Stephen F. Lynch
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MA
+    district: 8
+    party: Democrat
+    url: https://lynch.house.gov
+    rss_url: http://lynch.house.gov/rss.xml
+    address: 2109 Rayburn House Office Building Washington DC 20515-2108
+    office: 2109 Rayburn House Office Building
+    phone: 202-225-8273
+- id:
+    bioguide: M001163
+  name:
+    first: Doris
+    middle: O.
+    last: Matsui
+    official_full: Doris O. Matsui
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 7
+    party: Democrat
+    url: https://matsui.house.gov
+    rss_url: http://matsui.house.gov/index.php?format=feed&amp;type=rss
+    address: 2206 Rayburn House Office Building Washington DC 20515-0507
+    office: 2206 Rayburn House Office Building
+    phone: 202-225-7163
+- id:
+    bioguide: M001157
+  name:
+    first: Michael
+    middle: T.
+    last: McCaul
+    official_full: Michael T. McCaul
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 10
+    party: Republican
+    url: https://mccaul.house.gov
+    address: 2300 Rayburn House Office Building Washington DC 20515-4310
+    office: 2300 Rayburn House Office Building
+    phone: 202-225-2401
+- id:
+    bioguide: M001177
+  name:
+    first: Tom
+    last: McClintock
+    official_full: Tom McClintock
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 5
+    party: Republican
+    url: https://mcclintock.house.gov
+    rss_url: http://mcclintock.house.gov/atom.xml
+    address: 2256 Rayburn House Office Building Washington DC 20515-0505
+    office: 2256 Rayburn House Office Building
+    phone: 202-225-2511
+- id:
+    bioguide: M001143
+  name:
+    first: Betty
+    middle: Louise
+    last: McCollum
+    official_full: Betty McCollum
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MN
+    district: 4
+    party: Democrat
+    url: https://mccollum.house.gov
+    rss_url: http://mccollum.house.gov/rss.xml
+    address: 2426 Rayburn House Office Building Washington DC 20515-2304
+    office: 2426 Rayburn House Office Building
+    phone: 202-225-6631
+- id:
+    bioguide: M000312
+  name:
+    first: James
+    middle: P.
+    last: McGovern
+    nickname: Jim
+    official_full: James P. McGovern
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MA
+    district: 2
+    party: Democrat
+    url: https://mcgovern.house.gov
+    rss_url: http://mcgovern.house.gov/common/rss/?rss=15
+    address: 370 Cannon House Office Building Washington DC 20515-2102
+    office: 370 Cannon House Office Building
+    phone: 202-225-6101
+- id:
+    bioguide: M001137
+  name:
+    first: Gregory
+    middle: W.
+    last: Meeks
+    official_full: Gregory W. Meeks
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NY
+    district: 5
+    party: Democrat
+    url: https://meeks.house.gov
+    rss_url: http://meeks.house.gov/rss.xml
+    address: 2310 Rayburn House Office Building Washington DC 20515-3205
+    office: 2310 Rayburn House Office Building
+    phone: 202-225-3461
+- id:
+    bioguide: M001160
+  name:
+    first: Gwen
+    last: Moore
+    official_full: Gwen Moore
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: WI
+    district: 4
+    party: Democrat
+    url: https://gwenmoore.house.gov
+    rss_url: http://gwenmoore.house.gov/common/rss/index.cfm?rss=49
+    address: 2252 Rayburn House Office Building Washington DC 20515-4904
+    office: 2252 Rayburn House Office Building
+    phone: 202-225-4572
+- id:
+    bioguide: N000002
+  name:
+    first: Jerrold
+    middle: L.
+    last: Nadler
+    official_full: Jerrold Nadler
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NY
+    district: 12
+    party: Democrat
+    url: https://nadler.house.gov
+    rss_url: http://nadler.house.gov/rss.xml
+    address: 2132 Rayburn House Office Building Washington DC 20515-3212
+    office: 2132 Rayburn House Office Building
+    phone: 202-225-5635
+- id:
+    bioguide: N000015
+  name:
+    first: Richard
+    middle: E.
+    last: Neal
+    official_full: Richard E. Neal
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MA
+    district: 1
+    party: Democrat
+    url: https://neal.house.gov
+    rss_url: http://neal.house.gov/index.php?format=feed&amp;type=rss
+    address: 372 Cannon House Office Building Washington DC 20515-2101
+    office: 372 Cannon House Office Building
+    phone: 202-225-5601
+- id:
+    bioguide: N000147
+  name:
+    first: Eleanor
+    middle: Holmes
+    last: Norton
+    official_full: Eleanor Holmes Norton
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: DC
+    district: 0
+    party: Democrat
+    url: https://norton.house.gov
+    rss_url: http://norton.house.gov/index.php?format=feed&amp;type=rss
+    address: 2136 Rayburn House Office Building Washington DC 20515-5101
+    office: 2136 Rayburn House Office Building
+    phone: 202-225-8050
+- id:
+    bioguide: P000034
+  name:
+    first: Frank
+    middle: J.
+    last: Pallone
+    suffix: Jr.
+    official_full: Frank Pallone, Jr.
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NJ
+    district: 6
+    party: Democrat
+    url: https://pallone.house.gov
+    rss_url: http://pallone.house.gov/rss.xml
+    address: 2107 Rayburn House Office Building Washington DC 20515-3006
+    office: 2107 Rayburn House Office Building
+    phone: 202-225-4671
+- id:
+    bioguide: P000197
+  name:
+    first: Nancy
+    last: Pelosi
+    official_full: Nancy Pelosi
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 11
+    party: Democrat
+    url: https://pelosi.house.gov
+    rss_url: http://pelosi.house.gov/atom.xml
+    address: 1236 Longworth House Office Building Washington DC 20515-0511
+    office: 1236 Longworth House Office Building
+    phone: 202-225-4965
+- id:
+    bioguide: P000597
+  name:
+    first: Chellie
+    last: Pingree
+    official_full: Chellie Pingree
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: ME
+    district: 1
+    party: Democrat
+    url: https://pingree.house.gov
+    rss_url: http://pingree.house.gov/index.php?format=feed&amp;type=rss
+    address: 2354 Rayburn House Office Building Washington DC 20515-1901
+    office: 2354 Rayburn House Office Building
+    phone: 202-225-6116
+- id:
+    bioguide: Q000023
+  name:
+    first: Mike
+    last: Quigley
+    official_full: Mike Quigley
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IL
+    district: 5
+    party: Democrat
+    url: https://quigley.house.gov
+    rss_url: http://quigley.house.gov/index.php?format=feed&amp;type=rss
+    address: 2083 Rayburn House Office Building Washington DC 20515-1305
+    office: 2083 Rayburn House Office Building
+    phone: 202-225-4061
+- id:
+    bioguide: R000395
+  name:
+    first: Harold
+    last: Rogers
+    nickname: Hal
+    official_full: Harold Rogers
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: KY
+    district: 5
+    party: Republican
+    url: https://halrogers.house.gov
+    rss_url: http://halrogers.house.gov/news/rss.aspx
+    address: 2406 Rayburn House Office Building Washington DC 20515-1705
+    office: 2406 Rayburn House Office Building
+    phone: 202-225-4601
+- id:
+    bioguide: R000575
+  name:
+    first: Mike
+    last: Rogers
+    official_full: Mike Rogers
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: AL
+    district: 3
+    party: Republican
+    url: https://mikerogers.house.gov
+    rss_url: http://mikerogers.house.gov/rss.xml
+    address: 2469 Rayburn House Office Building Washington DC 20515-0103
+    office: 2469 Rayburn House Office Building
+    phone: 202-225-3261
+- id:
+    bioguide: S001176
+  name:
+    first: Steve
+    middle: Joseph
+    last: Scalise
+    official_full: Steve Scalise
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: LA
+    district: 1
+    party: Republican
+    url: https://scalise.house.gov
+    rss_url: http://scalise.house.gov/rss.xml
+    address: 266 Cannon House Office Building Washington DC 20515-1801
+    office: 266 Cannon House Office Building
+    phone: 202-225-3015
+- id:
+    bioguide: S001145
+  name:
+    first: Janice
+    middle: D.
+    last: Schakowsky
+    nickname: Jan
+    official_full: Janice D. Schakowsky
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IL
+    district: 9
+    party: Democrat
+    url: https://schakowsky.house.gov
+    rss_url: http://schakowsky.house.gov/index.php?format=feed&amp;type=rss
+    address: 2408 Rayburn House Office Building Washington DC 20515-1309
+    office: 2408 Rayburn House Office Building
+    phone: 202-225-2111
+- id:
+    bioguide: S001183
+  name:
+    first: David
+    last: Schweikert
+    official_full: David Schweikert
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: AZ
+    district: 1
+    party: Republican
+    url: https://schweikert.house.gov
+    rss_url: http://schweikert.house.gov/rss/press-releases.xml
+    address: 166 Cannon House Office Building Washington DC 20515-0301
+    office: 166 Cannon House Office Building
+    phone: 202-225-2190
+- id:
+    bioguide: S001189
+  name:
+    first: Austin
+    last: Scott
+    official_full: Austin Scott
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: GA
+    district: 8
+    party: Republican
+    url: https://austinscott.house.gov
+    rss_url: http://austinscott.house.gov/index.php?format=feed&amp;type=rss
+    address: 2185 Rayburn House Office Building Washington DC 20515-1008
+    office: 2185 Rayburn House Office Building
+    phone: 202-225-6531
+- id:
+    bioguide: S001157
+  name:
+    first: David
+    last: Scott
+    official_full: David Scott
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: GA
+    district: 13
+    party: Democrat
+    url: https://davidscott.house.gov
+    rss_url: http://davidscott.house.gov/news/rss.aspx
+    address: 468 Cannon House Office Building Washington DC 20515-1013
+    office: 468 Cannon House Office Building
+    phone: 202-225-2939
+- id:
+    bioguide: S000185
+  name:
+    first: Robert
+    middle: C.
+    last: Scott
+    nickname: Bobby
+    official_full: Robert C. "Bobby" Scott
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: VA
+    district: 3
+    party: Democrat
+    url: https://bobbyscott.house.gov
+    rss_url: http://www.house.gov/index.php?format=feed&amp;type=rss
+    address: 2328 Rayburn House Office Building Washington DC 20515-4603
+    office: 2328 Rayburn House Office Building
+    phone: 202-225-8351
+- id:
+    bioguide: S001185
+  name:
+    first: Terri
+    last: Sewell
+    official_full: Terri A. Sewell
+    middle: A.
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: AL
+    district: 7
+    party: Democrat
+    url: https://sewell.house.gov
+    rss_url: http://sewell.house.gov/rss.xml
+    address: 1035 Longworth House Office Building Washington DC 20515-0107
+    office: 1035 Longworth House Office Building
+    phone: 202-225-2665
+- id:
+    bioguide: S000344
+  name:
+    first: Brad
+    middle: J.
+    last: Sherman
+    official_full: Brad Sherman
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 32
+    party: Democrat
+    url: https://sherman.house.gov
+    rss_url: http://bradsherman.house.gov/press-releases-and-columns/rss.shtml
+    address: 2365 Rayburn House Office Building Washington DC 20515-0532
+    office: 2365 Rayburn House Office Building
+    phone: 202-225-5911
+- id:
+    bioguide: S001148
+  name:
+    first: Michael
+    middle: K.
+    last: Simpson
+    nickname: Mike
+    official_full: Michael K. Simpson
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: ID
+    district: 2
+    party: Republican
+    url: https://simpson.house.gov
+    rss_url: http://simpson.house.gov/news/rss.aspx
+    address: 2084 Rayburn House Office Building Washington DC 20515-1202
+    office: 2084 Rayburn House Office Building
+    phone: 202-225-5531
+- id:
+    bioguide: S000510
+  name:
+    first: Adam
+    last: Smith
+    official_full: Adam Smith
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: WA
+    district: 9
+    party: Democrat
+    url: https://adamsmith.house.gov
+    rss_url: http://www.house.gov/news/rss.aspx
+    address: 2264 Rayburn House Office Building Washington DC 20515-4709
+    office: 2264 Rayburn House Office Building
+    phone: 202-225-8901
+- id:
+    bioguide: S001172
+  name:
+    first: Adrian
+    last: Smith
+    official_full: Adrian Smith
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NE
+    district: 3
+    party: Republican
+    url: https://adriansmith.house.gov
+    rss_url: http://adriansmith.house.gov/rss.xml
+    address: 502 Cannon House Office Building Washington DC 20515-2703
+    office: 502 Cannon House Office Building
+    phone: 202-225-6435
+- id:
+    bioguide: S000522
+  name:
+    first: Christopher
+    middle: H.
+    last: Smith
+    nickname: Chris
+    official_full: Christopher H. Smith
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NJ
+    district: 4
+    party: Republican
+    url: https://chrissmith.house.gov
+    rss_url: http://chrissmith.house.gov/news/rss.aspx
+    address: 2373 Rayburn House Office Building Washington DC 20515-3004
+    office: 2373 Rayburn House Office Building
+    phone: 202-225-3765
+    fax: 202-225-7768
+- id:
+    bioguide: S001156
+  name:
+    first: Linda
+    middle: T.
+    last: Sánchez
+    official_full: Linda T. Sánchez
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 38
+    party: Democrat
+    url: https://lindasanchez.house.gov
+    rss_url: http://lindasanchez.house.gov/index.php?format=feed&amp;type=rss
+    address: 2309 Rayburn House Office Building Washington DC 20515-0538
+    office: 2309 Rayburn House Office Building
+    phone: 202-225-6676
+- id:
+    bioguide: T000193
+  name:
+    first: Bennie
+    middle: G.
+    last: Thompson
+    official_full: Bennie G. Thompson
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MS
+    district: 2
+    party: Democrat
+    url: https://benniethompson.house.gov
+    rss_url: http://benniethompson.house.gov/index.php?format=feed&amp;type=rss
+    address: 2466 Rayburn House Office Building Washington DC 20515-2402
+    office: 2466 Rayburn House Office Building
+    phone: 202-225-5876
+- id:
+    bioguide: T000460
+  name:
+    first: Mike
+    middle: Michael
+    last: Thompson
+    official_full: Mike Thompson
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 4
+    party: Democrat
+    url: https://mikethompson.house.gov
+    rss_url: http://mikethompson.house.gov/news/rss.aspx
+    address: 268 Cannon House Office Building Washington DC 20515-0504
+    office: 268 Cannon House Office Building
+    phone: 202-225-3311
+- id:
+    bioguide: T000467
+  name:
+    first: Glenn
+    last: Thompson
+    official_full: Glenn Thompson
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: PA
+    district: 15
+    party: Republican
+    url: https://thompson.house.gov
+    rss_url: http://thompson.house.gov/rss.xml
+    address: 400 Cannon House Office Building Washington DC 20515-3815
+    office: 400 Cannon House Office Building
+    phone: 202-225-5121
+- id:
+    bioguide: T000469
+  name:
+    first: Paul
+    last: Tonko
+    official_full: Paul Tonko
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NY
+    district: 20
+    party: Democrat
+    url: https://tonko.house.gov
+    rss_url: http://tonko.house.gov/rss/press-releases.xml
+    address: 2269 Rayburn House Office Building Washington DC 20515-3220
+    office: 2269 Rayburn House Office Building
+    phone: 202-225-5076
+- id:
+    bioguide: T000463
+  name:
+    first: Michael
+    middle: R.
+    last: Turner
+    official_full: Michael R. Turner
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: OH
+    district: 10
+    party: Republican
+    url: https://turner.house.gov
+    rss_url: http://turner.house.gov/news/rss.aspx
+    address: 2183 Rayburn House Office Building Washington DC 20515-3510
+    office: 2183 Rayburn House Office Building
+    phone: 202-225-6465
+- id:
+    bioguide: V000081
+  name:
+    first: Nydia
+    middle: M.
+    last: Velázquez
+    official_full: Nydia M. Velázquez
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NY
+    district: 7
+    party: Democrat
+    url: https://velazquez.house.gov
+    address: 2302 Rayburn House Office Building Washington DC 20515-3207
+    office: 2302 Rayburn House Office Building
+    phone: 202-225-2361
+- id:
+    bioguide: W000798
+  name:
+    first: Tim
+    last: Walberg
+    official_full: Tim Walberg
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MI
+    district: 5
+    party: Republican
+    url: https://walberg.house.gov
+    rss_url: http://walberg.house.gov/news/rss.aspx
+    address: 2266 Rayburn House Office Building Washington DC 20515-2205
+    office: 2266 Rayburn House Office Building
+    phone: 202-225-6276
+- id:
+    bioguide: W000797
+  name:
+    first: Debbie
+    last: Wasserman Schultz
+    official_full: Debbie Wasserman Schultz
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: FL
+    district: 25
+    party: Democrat
+    url: https://wassermanschultz.house.gov
+    rss_url: http://wassermanschultz.house.gov/atom.xml
+    address: 270 Cannon House Office Building Washington DC 20515-0925
+    office: 270 Cannon House Office Building
+    phone: 202-225-7931
+- id:
+    bioguide: W000187
+  name:
+    first: Maxine
+    last: Waters
+    official_full: Maxine Waters
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 43
+    party: Democrat
+    url: https://waters.house.gov
+    rss_url: http://waters.house.gov/news/rss.aspx
+    address: 2221 Rayburn House Office Building Washington DC 20515-0543
+    office: 2221 Rayburn House Office Building
+    phone: 202-225-2201
+- id:
+    bioguide: W000806
+  name:
+    first: Daniel
+    last: Webster
+    official_full: Daniel Webster
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: FL
+    district: 11
+    party: Republican
+    url: https://webster.house.gov
+    rss_url: http://webster.house.gov/news/rss.aspx
+    address: 2184 Rayburn House Office Building Washington DC 20515-0911
+    office: 2184 Rayburn House Office Building
+    phone: 202-225-1002
+- id:
+    bioguide: W000795
+  name:
+    first: Joe
+    middle: G.
+    last: Wilson
+    official_full: Joe Wilson
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: SC
+    district: 2
+    party: Republican
+    url: https://joewilson.house.gov
+    rss_url: http://joewilson.house.gov/news/rss.aspx
+    address: 1436 Longworth House Office Building Washington DC 20515-4002
+    office: 1436 Longworth House Office Building
+    phone: 202-225-2452
+- id:
+    bioguide: W000808
+  name:
+    first: Frederica
+    last: Wilson
+    official_full: Frederica S. Wilson
+    middle: S.
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: FL
+    district: 24
+    party: Democrat
+    url: https://wilson.house.gov
+    rss_url: http://wilson.house.gov/common/rss//index.cfm?rss=49
+    address: 2080 Rayburn House Office Building Washington DC 20515-0924
+    office: 2080 Rayburn House Office Building
+    phone: 202-225-4506
+- id:
+    bioguide: W000804
+  name:
+    first: Robert
+    middle: J.
+    last: Wittman
+    official_full: Robert J. Wittman
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: VA
+    district: 1
+    party: Republican
+    url: https://wittman.house.gov
+    rss_url: http://www.wittman.house.gov/index.php?format=feed&amp;type=rss
+    address: 2055 Rayburn House Office Building Washington DC 20515-4601
+    office: 2055 Rayburn House Office Building
+    phone: 202-225-4261
+- id:
+    bioguide: W000809
+  name:
+    first: Steve
+    last: Womack
+    official_full: Steve Womack
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: AR
+    district: 3
+    party: Republican
+    url: https://womack.house.gov
+    rss_url: http://womack.house.gov/news/rss.aspx
+    address: 2412 Rayburn House Office Building Washington DC 20515-0403
+    office: 2412 Rayburn House Office Building
+    phone: 202-225-4301
+- id:
+    bioguide: A000369
+  name:
+    first: Mark
+    middle: E.
+    last: Amodei
+    official_full: Mark E. Amodei
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NV
+    district: 2
+    party: Republican
+    url: https://amodei.house.gov
+    rss_url: http://amodei.house.gov/common/rss//?rss=49
+    address: 104 Cannon House Office Building Washington DC 20515-2802
+    office: 104 Cannon House Office Building
+    phone: 202-225-6155
+- id:
+    bioguide: B001278
+  name:
+    first: Suzanne
+    last: Bonamici
+    official_full: Suzanne Bonamici
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: OR
+    district: 1
+    party: Democrat
+    url: https://bonamici.house.gov
+    rss_url: http://bonamici.house.gov/rss.xml
+    address: 2231 Rayburn House Office Building Washington DC 20515-3701
+    office: 2231 Rayburn House Office Building
+    phone: 202-225-0855
+- id:
+    bioguide: D000617
+  name:
+    first: Suzan
+    middle: K.
+    last: DelBene
+    official_full: Suzan K. DelBene
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: WA
+    district: 1
+    party: Democrat
+    url: https://delbene.house.gov
+    rss_url: http://delbene.house.gov/rss.xml
+    address: 2311 Rayburn House Office Building Washington DC 20515-4701
+    office: 2311 Rayburn House Office Building
+    phone: 202-225-6311
+- id:
+    bioguide: M001184
+  name:
+    first: Thomas
+    last: Massie
+    official_full: Thomas Massie
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: KY
+    district: 4
+    party: Republican
+    url: https://massie.house.gov
+    rss_url: http://massie.house.gov/rss.xml
+    address: 2371 Rayburn House Office Building Washington DC 20515-1704
+    office: 2371 Rayburn House Office Building
+    phone: 202-225-3465
+- id:
+    bioguide: F000454
+  name:
+    first: Bill
+    last: Foster
+    official_full: Bill Foster
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IL
+    district: 11
+    party: Democrat
+    url: https://foster.house.gov
+    rss_url: http://foster.house.gov/rss.xml
+    address: 2366 Rayburn House Office Building Washington DC 20515-1311
+    office: 2366 Rayburn House Office Building
+    phone: 202-225-3515
+- id:
+    bioguide: T000468
+  name:
+    first: Dina
+    last: Titus
+    official_full: Dina Titus
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NV
+    district: 1
+    party: Democrat
+    url: https://titus.house.gov
+    rss_url: http://titus.house.gov/rss.xml
+    address: 2370 Rayburn House Office Building Washington DC 20515-2801
+    office: 2370 Rayburn House Office Building
+    phone: 202-225-5965
+- id:
+    bioguide: L000578
+  name:
+    first: Doug
+    last: LaMalfa
+    official_full: Doug LaMalfa
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 1
+    party: Republican
+    url: https://lamalfa.house.gov
+    rss_url: http://lamalfa.house.gov/rss.xml
+    address: 408 Cannon House Office Building Washington DC 20515-0501
+    office: 408 Cannon House Office Building
+    phone: 202-225-3076
+- id:
+    bioguide: H001068
+  name:
+    first: Jared
+    last: Huffman
+    official_full: Jared Huffman
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 2
+    party: Democrat
+    url: https://huffman.house.gov
+    rss_url: http://huffman.house.gov/rss.xml
+    address: 2330 Rayburn House Office Building Washington DC 20515-0502
+    office: 2330 Rayburn House Office Building
+    phone: 202-225-5161
+- id:
+    bioguide: B001287
+  name:
+    first: Ami
+    last: Bera
+    official_full: Ami Bera
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 6
+    party: Democrat
+    url: https://bera.house.gov
+    rss_url: http://bera.house.gov/rss.xml
+    address: 172 Cannon House Office Building Washington DC 20515-0506
+    office: 172 Cannon House Office Building
+    phone: 202-225-5716
+- id:
+    bioguide: S001193
+  name:
+    first: Eric
+    last: Swalwell
+    official_full: Eric Swalwell
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 14
+    party: Democrat
+    url: https://swalwell.house.gov
+    address: 174 Cannon House Office Building Washington DC 20515-0514
+    office: 174 Cannon House Office Building
+    phone: 202-225-5065
+- id:
+    bioguide: B001285
+  name:
+    first: Julia
+    last: Brownley
+    official_full: Julia Brownley
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 26
+    party: Democrat
+    url: https://juliabrownley.house.gov
+    rss_url: http://juliabrownley.house.gov/rss.xml
+    address: 2262 Rayburn House Office Building Washington DC 20515-0526
+    office: 2262 Rayburn House Office Building
+    phone: 202-225-5811
+- id:
+    bioguide: R000599
+  name:
+    first: Raul
+    last: Ruiz
+    official_full: Raul Ruiz
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 25
+    party: Democrat
+    url: https://ruiz.house.gov
+    rss_url: http://ruiz.house.gov/rss.xml
+    address: 2342 Rayburn House Office Building Washington DC 20515-0525
+    office: 2342 Rayburn House Office Building
+    phone: 202-225-5330
+- id:
+    bioguide: T000472
+  name:
+    first: Mark
+    last: Takano
+    official_full: Mark Takano
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 39
+    party: Democrat
+    url: https://takano.house.gov
+    rss_url: http://takano.house.gov/rss.xml
+    address: 2078 Rayburn House Office Building Washington DC 20515-0539
+    office: 2078 Rayburn House Office Building
+    phone: 202-225-2305
+- id:
+    bioguide: V000130
+  name:
+    first: Juan
+    last: Vargas
+    official_full: Juan Vargas
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 52
+    party: Democrat
+    url: https://vargas.house.gov
+    rss_url: http://vargas.house.gov/rss.xml
+    address: 2467 Rayburn House Office Building Washington DC 20515-0552
+    office: 2467 Rayburn House Office Building
+    phone: 202-225-8045
+- id:
+    bioguide: P000608
+  name:
+    first: Scott
+    last: Peters
+    middle: H.
+    official_full: Scott H. Peters
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 50
+    party: Democrat
+    url: https://scottpeters.house.gov
+    rss_url: http://scottpeters.house.gov/rss.xml
+    address: 2369 Rayburn House Office Building Washington DC 20515-0550
+    office: 2369 Rayburn House Office Building
+    phone: 202-225-0508
+- id:
+    bioguide: F000462
+  name:
+    first: Lois
+    last: Frankel
+    official_full: Lois Frankel
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: FL
+    district: 22
+    party: Democrat
+    url: https://frankel.house.gov
+    rss_url: http://frankel.house.gov/rss.xml
+    address: 2305 Rayburn House Office Building Washington DC 20515-0922
+    office: 2305 Rayburn House Office Building
+    phone: 202-225-9890
+- id:
+    bioguide: B001282
+  name:
+    first: Garland
+    last: Barr
+    nickname: Andy
+    official_full: Andy Barr
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: KY
+    district: 6
+    party: Republican
+    url: https://barr.house.gov
+    rss_url: http://barr.house.gov/rss.xml
+    address: 2430 Rayburn House Office Building Washington DC 20515-1706
+    office: 2430 Rayburn House Office Building
+    phone: 202-225-4706
+- id:
+    bioguide: W000812
+  name:
+    first: Ann
+    last: Wagner
+    official_full: Ann Wagner
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MO
+    district: 2
+    party: Republican
+    url: https://wagner.house.gov
+    rss_url: http://wagner.house.gov/rss.xml
+    address: 2350 Rayburn House Office Building Washington DC 20515-2502
+    office: 2350 Rayburn House Office Building
+    phone: 202-225-1621
+- id:
+    bioguide: H001067
+  name:
+    first: Richard
+    last: Hudson
+    official_full: Richard Hudson
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NC
+    district: 9
+    party: Republican
+    url: https://hudson.house.gov
+    rss_url: http://hudson.house.gov/rss.xml
+    address: 2112 Rayburn House Office Building Washington DC 20515-3309
+    office: 2112 Rayburn House Office Building
+    phone: 202-225-3715
+    fax: 202-225-4036
+- id:
+    bioguide: M001188
+  name:
+    first: Grace
+    last: Meng
+    official_full: Grace Meng
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NY
+    district: 6
+    party: Democrat
+    url: https://meng.house.gov
+    rss_url: http://meng.house.gov/rss.xml
+    address: 2468 Rayburn House Office Building Washington DC 20515-3206
+    office: 2468 Rayburn House Office Building
+    phone: 202-225-2601
+- id:
+    bioguide: J000294
+  name:
+    first: Hakeem
+    last: Jeffries
+    middle: S.
+    official_full: Hakeem S. Jeffries
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NY
+    district: 8
+    party: Democrat
+    url: https://jeffries.house.gov
+    rss_url: http://jeffries.house.gov/rss.xml
+    address: 2267 Rayburn House Office Building Washington DC 20515-3208
+    office: 2267 Rayburn House Office Building
+    phone: 202-225-5936
+- id:
+    bioguide: B001281
+  name:
+    first: Joyce
+    last: Beatty
+    official_full: Joyce Beatty
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: OH
+    district: 3
+    party: Democrat
+    url: https://beatty.house.gov
+    rss_url: http://beatty.house.gov/rss.xml
+    address: 2079 Rayburn House Office Building Washington DC 20515-3503
+    office: 2079 Rayburn House Office Building
+    phone: 202-225-4324
+- id:
+    bioguide: J000295
+  name:
+    first: David
+    last: Joyce
+    middle: P.
+    official_full: David P. Joyce
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: OH
+    district: 14
+    party: Republican
+    url: https://joyce.house.gov
+    rss_url: http://joyce.house.gov/rss/press-releases.xml
+    address: 2065 Rayburn House Office Building Washington DC 20515-3514
+    office: 2065 Rayburn House Office Building
+    phone: 202-225-5731
+- id:
+    bioguide: P000605
+  name:
+    first: Scott
+    last: Perry
+    official_full: Scott Perry
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: PA
+    district: 10
+    party: Republican
+    url: https://perry.house.gov
+    rss_url: http://perry.house.gov/rss.xml
+    address: 2160 Rayburn House Office Building Washington DC 20515-3810
+    office: 2160 Rayburn House Office Building
+    phone: 202-225-5836
+- id:
+    bioguide: W000814
+  name:
+    first: Randy
+    last: Weber
+    middle: K.
+    suffix: Sr.
+    official_full: Randy K. Weber, Sr.
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 14
+    party: Republican
+    url: https://weber.house.gov
+    rss_url: http://weber.house.gov/rss.xml
+    address: 107 Cannon House Office Building Washington DC 20515-4314
+    office: 107 Cannon House Office Building
+    phone: 202-225-2831
+- id:
+    bioguide: C001091
+  name:
+    first: Joaquin
+    last: Castro
+    official_full: Joaquin Castro
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 20
+    party: Democrat
+    url: https://castro.house.gov
+    rss_url: http://castro.house.gov/rss.xml
+    address: 2241 Rayburn House Office Building Washington DC 20515-4320
+    office: 2241 Rayburn House Office Building
+    phone: 202-225-3236
+- id:
+    bioguide: W000816
+  name:
+    first: Roger
+    last: Williams
+    official_full: Roger Williams
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 25
+    party: Republican
+    url: https://williams.house.gov
+    rss_url: http://williams.house.gov/rss.xml
+    address: 2336 Rayburn House Office Building Washington DC 20515-4325
+    office: 2336 Rayburn House Office Building
+    phone: 202-225-9896
+- id:
+    bioguide: V000131
+  name:
+    first: Marc
+    last: Veasey
+    middle: A.
+    official_full: Marc A. Veasey
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 33
+    party: Democrat
+    url: https://veasey.house.gov
+    rss_url: http://veasey.house.gov/rss.xml
+    address: 2186 Rayburn House Office Building Washington DC 20515-4333
+    office: 2186 Rayburn House Office Building
+    phone: 202-225-9897
+- id:
+    bioguide: P000607
+  name:
+    first: Mark
+    last: Pocan
+    official_full: Mark Pocan
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: WI
+    district: 2
+    party: Democrat
+    url: https://pocan.house.gov
+    rss_url: http://pocan.house.gov/rss.xml
+    address: 1026 Longworth House Office Building Washington DC 20515-4902
+    office: 1026 Longworth House Office Building
+    phone: 202-225-2906
+- id:
+    bioguide: K000385
+  name:
+    first: Robin
+    middle: L.
+    last: Kelly
+    official_full: Robin L. Kelly
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IL
+    district: 2
+    party: Democrat
+    url: https://robinkelly.house.gov
+    rss_url: http://robinkelly.house.gov/rss.xml
+    address: 2329 Rayburn House Office Building Washington DC 20515-1302
+    office: 2329 Rayburn House Office Building
+    phone: 202-225-0773
+- id:
+    bioguide: S001195
+  name:
+    first: Jason
+    middle: T.
+    last: Smith
+    official_full: Jason Smith
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MO
+    district: 8
+    party: Republican
+    url: https://jasonsmith.house.gov
+    rss_url: http://jasonsmith.house.gov/rss.xml
+    address: 1011 Longworth House Office Building Washington DC 20515-2508
+    office: 1011 Longworth House Office Building
+    phone: 202-225-4404
+- id:
+    bioguide: C001101
+  name:
+    first: Katherine
+    middle: M.
+    last: Clark
+    official_full: Katherine M. Clark
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MA
+    district: 5
+    party: Democrat
+    url: https://katherineclark.house.gov
+    address: 2368 Rayburn House Office Building Washington DC 20515-2105
+    office: 2368 Rayburn House Office Building
+    phone: 202-225-2836
+- id:
+    bioguide: N000188
+  name:
+    first: Donald
+    middle: W.
+    last: Norcross
+    official_full: Donald Norcross
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NJ
+    district: 1
+    party: Democrat
+    url: https://norcross.house.gov
+    address: 2427 Rayburn House Office Building Washington DC 20515-3001
+    office: 2427 Rayburn House Office Building
+    phone: 202-225-6501
+- id:
+    bioguide: A000370
+  name:
+    first: Alma
+    middle: S.
+    last: Adams
+    official_full: Alma S. Adams
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NC
+    district: 12
+    party: Democrat
+    url: https://adams.house.gov
+    address: 2436 Rayburn House Office Building Washington DC 20515-3312
+    office: 2436 Rayburn House Office Building
+    phone: 202-225-1510
+- id:
+    bioguide: P000609
+  name:
+    first: Gary
+    middle: J.
+    last: Palmer
+    official_full: Gary J. Palmer
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: AL
+    district: 6
+    party: Republican
+    url: https://palmer.house.gov
+    address: 170 Cannon House Office Building Washington DC 20515-0106
+    office: 170 Cannon House Office Building
+    phone: 202-225-4921
+- id:
+    bioguide: H001072
+  name:
+    first: J.
+    middle: French
+    last: Hill
+    official_full: J. French Hill
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: AR
+    district: 2
+    party: Republican
+    url: https://hill.house.gov
+    address: 1533 Longworth House Office Building Washington DC 20515-0402
+    office: 1533 Longworth House Office Building
+    phone: 202-225-2506
+- id:
+    bioguide: W000821
+  name:
+    first: Bruce
+    last: Westerman
+    official_full: Bruce Westerman
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: AR
+    district: 4
+    party: Republican
+    url: https://westerman.house.gov
+    address: 202 Cannon House Office Building Washington DC 20515-0404
+    office: 202 Cannon House Office Building
+    phone: 202-225-3772
+- id:
+    bioguide: D000623
+  name:
+    first: Mark
+    last: DeSaulnier
+    official_full: Mark DeSaulnier
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 10
+    party: Democrat
+    url: https://desaulnier.house.gov
+    address: 2134 Rayburn House Office Building Washington DC 20515-0510
+    office: 2134 Rayburn House Office Building
+    phone: 202-225-2095
+- id:
+    bioguide: A000371
+  name:
+    first: Pete
+    last: Aguilar
+    official_full: Pete Aguilar
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 33
+    party: Democrat
+    url: https://aguilar.house.gov
+    address: 108 Cannon House Office Building Washington DC 20515-0533
+    office: 108 Cannon House Office Building
+    phone: 202-225-3201
+- id:
+    bioguide: L000582
+  name:
+    first: Ted
+    last: Lieu
+    official_full: Ted Lieu
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 36
+    party: Democrat
+    url: https://lieu.house.gov
+    address: 2454 Rayburn House Office Building Washington DC 20515-0536
+    office: 2454 Rayburn House Office Building
+    phone: 202-225-3976
+- id:
+    bioguide: T000474
+  name:
+    first: Norma
+    middle: J.
+    last: Torres
+    official_full: Norma J. Torres
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 35
+    party: Democrat
+    url: https://torres.house.gov
+    address: 2227 Rayburn House Office Building Washington DC 20515-0535
+    office: 2227 Rayburn House Office Building
+    phone: 202-225-6161
+- id:
+    bioguide: C001103
+  name:
+    first: Earl
+    middle: L.
+    nickname: Buddy
+    last: Carter
+    official_full: Earl L. "Buddy" Carter
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: GA
+    district: 1
+    party: Republican
+    url: https://buddycarter.house.gov
+    address: 2432 Rayburn House Office Building Washington DC 20515-1001
+    office: 2432 Rayburn House Office Building
+    phone: 202-225-5831
+- id:
+    bioguide: L000583
+  name:
+    first: Barry
+    last: Loudermilk
+    official_full: Barry Loudermilk
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: GA
+    district: 11
+    party: Republican
+    url: https://loudermilk.house.gov
+    address: 2133 Rayburn House Office Building Washington DC 20515-1011
+    office: 2133 Rayburn House Office Building
+    phone: 202-225-2931
+- id:
+    bioguide: A000372
+  name:
+    first: Rick
+    middle: W.
+    last: Allen
+    official_full: Rick W. Allen
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: GA
+    district: 12
+    party: Republican
+    url: https://allen.house.gov
+    address: 462 Cannon House Office Building Washington DC 20515-1012
+    office: 462 Cannon House Office Building
+    phone: 202-225-2823
+- id:
+    bioguide: B001295
+  name:
+    first: Mike
+    last: Bost
+    official_full: Mike Bost
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IL
+    district: 12
+    party: Republican
+    url: https://bost.house.gov
+    address: 352 Cannon House Office Building Washington DC 20515-1312
+    office: 352 Cannon House Office Building
+    phone: 202-225-5661
+- id:
+    bioguide: M001196
+  name:
+    first: Seth
+    last: Moulton
+    official_full: Seth Moulton
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MA
+    district: 6
+    party: Democrat
+    url: https://moulton.house.gov
+    address: 1126 Longworth House Office Building Washington DC 20515-2106
+    office: 1126 Longworth House Office Building
+    phone: 202-225-8020
+- id:
+    bioguide: M001194
+  name:
+    first: John
+    middle: R.
+    last: Moolenaar
+    official_full: John R. Moolenaar
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MI
+    district: 2
+    party: Republican
+    url: https://moolenaar.house.gov
+    address: 246 Cannon House Office Building Washington DC 20515-2202
+    office: 246 Cannon House Office Building
+    phone: 202-225-3561
+- id:
+    bioguide: D000624
+  name:
+    first: Debbie
+    last: Dingell
+    official_full: Debbie Dingell
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MI
+    district: 6
+    party: Democrat
+    url: https://debbiedingell.house.gov
+    address: 102 Cannon House Office Building Washington DC 20515-2206
+    office: 102 Cannon House Office Building
+    phone: 202-225-4071
+- id:
+    bioguide: E000294
+  name:
+    first: Tom
+    last: Emmer
+    official_full: Tom Emmer
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MN
+    district: 6
+    party: Republican
+    url: https://emmer.house.gov
+    address: 326 Cannon House Office Building Washington DC 20515-2306
+    office: 326 Cannon House Office Building
+    phone: 202-225-2331
+- id:
+    bioguide: R000603
+  name:
+    first: David
+    last: Rouzer
+    official_full: David Rouzer
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NC
+    district: 7
+    party: Republican
+    url: https://rouzer.house.gov
+    address: 2333 Rayburn House Office Building Washington DC 20515-3307
+    office: 2333 Rayburn House Office Building
+    phone: 202-225-2731
+- id:
+    bioguide: W000822
+  name:
+    first: Bonnie
+    last: Watson Coleman
+    official_full: Bonnie Watson Coleman
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NJ
+    district: 12
+    party: Democrat
+    url: https://watsoncoleman.house.gov
+    address: 168 Cannon House Office Building Washington DC 20515-3012
+    office: 168 Cannon House Office Building
+    phone: 202-225-5801
+- id:
+    bioguide: S001196
+  name:
+    first: Elise
+    middle: M.
+    last: Stefanik
+    official_full: Elise M. Stefanik
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NY
+    district: 21
+    party: Republican
+    url: https://stefanik.house.gov
+    address: 2211 Rayburn House Office Building Washington DC 20515-3221
+    office: 2211 Rayburn House Office Building
+    phone: 202-225-4611
+- id:
+    bioguide: B001296
+  name:
+    first: Brendan
+    middle: F.
+    last: Boyle
+    official_full: Brendan F. Boyle
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: PA
+    district: 2
+    party: Democrat
+    url: https://boyle.house.gov
+    address: 1502 Longworth House Office Building Washington DC 20515-3802
+    office: 1502 Longworth House Office Building
+    phone: 202-225-6111
+- id:
+    bioguide: B001291
+  name:
+    first: Brian
+    last: Babin
+    official_full: Brian Babin
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 36
+    party: Republican
+    url: https://babin.house.gov
+    address: 2236 Rayburn House Office Building Washington DC 20515-4336
+    office: 2236 Rayburn House Office Building
+    phone: 202-225-1555
+- id:
+    bioguide: B001292
+  name:
+    first: Donald
+    middle: S.
+    last: Beyer
+    suffix: Jr.
+    official_full: Donald S. Beyer, Jr.
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: VA
+    district: 8
+    party: Democrat
+    url: https://beyer.house.gov
+    address: 1226 Longworth House Office Building Washington DC 20515-4608
+    office: 1226 Longworth House Office Building
+    phone: 202-225-4376
+- id:
+    bioguide: P000610
+  name:
+    first: Stacey
+    middle: E.
+    last: Plaskett
+    official_full: Stacey E. Plaskett
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: VI
+    district: 0
+    party: Democrat
+    url: https://plaskett.house.gov
+    address: 2059 Rayburn House Office Building Washington DC 20515-5500
+    office: 2059 Rayburn House Office Building
+    phone: 202-225-1790
+- id:
+    bioguide: N000189
+  name:
+    first: Dan
+    last: Newhouse
+    official_full: Dan Newhouse
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: WA
+    district: 4
+    party: Republican
+    url: https://newhouse.house.gov
+    address: 460 Cannon House Office Building Washington DC 20515-4704
+    office: 460 Cannon House Office Building
+    phone: 202-225-5816
+- id:
+    bioguide: G000576
+  name:
+    first: Glenn
+    last: Grothman
+    official_full: Glenn Grothman
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: WI
+    district: 6
+    party: Republican
+    url: https://grothman.house.gov
+    address: 1211 Longworth House Office Building Washington DC 20515-4906
+    office: 1211 Longworth House Office Building
+    phone: 202-225-2476
+- id:
+    bioguide: R000600
+  name:
+    first: Aumua Amata
+    last: Radewagen
+    middle: Coleman
+    official_full: Aumua Amata Coleman Radewagen
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: AS
+    district: 0
+    party: Republican
+    url: https://radewagen.house.gov
+    address: 2001 Rayburn House Office Building Washington DC 20515-5200
+    office: 2001 Rayburn House Office Building
+    phone: 202-225-8577
+- id:
+    bioguide: K000388
+  name:
+    first: Trent
+    last: Kelly
+    official_full: Trent Kelly
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MS
+    district: 1
+    party: Republican
+    url: https://trentkelly.house.gov
+    address: 2243 Rayburn House Office Building Washington DC 20515-2401
+    office: 2243 Rayburn House Office Building
+    phone: 202-225-4306
+- id:
+    bioguide: L000585
+  name:
+    first: Darin
+    last: LaHood
+    official_full: Darin LaHood
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IL
+    district: 16
+    party: Republican
+    url: https://lahood.house.gov
+    address: 503 Cannon House Office Building Washington DC 20515-1316
+    office: 503 Cannon House Office Building
+    phone: 202-225-6201
+- id:
+    bioguide: D000626
+  name:
+    first: Warren
+    last: Davidson
+    official_full: Warren Davidson
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: OH
+    district: 8
+    party: Republican
+    url: https://davidson.house.gov
+    address: 2113 Rayburn House Office Building Washington DC 20515-3508
+    office: 2113 Rayburn House Office Building
+    phone: 202-225-6205
+- id:
+    bioguide: C001108
+  name:
+    first: James
+    last: Comer
+    official_full: James Comer
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: KY
+    district: 1
+    party: Republican
+    url: https://comer.house.gov
+    rss_url: https://comer.house.gov/rss.xml
+    address: 2410 Rayburn House Office Building Washington DC 20515-1701
+    office: 2410 Rayburn House Office Building
+    phone: 202-225-3115
+- id:
+    bioguide: E000296
+  name:
+    first: Dwight
+    last: Evans
+    official_full: Dwight Evans
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: PA
+    district: 3
+    party: Democrat
+    url: https://evans.house.gov
+    rss_url: https://evans.house.gov/rss.xml
+    address: 1105 Longworth House Office Building Washington DC 20515-3803
+    office: 1105 Longworth House Office Building
+    phone: 202-225-4001
+- id:
+    bioguide: S001190
+  name:
+    first: Bradley
+    last: Schneider
+    middle: Scott
+    official_full: Bradley Scott Schneider
+    nickname: Brad
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IL
+    district: 10
+    party: Democrat
+    url: https://schneider.house.gov
+    rss_url: http://schneider.house.gov/rss.xml
+    address: 300 Cannon House Office Building Washington DC 20515-1310
+    office: 300 Cannon House Office Building
+    phone: 202-225-4835
+- id:
+    bioguide: B001302
+  name:
+    first: Andy
+    last: Biggs
+    official_full: Andy Biggs
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: AZ
+    district: 5
+    party: Republican
+    url: https://biggs.house.gov
+    address: 464 Cannon House Office Building Washington DC 20515-0305
+    office: 464 Cannon House Office Building
+    phone: 202-225-2635
+- id:
+    bioguide: K000389
+  name:
+    first: Ro
+    last: Khanna
+    official_full: Ro Khanna
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 17
+    party: Democrat
+    url: https://khanna.house.gov
+    address: 306 Cannon House Office Building Washington DC 20515-0517
+    office: 306 Cannon House Office Building
+    phone: 202-225-2631
+- id:
+    bioguide: P000613
+  name:
+    first: Jimmy
+    last: Panetta
+    official_full: Jimmy Panetta
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 19
+    party: Democrat
+    url: https://panetta.house.gov
+    address: 200 Cannon House Office Building Washington DC 20515-0519
+    office: 200 Cannon House Office Building
+    phone: 202-225-2861
+- id:
+    bioguide: C001112
+  name:
+    first: Salud
+    middle: O.
+    last: Carbajal
+    official_full: Salud O. Carbajal
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 24
+    party: Democrat
+    url: https://carbajal.house.gov
+    address: 2331 Rayburn House Office Building Washington DC 20515-0524
+    office: 2331 Rayburn House Office Building
+    phone: 202-225-3601
+- id:
+    bioguide: B001300
+  name:
+    first: Nanette
+    middle: Diaz
+    last: Barragán
+    official_full: Nanette Diaz Barragán
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 44
+    party: Democrat
+    url: https://barragan.house.gov
+    address: 2312 Rayburn House Office Building Washington DC 20515-0544
+    office: 2312 Rayburn House Office Building
+    phone: 202-225-8220
+- id:
+    bioguide: C001110
+  name:
+    first: J.
+    middle: Luis
+    last: Correa
+    official_full: J. Luis Correa
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 46
+    party: Democrat
+    url: https://correa.house.gov
+    address: 2082 Rayburn House Office Building Washington DC 20515-0546
+    office: 2082 Rayburn House Office Building
+    phone: 202-225-2965
+- id:
+    bioguide: D000628
+  name:
+    first: Neal
+    middle: P.
+    last: Dunn
+    official_full: Neal P. Dunn
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: FL
+    district: 2
+    party: Republican
+    url: https://dunn.house.gov
+    address: 466 Cannon House Office Building Washington DC 20515-0902
+    office: 466 Cannon House Office Building
+    phone: 202-225-5235
+- id:
+    bioguide: R000609
+  name:
+    first: John
+    middle: H.
+    last: Rutherford
+    official_full: John H. Rutherford
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: FL
+    district: 5
+    party: Republican
+    url: https://rutherford.house.gov
+    address: 1711 Longworth House Office Building Washington DC 20515-0905
+    office: 1711 Longworth House Office Building
+    phone: 202-225-2501
+- id:
+    bioguide: S001200
+  name:
+    first: Darren
+    last: Soto
+    official_full: Darren Soto
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: FL
+    district: 9
+    party: Democrat
+    url: https://soto.house.gov
+    address: 2353 Rayburn House Office Building Washington DC 20515-0909
+    office: 2353 Rayburn House Office Building
+    phone: 202-225-9889
+- id:
+    bioguide: M001199
+  name:
+    first: Brian
+    middle: J.
+    last: Mast
+    official_full: Brian J. Mast
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: FL
+    district: 21
+    party: Republican
+    url: https://mast.house.gov
+    address: 2182 Rayburn House Office Building Washington DC 20515-0921
+    office: 2182 Rayburn House Office Building
+    phone: 202-225-3026
+- id:
+    bioguide: K000391
+  name:
+    first: Raja
+    last: Krishnamoorthi
+    official_full: Raja Krishnamoorthi
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IL
+    district: 8
+    party: Democrat
+    url: https://krishnamoorthi.house.gov
+    address: 2367 Rayburn House Office Building Washington DC 20515-1308
+    office: 2367 Rayburn House Office Building
+    phone: 202-225-3711
+- id:
+    bioguide: H001077
+  name:
+    first: Clay
+    last: Higgins
+    official_full: Clay Higgins
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: LA
+    district: 3
+    party: Republican
+    url: https://clayhiggins.house.gov
+    address: 572 Cannon House Office Building Washington DC 20515-1803
+    office: 572 Cannon House Office Building
+    phone: 202-225-2031
+- id:
+    bioguide: J000299
+  name:
+    first: Mike
+    last: Johnson
+    official_full: Mike Johnson
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: LA
+    district: 4
+    party: Republican
+    url: https://mikejohnson.house.gov
+    address: 521 Cannon House Office Building Washington DC 20515-1804
+    office: 521 Cannon House Office Building
+    phone: 202-225-2777
+- id:
+    bioguide: R000606
+  name:
+    first: Jamie
+    last: Raskin
+    official_full: Jamie Raskin
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MD
+    district: 8
+    party: Democrat
+    url: https://raskin.house.gov
+    address: 2242 Rayburn House Office Building Washington DC 20515-2008
+    office: 2242 Rayburn House Office Building
+    phone: 202-225-5341
+- id:
+    bioguide: B001301
+  name:
+    first: Jack
+    last: Bergman
+    official_full: Jack Bergman
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MI
+    district: 1
+    party: Republican
+    url: https://bergman.house.gov
+    address: 566 Cannon House Office Building Washington DC 20515-2201
+    office: 566 Cannon House Office Building
+    phone: 202-225-4735
+- id:
+    bioguide: B001298
+  name:
+    first: Don
+    last: Bacon
+    official_full: Don Bacon
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NE
+    district: 2
+    party: Republican
+    url: https://bacon.house.gov
+    address: 2104 Rayburn House Office Building Washington DC 20515-2702
+    office: 2104 Rayburn House Office Building
+    phone: 202-225-4155
+- id:
+    bioguide: G000583
+  name:
+    first: Josh
+    last: Gottheimer
+    official_full: Josh Gottheimer
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NJ
+    district: 5
+    party: Democrat
+    url: https://gottheimer.house.gov
+    address: 106 Cannon House Office Building Washington DC 20515-3005
+    office: 106 Cannon House Office Building
+    phone: 202-225-4465
+- id:
+    bioguide: E000297
+  name:
+    first: Adriano
+    last: Espaillat
+    official_full: Adriano Espaillat
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NY
+    district: 13
+    party: Democrat
+    url: https://espaillat.house.gov
+    address: 2332 Rayburn House Office Building Washington DC 20515-3213
+    office: 2332 Rayburn House Office Building
+    phone: 202-225-4365
+- id:
+    bioguide: F000466
+  name:
+    first: Brian
+    middle: K.
+    last: Fitzpatrick
+    official_full: Brian K. Fitzpatrick
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: PA
+    district: 1
+    party: Republican
+    url: https://fitzpatrick.house.gov
+    address: 271 Cannon House Office Building Washington DC 20515-3801
+    office: 271 Cannon House Office Building
+    phone: 202-225-4276
+- id:
+    bioguide: S001199
+  name:
+    first: Lloyd
+    last: Smucker
+    official_full: Lloyd Smucker
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: PA
+    district: 11
+    party: Republican
+    url: https://smucker.house.gov
+    address: 302 Cannon House Office Building Washington DC 20515-3811
+    office: 302 Cannon House Office Building
+    phone: 202-225-2411
+- id:
+    bioguide: K000392
+  name:
+    first: David
+    last: Kustoff
+    official_full: David Kustoff
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TN
+    district: 8
+    party: Republican
+    url: https://kustoff.house.gov
+    address: 560 Cannon House Office Building Washington DC 20515-4208
+    office: 560 Cannon House Office Building
+    phone: 202-225-4714
+- id:
+    bioguide: G000581
+  name:
+    first: Vicente
+    last: Gonzalez
+    official_full: Vicente Gonzalez
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 34
+    party: Democrat
+    url: https://gonzalez.house.gov
+    address: 1201 Longworth House Office Building Washington DC 20515-4334
+    office: 1201 Longworth House Office Building
+    phone: 202-225-2531
+- id:
+    bioguide: A000375
+  name:
+    first: Jodey
+    middle: C.
+    last: Arrington
+    official_full: Jodey C. Arrington
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 19
+    party: Republican
+    url: https://arrington.house.gov
+    address: 1111 Longworth House Office Building Washington DC 20515-4319
+    office: 1111 Longworth House Office Building
+    phone: 202-225-4005
+- id:
+    bioguide: J000298
+  name:
+    first: Pramila
+    last: Jayapal
+    official_full: Pramila Jayapal
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: WA
+    district: 7
+    party: Democrat
+    url: https://jayapal.house.gov
+    address: 2346 Rayburn House Office Building Washington DC 20515-4707
+    office: 2346 Rayburn House Office Building
+    phone: 202-225-3106
+- id:
+    bioguide: E000298
+  name:
+    first: Ron
+    last: Estes
+    official_full: Ron Estes
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: KS
+    district: 4
+    party: Republican
+    url: https://estes.house.gov
+    address: 2234 Rayburn House Office Building Washington DC 20515-1604
+    office: 2234 Rayburn House Office Building
+    phone: 202-225-6216
+- id:
+    bioguide: N000190
+  name:
+    first: Ralph
+    last: Norman
+    official_full: Ralph Norman
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: SC
+    district: 5
+    party: Republican
+    url: https://norman.house.gov
+    address: 569 Cannon House Office Building Washington DC 20515-4005
+    office: 569 Cannon House Office Building
+    phone: 202-225-5501
+- id:
+    bioguide: G000585
+  name:
+    first: Jimmy
+    last: Gomez
+    official_full: Jimmy Gomez
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 34
+    party: Democrat
+    url: https://gomez.house.gov
+    address: 506 Cannon House Office Building Washington DC 20515-0534
+    office: 506 Cannon House Office Building
+    phone: 202-225-6235
+- id:
+    bioguide: C001115
+  name:
+    first: Michael
+    last: Cloud
+    official_full: Michael Cloud
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 27
+    party: Republican
+    url: https://cloud.house.gov
+    address: 304 Cannon House Office Building Washington DC 20515-4327
+    office: 304 Cannon House Office Building
+    phone: 202-225-7742
+- id:
+    bioguide: B001306
+  name:
+    first: Troy
+    last: Balderson
+    official_full: Troy Balderson
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: OH
+    district: 12
+    party: Republican
+    url: https://balderson.house.gov
+    address: 2429 Rayburn House Office Building Washington DC 20515-3512
+    office: 2429 Rayburn House Office Building
+    phone: 202-225-5355
+- id:
+    bioguide: H001082
+  name:
+    first: Kevin
+    middle: R.
+    last: Hern
+    official_full: Kevin Hern
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: OK
+    district: 1
+    party: Republican
+    url: https://hern.house.gov
+    address: 171 Cannon House Office Building Washington DC 20515-3601
+    office: 171 Cannon House Office Building
+    phone: 202-225-2211
+- id:
+    bioguide: M001206
+  name:
+    first: Joseph
+    middle: D.
+    last: Morelle
+    official_full: Joseph D. Morelle
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NY
+    district: 25
+    party: Democrat
+    url: https://morelle.house.gov
+    address: 570 Cannon House Office Building Washington DC 20515-3225
+    office: 570 Cannon House Office Building
+    phone: 202-225-3615
+- id:
+    bioguide: S001205
+  name:
+    first: Mary
+    middle: Gay
+    last: Scanlon
+    official_full: Mary Gay Scanlon
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: PA
+    district: 5
+    party: Democrat
+    url: https://scanlon.house.gov
+    address: 1214 Longworth House Office Building Washington DC 20515-3805
+    office: 1214 Longworth House Office Building
+    phone: 202-225-2011
+- id:
+    bioguide: C001055
+  name:
+    first: Ed
+    last: Case
+    official_full: Ed Case
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: HI
+    district: 1
+    party: Democrat
+    url: https://case.house.gov
+    address: 2210 Rayburn House Office Building Washington DC 20515-1101
+    office: 2210 Rayburn House Office Building
+    phone: 202-225-2726
+- id:
+    bioguide: H001066
+  name:
+    first: Steven
+    last: Horsford
+    middle: A.
+    official_full: Steven Horsford
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NV
+    district: 4
+    party: Democrat
+    url: https://horsford.house.gov
+    rss_url: http://horsford.house.gov/rss.xml
+    address: 406 Cannon House Office Building Washington DC 20515-2804
+    office: 406 Cannon House Office Building
+    phone: 202-225-9894
+- id:
+    bioguide: S001211
+  name:
+    first: Greg
+    last: Stanton
+    official_full: Greg Stanton
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: AZ
+    district: 4
+    party: Democrat
+    url: https://stanton.house.gov
+    address: 207 Cannon House Office Building Washington DC 20515-0304
+    office: 207 Cannon House Office Building
+    phone: 202-225-9888
+- id:
+    bioguide: H001090
+  name:
+    first: Josh
+    last: Harder
+    official_full: Josh Harder
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 9
+    party: Democrat
+    url: https://harder.house.gov
+    address: 209 Cannon House Office Building Washington DC 20515-0509
+    office: 209 Cannon House Office Building
+    phone: 202-225-4540
+- id:
+    bioguide: L000593
+  name:
+    first: Mike
+    last: Levin
+    official_full: Mike Levin
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 49
+    party: Democrat
+    url: https://levin.house.gov
+    address: 2352 Rayburn House Office Building Washington DC 20515-0549
+    office: 2352 Rayburn House Office Building
+    phone: 202-225-3906
+- id:
+    bioguide: N000191
+  name:
+    first: Joe
+    last: Neguse
+    official_full: Joe Neguse
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CO
+    district: 2
+    party: Democrat
+    url: https://neguse.house.gov
+    address: 2400 Rayburn House Office Building Washington DC 20515-0602
+    office: 2400 Rayburn House Office Building
+    phone: 202-225-2161
+- id:
+    bioguide: C001121
+  name:
+    first: Jason
+    last: Crow
+    official_full: Jason Crow
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CO
+    district: 6
+    party: Democrat
+    url: https://crow.house.gov
+    address: 1323 Longworth House Office Building Washington DC 20515-0606
+    office: 1323 Longworth House Office Building
+    phone: 202-225-7882
+- id:
+    bioguide: H001081
+  name:
+    first: Jahana
+    last: Hayes
+    official_full: Jahana Hayes
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CT
+    district: 5
+    party: Democrat
+    url: https://hayes.house.gov
+    address: 2049 Rayburn House Office Building Washington DC 20515-0705
+    office: 2049 Rayburn House Office Building
+    phone: 202-225-4476
+- id:
+    bioguide: S001214
+  name:
+    first: W.
+    middle: Gregory
+    last: Steube
+    official_full: W. Gregory Steube
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: FL
+    district: 17
+    party: Republican
+    url: https://steube.house.gov
+    address: 2457 Rayburn House Office Building Washington DC 20515-0917
+    office: 2457 Rayburn House Office Building
+    phone: 202-225-5792
+- id:
+    bioguide: M001208
+  name:
+    first: Lucy
+    last: McBath
+    official_full: Lucy McBath
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: GA
+    district: 6
+    party: Democrat
+    url: https://mcbath.house.gov
+    address: 2246 Rayburn House Office Building Washington DC 20515-1006
+    office: 2246 Rayburn House Office Building
+    phone: 202-225-4501
+- id:
+    bioguide: F000469
+  name:
+    first: Russ
+    last: Fulcher
+    official_full: Russ Fulcher
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: ID
+    district: 1
+    party: Republican
+    url: https://fulcher.house.gov
+    address: 1514 Longworth House Office Building Washington DC 20515-1201
+    office: 1514 Longworth House Office Building
+    phone: 202-225-6611
+- id:
+    bioguide: G000586
+  name:
+    first: Jesús
+    middle: G.
+    nickname: Chuy
+    last: García
+    official_full: Jesús G. "Chuy" García
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IL
+    district: 4
+    party: Democrat
+    url: https://chuygarcia.house.gov
+    address: 2334 Rayburn House Office Building Washington DC 20515-1304
+    office: 2334 Rayburn House Office Building
+    phone: 202-225-8203
+- id:
+    bioguide: C001117
+  name:
+    first: Sean
+    last: Casten
+    official_full: Sean Casten
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IL
+    district: 6
+    party: Democrat
+    url: https://casten.house.gov
+    address: 2440 Rayburn House Office Building Washington DC 20515-1306
+    office: 2440 Rayburn House Office Building
+    phone: 202-225-4561
+- id:
+    bioguide: U000040
+  name:
+    first: Lauren
+    last: Underwood
+    official_full: Lauren Underwood
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IL
+    district: 14
+    party: Democrat
+    url: https://underwood.house.gov
+    address: 2228 Rayburn House Office Building Washington DC 20515-1314
+    office: 2228 Rayburn House Office Building
+    phone: 202-225-2976
+- id:
+    bioguide: B001307
+  name:
+    first: James
+    middle: R.
+    last: Baird
+    official_full: James R. Baird
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IN
+    district: 4
+    party: Republican
+    url: https://baird.house.gov
+    address: 2303 Rayburn House Office Building Washington DC 20515-1404
+    office: 2303 Rayburn House Office Building
+    phone: 202-225-5037
+- id:
+    bioguide: D000629
+  name:
+    first: Sharice
+    last: Davids
+    official_full: Sharice Davids
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: KS
+    district: 3
+    party: Democrat
+    url: https://davids.house.gov
+    address: 2435 Rayburn House Office Building Washington DC 20515-1603
+    office: 2435 Rayburn House Office Building
+    phone: 202-225-2865
+- id:
+    bioguide: T000482
+  name:
+    first: Lori
+    last: Trahan
+    official_full: Lori Trahan
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MA
+    district: 3
+    party: Democrat
+    url: https://trahan.house.gov
+    address: 2233 Rayburn House Office Building Washington DC 20515-2103
+    office: 2233 Rayburn House Office Building
+    phone: 202-225-3411
+- id:
+    bioguide: P000617
+  name:
+    first: Ayanna
+    last: Pressley
+    official_full: Ayanna Pressley
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MA
+    district: 7
+    party: Democrat
+    url: https://pressley.house.gov
+    address: 402 Cannon House Office Building Washington DC 20515-2107
+    office: 402 Cannon House Office Building
+    phone: 202-225-5111
+- id:
+    bioguide: S001215
+  name:
+    first: Haley
+    middle: M.
+    last: Stevens
+    official_full: Haley M. Stevens
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MI
+    district: 11
+    party: Democrat
+    url: https://stevens.house.gov
+    address: 2411 Rayburn House Office Building Washington DC 20515-2211
+    office: 2411 Rayburn House Office Building
+    phone: 202-225-8171
+- id:
+    bioguide: T000481
+  name:
+    first: Rashida
+    last: Tlaib
+    official_full: Rashida Tlaib
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MI
+    district: 12
+    party: Democrat
+    url: https://tlaib.house.gov
+    address: 2438 Rayburn House Office Building Washington DC 20515-2212
+    office: 2438 Rayburn House Office Building
+    phone: 202-225-5126
+- id:
+    bioguide: C001119
+  name:
+    first: Angie
+    last: Craig
+    official_full: Angie Craig
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MN
+    district: 2
+    party: Democrat
+    url: https://craig.house.gov
+    address: 2052 Rayburn House Office Building Washington DC 20515-2302
+    office: 2052 Rayburn House Office Building
+    phone: 202-225-2271
+- id:
+    bioguide: O000173
+  name:
+    first: Ilhan
+    last: Omar
+    official_full: Ilhan Omar
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MN
+    district: 5
+    party: Democrat
+    url: https://omar.house.gov
+    address: 1730 Longworth House Office Building Washington DC 20515-2305
+    office: 1730 Longworth House Office Building
+    phone: 202-225-4755
+- id:
+    bioguide: S001212
+  name:
+    first: Pete
+    last: Stauber
+    official_full: Pete Stauber
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MN
+    district: 8
+    party: Republican
+    url: https://stauber.house.gov
+    address: 145 Cannon House Office Building Washington DC 20515-2308
+    office: 145 Cannon House Office Building
+    phone: 202-225-6211
+- id:
+    bioguide: G000591
+  name:
+    first: Michael
+    last: Guest
+    official_full: Michael Guest
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MS
+    district: 3
+    party: Republican
+    url: https://guest.house.gov
+    address: 450 Cannon House Office Building Washington DC 20515-2403
+    office: 450 Cannon House Office Building
+    phone: 202-225-5031
+- id:
+    bioguide: P000614
+  name:
+    first: Chris
+    last: Pappas
+    official_full: Chris Pappas
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NH
+    district: 1
+    party: Democrat
+    url: https://pappas.house.gov
+    address: 452 Cannon House Office Building Washington DC 20515-2901
+    office: 452 Cannon House Office Building
+    phone: 202-225-5456
+- id:
+    bioguide: V000133
+  name:
+    first: Jefferson
+    last: Van Drew
+    official_full: Jefferson Van Drew
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NJ
+    district: 2
+    party: Republican
+    url: https://vandrew.house.gov
+    address: 2447 Rayburn House Office Building Washington DC 20515-3002
+    office: 2447 Rayburn House Office Building
+    phone: 202-225-6572
+- id:
+    bioguide: S001207
+  name:
+    first: Mikie
+    last: Sherrill
+    official_full: Mikie Sherrill
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NJ
+    district: 11
+    party: Democrat
+    url: https://sherrill.house.gov
+    address: 1427 Longworth House Office Building Washington DC 20515-3011
+    office: 1427 Longworth House Office Building
+    phone: 202-225-5034
+- id:
+    bioguide: L000590
+  name:
+    first: Susie
+    last: Lee
+    official_full: Susie Lee
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NV
+    district: 3
+    party: Democrat
+    url: https://susielee.house.gov
+    address: 365 Cannon House Office Building Washington DC 20515-2803
+    office: 365 Cannon House Office Building
+    phone: 202-225-3252
+- id:
+    bioguide: O000172
+  name:
+    first: Alexandria
+    last: Ocasio-Cortez
+    official_full: Alexandria Ocasio-Cortez
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NY
+    district: 14
+    party: Democrat
+    url: https://ocasio-cortez.house.gov
+    address: 250 Cannon House Office Building Washington DC 20515-3214
+    office: 250 Cannon House Office Building
+    phone: 202-225-3965
+- id:
+    bioguide: D000631
+  name:
+    first: Madeleine
+    last: Dean
+    official_full: Madeleine Dean
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: PA
+    district: 4
+    party: Democrat
+    url: https://dean.house.gov
+    address: 150 Cannon House Office Building Washington DC 20515-3804
+    office: 150 Cannon House Office Building
+    phone: 202-225-4731
+- id:
+    bioguide: H001085
+  name:
+    first: Chrissy
+    last: Houlahan
+    official_full: Chrissy Houlahan
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: PA
+    district: 6
+    party: Democrat
+    url: https://houlahan.house.gov
+    address: 1727 Longworth House Office Building Washington DC 20515-3806
+    office: 1727 Longworth House Office Building
+    phone: 202-225-4315
+- id:
+    bioguide: M001204
+  name:
+    first: Daniel
+    last: Meuser
+    official_full: Daniel Meuser
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: PA
+    district: 9
+    party: Republican
+    url: https://meuser.house.gov
+    address: 350 Cannon House Office Building Washington DC 20515-3809
+    office: 350 Cannon House Office Building
+    phone: 202-225-6511
+- id:
+    bioguide: J000302
+  name:
+    first: John
+    last: Joyce
+    official_full: John Joyce
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: PA
+    district: 13
+    party: Republican
+    url: https://johnjoyce.house.gov
+    address: 2102 Rayburn House Office Building Washington DC 20515-3813
+    office: 2102 Rayburn House Office Building
+    phone: 202-225-2431
+- id:
+    bioguide: R000610
+  name:
+    first: Guy
+    last: Reschenthaler
+    official_full: Guy Reschenthaler
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: PA
+    district: 14
+    party: Republican
+    url: https://reschenthaler.house.gov
+    address: 2209 Rayburn House Office Building Washington DC 20515-3814
+    office: 2209 Rayburn House Office Building
+    phone: 202-225-2065
+- id:
+    bioguide: T000480
+  name:
+    first: William
+    middle: R.
+    last: Timmons
+    official_full: William R. Timmons IV
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: SC
+    district: 4
+    party: Republican
+    url: https://timmons.house.gov
+    address: 267 Cannon House Office Building Washington DC 20515-4004
+    office: 267 Cannon House Office Building
+    phone: 202-225-6030
+- id:
+    bioguide: J000301
+  name:
+    first: Dusty
+    last: Johnson
+    official_full: Dusty Johnson
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: SD
+    district: 0
+    party: Republican
+    url: https://dustyjohnson.house.gov
+    address: 1714 Longworth House Office Building Washington DC 20515-4100
+    office: 1714 Longworth House Office Building
+    phone: 202-225-2801
+- id:
+    bioguide: B001309
+  name:
+    first: Tim
+    last: Burchett
+    official_full: Tim Burchett
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TN
+    district: 2
+    party: Republican
+    url: https://burchett.house.gov
+    address: 1122 Longworth House Office Building Washington DC 20515-4202
+    office: 1122 Longworth House Office Building
+    phone: 202-225-5435
+- id:
+    bioguide: R000612
+  name:
+    first: John
+    middle: W.
+    last: Rose
+    official_full: John W. Rose
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TN
+    district: 6
+    party: Republican
+    url: https://johnrose.house.gov
+    address: 2238 Rayburn House Office Building Washington DC 20515-4206
+    office: 2238 Rayburn House Office Building
+    phone: 202-225-4231
+- id:
+    bioguide: C001120
+  name:
+    first: Dan
+    last: Crenshaw
+    official_full: Dan Crenshaw
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 2
+    party: Republican
+    url: https://crenshaw.house.gov
+    address: 248 Cannon House Office Building Washington DC 20515-4302
+    office: 248 Cannon House Office Building
+    phone: 202-225-6565
+- id:
+    bioguide: G000589
+  name:
+    first: Lance
+    last: Gooden
+    official_full: Lance Gooden
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 5
+    party: Republican
+    url: https://gooden.house.gov
+    address: 2431 Rayburn House Office Building Washington DC 20515-4305
+    office: 2431 Rayburn House Office Building
+    phone: 202-225-3484
+- id:
+    bioguide: F000468
+  name:
+    first: Lizzie
+    last: Fletcher
+    official_full: Lizzie Fletcher
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 7
+    party: Democrat
+    url: https://fletcher.house.gov
+    address: 2004 Rayburn House Office Building Washington DC 20515-4307
+    office: 2004 Rayburn House Office Building
+    phone: 202-225-2571
+- id:
+    bioguide: E000299
+  name:
+    first: Veronica
+    last: Escobar
+    official_full: Veronica Escobar
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 16
+    party: Democrat
+    url: https://escobar.house.gov
+    address: 2448 Rayburn House Office Building Washington DC 20515-4316
+    office: 2448 Rayburn House Office Building
+    phone: 202-225-4831
+- id:
+    bioguide: R000614
+  name:
+    first: Chip
+    last: Roy
+    official_full: Chip Roy
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 21
+    party: Republican
+    url: https://roy.house.gov
+    address: 103 Cannon House Office Building Washington DC 20515-4321
+    office: 103 Cannon House Office Building
+    phone: 202-225-4236
+- id:
+    bioguide: G000587
+  name:
+    first: Sylvia
+    middle: R.
+    last: Garcia
+    official_full: Sylvia R. Garcia
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 29
+    party: Democrat
+    url: https://sylviagarcia.house.gov
+    address: 2419 Rayburn House Office Building Washington DC 20515-4329
+    office: 2419 Rayburn House Office Building
+    phone: 202-225-1688
+- id:
+    bioguide: C001118
+  name:
+    first: Ben
+    last: Cline
+    official_full: Ben Cline
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: VA
+    district: 6
+    party: Republican
+    url: https://cline.house.gov
+    address: 2443 Rayburn House Office Building Washington DC 20515-4606
+    office: 2443 Rayburn House Office Building
+    phone: 202-225-5431
+- id:
+    bioguide: S001216
+  name:
+    first: Kim
+    last: Schrier
+    official_full: Kim Schrier
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: WA
+    district: 8
+    party: Democrat
+    url: https://schrier.house.gov
+    address: 1110 Longworth House Office Building Washington DC 20515-4708
+    office: 1110 Longworth House Office Building
+    phone: 202-225-7761
+- id:
+    bioguide: S001213
+  name:
+    first: Bryan
+    last: Steil
+    official_full: Bryan Steil
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: WI
+    district: 1
+    party: Republican
+    url: https://steil.house.gov
+    address: 1526 Longworth House Office Building Washington DC 20515-4901
+    office: 1526 Longworth House Office Building
+    phone: 202-225-3031
+- id:
+    bioguide: M001205
+  name:
+    first: Carol
+    middle: D.
+    last: Miller
+    official_full: Carol D. Miller
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: WV
+    district: 1
+    party: Republican
+    url: https://miller.house.gov
+    address: 465 Cannon House Office Building Washington DC 20515-4801
+    office: 465 Cannon House Office Building
+    phone: 202-225-3452
+- id:
+    bioguide: G000592
+  name:
+    first: Jared
+    middle: Forrest
+    last: Golden
+    official_full: Jared F. Golden
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: ME
+    district: 2
+    party: Democrat
+    url: https://golden.house.gov
+    address: 1107 Longworth House Office Building Washington DC 20515-1902
+    office: 1107 Longworth House Office Building
+    phone: 202-225-6306
+- id:
+    bioguide: M001210
+  name:
+    first: Gregory
+    middle: Francis
+    last: Murphy
+    official_full: Gregory F. Murphy
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NC
+    district: 3
+    party: Republican
+    url: https://murphy.house.gov
+    address: 407 Cannon House Office Building Washington DC 20515-3303
+    office: 407 Cannon House Office Building
+    phone: 202-225-3415
+- id:
+    bioguide: M000687
+  name:
+    first: Kweisi
+    last: Mfume
+    official_full: Kweisi Mfume
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MD
+    district: 7
+    party: Democrat
+    url: https://mfume.house.gov
+    address: 2263 Rayburn House Office Building Washington DC 20515-2007
+    office: 2263 Rayburn House Office Building
+    phone: 202-225-4741
+- id:
+    bioguide: T000165
+  name:
+    first: Thomas
+    middle: P.
+    last: Tiffany
+    official_full: Thomas P. Tiffany
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: WI
+    district: 7
+    party: Republican
+    url: https://tiffany.house.gov
+    address: 451 Cannon House Office Building Washington DC 20515-4907
+    office: 451 Cannon House Office Building
+    phone: 202-225-3365
+- id:
+    bioguide: I000056
+  name:
+    first: Darrell
+    last: Issa
+    official_full: Darrell Issa
+    middle: E.
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 48
+    party: Republican
+    url: https://issa.house.gov
+    rss_url: http://issa.house.gov/feed/
+    address: 2108 Rayburn House Office Building Washington DC 20515-0548
+    office: 2108 Rayburn House Office Building
+    phone: 202-225-5672
+- id:
+    bioguide: S000250
+  name:
+    first: Pete
+    middle: A.
+    last: Sessions
+    official_full: Pete Sessions
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 17
+    party: Republican
+    url: https://sessions.house.gov
+    rss_url: http://sessions.house.gov/?a=rss.feed
+    address: 2204 Rayburn House Office Building Washington DC 20515-4317
+    office: 2204 Rayburn House Office Building
+    phone: 202-225-6105
+- id:
+    bioguide: V000129
+  name:
+    first: David
+    last: Valadao
+    middle: G.
+    official_full: David G. Valadao
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 22
+    party: Republican
+    url: https://valadao.house.gov
+    rss_url: http://valadao.house.gov/rss.xml
+    address: 2465 Rayburn House Office Building Washington DC 20515-0522
+    office: 2465 Rayburn House Office Building
+    phone: 202-225-4695
+- id:
+    bioguide: M001212
+  name:
+    first: Barry
+    last: Moore
+    official_full: Barry Moore
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: AL
+    district: 1
+    party: Republican
+    url: https://barrymoore.house.gov
+    address: 1511 Longworth House Office Building Washington DC 20515-0101
+    office: 1511 Longworth House Office Building
+    phone: 202-225-2901
+- id:
+    bioguide: O000019
+  name:
+    first: Jay
+    middle: Phillip
+    last: Obernolte
+    official_full: Jay Obernolte
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 23
+    party: Republican
+    url: https://obernolte.house.gov
+    address: 2433 Rayburn House Office Building Washington DC 20515-0523
+    office: 2433 Rayburn House Office Building
+    phone: 202-225-5861
+- id:
+    bioguide: K000397
+  name:
+    first: Young
+    middle: Oak
+    last: Kim
+    official_full: Young Kim
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 40
+    party: Republican
+    url: https://youngkim.house.gov
+    address: 2439 Rayburn House Office Building Washington DC 20515-0540
+    office: 2439 Rayburn House Office Building
+    phone: 202-225-4111
+- id:
+    bioguide: J000305
+  name:
+    first: Sara
+    last: Jacobs
+    official_full: Sara Jacobs
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 51
+    party: Democrat
+    url: https://sarajacobs.house.gov
+    address: 2348 Rayburn House Office Building Washington DC 20515-0551
+    office: 2348 Rayburn House Office Building
+    phone: 202-225-2040
+- id:
+    bioguide: B000825
+  name:
+    first: Lauren
+    middle: Opal
+    last: Boebert
+    official_full: Lauren Boebert
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CO
+    district: 4
+    party: Republican
+    url: https://boebert.house.gov
+    address: 1713 Longworth House Office Building Washington DC 20515-0604
+    office: 1713 Longworth House Office Building
+    phone: 202-225-4761
+- id:
+    bioguide: C001039
+  name:
+    first: Katherine
+    nickname: Kat
+    last: Cammack
+    official_full: Kat Cammack
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: FL
+    district: 3
+    party: Republican
+    url: https://cammack.house.gov
+    address: 2421 Rayburn House Office Building Washington DC 20515-0903
+    office: 2421 Rayburn House Office Building
+    phone: 202-225-5744
+- id:
+    bioguide: F000472
+  name:
+    first: C.
+    middle: Scott
+    last: Franklin
+    official_full: Scott Franklin
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: FL
+    district: 18
+    party: Republican
+    url: https://franklin.house.gov
+    address: 2301 Rayburn House Office Building Washington DC 20515-0918
+    office: 2301 Rayburn House Office Building
+    phone: 202-225-1252
+- id:
+    bioguide: D000032
+  name:
+    first: Byron
+    middle: Lowell
+    last: Donalds
+    official_full: Byron Donalds
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: FL
+    district: 19
+    party: Republican
+    url: https://donalds.house.gov
+    address: 1710 Longworth House Office Building Washington DC 20515-0919
+    office: 1710 Longworth House Office Building
+    phone: 202-225-2536
+- id:
+    bioguide: G000593
+  name:
+    first: Carlos
+    middle: A.
+    last: Gimenez
+    official_full: Carlos A. Gimenez
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: FL
+    district: 28
+    party: Republican
+    url: https://gimenez.house.gov
+    address: 448 Cannon House Office Building Washington DC 20515-0001
+    office: 448 Cannon House Office Building
+    phone: 202-225-2778
+- id:
+    bioguide: S000168
+  name:
+    first: Maria
+    middle: Elvira
+    last: Salazar
+    official_full: Maria Elvira Salazar
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: FL
+    district: 27
+    party: Republican
+    url: https://salazar.house.gov
+    address: 2162 Rayburn House Office Building Washington DC 20515-0927
+    office: 2162 Rayburn House Office Building
+    phone: 202-225-3931
+- id:
+    bioguide: W000788
+  name:
+    first: Nikema
+    middle: Natassha
+    last: Williams
+    official_full: Nikema Williams
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: GA
+    district: 5
+    party: Democrat
+    url: https://nikemawilliams.house.gov
+    address: 1406 Longworth House Office Building Washington DC 20515-1005
+    office: 1406 Longworth House Office Building
+    phone: 202-225-3801
+- id:
+    bioguide: C001116
+  name:
+    first: Andrew
+    middle: S.
+    last: Clyde
+    official_full: Andrew S. Clyde
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: GA
+    district: 9
+    party: Republican
+    url: https://clyde.house.gov
+    address: 445 Cannon House Office Building Washington DC 20515-1009
+    office: 445 Cannon House Office Building
+    phone: 202-225-9893
+- id:
+    bioguide: G000596
+  name:
+    first: Marjorie
+    middle: Taylor
+    last: Greene
+    official_full: Marjorie Taylor Greene
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: GA
+    district: 14
+    party: Republican
+    url: https://greene.house.gov
+    address: 2201 Rayburn House Office Building Washington DC 20515-1014
+    office: 2201 Rayburn House Office Building
+    phone: 202-225-5211
+- id:
+    bioguide: H001091
+  name:
+    first: Ashley
+    last: Hinson
+    official_full: Ashley Hinson
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IA
+    district: 2
+    party: Republican
+    url: https://hinson.house.gov
+    address: 2458 Rayburn House Office Building Washington DC 20515-1502
+    office: 2458 Rayburn House Office Building
+    phone: 202-225-2911
+- id:
+    bioguide: M001215
+  name:
+    first: Mariannette
+    middle: Jane
+    last: Miller-Meeks
+    official_full: Mariannette Miller-Meeks
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IA
+    district: 1
+    party: Republican
+    url: https://millermeeks.house.gov
+    address: 504 Cannon House Office Building Washington DC 20515-1501
+    office: 504 Cannon House Office Building
+    phone: 202-225-6576
+- id:
+    bioguide: F000446
+  name:
+    first: Randy
+    middle: L.
+    last: Feenstra
+    official_full: Randy Feenstra
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IA
+    district: 4
+    party: Republican
+    url: https://feenstra.house.gov
+    address: 2434 Rayburn House Office Building Washington DC 20515-1504
+    office: 2434 Rayburn House Office Building
+    phone: 202-225-4426
+- id:
+    bioguide: M001211
+  name:
+    first: Mary
+    middle: E.
+    last: Miller
+    official_full: Mary E. Miller
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IL
+    district: 15
+    party: Republican
+    url: https://marymiller.house.gov
+    address: 1740 Longworth House Office Building Washington DC 20515-1315
+    office: 1740 Longworth House Office Building
+    phone: 202-225-5271
+- id:
+    bioguide: M001214
+  name:
+    first: Frank
+    middle: John
+    last: Mrvan
+    official_full: Frank J. Mrvan
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IN
+    district: 1
+    party: Democrat
+    url: https://mrvan.house.gov
+    address: 2441 Rayburn House Office Building Washington DC 20515-1401
+    office: 2441 Rayburn House Office Building
+    phone: 202-225-2461
+- id:
+    bioguide: S000929
+  name:
+    first: Victoria
+    last: Spartz
+    official_full: Victoria Spartz
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IN
+    district: 5
+    party: Republican
+    url: https://spartz.house.gov
+    address: 1609 Longworth House Office Building Washington DC 20515-1405
+    office: 1609 Longworth House Office Building
+    phone: 202-225-2276
+- id:
+    bioguide: M000871
+  name:
+    first: Tracey
+    middle: Robert
+    last: Mann
+    official_full: Tracey Mann
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: KS
+    district: 1
+    party: Republican
+    url: https://mann.house.gov
+    address: 344 Cannon House Office Building Washington DC 20515-1601
+    office: 344 Cannon House Office Building
+    phone: 202-225-2715
+- id:
+    bioguide: A000148
+  name:
+    first: Jake
+    middle: Daniel
+    last: Auchincloss
+    official_full: Jake Auchincloss
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MA
+    district: 4
+    party: Democrat
+    url: https://auchincloss.house.gov
+    address: 1524 Longworth House Office Building Washington DC 20515-2104
+    office: 1524 Longworth House Office Building
+    phone: 202-225-5931
+- id:
+    bioguide: M001136
+  name:
+    first: Lisa
+    middle: C.
+    last: McClain
+    official_full: Lisa C. McClain
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MI
+    district: 9
+    party: Republican
+    url: https://mcclain.house.gov
+    address: 562 Cannon House Office Building Washington DC 20515-2209
+    office: 562 Cannon House Office Building
+    phone: 202-225-2106
+- id:
+    bioguide: F000470
+  name:
+    first: Michelle
+    middle: Louise Helene
+    last: Fischbach
+    official_full: Michelle Fischbach
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MN
+    district: 7
+    party: Republican
+    url: https://fischbach.house.gov
+    address: 2229 Rayburn House Office Building Washington DC 20515-2307
+    office: 2229 Rayburn House Office Building
+    phone: 202-225-2165
+- id:
+    bioguide: R000305
+  name:
+    first: Deborah
+    middle: Koff
+    last: Ross
+    official_full: Deborah K. Ross
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NC
+    district: 2
+    party: Democrat
+    url: https://ross.house.gov
+    address: 1221 Longworth House Office Building Washington DC 20515-3302
+    office: 1221 Longworth House Office Building
+    phone: 202-225-3032
+- id:
+    bioguide: L000273
+  name:
+    first: Teresa
+    last: Leger Fernandez
+    official_full: Teresa Leger Fernandez
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NM
+    district: 3
+    party: Democrat
+    url: https://fernandez.house.gov
+    address: 2417 Rayburn House Office Building Washington DC 20515-3103
+    office: 2417 Rayburn House Office Building
+    phone: 202-225-6190
+- id:
+    bioguide: G000597
+  name:
+    first: Andrew
+    middle: R.
+    last: Garbarino
+    official_full: Andrew R. Garbarino
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NY
+    district: 2
+    party: Republican
+    url: https://garbarino.house.gov
+    address: 2344 Rayburn House Office Building Washington DC 20515-3202
+    office: 2344 Rayburn House Office Building
+    phone: 202-225-7896
+- id:
+    bioguide: M000317
+  name:
+    first: Nicole
+    last: Malliotakis
+    official_full: Nicole Malliotakis
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NY
+    district: 11
+    party: Republican
+    url: https://malliotakis.house.gov
+    address: 1124 Longworth House Office Building Washington DC 20515-3211
+    office: 1124 Longworth House Office Building
+    phone: 202-225-3371
+- id:
+    bioguide: T000486
+  name:
+    first: Ritchie
+    middle: John
+    last: Torres
+    official_full: Ritchie Torres
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NY
+    district: 15
+    party: Democrat
+    url: https://ritchietorres.house.gov
+    address: 1414 Longworth House Office Building Washington DC 20515-3215
+    office: 1414 Longworth House Office Building
+    phone: 202-225-4361
+- id:
+    bioguide: B000740
+  name:
+    first: Stephanie
+    middle: I.
+    last: Bice
+    official_full: Stephanie I. Bice
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: OK
+    district: 5
+    party: Republican
+    url: https://bice.house.gov
+    address: 2402 Rayburn House Office Building Washington DC 20515-3605
+    office: 2402 Rayburn House Office Building
+    phone: 202-225-2132
+- id:
+    bioguide: B000668
+  name:
+    first: Cliff
+    middle: Stewart
+    last: Bentz
+    official_full: Cliff Bentz
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: OR
+    district: 2
+    party: Republican
+    url: https://bentz.house.gov
+    address: 409 Cannon House Office Building Washington DC 20515-3702
+    office: 409 Cannon House Office Building
+    phone: 202-225-6730
+    fax: 202-225-5774
+- id:
+    bioguide: M000194
+  name:
+    first: Nancy
+    middle: Ruth
+    last: Mace
+    official_full: Nancy Mace
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: SC
+    district: 1
+    party: Republican
+    url: https://mace.house.gov
+    address: 1728 Longworth House Office Building Washington DC 20515-4001
+    office: 1728 Longworth House Office Building
+    phone: 202-225-3176
+- id:
+    bioguide: H001086
+  name:
+    first: Diana
+    last: Harshbarger
+    official_full: Diana Harshbarger
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TN
+    district: 1
+    party: Republican
+    url: https://harshbarger.house.gov
+    address: 167 Cannon House Office Building Washington DC 20515-4201
+    office: 167 Cannon House Office Building
+    phone: 202-225-6356
+- id:
+    bioguide: F000246
+  name:
+    first: Patrick
+    middle: Edward
+    nickname: Pat
+    last: Fallon
+    official_full: Pat Fallon
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 4
+    party: Republican
+    url: https://fallon.house.gov
+    address: 2416 Rayburn House Office Building Washington DC 20515-4304
+    office: 2416 Rayburn House Office Building
+    phone: 202-225-6673
+- id:
+    bioguide: P000048
+  name:
+    first: August
+    middle: Lee
+    last: Pfluger
+    suffix: II
+    official_full: August Pfluger
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 11
+    party: Republican
+    url: https://pfluger.house.gov
+    address: 2202 Rayburn House Office Building Washington DC 20515-4311
+    office: 2202 Rayburn House Office Building
+    phone: 202-225-3605
+- id:
+    bioguide: J000304
+  name:
+    first: Ronny
+    middle: Lynn
+    last: Jackson
+    official_full: Ronny Jackson
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 13
+    party: Republican
+    url: https://jackson.house.gov
+    address: 125 Cannon House Office Building Washington DC 20515-4313
+    office: 125 Cannon House Office Building
+    phone: 202-225-3706
+- id:
+    bioguide: N000026
+  name:
+    first: Troy
+    middle: E.
+    last: Nehls
+    official_full: Troy E. Nehls
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 22
+    party: Republican
+    url: https://nehls.house.gov
+    address: 1104 Longworth House Office Building Washington DC 20515-4322
+    office: 1104 Longworth House Office Building
+    phone: 202-225-5951
+- id:
+    bioguide: G000594
+  name:
+    first: Ernest
+    middle: Anthony
+    nickname: Tony
+    last: Gonzales
+    official_full: Tony Gonzales
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 23
+    party: Republican
+    url: https://gonzales.house.gov
+    address: 2239 Rayburn House Office Building Washington DC 20515-4323
+    office: 2239 Rayburn House Office Building
+    phone: 202-225-4511
+- id:
+    bioguide: V000134
+  name:
+    first: Beth
+    middle: Ann
+    last: Van Duyne
+    official_full: Beth Van Duyne
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 24
+    party: Republican
+    url: https://vanduyne.house.gov
+    address: 1725 Longworth House Office Building Washington DC 20515-4324
+    office: 1725 Longworth House Office Building
+    phone: 202-225-6605
+- id:
+    bioguide: M001213
+  name:
+    first: Blake
+    middle: David
+    last: Moore
+    official_full: Blake D. Moore
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: UT
+    district: 1
+    party: Republican
+    url: https://blakemoore.house.gov
+    address: 1131 Longworth House Office Building Washington DC 20515-4401
+    office: 1131 Longworth House Office Building
+    phone: 202-225-0453
+- id:
+    bioguide: O000086
+  name:
+    first: Clarence
+    nickname: Burgess
+    last: Owens
+    official_full: Burgess Owens
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: UT
+    district: 4
+    party: Republican
+    url: https://owens.house.gov
+    address: 309 Cannon House Office Building Washington DC 20515-4404
+    office: 309 Cannon House Office Building
+    phone: 202-225-3011
+- id:
+    bioguide: S001159
+  name:
+    first: Marilyn
+    last: Strickland
+    official_full: Marilyn Strickland
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: WA
+    district: 10
+    party: Democrat
+    url: https://strickland.house.gov
+    address: 1724 Longworth House Office Building Washington DC 20515-4710
+    office: 1724 Longworth House Office Building
+    phone: 202-225-9740
+- id:
+    bioguide: F000471
+  name:
+    first: Scott
+    middle: L.
+    last: Fitzgerald
+    official_full: Scott Fitzgerald
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: WI
+    district: 5
+    party: Republican
+    url: https://fitzgerald.house.gov
+    address: 2444 Rayburn House Office Building Washington DC 20515-4905
+    office: 2444 Rayburn House Office Building
+    phone: 202-225-5101
+- id:
+    bioguide: T000478
+  name:
+    first: Claudia
+    last: Tenney
+    official_full: Claudia Tenney
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NY
+    district: 24
+    party: Republican
+    url: https://tenney.house.gov
+    address: 2230 Rayburn House Office Building Washington DC 20515-3224
+    office: 2230 Rayburn House Office Building
+    phone: 202-225-3665
+- id:
+    bioguide: L000595
+  name:
+    first: Julia
+    last: Letlow
+    official_full: Julia Letlow
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: LA
+    district: 5
+    party: Republican
+    url: https://letlow.house.gov
+    address: 142 Cannon House Office Building Washington DC 20515-1805
+    office: 142 Cannon House Office Building
+    phone: 202-225-8490
+- id:
+    bioguide: C001125
+  name:
+    first: Troy
+    middle: Anthony
+    last: Carter
+    official_full: Troy A. Carter
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: LA
+    district: 2
+    party: Democrat
+    url: https://troycarter.house.gov
+    address: 442 Cannon House Office Building Washington DC 20515-1802
+    office: 442 Cannon House Office Building
+    phone: 202-225-6636
+- id:
+    bioguide: S001218
+  name:
+    first: Melanie
+    middle: Ann
+    last: Stansbury
+    official_full: Melanie A. Stansbury
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NM
+    district: 1
+    party: Democrat
+    url: https://stansbury.house.gov
+    address: 1421 Longworth House Office Building Washington DC 20515-3101
+    office: 1421 Longworth House Office Building
+    phone: 202-225-6316
+- id:
+    bioguide: E000071
+  name:
+    first: Jake
+    last: Ellzey
+    official_full: Jake Ellzey
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 6
+    party: Republican
+    url: https://ellzey.house.gov
+    address: 1721 Longworth House Office Building Washington DC 20515-4306
+    office: 1721 Longworth House Office Building
+    phone: 202-225-2002
+- id:
+    bioguide: B001313
+  name:
+    first: Shontel
+    middle: M.
+    last: Brown
+    official_full: Shontel M. Brown
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: OH
+    district: 11
+    party: Democrat
+    url: https://shontelbrown.house.gov
+    address: 2455 Rayburn House Office Building Washington DC 20515-3511
+    office: 2455 Rayburn House Office Building
+    phone: 202-225-7032
+- id:
+    bioguide: C001126
+  name:
+    first: Mike
+    last: Carey
+    official_full: Mike Carey
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: OH
+    district: 15
+    party: Republican
+    url: https://carey.house.gov
+    address: 1433 Longworth House Office Building Washington DC 20515-3515
+    office: 1433 Longworth House Office Building
+    phone: 202-225-2015
+- id:
+    bioguide: C001127
+  name:
+    first: Sheila
+    last: Cherfilus-McCormick
+    official_full: Sheila Cherfilus-McCormick
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: FL
+    district: 20
+    party: Democrat
+    url: https://cherfilus-mccormick.house.gov
+    address: 2442 Rayburn House Office Building Washington DC 20515-0920
+    office: 2442 Rayburn House Office Building
+    phone: 202-225-1313
+- id:
+    bioguide: F000474
+  name:
+    first: Mike
+    last: Flood
+    official_full: Mike Flood
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NE
+    district: 1
+    party: Republican
+    url: https://flood.house.gov
+    address: 343 Cannon House Office Building Washington DC 20515-2701
+    office: 343 Cannon House Office Building
+    phone: 202-225-4806
+- id:
+    bioguide: F000475
+  name:
+    first: Brad
+    last: Finstad
+    official_full: Brad Finstad
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MN
+    district: 1
+    party: Republican
+    url: https://finstad.house.gov
+    address: 2418 Rayburn House Office Building Washington DC 20515-2301
+    office: 2418 Rayburn House Office Building
+    phone: 202-225-2472
+- id:
+    bioguide: R000579
+  name:
+    first: Patrick
+    last: Ryan
+    official_full: Patrick Ryan
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NY
+    district: 18
+    party: Democrat
+    url: https://patryan.house.gov
+    address: 1708 Longworth House Office Building Washington DC 20515-3218
+    office: 1708 Longworth House Office Building
+    phone: 202-225-5614
+- id:
+    bioguide: Y000067
+  name:
+    first: Rudy
+    last: Yakym
+    official_full: Rudy Yakym III
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IN
+    district: 2
+    party: Republican
+    url: https://yakym.house.gov
+    address: 349 Cannon House Office Building Washington DC 20515-1402
+    office: 349 Cannon House Office Building
+    phone: 202-225-3915
+- id:
+    bioguide: Z000018
+  name:
+    first: Ryan
+    last: Zinke
+    official_full: Ryan K. Zinke
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MT
+    district: 1
+    party: Republican
+    url: https://zinke.house.gov
+    address: 512 Cannon House Office Building Washington DC 20515-2600
+    office: 512 Cannon House Office Building
+    phone: 202-225-5628
+- id:
+    bioguide: S001220
+  name:
+    first: Dale
+    last: Strong
+    official_full: Dale W. Strong
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: AL
+    district: 5
+    party: Republican
+    url: https://strong.house.gov
+    address: 449 Cannon House Office Building Washington DC 20515-0105
+    office: 449 Cannon House Office Building
+    phone: 202-225-4801
+- id:
+    bioguide: C001132
+  name:
+    first: Eli
+    last: Crane
+    official_full: Elijah Crane
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: AZ
+    district: 2
+    party: Republican
+    url: https://crane.house.gov
+    address: 307 Cannon House Office Building Washington DC 20515-0302
+    office: 307 Cannon House Office Building
+    phone: 202-225-3361
+- id:
+    bioguide: C001133
+  name:
+    first: Juan
+    middle: Guadaloupe
+    last: Ciscomani
+    official_full: Juan Ciscomani
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: AZ
+    district: 6
+    party: Republican
+    url: https://ciscomani.house.gov
+    address: 461 Cannon House Office Building Washington DC 20515-0306
+    office: 461 Cannon House Office Building
+    phone: 202-225-2542
+- id:
+    bioguide: K000401
+  name:
+    first: Kevin
+    middle: Patrick
+    last: Kiley
+    official_full: Kevin Kiley
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 3
+    party: Republican
+    url: https://kiley.house.gov
+    address: 2445 Rayburn House Office Building Washington DC 20515-0503
+    office: 2445 Rayburn House Office Building
+    phone: 202-225-2523
+- id:
+    bioguide: M001225
+  name:
+    first: Kevin
+    last: Mullin
+    official_full: Kevin Mullin
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 15
+    party: Democrat
+    url: https://kevinmullin.house.gov
+    address: 1404 Longworth House Office Building Washington DC 20515-0515
+    office: 1404 Longworth House Office Building
+    phone: 202-225-3531
+- id:
+    bioguide: K000400
+  name:
+    first: Sydney
+    middle: Kai
+    last: Kamlager-Dove
+    official_full: Sydney Kamlager-Dove
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 37
+    party: Democrat
+    url: https://kamlager-dove.house.gov
+    address: 144 Cannon House Office Building Washington DC 20515-0537
+    office: 144 Cannon House Office Building
+    phone: 202-225-7084
+- id:
+    bioguide: G000598
+  name:
+    first: Robert
+    middle: Julio
+    last: Garcia
+    official_full: Robert Garcia
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 42
+    party: Democrat
+    url: https://robertgarcia.house.gov
+    address: 109 Cannon House Office Building Washington DC 20515-0542
+    office: 109 Cannon House Office Building
+    phone: 202-225-7924
+- id:
+    bioguide: P000620
+  name:
+    first: Brittany
+    middle: Louise
+    last: Pettersen
+    official_full: Brittany Pettersen
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CO
+    district: 7
+    party: Democrat
+    url: https://pettersen.house.gov
+    address: 348 Cannon House Office Building Washington DC 20515-0607
+    office: 348 Cannon House Office Building
+    phone: 202-225-2645
+- id:
+    bioguide: B001314
+  name:
+    first: Aaron
+    middle: Paul
+    last: Bean
+    official_full: Aaron Bean
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: FL
+    district: 4
+    party: Republican
+    url: https://bean.house.gov
+    address: 2459 Rayburn House Office Building Washington DC 20515-0904
+    office: 2459 Rayburn House Office Building
+    phone: 202-225-0123
+- id:
+    bioguide: M001216
+  name:
+    first: Cory
+    last: Mills
+    official_full: Cory Mills
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: FL
+    district: 7
+    party: Republican
+    url: https://mills.house.gov
+    address: 346 Cannon House Office Building Washington DC 20515-0907
+    office: 346 Cannon House Office Building
+    phone: 202-225-4035
+- id:
+    bioguide: F000476
+  name:
+    first: Maxwell
+    middle: Alejandro
+    last: Frost
+    official_full: Maxwell Frost
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: FL
+    district: 10
+    party: Democrat
+    url: https://frost.house.gov
+    address: 1224 Longworth House Office Building Washington DC 20515-0910
+    office: 1224 Longworth House Office Building
+    phone: 202-225-2176
+- id:
+    bioguide: L000596
+  name:
+    first: Anna
+    middle: Paulina
+    last: Luna
+    official_full: Anna Paulina Luna
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: FL
+    district: 13
+    party: Republican
+    url: https://luna.house.gov
+    address: 226 Cannon House Office Building Washington DC 20515-0913
+    office: 226 Cannon House Office Building
+    phone: 202-225-5961
+- id:
+    bioguide: L000597
+  name:
+    first: Laurel
+    middle: Frances
+    last: Lee
+    official_full: Laurel M. Lee
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: FL
+    district: 15
+    party: Republican
+    url: https://laurellee.house.gov
+    address: 2464 Rayburn House Office Building Washington DC 20515-0915
+    office: 2464 Rayburn House Office Building
+    phone: 202-225-5626
+- id:
+    bioguide: M001217
+  name:
+    first: Jared
+    middle: Evan
+    last: Moskowitz
+    official_full: Jared Moskowitz
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: FL
+    district: 23
+    party: Democrat
+    url: https://moskowitz.house.gov
+    address: 242 Cannon House Office Building Washington DC 20515-0923
+    office: 242 Cannon House Office Building
+    phone: 202-225-3001
+- id:
+    bioguide: M001218
+  name:
+    first: Rich
+    middle: Dean
+    last: McCormick
+    official_full: Richard McCormick
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: GA
+    district: 7
+    party: Republican
+    url: https://mccormick.house.gov
+    address: 1719 Longworth House Office Building Washington DC 20515-1007
+    office: 1719 Longworth House Office Building
+    phone: 202-225-4272
+- id:
+    bioguide: C001129
+  name:
+    first: Mike
+    middle: Allen
+    last: Collins
+    suffix: Jr.
+    official_full: Mike Collins
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: GA
+    district: 10
+    party: Republican
+    url: https://collins.house.gov
+    address: 2351 Rayburn House Office Building Washington DC 20515-1010
+    office: 2351 Rayburn House Office Building
+    phone: 202-225-4101
+- id:
+    bioguide: M001219
+  name:
+    first: James (Jim)
+    middle: Camacho
+    last: Moylan
+    official_full: James C. Moylan
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: GU
+    district: 0
+    party: Republican
+    url: https://moylan.house.gov
+    address: 228 Cannon House Office Building Washington DC 20515-5301
+    office: 228 Cannon House Office Building
+    phone: 202-225-1188
+- id:
+    bioguide: T000487
+  name:
+    first: Jill
+    middle: Naomi
+    last: Tokuda
+    official_full: Jill N. Tokuda
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: HI
+    district: 2
+    party: Democrat
+    url: https://tokuda.house.gov
+    address: 1027 Longworth House Office Building Washington DC 20515-1102
+    office: 1027 Longworth House Office Building
+    phone: 202-225-4906
+- id:
+    bioguide: N000193
+  name:
+    first: Zachary (Zach)
+    middle: Martin
+    last: Nunn
+    official_full: Zachary Nunn
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IA
+    district: 3
+    party: Republican
+    url: https://nunn.house.gov
+    address: 1410 Longworth House Office Building Washington DC 20515-1503
+    office: 1410 Longworth House Office Building
+    phone: 202-225-5476
+- id:
+    bioguide: J000309
+  name:
+    first: Jonathan
+    middle: Luther
+    last: Jackson
+    official_full: Jonathan L. Jackson
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IL
+    district: 1
+    party: Democrat
+    url: https://jonathanjackson.house.gov
+    address: 1632 Longworth House Office Building Washington DC 20515-1301
+    office: 1632 Longworth House Office Building
+    phone: 202-225-4372
+- id:
+    bioguide: R000617
+  name:
+    first: Delia
+    middle: Catalina
+    last: Ramirez
+    official_full: Delia C. Ramirez
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IL
+    district: 3
+    party: Democrat
+    url: https://ramirez.house.gov
+    address: 1523 Longworth House Office Building Washington DC 20515-1303
+    office: 1523 Longworth House Office Building
+    phone: 202-225-5701
+- id:
+    bioguide: B001315
+  name:
+    first: Nicole (Nikki)
+    middle: Jai
+    last: Budzinski
+    official_full: Nikki Budzinski
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IL
+    district: 13
+    party: Democrat
+    url: https://budzinski.house.gov
+    address: 1717 Longworth House Office Building Washington DC 20515-1313
+    office: 1717 Longworth House Office Building
+    phone: 202-225-2371
+- id:
+    bioguide: S001225
+  name:
+    first: Eric
+    last: Sorensen
+    official_full: Eric Sorensen
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IL
+    district: 17
+    party: Democrat
+    url: https://sorensen.house.gov
+    address: 1314 Longworth House Office Building Washington DC 20515-1317
+    office: 1314 Longworth House Office Building
+    phone: 202-225-5905
+- id:
+    bioguide: H001093
+  name:
+    first: Erin
+    middle: Suzanne
+    last: Houchin
+    official_full: Erin Houchin
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IN
+    district: 9
+    party: Republican
+    url: https://houchin.house.gov
+    address: 342 Cannon House Office Building Washington DC 20515-1409
+    office: 342 Cannon House Office Building
+    phone: 202-225-5315
+- id:
+    bioguide: M001220
+  name:
+    first: Morgan
+    last: McGarvey
+    official_full: Morgan McGarvey
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: KY
+    district: 3
+    party: Democrat
+    url: https://mcgarvey.house.gov
+    address: 1527 Longworth House Office Building Washington DC 20515-1703
+    office: 1527 Longworth House Office Building
+    phone: 202-225-5401
+- id:
+    bioguide: I000058
+  name:
+    first: Glenn
+    middle: Frederick
+    last: Ivey
+    official_full: Glenn Ivey
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MD
+    district: 4
+    party: Democrat
+    url: https://ivey.house.gov
+    address: 1610 Longworth House Office Building Washington DC 20515-2004
+    office: 1610 Longworth House Office Building
+    phone: 202-225-8699
+- id:
+    bioguide: S001221
+  name:
+    first: Hillary
+    middle: Jeanne
+    last: Scholten
+    official_full: Hillary J. Scholten
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MI
+    district: 3
+    party: Democrat
+    url: https://scholten.house.gov
+    address: 1317 Longworth House Office Building Washington DC 20515-2203
+    office: 1317 Longworth House Office Building
+    phone: 202-225-3831
+- id:
+    bioguide: J000307
+  name:
+    first: John
+    middle: Edwards
+    last: James
+    official_full: John James
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MI
+    district: 10
+    party: Republican
+    url: https://james.house.gov
+    address: 1519 Longworth House Office Building Washington DC 20515-2210
+    office: 1519 Longworth House Office Building
+    phone: 202-225-4961
+- id:
+    bioguide: T000488
+  name:
+    first: Shri
+    last: Thanedar
+    official_full: Shri Thanedar
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MI
+    district: 13
+    party: Democrat
+    url: https://thanedar.house.gov
+    address: 154 Cannon House Office Building Washington DC 20515-2213
+    office: 154 Cannon House Office Building
+    phone: 202-225-5802
+- id:
+    bioguide: A000379
+  name:
+    first: Mark
+    middle: Allen
+    last: Alford
+    official_full: Mark Alford
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MO
+    district: 4
+    party: Republican
+    url: https://alford.house.gov
+    address: 328 Cannon House Office Building Washington DC 20515-2504
+    office: 328 Cannon House Office Building
+    phone: 202-225-2876
+- id:
+    bioguide: B001316
+  name:
+    first: Eric
+    middle: Wayne
+    last: Burlison
+    official_full: Eric Burlison
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MO
+    district: 7
+    party: Republican
+    url: https://burlison.house.gov
+    address: 1108 Longworth House Office Building Washington DC 20515-2507
+    office: 1108 Longworth House Office Building
+    phone: 202-225-6536
+- id:
+    bioguide: E000235
+  name:
+    first: Mike
+    last: Ezell
+    official_full: Mike Ezell
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MS
+    district: 4
+    party: Republican
+    url: https://ezell.house.gov
+    address: 443 Cannon House Office Building Washington DC 20515-2404
+    office: 443 Cannon House Office Building
+    phone: 202-225-5772
+- id:
+    bioguide: D000230
+  name:
+    first: Donald
+    middle: Gene
+    last: Davis
+    official_full: Donald G. Davis
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NC
+    district: 1
+    party: Democrat
+    url: https://dondavis.house.gov
+    address: 1123 Longworth House Office Building Washington DC 20515-3301
+    office: 1123 Longworth House Office Building
+    phone: 202-225-3101
+- id:
+    bioguide: F000477
+  name:
+    first: Valerie
+    middle: Jean
+    last: Foushee
+    official_full: Valerie P. Foushee
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NC
+    district: 4
+    party: Democrat
+    url: https://foushee.house.gov
+    address: 2452 Rayburn House Office Building Washington DC 20515-3304
+    office: 2452 Rayburn House Office Building
+    phone: 202-225-1784
+- id:
+    bioguide: E000246
+  name:
+    first: Charles (Chuck)
+    middle: Marion
+    last: Edwards
+    official_full: Chuck Edwards
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NC
+    district: 11
+    party: Republican
+    url: https://edwards.house.gov
+    address: 1505 Longworth House Office Building Washington DC 20515-3311
+    office: 1505 Longworth House Office Building
+    phone: 202-225-6401
+- id:
+    bioguide: K000398
+  name:
+    first: Thomas
+    middle: Howard
+    last: Kean
+    suffix: Jr.
+    official_full: Thomas H. Kean, Jr.
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NJ
+    district: 7
+    party: Republican
+    url: https://kean.house.gov
+    address: 251 Cannon House Office Building Washington DC 20515-3007
+    office: 251 Cannon House Office Building
+    phone: 202-225-5361
+- id:
+    bioguide: M001226
+  name:
+    first: Robert
+    middle: Jacobsen
+    last: Menendez
+    suffix: Jr.
+    official_full: Robert Menendez
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NJ
+    district: 8
+    party: Democrat
+    url: https://menendez.house.gov
+    address: 2453 Rayburn House Office Building Washington DC 20515-3008
+    office: 2453 Rayburn House Office Building
+    phone: 202-225-7919
+- id:
+    bioguide: V000136
+  name:
+    first: Gabriel (Gabe)
+    last: Vasquez
+    official_full: Gabe Vasquez
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NM
+    district: 2
+    party: Democrat
+    url: https://vasquez.house.gov
+    address: 322 Cannon House Office Building Washington DC 20515-3102
+    office: 322 Cannon House Office Building
+    phone: 202-225-2365
+- id:
+    bioguide: L000598
+  name:
+    first: Nicolas
+    middle: Joseph
+    last: LaLota
+    official_full: Nick LaLota
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NY
+    district: 1
+    party: Republican
+    url: https://lalota.house.gov
+    address: 122 Cannon House Office Building Washington DC 20515-3201
+    office: 122 Cannon House Office Building
+    phone: 202-225-3826
+- id:
+    bioguide: G000599
+  name:
+    first: Dan
+    middle: Sachs
+    last: Goldman
+    official_full: Daniel S. Goldman
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NY
+    district: 10
+    party: Democrat
+    url: https://goldman.house.gov
+    address: 245 Cannon House Office Building Washington DC 20515-3210
+    office: 245 Cannon House Office Building
+    phone: 202-225-7944
+- id:
+    bioguide: L000599
+  name:
+    first: Michael
+    middle: Vincent
+    last: Lawler
+    official_full: Michael Lawler
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NY
+    district: 17
+    party: Republican
+    url: https://lawler.house.gov
+    address: 324 Cannon House Office Building Washington DC 20515-3217
+    office: 324 Cannon House Office Building
+    phone: 202-225-6506
+- id:
+    bioguide: L000600
+  name:
+    first: Nicholas
+    middle: A.
+    last: Langworthy
+    official_full: Nicholas A. Langworthy
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NY
+    district: 23
+    party: Republican
+    url: https://langworthy.house.gov
+    address: 422 Cannon House Office Building Washington DC 20515-3223
+    office: 422 Cannon House Office Building
+    phone: 202-225-3161
+- id:
+    bioguide: L000601
+  name:
+    first: Greg
+    middle: John
+    last: Landsman
+    official_full: Greg Landsman
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: OH
+    district: 1
+    party: Democrat
+    url: https://landsman.house.gov
+    address: 2244 Rayburn House Office Building Washington DC 20515-3501
+    office: 2244 Rayburn House Office Building
+    phone: 202-225-2216
+- id:
+    bioguide: M001222
+  name:
+    first: Max
+    middle: Leonard
+    last: Miller
+    official_full: Max L. Miller
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: OH
+    district: 7
+    party: Republican
+    url: https://maxmiller.house.gov
+    address: 143 Cannon House Office Building Washington DC 20515-3507
+    office: 143 Cannon House Office Building
+    phone: 202-225-3876
+- id:
+    bioguide: S001223
+  name:
+    first: Emilia
+    middle: Strong
+    last: Sykes
+    official_full: Emilia Strong Sykes
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: OH
+    district: 13
+    party: Democrat
+    url: https://sykes.house.gov
+    address: 1217 Longworth House Office Building Washington DC 20515-3513
+    office: 1217 Longworth House Office Building
+    phone: 202-225-6265
+- id:
+    bioguide: B001317
+  name:
+    first: Josh
+    middle: Chad
+    last: Brecheen
+    official_full: Josh Brecheen
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: OK
+    district: 2
+    party: Republican
+    url: https://brecheen.house.gov
+    address: 351 Cannon House Office Building Washington DC 20515-3602
+    office: 351 Cannon House Office Building
+    phone: 202-225-2701
+- id:
+    bioguide: H001094
+  name:
+    first: Valerie
+    middle: Anne
+    last: Hoyle
+    official_full: Val T. Hoyle
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: OR
+    district: 4
+    party: Democrat
+    url: https://hoyle.house.gov
+    address: 1620 Longworth House Office Building Washington DC 20515-3704
+    office: 1620 Longworth House Office Building
+    phone: 202-225-6416
+- id:
+    bioguide: S001226
+  name:
+    first: Andrea
+    middle: Rose
+    last: Salinas
+    official_full: Andrea Salinas
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: OR
+    district: 6
+    party: Democrat
+    url: https://salinas.house.gov
+    address: 403 Cannon House Office Building Washington DC 20515-0001
+    office: 403 Cannon House Office Building
+    phone: 202-225-5643
+- id:
+    bioguide: L000602
+  name:
+    first: Summer
+    middle: Lynn
+    last: Lee
+    official_full: Summer L. Lee
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: PA
+    district: 12
+    party: Democrat
+    url: https://summerlee.house.gov
+    address: 2437 Rayburn House Office Building Washington DC 20515-3812
+    office: 2437 Rayburn House Office Building
+    phone: 202-225-2135
+- id:
+    bioguide: D000530
+  name:
+    first: Chris
+    middle: Raphael
+    last: Deluzio
+    official_full: Christopher R. Deluzio
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: PA
+    district: 17
+    party: Democrat
+    url: https://deluzio.house.gov
+    address: 1222 Longworth House Office Building Washington DC 20515-3817
+    office: 1222 Longworth House Office Building
+    phone: 202-225-2301
+- id:
+    bioguide: M001223
+  name:
+    first: Seth
+    middle: Michael
+    last: Magaziner
+    official_full: Seth Magaziner
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: RI
+    district: 2
+    party: Democrat
+    url: https://magaziner.house.gov
+    address: 252 Cannon House Office Building Washington DC 20515-3902
+    office: 252 Cannon House Office Building
+    phone: 202-225-2735
+- id:
+    bioguide: F000478
+  name:
+    first: Russell
+    middle: William
+    last: Fry
+    official_full: Russell Fry
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: SC
+    district: 7
+    party: Republican
+    url: https://fry.house.gov
+    address: 345 Cannon House Office Building Washington DC 20515-4007
+    office: 345 Cannon House Office Building
+    phone: 202-225-9895
+- id:
+    bioguide: O000175
+  name:
+    first: Andrew
+    last: Ogles
+    suffix: IV
+    official_full: Andrew Ogles
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TN
+    district: 5
+    party: Republican
+    url: https://ogles.house.gov
+    address: 151 Cannon House Office Building Washington DC 20515-4205
+    office: 151 Cannon House Office Building
+    phone: 202-225-4311
+- id:
+    bioguide: M001224
+  name:
+    first: Nathaniel
+    middle: Quentin
+    last: Moran
+    official_full: Nathaniel Moran
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 1
+    party: Republican
+    url: https://moran.house.gov
+    address: 1605 Longworth House Office Building Washington DC 20515-4301
+    office: 1605 Longworth House Office Building
+    phone: 202-225-3035
+- id:
+    bioguide: S001224
+  name:
+    first: Keith
+    middle: Alan
+    last: Self
+    official_full: Keith Self
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 3
+    party: Republican
+    url: https://keithself.house.gov
+    address: 1030 Longworth House Office Building Washington DC 20515-4303
+    office: 1030 Longworth House Office Building
+    phone: 202-225-4201
+- id:
+    bioguide: L000603
+  name:
+    first: Morgan
+    middle: Joe
+    last: Luttrell
+    official_full: Morgan Luttrell
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 8
+    party: Republican
+    url: https://luttrell.house.gov
+    address: 444 Cannon House Office Building Washington DC 20515-4308
+    office: 444 Cannon House Office Building
+    phone: 202-225-4901
+- id:
+    bioguide: D000594
+  name:
+    first: Mónica
+    last: De La Cruz
+    official_full: Monica De La Cruz
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 15
+    party: Republican
+    url: https://delacruz.house.gov
+    address: 1415 Longworth House Office Building Washington DC 20515-4315
+    office: 1415 Longworth House Office Building
+    phone: 202-225-9901
+- id:
+    bioguide: C001130
+  name:
+    first: Jasmine
+    middle: Felicia
+    last: Crockett
+    official_full: Jasmine Crockett
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 30
+    party: Democrat
+    url: https://crockett.house.gov
+    address: 1616 Longworth House Office Building Washington DC 20515-4330
+    office: 1616 Longworth House Office Building
+    phone: 202-225-8885
+- id:
+    bioguide: C001131
+  name:
+    first: Gregorio
+    middle: Eduardo
+    last: Casar
+    official_full: Greg Casar
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 35
+    party: Democrat
+    url: https://casar.house.gov
+    address: 446 Cannon House Office Building Washington DC 20515-4335
+    office: 446 Cannon House Office Building
+    phone: 202-225-5645
+- id:
+    bioguide: H001095
+  name:
+    first: Wesley
+    middle: Parish
+    last: Hunt
+    official_full: Wesley Hunt
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 38
+    party: Republican
+    url: https://hunt.house.gov
+    address: 1520 Longworth House Office Building Washington DC 20515-0001
+    office: 1520 Longworth House Office Building
+    phone: 202-225-5646
+- id:
+    bioguide: K000399
+  name:
+    first: Jennifer
+    middle: Ann
+    last: Kiggans
+    official_full: Jennifer A. Kiggans
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: VA
+    district: 2
+    party: Republican
+    url: https://kiggans.house.gov
+    address: 152 Cannon House Office Building Washington DC 20515-4602
+    office: 152 Cannon House Office Building
+    phone: 202-225-4215
+- id:
+    bioguide: B001318
+  name:
+    first: Becca
+    middle: A.
+    last: Balint
+    official_full: Becca Balint
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: VT
+    district: 0
+    party: Democrat
+    url: https://balint.house.gov
+    address: 1510 Longworth House Office Building Washington DC 20515-4500
+    office: 1510 Longworth House Office Building
+    phone: 202-225-4115
+- id:
+    bioguide: G000600
+  name:
+    first: Marie
+    last: Gluesenkamp Perez
+    official_full: Marie Gluesenkamp Perez
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: WA
+    district: 3
+    party: Democrat
+    url: https://gluesenkampperez.house.gov
+    address: 1431 Longworth House Office Building Washington DC 20515-4703
+    office: 1431 Longworth House Office Building
+    phone: 202-225-3536
+- id:
+    bioguide: V000135
+  name:
+    first: Derrick
+    middle: Francis
+    last: Van Orden
+    official_full: Derrick Van Orden
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: WI
+    district: 3
+    party: Republican
+    url: https://vanorden.house.gov
+    address: 1513 Longworth House Office Building Washington DC 20515-4903
+    office: 1513 Longworth House Office Building
+    phone: 202-225-5506
+- id:
+    bioguide: H001096
+  name:
+    first: Harriet
+    middle: Maxine
+    last: Hageman
+    official_full: Harriet M. Hageman
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: WY
+    district: 0
+    party: Republican
+    url: https://hageman.house.gov
+    address: 1227 Longworth House Office Building Washington DC 20515-5000
+    office: 1227 Longworth House Office Building
+    phone: 202-225-2311
+- id:
+    bioguide: M001227
+  name:
+    first: Jennifer
+    last: McClellan
+    official_full: Jennifer L. McClellan
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: VA
+    district: 4
+    party: Democrat
+    url: https://mcclellan.house.gov
+    address: 1628 Longworth House Office Building Washington DC 20515-4604
+    office: 1628 Longworth House Office Building
+    phone: 202-225-6365
+- id:
+    bioguide: A000380
+  name:
+    first: Gabe
+    last: Amo
+    official_full: Gabe Amo
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: RI
+    district: 1
+    party: Democrat
+    url: https://amo.house.gov
+    address: 1119 Longworth House Office Building Washington DC 20515-3901
+    office: 1119 Longworth House Office Building
+    phone: 202-225-4911
+- id:
+    bioguide: M001228
+  name:
+    first: Celeste
+    last: Maloy
+    official_full: Celeste Maloy
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: UT
+    district: 2
+    party: Republican
+    url: https://maloy.house.gov
+    address: 249 Cannon House Office Building Washington DC 20515-4402
+    office: 249 Cannon House Office Building
+    phone: 202-225-9730
+- id:
+    bioguide: S001201
+  name:
+    first: Thomas
+    middle: R.
+    last: Suozzi
+    official_full: Thomas R. Suozzi
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NY
+    district: 3
+    party: Democrat
+    url: https://suozzi.house.gov
+    address: 203 Cannon House Office Building Washington DC 20515-3203
+    office: 203 Cannon House Office Building
+    phone: 202-225-3335
+- id:
+    bioguide: K000402
+  name:
+    first: Timothy
+    last: Kennedy
+    official_full: Timothy M. Kennedy
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NY
+    district: 26
+    party: Democrat
+    url: https://kennedy.house.gov
+    address: 423 Cannon House Office Building Washington DC 20515-3226
+    office: 423 Cannon House Office Building
+    phone: 202-225-3306
+- id:
+    bioguide: F000480
+  name:
+    first: Vince
+    last: Fong
+    official_full: Vince Fong
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 20
+    party: Republican
+    url: https://fong.house.gov
+    address: 243 Cannon House Office Building Washington DC 20515-0520
+    office: 243 Cannon House Office Building
+    phone: 202-225-2915
+- id:
+    bioguide: R000619
+  name:
+    first: Michael
+    middle: A.
+    last: Rulli
+    official_full: Michael A. Rulli
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: OH
+    district: 6
+    party: Republican
+    url: https://rulli.house.gov
+    address: 421 Cannon House Office Building Washington DC 20515-3506
+    office: 421 Cannon House Office Building
+    phone: 202-225-5705
+- id:
+    bioguide: M001229
+  name:
+    first: LaMonica
+    last: McIver
+    official_full: LaMonica McIver
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NJ
+    district: 10
+    party: Democrat
+    url: https://mciver.house.gov
+    address: 426 Cannon House Office Building Washington DC 20515-3010
+    office: 426 Cannon House Office Building
+    phone: 202-225-3436
+- id:
+    bioguide: W000829
+  name:
+    first: Tony
+    last: Wied
+    official_full: Tony Wied
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: WI
+    district: 8
+    party: Republican
+    address: 424 Cannon House Office Building Washington DC 20515-4908
+    office: 424 Cannon House Office Building
+    phone: 202-225-5665
+    url: https://wied.house.gov
+- id:
+    bioguide: F000110
+  name:
+    first: Cleo
+    last: Fields
+    official_full: Cleo Fields
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: LA
+    district: 6
+    party: Democrat
+    address: 2349 Rayburn House Office Building Washington DC 20515-1806
+    office: 2349 Rayburn House Office Building
+    phone: 202-225-3901
+    url: https://fields.house.gov
+- id:
+    bioguide: S001188
+  name:
+    first: Marlin
+    middle: A.
+    last: Stutzman
+    official_full: Marlin A. Stutzman
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IN
+    district: 3
+    party: Republican
+    url: https://stutzman.house.gov
+    rss_url: http://stutzman.house.gov/press_releases.rss
+    address: 404 Cannon House Office Building Washington DC 20515-1403
+    office: 404 Cannon House Office Building
+    phone: 202-225-4436
+- id:
+    bioguide: C001123
+  name:
+    first: Gilbert
+    middle: Ray
+    last: Cisneros
+    official_full: Gilbert Ray Cisneros, Jr.
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 31
+    party: Democrat
+    url: https://cisneros.house.gov
+    address: 2463 Rayburn House Office Building Washington DC 20515-0531
+    office: 2463 Rayburn House Office Building
+    phone: 202-225-5256
+- id:
+    bioguide: B001323
+  name:
+    first: Nicholas
+    middle: Joseph
+    last: Begich
+    suffix: III
+    official_full: Nicholas J. Begich III
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: AK
+    district: 0
+    party: Republican
+    address: 153 Cannon House Office Building Washington DC 20515-0200
+    office: 153 Cannon House Office Building
+    phone: 202-225-5765
+    url: https://begich.house.gov
+- id:
+    bioguide: F000481
+  name:
+    first: Shomari
+    middle: Coleman
+    last: Figures
+    official_full: Shomari Figures
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: AL
+    district: 2
+    party: Democrat
+    address: 225 Cannon House Office Building Washington DC 20515-0102
+    office: 225 Cannon House Office Building
+    phone: 202-225-4931
+    url: https://figures.house.gov
+- id:
+    bioguide: A000381
+  name:
+    first: Yassamin
+    last: Ansari
+    official_full: Yassamin Ansari
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: AZ
+    district: 3
+    party: Democrat
+    address: 1432 Longworth House Office Building Washington DC 20515-0303
+    office: 1432 Longworth House Office Building
+    phone: 202-225-4065
+    url: https://ansari.house.gov
+- id:
+    bioguide: H001098
+  name:
+    first: Abraham
+    middle: Jamal
+    last: Hamadeh
+    official_full: Abraham J. Hamadeh
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: AZ
+    district: 8
+    party: Republican
+    address: 1722 Longworth House Office Building Washington DC 20515-0308
+    office: 1722 Longworth House Office Building
+    phone: 202-225-4576
+    url: https://hamadeh.house.gov
+- id:
+    bioguide: S001231
+  name:
+    first: Lateefah
+    middle: Aaliyah
+    last: Simon
+    official_full: Lateefah Simon
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 12
+    party: Democrat
+    address: 1023 Longworth House Office Building Washington DC 20515-0512
+    office: 1023 Longworth House Office Building
+    phone: 202-225-2661
+    url: https://simon.house.gov
+- id:
+    bioguide: G000605
+  name:
+    first: Adam
+    middle: Channing
+    last: Gray
+    official_full: Adam Gray
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 13
+    party: Democrat
+    address: 1230 Longworth House Office Building Washington DC 20515-0513
+    office: 1230 Longworth House Office Building
+    phone: 202-225-1947
+    url: https://gray.house.gov
+- id:
+    bioguide: L000607
+  name:
+    first: Sam
+    middle: Theodore
+    last: Liccardo
+    official_full: Sam T. Liccardo
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 16
+    party: Democrat
+    address: 1117 Longworth House Office Building Washington DC 20515-0516
+    office: 1117 Longworth House Office Building
+    phone: 202-225-8104
+    url: https://liccardo.house.gov
+- id:
+    bioguide: W000830
+  name:
+    first: George
+    middle: Thomas
+    last: Whitesides
+    official_full: George Whitesides
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 27
+    party: Democrat
+    address: 1504 Longworth House Office Building Washington DC 20515-0527
+    office: 1504 Longworth House Office Building
+    phone: 202-225-1956
+    url: https://whitesides.house.gov
+- id:
+    bioguide: R000620
+  name:
+    first: Luz
+    middle: Maria
+    last: Rivas
+    official_full: Luz M. Rivas
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 29
+    party: Democrat
+    address: 1319 Longworth House Office Building Washington DC 20515-0529
+    office: 1319 Longworth House Office Building
+    phone: 202-225-6131
+    url: https://rivas.house.gov
+- id:
+    bioguide: F000483
+  name:
+    first: Laura
+    middle: Syril
+    last: Friedman
+    official_full: Laura Friedman
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 30
+    party: Democrat
+    address: 1517 Longworth House Office Building Washington DC 20515-0530
+    office: 1517 Longworth House Office Building
+    phone: 202-225-4176
+    url: https://friedman.house.gov
+- id:
+    bioguide: T000491
+  name:
+    first: Derek
+    middle: Truyen
+    last: Tran
+    official_full: Derek Tran
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 45
+    party: Democrat
+    address: 1127 Longworth House Office Building Washington DC 20515-0545
+    office: 1127 Longworth House Office Building
+    phone: 202-225-2415
+    url: https://tran.house.gov
+- id:
+    bioguide: M001241
+  name:
+    first: Dave
+    middle: Kunnghee
+    last: Min
+    official_full: Dave Min
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CA
+    district: 47
+    party: Democrat
+    address: 1034 Longworth House Office Building Washington DC 20515-0547
+    office: 1034 Longworth House Office Building
+    phone: 202-225-5611
+    url: https://min.house.gov
+- id:
+    bioguide: H001100
+  name:
+    first: Jeff
+    middle: Stephen
+    last: Hurd
+    official_full: Jeff Hurd
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CO
+    district: 3
+    party: Republican
+    address: 1641 Longworth House Office Building Washington DC 20515-0603
+    office: 1641 Longworth House Office Building
+    phone: 202-225-4676
+    url: https://hurd.house.gov
+- id:
+    bioguide: C001137
+  name:
+    first: Jeff
+    middle: George
+    last: Crank
+    official_full: Jeff Crank
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CO
+    district: 5
+    party: Republican
+    address: 1029 Longworth House Office Building Washington DC 20515-0605
+    office: 1029 Longworth House Office Building
+    phone: 202-225-4422
+    url: https://crank.house.gov
+- id:
+    bioguide: E000300
+  name:
+    first: Gabe
+    last: Evans
+    official_full: Gabe Evans
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: CO
+    district: 8
+    party: Republican
+    address: 1229 Longworth House Office Building Washington DC 20515-0001
+    office: 1229 Longworth House Office Building
+    phone: 202-225-5625
+    url: https://gabeevans.house.gov
+- id:
+    bioguide: M001238
+  name:
+    first: Sarah
+    middle: Elizabeth
+    last: McBride
+    official_full: Sarah McBride
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: DE
+    district: 0
+    party: Democrat
+    address: 1306 Longworth House Office Building Washington DC 20515-0800
+    office: 1306 Longworth House Office Building
+    phone: 202-225-4165
+    url: https://mcbride.house.gov
+- id:
+    bioguide: H001099
+  name:
+    first: Mike
+    middle: John
+    last: Haridopolos
+    official_full: Mike Haridopolos
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: FL
+    district: 8
+    party: Republican
+    address: 1039 Longworth House Office Building Washington DC 20515-0908
+    office: 1039 Longworth House Office Building
+    phone: 202-225-3671
+    url: https://haridopolos.house.gov
+- id:
+    bioguide: J000311
+  name:
+    first: Brian
+    middle: Timothy
+    last: Jack
+    official_full: Brian Jack
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: GA
+    district: 3
+    party: Republican
+    address: 1320 Longworth House Office Building Washington DC 20515-1003
+    office: 1320 Longworth House Office Building
+    phone: 202-225-5901
+    url: https://jack.house.gov
+- id:
+    bioguide: S001229
+  name:
+    first: Jefferson
+    middle: Scott
+    last: Shreve
+    official_full: Jefferson Shreve
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IN
+    district: 6
+    party: Republican
+    address: 224 Cannon House Office Building Washington DC 20515-1406
+    office: 224 Cannon House Office Building
+    phone: 202-225-3021
+    url: https://shreve.house.gov
+- id:
+    bioguide: M001233
+  name:
+    first: Mark
+    last: Messmer
+    official_full: Mark B. Messmer
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: IN
+    district: 8
+    party: Republican
+    address: 1208 Longworth House Office Building Washington DC 20515-1408
+    office: 1208 Longworth House Office Building
+    phone: 202-225-4636
+    url: https://messmer.house.gov
+- id:
+    bioguide: S001228
+  name:
+    first: Derek
+    middle: Larkin
+    last: Schmidt
+    official_full: Derek Schmidt
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: KS
+    district: 2
+    party: Republican
+    address: 1223 Longworth House Office Building Washington DC 20515-1602
+    office: 1223 Longworth House Office Building
+    phone: 202-225-6601
+    url: https://schmidt.house.gov
+- id:
+    bioguide: O000176
+  name:
+    first: Johnny
+    middle: Anthony
+    last: Olszewski
+    suffix: Jr.
+    official_full: Johnny Olszewski, Jr.
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MD
+    district: 2
+    party: Democrat
+    address: 1339 Longworth House Office Building Washington DC 20515-2002
+    office: 1339 Longworth House Office Building
+    phone: 202-225-3061
+    url: https://olszewski.house.gov
+- id:
+    bioguide: E000301
+  name:
+    first: Sarah
+    middle: Kelly
+    last: Elfreth
+    official_full: Sarah Elfreth
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MD
+    district: 3
+    party: Democrat
+    address: 1213 Longworth House Office Building Washington DC 20515-2003
+    office: 1213 Longworth House Office Building
+    phone: 202-225-4016
+    url: https://elfreth.house.gov
+- id:
+    bioguide: M001232
+  name:
+    first: April
+    middle: Lynn
+    last: McClain Delaney
+    official_full: April McClain Delaney
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MD
+    district: 6
+    party: Democrat
+    address: 1130 Longworth House Office Building Washington DC 20515-2006
+    office: 1130 Longworth House Office Building
+    phone: 202-225-2721
+    url: https://mcclaindelaney.house.gov
+- id:
+    bioguide: B001321
+  name:
+    first: Tom
+    middle: More
+    last: Barrett
+    official_full: Tom Barrett
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MI
+    district: 7
+    party: Republican
+    address: 1232 Longworth House Office Building Washington DC 20515-2207
+    office: 1232 Longworth House Office Building
+    phone: 202-225-4872
+    url: https://barrett.house.gov
+- id:
+    bioguide: M001237
+  name:
+    first: Kristen
+    middle: Lee
+    last: McDonald Rivet
+    official_full: Kristen McDonald Rivet
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MI
+    district: 8
+    party: Democrat
+    address: 1408 Longworth House Office Building Washington DC 20515-2208
+    office: 1408 Longworth House Office Building
+    phone: 202-225-3611
+    url: https://mcdonaldrivet.house.gov
+- id:
+    bioguide: M001234
+  name:
+    first: Kelly
+    middle: Louise
+    last: Morrison
+    official_full: Kelly Morrison
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MN
+    district: 3
+    party: Democrat
+    address: 1205 Longworth House Office Building Washington DC 20515-2303
+    office: 1205 Longworth House Office Building
+    phone: 202-225-2871
+    url: https://morrison.house.gov
+- id:
+    bioguide: B001324
+  name:
+    first: Wesley
+    middle: Jonell-Cleavon
+    last: Bell
+    official_full: Wesley Bell
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MO
+    district: 1
+    party: Democrat
+    address: 1429 Longworth House Office Building Washington DC 20515-2501
+    office: 1429 Longworth House Office Building
+    phone: 202-225-2406
+    url: https://bell.house.gov
+- id:
+    bioguide: O000177
+  name:
+    first: Robert
+    middle: F.
+    last: Onder
+    suffix: Jr.
+    official_full: Robert F. Onder, Jr.
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MO
+    district: 3
+    party: Republican
+    address: 1113 Longworth House Office Building Washington DC 20515-2503
+    office: 1113 Longworth House Office Building
+    phone: 202-225-2956
+    url: https://onder.house.gov
+- id:
+    bioguide: K000404
+  name:
+    first: Kimberlyn
+    middle: Kay
+    last: King-Hinds
+    official_full: Kimberlyn King-Hinds
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MP
+    district: 0
+    party: Republican
+    address: 425 Cannon House Office Building Washington DC 20515-5201
+    office: 425 Cannon House Office Building
+    phone: 202-225-2646
+    url: https://king-hinds.house.gov
+- id:
+    bioguide: D000634
+  name:
+    first: Troy
+    middle: Bryan
+    last: Downing
+    official_full: Troy Downing
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: MT
+    district: 2
+    party: Republican
+    address: 1529 Longworth House Office Building Washington DC 20515-0001
+    office: 1529 Longworth House Office Building
+    phone: 202-225-3211
+    url: https://downing.house.gov
+- id:
+    bioguide: M001240
+  name:
+    first: Addison
+    middle: Parker
+    last: McDowell
+    official_full: Addison P. McDowell
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NC
+    district: 6
+    party: Republican
+    address: 1032 Longworth House Office Building Washington DC 20515-3306
+    office: 1032 Longworth House Office Building
+    phone: 202-225-3065
+    url: https://mcdowell.house.gov
+- id:
+    bioguide: H001102
+  name:
+    first: Mark
+    middle: Everette
+    last: Harris
+    official_full: Mark Harris
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NC
+    district: 8
+    party: Republican
+    address: 126 Cannon House Office Building Washington DC 20515-3308
+    office: 126 Cannon House Office Building
+    phone: 202-225-1976
+    url: https://markharris.house.gov
+- id:
+    bioguide: H001101
+  name:
+    first: Pat
+    last: Harrigan
+    official_full: Pat Harrigan
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NC
+    district: 10
+    party: Republican
+    address: 1233 Longworth House Office Building Washington DC 20515-3310
+    office: 1233 Longworth House Office Building
+    phone: 202-225-2576
+    url: https://harrigan.house.gov
+- id:
+    bioguide: K000405
+  name:
+    first: Brad
+    last: Knott
+    official_full: Brad Knott
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NC
+    district: 13
+    party: Republican
+    address: 1239 Longworth House Office Building Washington DC 20515-3313
+    office: 1239 Longworth House Office Building
+    phone: 202-225-4531
+    url: https://knott.house.gov
+- id:
+    bioguide: M001236
+  name:
+    first: Tim
+    middle: Keith
+    last: Moore
+    official_full: Tim Moore
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NC
+    district: 14
+    party: Republican
+    address: 1424 Longworth House Office Building Washington DC 20515-0001
+    office: 1424 Longworth House Office Building
+    phone: 202-225-5634
+    url: https://timmoore.house.gov
+- id:
+    bioguide: F000482
+  name:
+    first: Julie
+    middle: Ann
+    last: Fedorchak
+    official_full: Julie Fedorchak
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: ND
+    district: 0
+    party: Republican
+    address: 1607 Longworth House Office Building Washington DC 20515-3400
+    office: 1607 Longworth House Office Building
+    phone: 202-225-2611
+    url: https://fedorchak.house.gov
+- id:
+    bioguide: G000604
+  name:
+    first: Maggie
+    middle: Vivian
+    last: Goodlander
+    official_full: Maggie Goodlander
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NH
+    district: 2
+    party: Democrat
+    address: 223 Cannon House Office Building Washington DC 20515-2902
+    office: 223 Cannon House Office Building
+    phone: 202-225-5206
+    url: https://goodlander.house.gov
+- id:
+    bioguide: C001136
+  name:
+    first: Herbert
+    middle: Clark Hoover
+    last: Conaway
+    suffix: Jr.
+    official_full: Herbert C. Conaway, Jr.
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NJ
+    district: 3
+    party: Democrat
+    address: 1022 Longworth House Office Building Washington DC 20515-3003
+    office: 1022 Longworth House Office Building
+    phone: 202-225-4765
+    url: https://conaway.house.gov
+- id:
+    bioguide: P000621
+  name:
+    first: Nellie
+    middle: Avila
+    last: Pou
+    official_full: Nellie Pou
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NJ
+    district: 9
+    party: Democrat
+    address: 1007 Longworth House Office Building Washington DC 20515-3009
+    office: 1007 Longworth House Office Building
+    phone: 202-225-5751
+    url: https://pou.house.gov
+- id:
+    bioguide: G000602
+  name:
+    first: Laura
+    middle: Anne
+    last: Gillen
+    official_full: Laura Gillen
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NY
+    district: 4
+    party: Democrat
+    address: 428 Cannon House Office Building Washington DC 20515-3204
+    office: 428 Cannon House Office Building
+    phone: 202-225-5516
+    url: https://gillen.house.gov
+- id:
+    bioguide: L000606
+  name:
+    first: George
+    middle: Stephen
+    last: Latimer
+    official_full: George Latimer
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NY
+    district: 16
+    party: Democrat
+    address: 1507 Longworth House Office Building Washington DC 20515-3216
+    office: 1507 Longworth House Office Building
+    phone: 202-225-2464
+    url: https://latimer.house.gov
+- id:
+    bioguide: R000622
+  name:
+    first: Josh
+    middle: Paul
+    last: Riley
+    official_full: Josh Riley
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NY
+    district: 19
+    party: Democrat
+    address: 128 Cannon House Office Building Washington DC 20515-3219
+    office: 128 Cannon House Office Building
+    phone: 202-225-5441
+    url: https://riley.house.gov
+- id:
+    bioguide: M001231
+  name:
+    first: John
+    middle: W.
+    last: Mannion
+    official_full: John W. Mannion
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: NY
+    district: 22
+    party: Democrat
+    address: 1516 Longworth House Office Building Washington DC 20515-3222
+    office: 1516 Longworth House Office Building
+    phone: 202-225-3701
+    url: https://mannion.house.gov
+- id:
+    bioguide: T000490
+  name:
+    first: David
+    middle: J.
+    last: Taylor
+    official_full: David J. Taylor
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: OH
+    district: 2
+    party: Republican
+    address: 325 Cannon House Office Building Washington DC 20515-3502
+    office: 325 Cannon House Office Building
+    phone: 202-225-3164
+    url: https://taylor.house.gov
+- id:
+    bioguide: D000635
+  name:
+    first: Maxine
+    middle: Elizabeth
+    last: Dexter
+    official_full: Maxine Dexter
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: OR
+    district: 3
+    party: Democrat
+    address: 1207 Longworth House Office Building Washington DC 20515-3703
+    office: 1207 Longworth House Office Building
+    phone: 202-225-4811
+    url: https://dexter.house.gov
+- id:
+    bioguide: B001326
+  name:
+    first: Janelle
+    middle: S.
+    last: Bynum
+    official_full: Janelle S. Bynum
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: OR
+    district: 5
+    party: Democrat
+    address: 1508 Longworth House Office Building Washington DC 20515-3705
+    office: 1508 Longworth House Office Building
+    phone: 202-225-5711
+    url: https://bynum.house.gov
+- id:
+    bioguide: M001230
+  name:
+    first: Ryan
+    middle: Edward
+    last: Mackenzie
+    official_full: Ryan Mackenzie
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: PA
+    district: 7
+    party: Republican
+    address: 121 Cannon House Office Building Washington DC 20515-3807
+    office: 121 Cannon House Office Building
+    phone: 202-225-6411
+    url: https://mackenzie.house.gov
+- id:
+    bioguide: B001327
+  name:
+    first: Robert
+    middle: P.
+    last: Bresnahan
+    suffix: Jr.
+    official_full: Robert P. Bresnahan, Jr.
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: PA
+    district: 8
+    party: Republican
+    address: 1133 Longworth House Office Building Washington DC 20515-3808
+    office: 1133 Longworth House Office Building
+    phone: 202-225-5546
+    url: https://bresnahan.house.gov
+- id:
+    bioguide: H001103
+  name:
+    first: Pablo José
+    last: Hernández Rivera
+    official_full: Pablo José Hernández
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: PR
+    district: 0
+    party: Democrat
+    address: 1419 Longworth House Office Building Washington DC 20515-5401
+    office: 1419 Longworth House Office Building
+    phone: 202-225-2615
+    url: https://hernandez.house.gov
+- id:
+    bioguide: B001325
+  name:
+    first: Sheri
+    middle: Lynn
+    last: Biggs
+    official_full: Sheri Biggs
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: SC
+    district: 3
+    party: Republican
+    address: 1530 Longworth House Office Building Washington DC 20515-4003
+    office: 1530 Longworth House Office Building
+    phone: 202-225-5301
+    url: https://sheribiggs.house.gov
+- id:
+    bioguide: G000601
+  name:
+    first: Craig
+    middle: A.
+    last: Goldman
+    official_full: Craig A. Goldman
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 12
+    party: Republican
+    address: 1716 Longworth House Office Building Washington DC 20515-4312
+    office: 1716 Longworth House Office Building
+    phone: 202-225-5071
+    url: https://craiggoldman.house.gov
+- id:
+    bioguide: G000603
+  name:
+    first: Brandon
+    middle: Gene
+    last: Gill
+    official_full: Brandon Gill
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 26
+    party: Republican
+    address: 1305 Longworth House Office Building Washington DC 20515-4326
+    office: 1305 Longworth House Office Building
+    phone: 202-225-7772
+    url: https://gill.house.gov
+- id:
+    bioguide: J000310
+  name:
+    first: Julie
+    middle: Elizabeth
+    last: Johnson
+    official_full: Julie Johnson
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: TX
+    district: 32
+    party: Democrat
+    address: 221 Cannon House Office Building Washington DC 20515-4332
+    office: 221 Cannon House Office Building
+    phone: 202-225-2231
+    url: https://juliejohnson.house.gov
+- id:
+    bioguide: K000403
+  name:
+    first: Mike
+    middle: Steven
+    last: Kennedy
+    official_full: Mike Kennedy
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: UT
+    district: 3
+    party: Republican
+    address: 1626 Longworth House Office Building Washington DC 20515-4403
+    office: 1626 Longworth House Office Building
+    phone: 202-225-7751
+    url: https://mikekennedy.house.gov
+- id:
+    bioguide: M001239
+  name:
+    first: John
+    middle: J.
+    last: McGuire
+    suffix: III
+    official_full: John J. McGuire III
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: VA
+    district: 5
+    party: Republican
+    address: 1013 Longworth House Office Building Washington DC 20515-4605
+    office: 1013 Longworth House Office Building
+    phone: 202-225-4711
+    url: https://mcguire.house.gov
+- id:
+    bioguide: V000138
+  name:
+    first: Eugene
+    middle: Simon
+    last: Vindman
+    official_full: Eugene Simon Vindman
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: VA
+    district: 7
+    party: Democrat
+    address: 1005 Longworth House Office Building Washington DC 20515-4607
+    office: 1005 Longworth House Office Building
+    phone: 202-225-2815
+    url: https://vindman.house.gov
+- id:
+    bioguide: S001230
+  name:
+    first: Suhas
+    last: Subramanyam
+    official_full: Suhas Subramanyam
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: VA
+    district: 10
+    party: Democrat
+    address: 1009 Longworth House Office Building Washington DC 20515-4610
+    office: 1009 Longworth House Office Building
+    phone: 202-225-5136
+    url: https://subramanyam.house.gov
+- id:
+    bioguide: B001322
+  name:
+    first: Michael
+    middle: James
+    last: Baumgartner
+    official_full: Michael Baumgartner
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: WA
+    district: 5
+    party: Republican
+    address: 124 Cannon House Office Building Washington DC 20515-4705
+    office: 124 Cannon House Office Building
+    phone: 202-225-2006
+    url: https://baumgartner.house.gov
+- id:
+    bioguide: R000621
+  name:
+    first: Emily
+    middle: Elissa
+    last: Randall
+    official_full: Emily Randall
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: WA
+    district: 6
+    party: Democrat
+    address: 1531 Longworth House Office Building Washington DC 20515-4706
+    office: 1531 Longworth House Office Building
+    phone: 202-225-5916
+    url: https://randall.house.gov
+- id:
+    bioguide: M001235
+  name:
+    first: Riley
+    middle: M.
+    last: Moore
+    official_full: Riley M. Moore
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2027-01-03'
+    state: WV
+    district: 2
+    party: Republican
+    address: 1337 Longworth House Office Building Washington DC 20515-4802
+    office: 1337 Longworth House Office Building
+    phone: 202-225-2711
+    url: https://rileymoore.house.gov
+- id:
+    bioguide: P000622
+  name:
+    first: Jimmy
+    middle: Theo
+    last: Patronis
+    suffix: Jr.
+    official_full: Jimmy Patronis
+  terms:
+  - type: rep
+    start: '2025-04-02'
+    end: '2027-01-03'
+    state: FL
+    district: 1
+    party: Republican
+    url: https://patronis.house.gov
+    contact_form: https://patronis.house.gov/contact/email-me
+    address: 2021 Rayburn House Office Building Washington DC 20515-0901
+    office: 2021 Rayburn House Office Building
+    phone: 202-225-4136
+- id:
+    bioguide: F000484
+  name:
+    first: Randall
+    middle: Adam
+    nickname: Randy
+    last: Fine
+    official_full: Randy Fine
+  terms:
+  - type: rep
+    start: '2025-04-02'
+    end: '2027-01-03'
+    state: FL
+    district: 6
+    party: Republican
+    url: https://fine.house.gov
+    contact_form: hhttps://fine.house.gov/address_authentication?form=/contact/email-me
+    address: 244 Cannon House Office Building Washington DC 20515-0906
+    office: 244 Cannon House Office Building
+    phone: 202-225-2706
+- id:
+    bioguide: W000831
+  name:
+    first: James
+    middle: R.
+    last: Walkinshaw
+    official_full: James R. Walkinshaw
+  terms:
+  - type: rep
+    start: '2025-09-10'
+    end: '2027-01-03'
+    state: VA
+    district: 11
+    party: Democrat
+    address: 2265 Rayburn House Office Building Washington DC 20515-4611
+    office: 2265 Rayburn House Office Building
+    phone: 202-225-1492
+- id:
+    bioguide: G000606
+  name:
+    first: Adelita
+    middle: S.
+    last: Grijalva
+    official_full: Adelita S. Grijalva
+  terms:
+  - type: rep
+    start: '2025-11-12'
+    end: '2027-01-03'
+    state: AZ
+    district: 7
+    party: Democrat
+    url: https://grijalva.house.gov/
+    address: 1203 Longworth House Office Building Washington DC 20515-0307
+    office: 1203 Longworth House Office Building
+    phone: 202-225-2435
+- id:
+    bioguide: V000139
+  name:
+    first: Matt
+    last: Van Epps
+    official_full: Matt Van Epps
+  terms:
+  - type: rep
+    start: '2025-12-04'
+    end: '2027-01-03'
+    state: TN
+    district: 7
+    party: Republican
+    url: https://vanepps.house.gov/
+    address: 2446 Rayburn House Office Building Washington DC 20515-4207
+    office: 2446 Rayburn House Office Building
+    phone: 202-225-2811

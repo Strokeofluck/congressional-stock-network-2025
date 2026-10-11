@@ -1,0 +1,304 @@
+{
+  "transaction_year": 2025,
+  "snapshot_imported_on": "2026-10-11",
+  "upstream_repository": "https://github.com/StrokeOfLuck/house-ptr-scraper",
+  "upstream_commit": "a064720e90e715f516cd2a725ece0b6f7a73632b",
+  "upstream_full_csv_sha256": "18a5b9f4e7abd51db676ac9466388746cda4ac5de76a0a43c2f2173aad32e51a",
+  "upstream_full_csv_path": "data/06_public/house_ptr_transactions_latest.csv",
+  "upstream_updated_at": "2026-10-11T18:21:47+00:00",
+  "baseline_sha256": "967a49115179d5458ff339c89e561cbe49913956172cfd2313183d997cfdabeb",
+  "baseline_source_url": "https://raw.githubusercontent.com/StrokeOfLuck/congressional-stock-network-2025/4aa2cfe1c3023d96d6328d77a90b31095f502d03/PTR_transactions_2025_ACCEPTED_STOCK_PURCHASES.csv",
+  "baseline_line_endings": "Git-stored LF bytes; .gitattributes disables checkout newline conversion",
+  "filter": "transaction_date starts with 2025-; preserve source order and all source columns",
+  "files": {
+    "transactions.csv": {
+      "sha256": "d5f0858f28a8bbcfffa1e3ff37bcf4ba573d01b0fd542889564bbd67d9b42143",
+      "source_url": "https://raw.githubusercontent.com/StrokeOfLuck/house-ptr-scraper/a064720e90e715f516cd2a725ece0b6f7a73632b/data/06_public/house_ptr_transactions_latest.csv",
+      "transformation": "Filter transaction year to 2025"
+    },
+    "filing-status.csv": {
+      "sha256": "72f0d046c1256380ddf5cd86e81e69aa360c61a717d3076d096d60da18ee3d1f",
+      "source_url": "https://raw.githubusercontent.com/StrokeOfLuck/house-ptr-scraper/a064720e90e715f516cd2a725ece0b6f7a73632b/data/05_status/checkpoint.csv",
+      "transformation": "All 2025 filing checkpoints plus later filings containing 2025 transactions"
+    },
+    "2025FD.xml": {
+      "sha256": "e5f8f9ea1e249097e12205eed80170bcb446609d3d03ea4c211d9452e7b5c42d",
+      "source_url": "https://raw.githubusercontent.com/StrokeOfLuck/house-ptr-scraper/a064720e90e715f516cd2a725ece0b6f7a73632b/data/02_xml_indexes/2025FD.xml",
+      "transformation": "Unmodified archived Clerk annual index"
+    },
+    "upstream-2025-archive-check.json": {
+      "sha256": "2fe65f80ea8e17e407d7653016867de2c664b1980b583a26d9069686d05d5e83",
+      "source_url": "https://raw.githubusercontent.com/StrokeOfLuck/house-ptr-scraper/a064720e90e715f516cd2a725ece0b6f7a73632b/data/03_verification/completeness_summary.json",
+      "transformation": "Select Year=2025; upstream archive claim, not extraction certification"
+    },
+    "accepted-stock-purchases.csv": {
+      "sha256": "149596597aaa23ca60895a3a0b99ec135cacca7cbca5336f658f0e7c517d534f",
+      "source_url": "https://github.com/StrokeOfLuck/house-ptr-scraper/blob/a064720e90e715f516cd2a725ece0b6f7a73632b/data/06_public/house_ptr_transactions_latest.csv",
+      "transformation": "scripts/prepare_2025.py; same accepted sequence and original 14 fields, plus source record/owner/review fields"
+    },
+    "reference-LICENSE-CC0.txt": {
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/82b1eaccd2cad9e4172059507f5129fc513962af/LICENSE",
+      "transformation": "Unmodified upstream CC0 license"
+    }
+  },
+  "coverage_limit": "Archive accounting and successful parsing do not certify that every source transaction was extracted correctly. Late 2026 filings with 2025 transactions are included; other years are excluded.",
+  "reference_files": [
+    {
+      "path": "reference/c3843a3e83e5b00e33f4140a977af546514396e2/committee-membership-current.yaml",
+      "sha256": "7ae5dccdcb700c73b18761488b0ca5fd37cf19b7005ceb3dd9c7658db96edfab",
+      "upstream_sha256": "d70f765b3a13e262d21b0c3c45dcd00687a8b13537ea92ff20929ca16116c99f",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/c3843a3e83e5b00e33f4140a977af546514396e2/committee-membership-current.yaml",
+      "source_commit": "c3843a3e83e5b00e33f4140a977af546514396e2",
+      "transformation": "Keep memberships under committees recorded as type=house in the same pinned committee metadata, including HLIG Intelligence"
+    },
+    {
+      "path": "reference/c3843a3e83e5b00e33f4140a977af546514396e2/committees-current.yaml",
+      "sha256": "c91851e62b24a8f3ead3c1722efb820b4cb7a1b319d01e6643fa2c1c76a3648c",
+      "upstream_sha256": "1ad0072fe2b2a45972f4070af94bafb3f187198ac51cce28afba46d05c37ad38",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/c3843a3e83e5b00e33f4140a977af546514396e2/committees-current.yaml",
+      "source_commit": "c3843a3e83e5b00e33f4140a977af546514396e2",
+      "transformation": "Keep only committees with type=house"
+    },
+    {
+      "path": "reference/c9550e52aef59e30730188ed6ea53fda9fcb6375/committee-membership-current.yaml",
+      "sha256": "99113045f51d2db9094daba965e81ae75950862f6fef663a1a5c3f11003ca9c7",
+      "upstream_sha256": "f1617599bd2c827538273f70cebc65d7e17f098d1b9748548d68a0abd6c8433b",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/c9550e52aef59e30730188ed6ea53fda9fcb6375/committee-membership-current.yaml",
+      "source_commit": "c9550e52aef59e30730188ed6ea53fda9fcb6375",
+      "transformation": "Keep memberships under committees recorded as type=house in the same pinned committee metadata, including HLIG Intelligence"
+    },
+    {
+      "path": "reference/c9550e52aef59e30730188ed6ea53fda9fcb6375/committees-current.yaml",
+      "sha256": "ee9a6492dc58130b1748c6ea8ea82dc5884903b2d1f44039b21fb06043992994",
+      "upstream_sha256": "d01294045d7e762180bd335fa8e38fc5e5aece2f53a39a4188f7f8f390851c8c",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/c9550e52aef59e30730188ed6ea53fda9fcb6375/committees-current.yaml",
+      "source_commit": "c9550e52aef59e30730188ed6ea53fda9fcb6375",
+      "transformation": "Keep only committees with type=house"
+    },
+    {
+      "path": "reference/c9f7c34b4b84106f0c8de55f5c52e061e78db0a2/committee-membership-current.yaml",
+      "sha256": "99113045f51d2db9094daba965e81ae75950862f6fef663a1a5c3f11003ca9c7",
+      "upstream_sha256": "7c7665b1bb14c949812bfe30bfe0fe723be33faa8f5226c587fda78927c75589",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/c9f7c34b4b84106f0c8de55f5c52e061e78db0a2/committee-membership-current.yaml",
+      "source_commit": "c9f7c34b4b84106f0c8de55f5c52e061e78db0a2",
+      "transformation": "Keep memberships under committees recorded as type=house in the same pinned committee metadata, including HLIG Intelligence"
+    },
+    {
+      "path": "reference/c9f7c34b4b84106f0c8de55f5c52e061e78db0a2/committees-current.yaml",
+      "sha256": "ee9a6492dc58130b1748c6ea8ea82dc5884903b2d1f44039b21fb06043992994",
+      "upstream_sha256": "d01294045d7e762180bd335fa8e38fc5e5aece2f53a39a4188f7f8f390851c8c",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/c9f7c34b4b84106f0c8de55f5c52e061e78db0a2/committees-current.yaml",
+      "source_commit": "c9f7c34b4b84106f0c8de55f5c52e061e78db0a2",
+      "transformation": "Keep only committees with type=house"
+    },
+    {
+      "path": "reference/ef9c870599a6b397c89f9049e446f2879a95994c/committee-membership-current.yaml",
+      "sha256": "d75d96ae83eb5100262f6dd5dc380f0ceaff8f2b93903fd9246e79422abe85e9",
+      "upstream_sha256": "c985c0895e5f66577f86ec5e0dd17e1abb5a7cb753a982446b741e910bb2bfd1",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/ef9c870599a6b397c89f9049e446f2879a95994c/committee-membership-current.yaml",
+      "source_commit": "ef9c870599a6b397c89f9049e446f2879a95994c",
+      "transformation": "Keep memberships under committees recorded as type=house in the same pinned committee metadata, including HLIG Intelligence"
+    },
+    {
+      "path": "reference/ef9c870599a6b397c89f9049e446f2879a95994c/committees-current.yaml",
+      "sha256": "ee9a6492dc58130b1748c6ea8ea82dc5884903b2d1f44039b21fb06043992994",
+      "upstream_sha256": "afba0e4991d6c0d5750eb26e088389db9d783f197ffc51cb575f80d4d3477410",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/ef9c870599a6b397c89f9049e446f2879a95994c/committees-current.yaml",
+      "source_commit": "ef9c870599a6b397c89f9049e446f2879a95994c",
+      "transformation": "Keep only committees with type=house"
+    },
+    {
+      "path": "reference/fb3faba275437c913033ff98d96c192290f537c4/committee-membership-current.yaml",
+      "sha256": "63291e5997e54d93b9e248f74227969d88c569bec88b816ebd2a3db6feec1305",
+      "upstream_sha256": "8ce3607bfb12172356fcccf402331c9cdc47362ded944e7aaf880e0487e16a93",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/fb3faba275437c913033ff98d96c192290f537c4/committee-membership-current.yaml",
+      "source_commit": "fb3faba275437c913033ff98d96c192290f537c4",
+      "transformation": "Keep memberships under committees recorded as type=house in the same pinned committee metadata, including HLIG Intelligence"
+    },
+    {
+      "path": "reference/fb3faba275437c913033ff98d96c192290f537c4/committees-current.yaml",
+      "sha256": "ee9a6492dc58130b1748c6ea8ea82dc5884903b2d1f44039b21fb06043992994",
+      "upstream_sha256": "b770e2ace043c366f215cf1544616a925655380217cbbb5ae189278a648dc53c",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/fb3faba275437c913033ff98d96c192290f537c4/committees-current.yaml",
+      "source_commit": "fb3faba275437c913033ff98d96c192290f537c4",
+      "transformation": "Keep only committees with type=house"
+    },
+    {
+      "path": "reference/7a6f0655f89f64d9cd4208f9f8cdf16618ed20f3/committee-membership-current.yaml",
+      "sha256": "48b908a0ef483d6f4257a5225449e880875c5344cbbd6d962e69c0b2ba71b7ac",
+      "upstream_sha256": "ba306b850548eedf00d2dbe99570fda811cb156d961a8ec7864bf0259f84f037",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/7a6f0655f89f64d9cd4208f9f8cdf16618ed20f3/committee-membership-current.yaml",
+      "source_commit": "7a6f0655f89f64d9cd4208f9f8cdf16618ed20f3",
+      "transformation": "Keep memberships under committees recorded as type=house in the same pinned committee metadata, including HLIG Intelligence"
+    },
+    {
+      "path": "reference/7a6f0655f89f64d9cd4208f9f8cdf16618ed20f3/committees-current.yaml",
+      "sha256": "fba73932245d013b66041c5ffd1869b59b334d3a76e990cd3bf0af4540273c28",
+      "upstream_sha256": "5a28f7fb4f70e48b5d0383748eaaef8f55196aea6a75e64538c3032bd4c9d56a",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/7a6f0655f89f64d9cd4208f9f8cdf16618ed20f3/committees-current.yaml",
+      "source_commit": "7a6f0655f89f64d9cd4208f9f8cdf16618ed20f3",
+      "transformation": "Keep only committees with type=house"
+    },
+    {
+      "path": "reference/72526139577a828f365d8a273e3ca9957868517e/committee-membership-current.yaml",
+      "sha256": "ffd1affc6dcadfe5a71d04f555d9cab29cf5e460aa27f599bd532f365216a093",
+      "upstream_sha256": "f1db4fe3b56f51e932db388e9465bb495b208443f329496056403e7bbc42c1cd",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/72526139577a828f365d8a273e3ca9957868517e/committee-membership-current.yaml",
+      "source_commit": "72526139577a828f365d8a273e3ca9957868517e",
+      "transformation": "Keep memberships under committees recorded as type=house in the same pinned committee metadata, including HLIG Intelligence"
+    },
+    {
+      "path": "reference/72526139577a828f365d8a273e3ca9957868517e/committees-current.yaml",
+      "sha256": "fba73932245d013b66041c5ffd1869b59b334d3a76e990cd3bf0af4540273c28",
+      "upstream_sha256": "5a28f7fb4f70e48b5d0383748eaaef8f55196aea6a75e64538c3032bd4c9d56a",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/72526139577a828f365d8a273e3ca9957868517e/committees-current.yaml",
+      "source_commit": "72526139577a828f365d8a273e3ca9957868517e",
+      "transformation": "Keep only committees with type=house"
+    },
+    {
+      "path": "reference/7a88eb0e712704f6cefae88973711098d5926ae9/committee-membership-current.yaml",
+      "sha256": "54ddc64cb07d462e69791efc3960a35553f6f279accad021fa242ea8eb85df51",
+      "upstream_sha256": "954ef0e98dcee8c0b54ce9d6945ea35f27e3c0e7d1f72ec89b5a78aafe525d9a",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/7a88eb0e712704f6cefae88973711098d5926ae9/committee-membership-current.yaml",
+      "source_commit": "7a88eb0e712704f6cefae88973711098d5926ae9",
+      "transformation": "Keep memberships under committees recorded as type=house in the same pinned committee metadata, including HLIG Intelligence"
+    },
+    {
+      "path": "reference/7a88eb0e712704f6cefae88973711098d5926ae9/committees-current.yaml",
+      "sha256": "fba73932245d013b66041c5ffd1869b59b334d3a76e990cd3bf0af4540273c28",
+      "upstream_sha256": "5a28f7fb4f70e48b5d0383748eaaef8f55196aea6a75e64538c3032bd4c9d56a",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/7a88eb0e712704f6cefae88973711098d5926ae9/committees-current.yaml",
+      "source_commit": "7a88eb0e712704f6cefae88973711098d5926ae9",
+      "transformation": "Keep only committees with type=house"
+    },
+    {
+      "path": "reference/c56f57eba40dfa5b8fd0c15d2f2b7b6f59326191/committee-membership-current.yaml",
+      "sha256": "563dff429eb3faff10eec9288fbf5f4f9b7a476f83418f42cde6a76407682ad4",
+      "upstream_sha256": "1d1c2d46aaf71f49e4fd9a45fb610629af1d2e0b8faa86f282c64e42dc5bba0e",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/c56f57eba40dfa5b8fd0c15d2f2b7b6f59326191/committee-membership-current.yaml",
+      "source_commit": "c56f57eba40dfa5b8fd0c15d2f2b7b6f59326191",
+      "transformation": "Keep memberships under committees recorded as type=house in the same pinned committee metadata, including HLIG Intelligence"
+    },
+    {
+      "path": "reference/c56f57eba40dfa5b8fd0c15d2f2b7b6f59326191/committees-current.yaml",
+      "sha256": "9c180c6d1f4fd1fc611eaac80b0e785e7dc6ebfa710c302b4748cd2444ce6c97",
+      "upstream_sha256": "11e36c0505f3fb1ed575d58fda5efbf57bba5ece213821a6c08c8475354811e7",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/c56f57eba40dfa5b8fd0c15d2f2b7b6f59326191/committees-current.yaml",
+      "source_commit": "c56f57eba40dfa5b8fd0c15d2f2b7b6f59326191",
+      "transformation": "Keep only committees with type=house"
+    },
+    {
+      "path": "reference/5bef5938d60ce6b62875d9a39926c3f46a36c29b/committee-membership-current.yaml",
+      "sha256": "c24349edaf4b090df8ba98c77acebbd89fe6a1106cb77a4ebe530ddc903ba17c",
+      "upstream_sha256": "e41f28c2ffb84f8c3aa5528c705db3fd1ec0df78583f3ea312c5473830e02bd9",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/5bef5938d60ce6b62875d9a39926c3f46a36c29b/committee-membership-current.yaml",
+      "source_commit": "5bef5938d60ce6b62875d9a39926c3f46a36c29b",
+      "transformation": "Keep memberships under committees recorded as type=house in the same pinned committee metadata, including HLIG Intelligence"
+    },
+    {
+      "path": "reference/5bef5938d60ce6b62875d9a39926c3f46a36c29b/committees-current.yaml",
+      "sha256": "9c180c6d1f4fd1fc611eaac80b0e785e7dc6ebfa710c302b4748cd2444ce6c97",
+      "upstream_sha256": "11e36c0505f3fb1ed575d58fda5efbf57bba5ece213821a6c08c8475354811e7",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/5bef5938d60ce6b62875d9a39926c3f46a36c29b/committees-current.yaml",
+      "source_commit": "5bef5938d60ce6b62875d9a39926c3f46a36c29b",
+      "transformation": "Keep only committees with type=house"
+    },
+    {
+      "path": "reference/6ac17cb694e372ea67df171e3257be1a46acc4da/committee-membership-current.yaml",
+      "sha256": "da595329896bf52390303a998fcbae8521ece7d29d1fcbc4f31ac098033a08e8",
+      "upstream_sha256": "4b6816aa4d4716a8b6f91725a04eb12d9898f6e80c3be0613150c03d3f92059f",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/6ac17cb694e372ea67df171e3257be1a46acc4da/committee-membership-current.yaml",
+      "source_commit": "6ac17cb694e372ea67df171e3257be1a46acc4da",
+      "transformation": "Keep memberships under committees recorded as type=house in the same pinned committee metadata, including HLIG Intelligence"
+    },
+    {
+      "path": "reference/6ac17cb694e372ea67df171e3257be1a46acc4da/committees-current.yaml",
+      "sha256": "9c180c6d1f4fd1fc611eaac80b0e785e7dc6ebfa710c302b4748cd2444ce6c97",
+      "upstream_sha256": "11e36c0505f3fb1ed575d58fda5efbf57bba5ece213821a6c08c8475354811e7",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/6ac17cb694e372ea67df171e3257be1a46acc4da/committees-current.yaml",
+      "source_commit": "6ac17cb694e372ea67df171e3257be1a46acc4da",
+      "transformation": "Keep only committees with type=house"
+    },
+    {
+      "path": "reference/65259e46abc0b11f9e643f06a021b1d5dd5dbdc2/committee-membership-current.yaml",
+      "sha256": "234badcf649b4267f37dffeea75b3a5d896650eab02e69abe786608d833b5b76",
+      "upstream_sha256": "80881c03eb6609a2989246ed6ab4f9d0bf4b2af847d2e50d9a18e9e0533c57ec",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/65259e46abc0b11f9e643f06a021b1d5dd5dbdc2/committee-membership-current.yaml",
+      "source_commit": "65259e46abc0b11f9e643f06a021b1d5dd5dbdc2",
+      "transformation": "Keep memberships under committees recorded as type=house in the same pinned committee metadata, including HLIG Intelligence"
+    },
+    {
+      "path": "reference/65259e46abc0b11f9e643f06a021b1d5dd5dbdc2/committees-current.yaml",
+      "sha256": "9c180c6d1f4fd1fc611eaac80b0e785e7dc6ebfa710c302b4748cd2444ce6c97",
+      "upstream_sha256": "11e36c0505f3fb1ed575d58fda5efbf57bba5ece213821a6c08c8475354811e7",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/65259e46abc0b11f9e643f06a021b1d5dd5dbdc2/committees-current.yaml",
+      "source_commit": "65259e46abc0b11f9e643f06a021b1d5dd5dbdc2",
+      "transformation": "Keep only committees with type=house"
+    },
+    {
+      "path": "reference/4089094e05f64da828cda3c570838e675537b8b5/committee-membership-current.yaml",
+      "sha256": "c2e2af6a07c0dddb6cd917fbb3d4e73ef3de8b91de63e50971b267c43eaab92d",
+      "upstream_sha256": "0e65c7104509cbcecce5d7349fd2d62593ae635e2b7df2033fffd3767c2c8f20",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/4089094e05f64da828cda3c570838e675537b8b5/committee-membership-current.yaml",
+      "source_commit": "4089094e05f64da828cda3c570838e675537b8b5",
+      "transformation": "Keep memberships under committees recorded as type=house in the same pinned committee metadata, including HLIG Intelligence"
+    },
+    {
+      "path": "reference/4089094e05f64da828cda3c570838e675537b8b5/committees-current.yaml",
+      "sha256": "9c180c6d1f4fd1fc611eaac80b0e785e7dc6ebfa710c302b4748cd2444ce6c97",
+      "upstream_sha256": "11e36c0505f3fb1ed575d58fda5efbf57bba5ece213821a6c08c8475354811e7",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/4089094e05f64da828cda3c570838e675537b8b5/committees-current.yaml",
+      "source_commit": "4089094e05f64da828cda3c570838e675537b8b5",
+      "transformation": "Keep only committees with type=house"
+    },
+    {
+      "path": "reference/5de69ba81bafaabf91c91adeddee44777ea09817/committee-membership-current.yaml",
+      "sha256": "17b1dc467d204e8d5bab79f971fc0691a8899194c3193534d5db41e9abcd7620",
+      "upstream_sha256": "01cd8c8a3aed95050ccf38d0295a6314ae694fb1c0d2aca257db98d68726b903",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/5de69ba81bafaabf91c91adeddee44777ea09817/committee-membership-current.yaml",
+      "source_commit": "5de69ba81bafaabf91c91adeddee44777ea09817",
+      "transformation": "Keep memberships under committees recorded as type=house in the same pinned committee metadata, including HLIG Intelligence"
+    },
+    {
+      "path": "reference/5de69ba81bafaabf91c91adeddee44777ea09817/committees-current.yaml",
+      "sha256": "9c180c6d1f4fd1fc611eaac80b0e785e7dc6ebfa710c302b4748cd2444ce6c97",
+      "upstream_sha256": "52b2ce2b78f29d1afca3e8990da07cda31af498320b8140c0838f80b3cb7c361",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/5de69ba81bafaabf91c91adeddee44777ea09817/committees-current.yaml",
+      "source_commit": "5de69ba81bafaabf91c91adeddee44777ea09817",
+      "transformation": "Keep only committees with type=house"
+    },
+    {
+      "path": "reference/c003379a48f8c7ac0b3370c87c0c1c4abaa4d572/committee-membership-current.yaml",
+      "sha256": "2d25acc0e0c258d5c4d769650f7bb6e5a8d4a6190142c657432393ed70b18754",
+      "upstream_sha256": "15e38367b4855140ce7f560e7a7bc77f0a24d0209024021748a9e2945cd9d41f",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/c003379a48f8c7ac0b3370c87c0c1c4abaa4d572/committee-membership-current.yaml",
+      "source_commit": "c003379a48f8c7ac0b3370c87c0c1c4abaa4d572",
+      "transformation": "Keep memberships under committees recorded as type=house in the same pinned committee metadata, including HLIG Intelligence"
+    },
+    {
+      "path": "reference/c003379a48f8c7ac0b3370c87c0c1c4abaa4d572/committees-current.yaml",
+      "sha256": "212d7698d49e1f79d4fbed78db351cf6eef9833ff4d5c91904aad224f2e405b3",
+      "upstream_sha256": "1cb4bfa9fabfda56d66b4d91d595132b01920a124ea0449dcc1d3811acdc9bdb",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/c003379a48f8c7ac0b3370c87c0c1c4abaa4d572/committees-current.yaml",
+      "source_commit": "c003379a48f8c7ac0b3370c87c0c1c4abaa4d572",
+      "transformation": "Keep only committees with type=house"
+    },
+    {
+      "path": "reference/82b1eaccd2cad9e4172059507f5129fc513962af/legislators-current.yaml",
+      "sha256": "c400a45e06b9256fa6f9f528e270bdde532c535971d419fbd873674af001795b",
+      "upstream_sha256": "81a43b54c15592a01af55d7bbfc6b22b4be50ccab6de685dacf29a8f3e8e0e55",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/82b1eaccd2cad9e4172059507f5129fc513962af/legislators-current.yaml",
+      "source_commit": "82b1eaccd2cad9e4172059507f5129fc513962af",
+      "transformation": "Keep people and only rep terms overlapping Jan 3\u2013Dec 31, 2025; retain bioguide ID, names and matching terms"
+    },
+    {
+      "path": "reference/82b1eaccd2cad9e4172059507f5129fc513962af/legislators-historical.yaml",
+      "sha256": "c46c67527ff3f0b2f5054de1176746e024acaa5b5378e4318560b08c5f6ffa92",
+      "upstream_sha256": "3c969c94831878c44556c20a14990ce1c8d5a38093d9f78bba53eb0dd5c6cf7f",
+      "source_url": "https://raw.githubusercontent.com/unitedstates/congress-legislators/82b1eaccd2cad9e4172059507f5129fc513962af/legislators-historical.yaml",
+      "source_commit": "82b1eaccd2cad9e4172059507f5129fc513962af",
+      "transformation": "Keep people and only rep terms overlapping Jan 3\u2013Dec 31, 2025; retain bioguide ID, names and matching terms"
+    }
+  ]
+}

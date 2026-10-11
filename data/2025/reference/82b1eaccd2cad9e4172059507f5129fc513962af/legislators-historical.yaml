@@ -1,0 +1,90 @@
+- id:
+    bioguide: W000823
+  name:
+    first: Michael
+    last: Waltz
+    official_full: Michael Waltz
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2025-01-20'
+    state: FL
+    district: 6
+    party: Republican
+    url: https://clerk.house.gov
+    address: 244 Cannon House Office Building Washington DC 20515-0906
+    office: 244 Cannon House Office Building
+    phone: 202-225-2706
+- id:
+    bioguide: T000489
+  name:
+    first: Sylvester
+    last: Turner
+    official_full: Sylvester Turner
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2025-03-04'
+    state: TX
+    district: 18
+    party: Democrat
+    address: 1318 Longworth House Office Building Washington DC 20515-4318
+    office: 1318 Longworth House Office Building
+    phone: 202-225-3816
+    url: https://sylvesterturner.house.gov
+- id:
+    bioguide: G000551
+  name:
+    first: Raúl
+    middle: M.
+    last: Grijalva
+    official_full: Raúl M. Grijalva
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2025-03-13'
+    state: AZ
+    district: 7
+    party: Democrat
+    url: https://grijalva.house.gov
+    rss_url: http://grijalva.house.gov/common/rss/?rss=13
+    address: 1203 Longworth House Office Building Washington DC 20515-0307
+    office: 1203 Longworth House Office Building
+    phone: 202-225-2435
+- id:
+    bioguide: C001078
+  name:
+    first: Gerald
+    middle: E.
+    last: Connolly
+    official_full: Gerald E. Connolly
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2025-05-21'
+    state: VA
+    district: 11
+    party: Democrat
+    url: https://connolly.house.gov
+    rss_url: http://connolly.house.gov/common/rss//index.cfm?rss=44
+    address: 2265 Rayburn House Office Building Washington DC 20515-4611
+    office: 2265 Rayburn House Office Building
+    phone: 202-225-1492
+- id:
+    bioguide: G000590
+  name:
+    first: Mark
+    middle: E.
+    last: Green
+    official_full: Mark E. Green
+  terms:
+  - type: rep
+    start: '2025-01-03'
+    end: '2025-07-21'
+    state: TN
+    district: 7
+    party: Republican
+    url: https://markgreen.house.gov
+    address: 2446 Rayburn House Office Building Washington DC 20515-4207
+    office: 2446 Rayburn House Office Building
+    phone: 202-225-2811

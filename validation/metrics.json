@@ -1,0 +1,20 @@
+{
+  "accepted_rows": 3179,
+  "displayed_rows": 2404,
+  "accepted_members": 55,
+  "accepted_tickers": 854,
+  "source_ticker_strings": 855,
+  "normalized_alias_rows": 2,
+  "hidden_rows": 775,
+  "hidden_tickers": 499,
+  "projected_edges": 494,
+  "isolates": 10,
+  "assortativity": -0.03288505285695,
+  "weighted_assortativity": -0.05361669740347,
+  "identical_excess_rows": 124,
+  "unique_parsed_record_ids": 3179,
+  "missing_owner_codes": 1951,
+  "parser_review_flagged_rows": 107,
+  "early_future_snapshot_rows": 130,
+  "roster_count": 445
+}

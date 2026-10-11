@@ -1,0 +1,11 @@
+{
+  "provenance": "Reference tables rebuilt from full pinned upstream YAML before House subsetting, at reviewed commit 4aa2cfe1c3023d96d6328d77a90b31095f502d03. Canonical hash ignores CSV newline and row order, preserving every field value.",
+  "committee-membership-2025-TRANSACTION_MATCHED.csv": {
+    "rows": 26015,
+    "canonical_sha256": "7f9988350d3e9893b396ccb79f539b16be7864fa085b350f43747700330c259b"
+  },
+  "house-roster-119th-congress-2025-v1.csv": {
+    "rows": 445,
+    "canonical_sha256": "26c44588257c87a7dc3aabc1b431c430ee3040a3b578742c19e94ed155e7d27e"
+  }
+}

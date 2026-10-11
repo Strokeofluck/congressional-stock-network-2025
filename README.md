@@ -1,3 +1,19 @@
+# Version 1.1 — 2025 House purchase network
+
+**[Open the interactive network](https://strokeofluck.github.io/congressional-stock-network-2025/)**
+
+**[Compare reporting members](https://strokeofluck.github.io/congressional-stock-network-2025/?analysis=1)**
+
+Version 1.1 adds member overlap, all accepted member–stock ties, party assortativity, a corrected roster boundary, textbook/class references and a self-contained 2025 source snapshot. The main Pages deployment renders the R source and independently verifies the result before publishing. The portfolio embeds this standalone network.
+
+**[Open the textbook and class methodology guide](https://strokeofluck.github.io/congressional-stock-network-2025/?methods=1)**
+
+The guide links actual project methods to the SNA book and relevant [DSA 495 class modules](https://courseweb.site/dsa495-2026/materials.html#12), with scheduled dates and a presentation review path. It distinguishes adapted course principles from implemented methods and labels future sessions as of the October 11, 2026 review.
+
+Read [Version 1.1 scope and limitations](VERSION_1_NOTES.md), [the executable new analysis](v1-analysis.R), and [the independent checks](verify_v1.py). Generated counts and analytical exports are in [validation](validation/).
+
+---
+
 # Congressional Stock Trading Network 2025
 
 Interactive network analysis of reported 2025 U.S. House public-stock purchases.
@@ -11,24 +27,22 @@ The rendered page contains four internal sections:
 - **Explore** — force-directed politician / stock / committee network
 - **About** — source definitions, provenance, and caveats
 - **Methodology** — design and analytical choices
-- **Class Report** — narrated R commands and outputs for course-format review
+- **Compare members** — projected member overlap, all accepted affiliations, and descriptive party mixing
 
 The interface also includes graph search, reset/recenter controls, institution drawers, original PTR links, shareable selections, CSV export, House coverage diagnostics, and a compact mobile view/legend control.
 
 ## Analysis input
 
-This repository does **not** duplicate the full 2021–2026 scraper working dataset.
+The repository includes the parsed **2025 transaction-year snapshot** and bounded House reference snapshots under [data/2025](data/2025/README.md). Rebuilding does not read another checkout or download source data. The bundled transaction snapshot has 7,797 rows, including late 2026 filings with 2025 transactions; other transaction years are excluded.
 
-Instead it contains a frozen, analysis-specific extract:
+The renderer uses `data/2025/accepted-stock-purchases.csv`: **3,179 accepted public-stock purchase records** with parsed owner codes, row IDs, filing status and review flags. All original 14 fields and their sequence exactly match the former extract. `PTR_transactions_2025_ACCEPTED_STOCK_PURCHASES.csv` is retained byte-for-byte as that baseline.
 
-`PTR_transactions_2025_ACCEPTED_STOCK_PURCHASES.csv`
-
-It contains **3,179 accepted 2025 public-stock purchase records** and only the source columns referenced by the visualization. The larger scraping/cleaning pipeline remains a separate data-engineering concern.
+There are still 55 accepted purchasers. Importing the richer source does not add accepted purchases or members. Owner codes are missing in 1,951 records; 107 carry parser review flags. The 124 additional equal reduced signatures are not proof of duplicates: all accepted records have distinct parser-assigned IDs. Amendment linkage and source extraction accuracy remain unverified.
 
 This split is deliberate:
 
-- `house-ptr-scraper` owns extraction, parsing, cleaning, and ticker resolution.
-- `congressional-stock-network-2025` owns this analysis and visualization.
+- `house-ptr-scraper` remains the upstream extraction, parsing, cleaning and ticker-resolution source.
+- `congressional-stock-network-2025` owns its frozen 2025 inputs, provenance, reproducible preparation, analysis and visualization.
 - `sean-data-portfolio` owns only the portfolio presentation and links.
 
 ## Main graph rule
@@ -65,7 +79,18 @@ Rscript render.R
 
 `render.R` is the canonical renderer. It renders `2025_Congressional_Stock_Network.Rmd` and includes `mobile-network-controls.html`, so local and GitHub Pages builds use the same responsive interface source. The generated `index.html` is not patched after rendering.
 
-The first render needs internet access because the Rmd downloads exact pinned historical committee and legislator source files. It then caches the flattened tables locally.
+Install Python 3, R and Pandoc, then `Rscript INSTALL_PACKAGES.R`. Source data are bundled; rebuilding needs no scraper or legislator repository. Downloading/installing software dependencies and opening original PDF/readings links still require their usual access. On systems with multiple Python installations, set `CONGRESS_PYTHON` to the desired Python 3 executable.
+
+Optional input reproduction and verification:
+
+```bash
+python3 scripts/prepare_2025.py
+python3 scripts/verify_2025_inputs.py
+Rscript render.R
+python3 verify_v1.py
+```
+
+Rendering verifies the manifest first and reuses compiled reference caches only while their source, code and table hashes match. Fresh checkouts reconstruct both reference tables from the bundled YAML subsets. See [input provenance and limits](data/2025/README.md) and [the import audit](validation/input-audit.json).
 
 Required packages are listed in `INSTALL_PACKAGES.R`.
 
