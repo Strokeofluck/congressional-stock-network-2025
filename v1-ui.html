@@ -12,6 +12,10 @@ body.member-overlap-mode .affiliation-legend-item{display:none!important}
 body.member-overlap-mode #mainOverlapOptions{display:block}
 #mainOverlapOptions label{display:block;font-weight:700;margin:10px 0 5px}
 #mainOverlapThreshold{width:80px;padding:5px 8px;border:1px solid #ccd2d8;border-radius:7px;background:white}
+#mainOverlapLayout{width:100%;padding:6px;border:1px solid #ccd2d8;border-radius:7px;background:white;font-size:11px}
+#v1MembersGraph{position:relative}
+.member-party-heading{position:absolute;top:12px;transform:translateX(-50%);pointer-events:none;z-index:2;padding:4px 9px;background:rgba(255,255,255,.94);border-radius:5px;font-size:13px;font-weight:700;white-space:nowrap}
+#memberOverlapView .member-party-heading{top:82px}
 #mainOverlapOptions p{font-size:11px;line-height:1.5;margin:10px 0}
 #mainOverlapOptions .nav-button{font-size:11px;padding:6px 9px}
 #mainOverlapSelection{white-space:pre-wrap;overflow-wrap:anywhere;max-height:220px;overflow:auto;font-size:11px;line-height:1.5;margin-top:10px}
@@ -35,6 +39,11 @@ body.explore-page-active.member-overlap-mode .graph-legend{max-width:280px;max-h
     const byId=id=>document.getElementById(id);
     let inMain=false;
     const memberGraph=byId('v1MembersGraph'), mainHost=byId('memberOverlapView');
+    const layoutControls=[byId('mainOverlapLayout'),byId('v1MemberLayout')];
+    let memberLayout=byId('mainOverlapLayout').value;
+    let partyPositions=null, partyHeadings=[];
+    const boundNetworks=new WeakSet();
+    const preparingNetworks=new WeakSet();
     const memberHome=document.createElement('div');
     memberHome.id='v1MembersHome';memberGraph.before(memberHome);
     function setSelection(text){byId('v1Selection').textContent=text;byId('mainOverlapSelection').textContent=text;}
@@ -47,10 +56,94 @@ body.explore-page-active.member-overlap-mode .graph-legend{max-width:280px;max-h
       document.querySelectorAll('.v1-directory-row').forEach(row=>{row.hidden=!row.textContent.toLowerCase().includes(q);});
     };
     const network=()=>window.v1Networks&&window.v1Networks[mode];
-    function fit(){window.dispatchEvent(new Event('resize'));setTimeout(()=>{const n=network();if(n){const box=n.body.container.closest('.network-view')||n.body.container.parentElement;if(box.clientWidth&&box.clientHeight)n.setSize(box.clientWidth+'px',box.clientHeight+'px');n.redraw();n.fit({animation:false});}},180);}
+    function fitMemberNetwork(n){
+      if(memberLayout!=='party'){n.fit({animation:false});return;}
+      const width=n.body.container.clientWidth,height=n.body.container.clientHeight;
+      const positions=Object.values(partyPositions||{});if(!positions.length||!width||!height)return;
+      const minX=Math.min(...positions.map(p=>p.x))-150,maxX=Math.max(...positions.map(p=>p.x))+150;
+      const minY=Math.min(...positions.map(p=>p.y))-70,maxY=Math.max(...positions.map(p=>p.y))+90;
+      const desktop=inMain&&width>760;
+      const left=desktop?330:20,right=25,top=inMain?155:55,bottom=inMain?145:30;
+      const scale=Math.max(.08,Math.min((width-left-right)/(maxX-minX),(height-top-bottom)/(maxY-minY)));
+      n.moveTo({position:{x:(minX+maxX)/2,y:(minY+maxY)/2},scale,offset:{x:(left-right)/2,y:(top-bottom)/2},animation:false});
+    }
+    function fit(){window.dispatchEvent(new Event('resize'));setTimeout(()=>{const n=network();if(n){const box=n.body.container.closest('.network-view')||n.body.container.parentElement;if(box.clientWidth&&box.clientHeight)n.setSize(box.clientWidth+'px',box.clientHeight+'px');n.redraw();if(mode==='members')fitMemberNetwork(n);else n.fit({animation:false});}},180);}
+    window.fitMemberOverlap=function(){const n=window.v1Networks&&window.v1Networks.members;if(!n)return;const box=n.body.container.closest('.network-view')||n.body.container.parentElement;if(box.clientWidth&&box.clientHeight)n.setSize(box.clientWidth+'px',box.clientHeight+'px');n.redraw();fitMemberNetwork(n);};
+    function buildPartyLayout(n){
+      const groups=new Map();
+      n.body.data.nodes.get().forEach(node=>{const party=node.party||node.group||'Unknown';if(!groups.has(party))groups.set(party,[]);groups.get(party).push(node);});
+      const ordered=['Democrat','Republican',...Array.from(groups.keys()).filter(p=>!['Democrat','Republican'].includes(p)).sort()].filter(p=>groups.has(p));
+      const plans=ordered.map(party=>{
+        const nodes=groups.get(party).sort((a,b)=>a.label.localeCompare(b.label));
+        const columns=Math.max(1,Math.ceil(Math.sqrt(nodes.length/2)));
+        return {party,nodes,columns,width:(columns-1)*270,rows:Math.ceil(nodes.length/columns)};
+      });
+      const totalWidth=plans.reduce((sum,p)=>sum+p.width,0)+360*(plans.length-1);
+      let left=-totalWidth/2;partyPositions={};
+      partyHeadings.forEach(h=>h.element.remove());partyHeadings=[];
+      plans.forEach(plan=>{
+        const center=left+plan.width/2;
+        plan.nodes.forEach((node,i)=>{
+          const row=Math.floor(i/plan.columns),column=i%plan.columns;
+          const rowCount=Math.min(plan.columns,plan.nodes.length-row*plan.columns);
+          partyPositions[node.id]={x:center+(column-(rowCount-1)/2)*270,y:(row-(plan.rows-1)/2)*130};
+        });
+        const element=document.createElement('div');element.className='member-party-heading';
+        element.textContent=(plan.party==='Democrat'?'Democrats':plan.party==='Republican'?'Republicans':plan.party)+' ('+plan.nodes.length+')';
+        memberGraph.appendChild(element);partyHeadings.push({element,x:center});left+=plan.width+360;
+      });
+    }
+    function positionPartyHeadings(n){
+      partyHeadings.forEach(h=>{
+        h.element.hidden=memberLayout!=='party';
+        h.element.style.top=inMain?'160px':'12px';
+        if(memberLayout==='party'){
+          const x=n.canvasToDOM({x:h.x,y:0}).x;
+          h.element.style.left=Math.max(85,Math.min(memberGraph.clientWidth-85,x))+'px';
+        }
+      });
+    }
+    function applyMemberLayout(){
+      memberLayout=byId('mainOverlapLayout').value==='network'?'network':'party';
+      layoutControls.forEach(control=>control.value=memberLayout);
+      const note=memberLayout==='party'
+        ?'Democrats left; Republicans right. Members are alphabetical within each party. Positions are assigned by party, not detected communities or similarity.'
+        :'Force-directed layout: positions follow the network structure; screen distance is not a numerical similarity measure.';
+      [byId('mainOverlapLayoutNote'),byId('v1LayoutNote')].forEach(el=>el.textContent=note);
+      const n=window.v1Networks&&window.v1Networks.members;
+      if(!n)return;
+      if(!boundNetworks.has(n)){boundNetworks.add(n);n.on('afterDrawing',()=>positionPartyHeadings(n));}
+      const initial=window.networkInitialPositions&&window.networkInitialPositions.members;
+      if(!initial){
+        if(!preparingNetworks.has(n)){
+          preparingNetworks.add(n);
+          // Deferred widgets can finish constructor stabilization before their R event handlers attach.
+          n.once('stabilizationIterationsDone',()=>{
+            window.networkInitialPositions=window.networkInitialPositions||{};
+            window.networkInitialPositions.members=window.networkInitialPositions.members||n.getPositions();
+            n.setOptions({physics:false});applyMemberLayout();fit();
+          });
+          setTimeout(()=>n.stabilize(150),0);
+        }
+        return;
+      }
+      if(!partyPositions)buildPartyLayout(n);
+      n.setOptions({physics:false});
+      const positions=memberLayout==='party'?partyPositions:initial;
+      Object.entries(positions).forEach(([id,p])=>n.moveNode(id,p.x,p.y));
+      n.body.data.nodes.update(n.body.data.nodes.get().map(node=>{
+        const words=String(node.id).split(' '),lines=[];let line='';
+        words.forEach(word=>{if(line&&(line+' '+word).length>20){lines.push(line);line=word;}else line+=(line?' ':'')+word;});
+        if(line)lines.push(line);
+        return {id:node.id,label:memberLayout==='party'?lines.join('\n'):node.id,font:{size:memberLayout==='party'?24:12,strokeWidth:3,strokeColor:'#ffffff'}};
+      }));
+      positionPartyHeadings(n);n.redraw();
+    }
+    layoutControls.forEach(control=>control.onchange=function(){byId('mainOverlapLayout').value=this.value;applyMemberLayout();fit();if(inMain&&window.updateNetworkShareUrl)window.updateNetworkShareUrl();});
+    window.onV1MemberStabilized=function(){applyMemberLayout();fit();};
     window.mountMemberOverlap=function(){
       inMain=true;mode='members';mainHost.appendChild(memberGraph);memberGraph.style.display='block';
-      document.body.classList.add('member-overlap-mode');applyThreshold(byId('mainOverlapThreshold').value);fit();
+      document.body.classList.add('member-overlap-mode');applyThreshold(byId('mainOverlapThreshold').value);applyMemberLayout();fit();
     };
     window.unmountMemberOverlap=function(){
       inMain=false;memberHome.after(memberGraph);document.body.classList.remove('member-overlap-mode');
@@ -74,6 +167,9 @@ body.explore-page-active.member-overlap-mode .graph-legend{max-width:280px;max-h
       byId('v1MembersBtn').classList.toggle('active',mode==='members');
       byId('v1AllBtn').classList.toggle('active',mode==='all');
       byId('v1ThresholdLabel').style.display=mode==='members'?'flex':'none';
+      byId('v1LayoutLabel').style.display=mode==='members'?'flex':'none';
+      byId('v1LayoutNote').style.display=mode==='members'?'block':'none';
+      if(mode==='members')applyMemberLayout();
       byId('v1GraphNote').textContent=mode==='members'
         ?'Member overlap: thicker lines mean more distinct shared tickers. Node size counts all distinct accepted stocks. Red = Republican; blue = Democrat. Click a line for its tickers or a member for their accepted stocks. The threshold changes the display only; statistics below always use the complete projection.'
         :'All accepted affiliations: circles are members; gold diamonds are stocks. Each equal-width line means at least one reported purchase. This includes stocks reported by just one member. Click a member or stock to inspect its connections.';
@@ -91,12 +187,12 @@ body.explore-page-active.member-overlap-mode .graph-legend{max-width:280px;max-h
       setSelection(edges.filter(e=>e.shared_stocks>=minimum).length+' visible member pairs at ≥ '+minimum+' shared stocks. All 55 members are retained; analytical statistics are unchanged.');
     }
     [byId('v1Threshold'),byId('mainOverlapThreshold')].forEach(input=>input.oninput=function(){applyThreshold(this.value);if(inMain&&window.updateNetworkShareUrl)window.updateNetworkShareUrl();});
-    window.resetMemberOverlap=function(){applyThreshold(1);setSelection('Select a member or line to inspect it.');if(window.updateNetworkShareUrl)window.updateNetworkShareUrl();};
-    window.onV1NetworkReady=function(key){if(key==='members')applyThreshold(inMain?byId('mainOverlapThreshold').value:byId('v1Threshold').value);if(key===mode)fit();};
+    window.resetMemberOverlap=function(){applyThreshold(1);applyMemberLayout();const n=window.v1Networks&&window.v1Networks.members;if(n)n.unselectAll();fit();setSelection('Select a member or line to inspect it.');if(window.updateNetworkShareUrl)window.updateNetworkShareUrl();};
+    window.onV1NetworkReady=function(key){if(key==='members'){applyThreshold(inMain?byId('mainOverlapThreshold').value:byId('v1Threshold').value);applyMemberLayout();}if(key===mode)fit();};
     byId('mainOverlapDetails').onclick=open;
     function find(){
       const n=network(), q=byId('v1Search').value.toLowerCase().trim();if(!n||!q)return;
-      const matches=n.body.data.nodes.get().filter(x=>(x.label||'').toLowerCase().includes(q));
+      const matches=n.body.data.nodes.get().filter(x=>(x.label||'').replace(/\n/g,' ').toLowerCase().includes(q));
       if(!matches.length){byId('v1Selection').textContent='No matching node in this view.';return;}
       const id=matches[0].id;n.selectNodes([id]);n.focus(id,{scale:1.3,animation:true});
       window.v1Inspect(mode,{nodes:[id],edges:[]},n);
@@ -117,6 +213,7 @@ body.explore-page-active.member-overlap-mode .graph-legend{max-width:280px;max-h
       }
     };
     if(mainHost.classList.contains('active'))window.mountMemberOverlap();
+    applyMemberLayout();
     if(new URLSearchParams(location.search).get('analysis')==='1')setTimeout(open,500);
     if(new URLSearchParams(location.search).get('methods')==='1')setTimeout(()=>byId('navCode').click(),500);
   }
