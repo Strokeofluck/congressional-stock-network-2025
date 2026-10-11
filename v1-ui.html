@@ -6,6 +6,17 @@
 #v1Selection{max-height:200px;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere;margin-top:12px}
 #v1Page .code-wrap{max-width:1200px}
 .book-reference{font-size:.94rem;color:#526173;border-left:3px solid #a4b7cb;padding:8px 14px;margin:12px 0}
+#memberOverlapView #v1MembersGraph{height:100%;min-height:0;border:0;border-radius:0;margin:0}
+#mainOverlapOptions{display:none}
+body.member-overlap-mode .affiliation-legend-item{display:none!important}
+body.member-overlap-mode #mainOverlapOptions{display:block}
+#mainOverlapOptions label{display:block;font-weight:700;margin:10px 0 5px}
+#mainOverlapThreshold{width:80px;padding:5px 8px;border:1px solid #ccd2d8;border-radius:7px;background:white}
+#mainOverlapOptions p{font-size:11px;line-height:1.5;margin:10px 0}
+#mainOverlapOptions .nav-button{font-size:11px;padding:6px 9px}
+#mainOverlapSelection{white-space:pre-wrap;overflow-wrap:anywhere;max-height:220px;overflow:auto;font-size:11px;line-height:1.5;margin-top:10px}
+body.explore-page-active.member-overlap-mode .graph-legend{max-width:280px;max-height:calc(100dvh - 240px);overflow:auto}
+@media(min-width:761px){.graph-layer-panel{max-width:calc(100vw - 285px);flex-wrap:wrap}}
 @media(max-width:760px){.topbar .nav-actions{flex-wrap:wrap!important;overflow:visible!important;border-radius:14px!important}body:not(.explore-page-active) .topbar .nav-actions{max-width:calc(100vw - 16px)!important}.topbar .nav-actions .nav-button{font-size:10px!important;padding:6px 9px!important}#v1Page{padding-bottom:90px}}
 @media(max-width:600px){.v1-graph{height:480px}.v1-controls{gap:8px}.v1-controls .nav-button{padding:8px 10px}#v1Page .code-wrap{padding:18px 12px}}
 </style>
@@ -19,6 +30,11 @@
     if(!page||!nav)return;
     let mode='members';
     const byId=id=>document.getElementById(id);
+    let inMain=false;
+    const memberGraph=byId('v1MembersGraph'), mainHost=byId('memberOverlapView');
+    const memberHome=document.createElement('div');
+    memberHome.id='v1MembersHome';memberGraph.before(memberHome);
+    function setSelection(text){byId('v1Selection').textContent=text;byId('mainOverlapSelection').textContent=text;}
     document.querySelectorAll('.v1-directory-member').forEach(button=>{
       button.addEventListener('click',()=>{selectMode('members');byId('v1Search').value=button.dataset.member;setTimeout(find,250);});
     });
@@ -28,17 +44,26 @@
       document.querySelectorAll('.v1-directory-row').forEach(row=>{row.hidden=!row.textContent.toLowerCase().includes(q);});
     };
     const network=()=>window.v1Networks&&window.v1Networks[mode];
-    function fit(){window.dispatchEvent(new Event('resize'));setTimeout(()=>{const n=network();if(n){n.redraw();n.fit({animation:false});}},180);}
+    function fit(){window.dispatchEvent(new Event('resize'));setTimeout(()=>{const n=network();if(n){const box=n.body.container.closest('.network-view')||n.body.container.parentElement;if(box.clientWidth&&box.clientHeight)n.setSize(box.clientWidth+'px',box.clientHeight+'px');n.redraw();n.fit({animation:false});}},180);}
+    window.mountMemberOverlap=function(){
+      inMain=true;mode='members';mainHost.appendChild(memberGraph);memberGraph.style.display='block';
+      document.body.classList.add('member-overlap-mode');applyThreshold(byId('mainOverlapThreshold').value);fit();
+    };
+    window.unmountMemberOverlap=function(){
+      inMain=false;memberHome.after(memberGraph);document.body.classList.remove('member-overlap-mode');
+    };
     function open(){
+      window.unmountMemberOverlap();
       ['explorePage','aboutPage','codePage'].forEach(id=>byId(id).style.display='none');
       ['navExplore','navAbout','navCode'].forEach(id=>byId(id).classList.remove('active'));
       page.style.display='block';nav.classList.add('active');
       document.body.classList.remove('explore-page-active','explore-locked');
+      selectMode(mode);
       window.scrollTo(0,0);fit();
     }
     nav.addEventListener('click',open);
     ['navExplore','navAbout','navCode','backToNetwork','backToNetworkFromCode'].forEach(id=>{
-      const el=byId(id);if(el)el.addEventListener('click',()=>{page.style.display='none';nav.classList.remove('active');});
+      const el=byId(id);if(el)el.addEventListener('click',()=>{page.style.display='none';nav.classList.remove('active');if(id==='navExplore'&&mainHost.classList.contains('active'))window.mountMemberOverlap();});
     });
     function selectMode(next){
       mode=next;
@@ -50,18 +75,23 @@
       byId('v1GraphNote').textContent=mode==='members'
         ?'Member overlap: thicker lines mean more distinct shared tickers. Node size counts all distinct accepted stocks. Red = Republican; blue = Democrat. Click a line for its tickers or a member for their accepted stocks. The threshold changes the display only; statistics below always use the complete projection.'
         :'All accepted affiliations: circles are members; gold diamonds are stocks. Each equal-width line means at least one reported purchase. This includes stocks reported by just one member. Click a member or stock to inspect its connections.';
-      byId('v1Selection').textContent='Select a member or connection to inspect it.';fit();
+      setSelection('Select a member or connection to inspect it.');fit();
     }
     byId('v1MembersBtn').onclick=()=>selectMode('members');
     byId('v1AllBtn').onclick=()=>selectMode('all');
     byId('v1FitBtn').onclick=fit;
-    byId('v1Threshold').oninput=function(){
+    function applyThreshold(value){
+      const minimum=Math.min(Number(byId('mainOverlapThreshold').max),Math.max(1,Math.floor(Number(value)||1)));
+      byId('v1Threshold').value=minimum;byId('mainOverlapThreshold').value=minimum;
       const n=window.v1Networks&&window.v1Networks.members;if(!n)return;
-      const minimum=Math.max(1,Number(this.value)||1);
       const edges=n.body.data.edges.get();
       n.body.data.edges.update(edges.map(e=>({id:e.id,hidden:e.shared_stocks<minimum})));
-      byId('v1Selection').textContent=edges.filter(e=>e.shared_stocks>=minimum).length+' visible member pairs at ≥ '+minimum+' shared stocks. All 55 members are retained; analytical statistics are unchanged.';
-    };
+      setSelection(edges.filter(e=>e.shared_stocks>=minimum).length+' visible member pairs at ≥ '+minimum+' shared stocks. All 55 members are retained; analytical statistics are unchanged.');
+    }
+    [byId('v1Threshold'),byId('mainOverlapThreshold')].forEach(input=>input.oninput=function(){applyThreshold(this.value);if(inMain&&window.updateNetworkShareUrl)window.updateNetworkShareUrl();});
+    window.resetMemberOverlap=function(){applyThreshold(1);setSelection('Select a member or line to inspect it.');if(window.updateNetworkShareUrl)window.updateNetworkShareUrl();};
+    window.onV1NetworkReady=function(key){if(key==='members')applyThreshold(inMain?byId('mainOverlapThreshold').value:byId('v1Threshold').value);if(key===mode)fit();};
+    byId('mainOverlapDetails').onclick=open;
     function find(){
       const n=network(), q=byId('v1Search').value.toLowerCase().trim();if(!n||!q)return;
       const matches=n.body.data.nodes.get().filter(x=>(x.label||'').toLowerCase().includes(q));
@@ -77,13 +107,14 @@
         const id=p.nodes[0], node=n.body.data.nodes.get(id);
         const name=key==='members'?id:String(id).replace(/^M:/,'');
         const stocks=(window.v1StockSets||{})[name];
-        out.textContent=stocks?name+' — '+stocks.length+' distinct accepted stocks:\n'+stocks.join(', ')
-          :node.label+' — connected members:\n'+n.getConnectedNodes(id).map(x=>n.body.data.nodes.get(x).label).sort().join(', ');
+        setSelection(stocks?name+' — '+stocks.length+' distinct accepted '+(stocks.length===1?'stock':'stocks')+':\n'+stocks.join(', ')
+          :node.label+' — connected members:\n'+n.getConnectedNodes(id).map(x=>n.body.data.nodes.get(x).label).sort().join(', '));
       }else if(key==='members'&&p.edges&&p.edges.length){
         const e=n.body.data.edges.get(p.edges[0]);
-        out.textContent=e.from+' + '+e.to+'\n'+e.shared_stocks+' shared tickers: '+e.tickers+'\nFull stock lists: '+e.from_degree+' and '+e.to_degree+'; Jaccard overlap: '+(100*e.jaccard).toFixed(1)+'%.\nShared annual purchases do not establish coordination or simultaneous ownership.';
+        setSelection(e.from+' + '+e.to+'\n'+e.shared_stocks+' shared tickers: '+e.tickers+'\nFull stock lists: '+e.from_degree+' and '+e.to_degree+'; Jaccard overlap: '+(100*e.jaccard).toFixed(1)+'%.\nShared annual purchases do not establish coordination or simultaneous ownership.');
       }
     };
+    if(mainHost.classList.contains('active'))window.mountMemberOverlap();
     if(new URLSearchParams(location.search).get('analysis')==='1')setTimeout(open,500);
     if(new URLSearchParams(location.search).get('methods')==='1')setTimeout(()=>byId('navCode').click(),500);
   }

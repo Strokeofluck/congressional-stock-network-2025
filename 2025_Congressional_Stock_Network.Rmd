@@ -6112,6 +6112,10 @@ page <- tags$div(
               if (default_view == "stock") "active" else ""
             ),
             "Stocks only"
+          ),
+          tags$button(
+            id = "memberOverlapBtn", class = "view-button", type = "button",
+            `aria-pressed` = "false", "Member overlap"
           )
         ),
 
@@ -6149,19 +6153,27 @@ page <- tags$div(
 
         tags$div(
           class = "graph-legend",
-          tags$div(class = "graph-legend-title", "Legend"),
+          tags$div(id = "graphLegendTitle", class = "graph-legend-title", "Legend"),
           tags$span(HTML("<span class='legend-dot' style='background:#2F6FDB'></span>Democrat")),
           tags$span(HTML("<span class='legend-dot' style='background:#D64B4B'></span>Republican")),
-          tags$span(HTML("<span class='legend-dot' style='background:#D9A928'></span>Stock")),
-          tags$span(HTML("<span class='legend-box' style='background:#667A70'></span>Committee")),
-          tags$span(HTML("<span class='legend-box-sub' style='background:#A8B7AE'></span>Subcommittee")),
+          tags$span(class = "affiliation-legend-item", HTML("<span class='legend-dot' style='background:#D9A928'></span>Stock")),
+          tags$span(class = "affiliation-legend-item", HTML("<span class='legend-box' style='background:#667A70'></span>Committee")),
+          tags$span(class = "affiliation-legend-item", HTML("<span class='legend-box-sub' style='background:#A8B7AE'></span>Subcommittee")),
           tags$span(
-            class = "graph-filter-note",
+            id = "graphFilterNote", class = "graph-filter-note",
             paste0(
               "Stocks purchased by ≥ ",
               min_politicians_per_stock,
               " politicians"
             )
+          ),
+          tags$div(id = "mainOverlapOptions",
+            tags$label(`for` = "mainOverlapThreshold", "Minimum shared stocks"),
+            tags$input(id = "mainOverlapThreshold", type = "number", min = 1,
+              max = max(v1_edges$shared_stocks), value = 1),
+            tags$p("Thicker lines mean more shared stocks. Node size counts distinct reported stocks. Annual overlap does not establish coordination."),
+            tags$button(id = "mainOverlapDetails", class = "nav-button", "Comparison details"),
+            tags$div(id = "mainOverlapSelection", role = "status", "Select a member or line to inspect it.")
           )
         ),
         tags$div(
@@ -6187,6 +6199,9 @@ page <- tags$div(
             if (default_view == "full") "active" else ""
           ),
           subcommittee_view_content
+        ),
+        tags$div(
+          id = "memberOverlapView", class = "network-view"
         )
       ),
 
@@ -6555,7 +6570,7 @@ purchases_network <- purchases_2025_all %>%
         )
       ),
 
-      tags$p("Explore uses equal-width binary affiliation edges. Unresolved repeats do not make an edge thicker. Politician node size reflects distinct displayed stocks, not influence. The Compare members tab uses full accepted stock degree and distinct shared tickers. ", v1_book("Textbook §2.1.2: Binary vs. Valued Matrices", "networks.html#binary-vs.-valued-matrices"), " · ", v1_book("§13.4: Degree in two-mode networks", "two_mode.html#degree-centrality-in-two-mode-networks")),
+      tags$p("Stock and committee views use equal-width binary affiliation edges; record frequency does not make them thicker. Politician node size reflects distinct displayed stocks, not influence. Member overlap, available on the main canvas and in Compare members, uses full accepted stock degree and distinct shared tickers. ", v1_book("Textbook §2.1.2: Binary vs. Valued Matrices", "networks.html#binary-vs.-valued-matrices"), " · ", v1_book("§13.4: Degree in two-mode networks", "two_mode.html#degree-centrality-in-two-mode-networks")),
       tags$h2("3. Encode party as color"),
       tags$div(class = "book-reference", "Textbook connection: ", v1_book("Chapter 3 §3.5: Visualizaing Node Attributes; Chapter 8 separately measures assortativity", "network_viz.html#visualizaing-node-attributes")),
       tags$p(
@@ -6858,6 +6873,11 @@ visPhysics(
         const stockOnlyBtn = document.getElementById('stockOnlyBtn');
         const committeeBtn = document.getElementById('committeeBtn');
         const subcommitteeBtn = document.getElementById('subcommitteeBtn');
+        const memberOverlapBtn = document.getElementById('memberOverlapBtn');
+        const memberOverlapView = document.getElementById('memberOverlapView');
+        const graphLegendTitle = document.getElementById('graphLegendTitle');
+        const graphFilterNote = document.getElementById('graphFilterNote');
+        const stockFilterNoteText = graphFilterNote.textContent;
 
         const stockView = document.getElementById('stockView');
         const committeeView = document.getElementById('committeeView');
@@ -6898,6 +6918,7 @@ visPhysics(
         let restoringSharedState = false;
 
         function getActiveViewKey() {
+          if (memberOverlapView.classList.contains('active')) return 'members';
           if (subcommitteeView.classList.contains('active')) return 'full';
           if (committeeView.classList.contains('active')) return 'committee';
           return 'stock';
@@ -6918,6 +6939,9 @@ visPhysics(
 
           const params = new URLSearchParams();
           params.set('view', getActiveViewKey());
+          if (getActiveViewKey() === 'members') {
+            params.set('minimum', document.getElementById('mainOverlapThreshold').value);
+          }
 
           const pathItems = detailHistory.slice();
           if (currentDetail) pathItems.push(currentDetail);
@@ -7397,7 +7421,45 @@ visPhysics(
           window.scrollTo({top: 0, behavior: 'auto'});
         }
 
+        function leaveMemberOverlap() {
+          if (memberOverlapView.classList.contains('active')) networkSearchInput.value = '';
+          memberOverlapView.classList.remove('active');
+          memberOverlapBtn.classList.remove('active');
+          memberOverlapBtn.setAttribute('aria-pressed', 'false');
+          document.body.classList.remove('member-overlap-mode');
+          graphLegendTitle.textContent = 'Legend';
+          graphFilterNote.textContent = stockFilterNoteText;
+          networkSearchInput.placeholder = 'Search graph: politician, ticker, company, committee, subcommittee…';
+          if (window.unmountMemberOverlap) window.unmountMemberOverlap();
+          closeSearchResults();
+        }
+
+        function showMemberOverlap(suppressUrl) {
+          closeStockDetail(true);
+          stockView.classList.remove('active');
+          committeeView.classList.remove('active');
+          subcommitteeView.classList.remove('active');
+          [stockOnlyBtn, committeeBtn, subcommitteeBtn].forEach(function(button) { button.classList.remove('active'); });
+          memberOverlapView.classList.add('active');
+          memberOverlapBtn.classList.add('active');
+          memberOverlapBtn.setAttribute('aria-pressed', 'true');
+          document.body.classList.add('member-overlap-mode');
+          graphLegendTitle.textContent = 'Member overlap';
+          graphFilterNote.textContent = 'Lines = shared stocks · all 55 reporting members';
+          networkSearchInput.placeholder = 'Search reporting members…';
+          networkSearchInput.value = '';
+          closeSearchResults();
+          if (window.mountMemberOverlap) window.mountMemberOverlap();
+          fireResize();
+          window.setTimeout(recenterActiveNetwork, 180);
+          if (!suppressUrl) updateShareUrl();
+        }
+
+        window.showMainMemberOverlap = function() { showExplore(); showMemberOverlap(false); };
+        window.updateNetworkShareUrl = updateShareUrl;
+
         function showStock(suppressUrl) {
+          leaveMemberOverlap();
           stockView.classList.add('active');
           committeeView.classList.remove('active');
           subcommitteeView.classList.remove('active');
@@ -7414,6 +7476,7 @@ visPhysics(
 
         function showCommittee(suppressUrl) {
           if (committeeBtn.disabled) return;
+          leaveMemberOverlap();
 
           committeeView.classList.add('active');
           stockView.classList.remove('active');
@@ -7431,6 +7494,7 @@ visPhysics(
 
         function showSubcommittee(suppressUrl) {
           if (subcommitteeBtn.disabled) return;
+          leaveMemberOverlap();
 
           subcommitteeView.classList.add('active');
           stockView.classList.remove('active');
@@ -7447,7 +7511,9 @@ visPhysics(
         }
 
         function showViewByKey(viewKey, suppressUrl) {
-          if (viewKey === 'full' && !subcommitteeBtn.disabled) {
+          if (viewKey === 'members') {
+            showMemberOverlap(suppressUrl);
+          } else if (viewKey === 'full' && !subcommitteeBtn.disabled) {
             showSubcommittee(suppressUrl);
           } else if (viewKey === 'committee' && !committeeBtn.disabled) {
             showCommittee(suppressUrl);
@@ -7584,6 +7650,7 @@ visPhysics(
 
         function resetActiveNetwork() {
           const viewKey = getActiveViewKey();
+          if (viewKey === 'members' && window.resetMemberOverlap) window.resetMemberOverlap();
 
           withActiveNetwork(function(network) {
             const saved = window.networkInitialPositions[viewKey];
@@ -7660,7 +7727,13 @@ visPhysics(
             return;
           }
 
-          searchMatches = searchIndex
+          const currentSearchIndex = getActiveViewKey() === 'members'
+            ? Object.keys(window.v1StockSets || {}).map(function(name) {
+                const count = window.v1StockSets[name].length;
+                return {type: 'Member comparison', label: name, secondary: count + ' distinct reported ' + (count === 1 ? 'stock' : 'stocks'), search_text: name, node_id: name};
+              })
+            : searchIndex;
+          searchMatches = currentSearchIndex
             .map(function(item) {
               return {
                 item: item,
@@ -7758,6 +7831,15 @@ visPhysics(
         function selectSearchResult(item) {
           closeSearchResults();
           networkSearchInput.value = item.label;
+
+          if (getActiveViewKey() === 'members') {
+            withActiveNetwork(function(network) {
+              focusNode(item.node_id);
+              if (window.v1Inspect) window.v1Inspect('members', {nodes: [item.node_id]}, network);
+            });
+            updateShareUrl();
+            return;
+          }
 
           if (item.required_view === 'full') {
             showSubcommittee(true);
@@ -8032,6 +8114,10 @@ visPhysics(
             params.get('view') ||
             window.defaultNetworkView ||
             'full';
+          if (viewKey === 'members') {
+            const input = document.getElementById('mainOverlapThreshold');
+            input.value = Math.min(Number(input.max), Math.max(1, Math.floor(Number(params.get('minimum')) || 1)));
+          }
 
           const pathItems = parseSharedPath(
             params.get('path')
@@ -8120,6 +8206,7 @@ visPhysics(
         subcommitteeBtn.addEventListener('click', function() {
           showSubcommittee(false);
         });
+        memberOverlapBtn.addEventListener('click', function() { showMemberOverlap(false); });
 
         zoomOutNetworkBtn.addEventListener(
           'click',
@@ -8304,6 +8391,7 @@ visPhysics(
             recenterActiveNetwork();
           }, 700);
 
+          const embedInitialView = getActiveViewKey();
           let embedReadySent = false;
 
           function announceEmbedReady() {
@@ -8314,7 +8402,7 @@ visPhysics(
               window.parent.postMessage(
                 {
                   type: 'congress-network-ready',
-                  view: window.defaultNetworkView
+                  view: embedInitialView
                 },
                 window.location.origin
               );
@@ -8323,7 +8411,7 @@ visPhysics(
 
           if (
             window.networkReadyViews &&
-            window.networkReadyViews[window.defaultNetworkView]
+            window.networkReadyViews[embedInitialView]
           ) {
             window.setTimeout(announceEmbedReady, 300);
           } else {
@@ -8332,7 +8420,7 @@ visPhysics(
               function(event) {
                 if (
                   event.detail &&
-                  event.detail.view === window.defaultNetworkView
+                  event.detail.view === embedInitialView
                 ) {
                   window.setTimeout(announceEmbedReady, 300);
                 }
