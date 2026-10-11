@@ -1,0 +1,116 @@
+{
+  "reviewed_at_utc": "2026-10-11T20:54:25.598643+00:00",
+  "upstream_commit": "a064720e90e715f516cd2a725ece0b6f7a73632b",
+  "scope": "All indexed PTR filings in the live 2025 and 2026 House indexes. 2026 is filing year; only transactions dated 2025 qualify for the network.",
+  "conclusion": "Known incomplete extraction: scanned, image-only disclosures were archived but yielded no transaction rows.",
+  "transaction_completeness_verified": false,
+  "years": [
+    {
+      "filing_year": 2025,
+      "official_ptr_filings": 515,
+      "archived_ptr_filings": 515,
+      "missing_checkpoints": 0,
+      "new_ids_since_archived_index": 0,
+      "zero_row_filings": 66,
+      "zero_row_filings_without_text": 66,
+      "zero_row_pdf_pages": 451,
+      "reporters_with_zero_row_filings": 14
+    },
+    {
+      "filing_year": 2026,
+      "official_ptr_filings": 418,
+      "archived_ptr_filings": 418,
+      "missing_checkpoints": 0,
+      "new_ids_since_archived_index": 0,
+      "zero_row_filings": 52,
+      "zero_row_filings_without_text": 52,
+      "zero_row_pdf_pages": 401,
+      "reporters_with_zero_row_filings": 10
+    }
+  ],
+  "confirmed_missing_filing": {
+    "filing_year": 2025,
+    "filing_id": "8220750",
+    "reporter": "Rohit Khanna",
+    "original_pdf_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220750.pdf",
+    "parsed_rows": 0,
+    "visually_reviewed_pages": [
+      1,
+      2,
+      3,
+      10,
+      20,
+      34
+    ],
+    "examples": [
+      {
+        "page": 3,
+        "asset": "GENERAL MILLS INC CMN",
+        "transaction_type": "Purchase",
+        "owner_code": "DC",
+        "transaction_date": "2025-01-17"
+      },
+      {
+        "page": 3,
+        "asset": "GENERAL MILLS INC CMN",
+        "transaction_type": "Purchase",
+        "owner_code": "DC",
+        "transaction_date": "2025-01-21"
+      },
+      {
+        "page": 10,
+        "asset": "DOW INC CMN",
+        "transaction_type": "Purchase",
+        "owner_code": "DC",
+        "transaction_date": "2025-01-22"
+      },
+      {
+        "page": 20,
+        "asset": "A.O. SMITH CORP (DEL) CMN",
+        "transaction_type": "Purchase",
+        "owner_code": "SP",
+        "transaction_date": "2025-01-17"
+      }
+    ]
+  },
+  "limitations": [
+    "All 118 zero-row PDFs were downloaded and checked for a text layer; this is not an OCR transcription of their 852 pages.",
+    "The 52 zero-row filings from 2026 have not all been classified by transaction year; do not count all of their transactions as missing 2025 purchases.",
+    "The exact total of missing purchases, unique tickers, owners and additional qualifying members is not yet established.",
+    "Remaining parsed filings and amendment-to-original links are not certified by this audit.",
+    "Late filings appearing after the observed indexes remain possible."
+  ],
+  "audit_inventory_sha256": "1d334682c190199a405f0bdfef2c19ae0d1d6e94c06232619d16675aa71f7ec0",
+  "sources": [
+    {
+      "file": "stage2_verify.py",
+      "url": "https://raw.githubusercontent.com/StrokeOfLuck/house-ptr-scraper/a064720e90e715f516cd2a725ece0b6f7a73632b/src/stage2_verify.py",
+      "sha256": "f6ee1678a1e454e2896db8eb3ccceba3765cfde706039ee4fb7e42f727238314",
+      "bytes": 10773
+    },
+    {
+      "file": "stage3_extract.py",
+      "url": "https://raw.githubusercontent.com/StrokeOfLuck/house-ptr-scraper/a064720e90e715f516cd2a725ece0b6f7a73632b/src/stage3_extract.py",
+      "sha256": "5ba98077e56022ba563fc443cbdc7c02033fbe6b07a47598ceef364373a05798",
+      "bytes": 87671
+    },
+    {
+      "file": "2026FD.archived.xml",
+      "url": "https://raw.githubusercontent.com/StrokeOfLuck/house-ptr-scraper/a064720e90e715f516cd2a725ece0b6f7a73632b/data/02_xml_indexes/2026FD.xml",
+      "sha256": "24228d3e22de67caf45dfa88d8dd3bacfc21eb7a346f0efb10d7035e7a204f89",
+      "bytes": 454497
+    },
+    {
+      "file": "2025FD.live.xml",
+      "url": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025FD.zip",
+      "sha256": "42fba53d9e79a89214a72011143eec50c1baf8b5f4adaa62cef6bdb1d03286d1",
+      "bytes": 804114
+    },
+    {
+      "file": "2026FD.live.xml",
+      "url": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026FD.zip",
+      "sha256": "796c7ed2acec911d9a1b04e1ed7c7b3678d8579ce6616bab31dfb3ab20136764",
+      "bytes": 473870
+    }
+  ]
+}

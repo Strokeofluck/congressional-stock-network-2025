@@ -15,8 +15,11 @@ body.member-overlap-mode #mainOverlapOptions{display:block}
 #mainOverlapOptions p{font-size:11px;line-height:1.5;margin:10px 0}
 #mainOverlapOptions .nav-button{font-size:11px;padding:6px 9px}
 #mainOverlapSelection{white-space:pre-wrap;overflow-wrap:anywhere;max-height:220px;overflow:auto;font-size:11px;line-height:1.5;margin-top:10px}
-body.explore-page-active.member-overlap-mode .graph-legend{max-width:280px;max-height:calc(100dvh - 240px);overflow:auto}
-@media(min-width:761px){.graph-layer-panel{max-width:calc(100vw - 285px);flex-wrap:wrap}}
+body.explore-page-active .graph-legend{flex-wrap:nowrap;overflow-x:hidden}
+body.explore-page-active .graph-legend> *{flex-shrink:0;max-width:100%}
+body.explore-page-active.member-overlap-mode .graph-legend{max-width:280px;max-height:calc(100dvh - 240px);overflow-y:auto}
+#mainOverlapOptions{width:100%}
+@media(min-width:761px){.graph-layer-panel{max-width:calc(100vw - 285px);flex-wrap:wrap}body.explore-page-active.member-overlap-mode .graph-legend{max-height:calc(100dvh - 340px)}}
 @media(max-width:760px){.topbar .nav-actions{flex-wrap:wrap!important;overflow:visible!important;border-radius:14px!important}body:not(.explore-page-active) .topbar .nav-actions{max-width:calc(100vw - 16px)!important}.topbar .nav-actions .nav-button{font-size:10px!important;padding:6px 9px!important}#v1Page{padding-bottom:90px}}
 @media(max-width:600px){.v1-graph{height:480px}.v1-controls{gap:8px}.v1-controls .nav-button{padding:8px 10px}#v1Page .code-wrap{padding:18px 12px}}
 </style>
@@ -26,8 +29,8 @@ body.explore-page-active.member-overlap-mode .graph-legend{max-width:280px;max-h
 <script>
 (function(){
   function init(){
-    const page=document.getElementById('v1Page'), nav=document.getElementById('navV1');
-    if(!page||!nav)return;
+    const page=document.getElementById('v1Page');
+    if(!page)return;
     let mode='members';
     const byId=id=>document.getElementById(id);
     let inMain=false;
@@ -56,14 +59,13 @@ body.explore-page-active.member-overlap-mode .graph-legend{max-width:280px;max-h
       window.unmountMemberOverlap();
       ['explorePage','aboutPage','codePage'].forEach(id=>byId(id).style.display='none');
       ['navExplore','navAbout','navCode'].forEach(id=>byId(id).classList.remove('active'));
-      page.style.display='block';nav.classList.add('active');
+      page.style.display='block';
       document.body.classList.remove('explore-page-active','explore-locked');
       selectMode(mode);
       window.scrollTo(0,0);fit();
     }
-    nav.addEventListener('click',open);
     ['navExplore','navAbout','navCode','backToNetwork','backToNetworkFromCode'].forEach(id=>{
-      const el=byId(id);if(el)el.addEventListener('click',()=>{page.style.display='none';nav.classList.remove('active');if(id==='navExplore'&&mainHost.classList.contains('active'))window.mountMemberOverlap();});
+      const el=byId(id);if(el)el.addEventListener('click',()=>{page.style.display='none';if(id==='navExplore'&&mainHost.classList.contains('active'))window.mountMemberOverlap();});
     });
     function selectMode(next){
       mode=next;

@@ -1,0 +1,934 @@
+filing_year,filing_id,reporter,filing_date,parser_status,parsed_transaction_rows,pdf_pages,pdf_text_characters,pdf_sha256,official_pdf_url
+2025,20016861,John McGuire,5/16/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20016861.pdf
+2025,20018054,James Comer,1/10/2025,geometry_v8,28,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20018054.pdf
+2025,20021220,August Lee Pfluger,2/15/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20021220.pdf
+2025,20024346,Rob Bresnahan,2/13/2025,geometry_v8,130,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20024346.pdf
+2025,20024927,Greg Steube,4/4/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20024927.pdf
+2025,20026489,Michael A. Collins,1/1/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026489.pdf
+2025,20026513,Laurel Lee,1/7/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026513.pdf
+2025,20026516,Virginia Foxx,1/6/2025,geometry_v8,15,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026516.pdf
+2025,20026517,Donald Sternoff Beyer,1/6/2025,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026517.pdf
+2025,20026533,Josh Gottheimer,1/14/2025,geometry_v8,55,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026533.pdf
+2025,20026535,Lloyd Doggett,1/8/2025,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026535.pdf
+2025,20026537,Richard W. Allen,1/16/2025,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026537.pdf
+2025,20026538,Mark Dr Green,1/13/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026538.pdf
+2025,20026545,Jonathan Jackson,1/16/2025,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026545.pdf
+2025,20026547,Guy Mr Reschenthaler,1/9/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026547.pdf
+2025,20026548,Steve Cohen,1/10/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026548.pdf
+2025,20026550,Mike Kelly,1/9/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026550.pdf
+2025,20026551,Greg Landsman,1/15/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026551.pdf
+2025,20026556,William R. Keating,1/15/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026556.pdf
+2025,20026577,Scott H. Peters,1/15/2025,geometry_v8,8,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026577.pdf
+2025,20026587,Rick Larsen,1/14/2025,geometry_v8,8,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026587.pdf
+2025,20026590,Nancy Pelosi,1/17/2025,geometry_v8,9,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026590.pdf
+2025,20026591,Thomas H. Kean,1/22/2025,geometry_v8,7,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026591.pdf
+2025,20026597,Kevin Hern,1/15/2025,geometry_v8,9,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026597.pdf
+2025,20026602,Suzan K. DelBene,2/9/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026602.pdf
+2025,20026638,Kathy Manning,1/27/2025,geometry_v8,8,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026638.pdf
+2025,20026639,Michael Waltz,1/23/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026639.pdf
+2025,20026647,Debbie Dingell,1/27/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026647.pdf
+2025,20026650,Robert E. Latta,1/24/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026650.pdf
+2025,20026658,Marjorie Taylor Greene,1/27/2025,geometry_v8,56,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026658.pdf
+2025,20026666,Rudy C. Yakym,1/28/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026666.pdf
+2025,20026684,Max Miller,1/31/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026684.pdf
+2025,20026695,Kelly Louise Morrison,2/2/2025,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026695.pdf
+2025,20026696,Michael A. Collins,2/2/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026696.pdf
+2025,20026701,Mark Dr Green,2/6/2025,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026701.pdf
+2025,20026706,James French Hill,2/4/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026706.pdf
+2025,20026712,Byron Donalds,2/10/2025,geometry_v8,13,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026712.pdf
+2025,20026724,Gerald E. Connolly,2/6/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026724.pdf
+2025,20026726,Gilbert Cisneros,2/11/2025,geometry_v8,56,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026726.pdf
+2025,20026727,Richard W. Allen,2/20/2025,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026727.pdf
+2025,20026731,Jared Moskowitz,2/10/2025,geometry_v8,18,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026731.pdf
+2025,20026732,Josh Gottheimer,2/10/2025,geometry_v8,81,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026732.pdf
+2025,20026736,David P. Joyce,2/7/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026736.pdf
+2025,20026750,James Comer,2/11/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026750.pdf
+2025,20026754,Victoria Spartz,2/10/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026754.pdf
+2025,20026756,Emily Randall,2/11/2025,geometry_v8,11,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026756.pdf
+2025,20026762,Julie Johnson,2/12/2025,geometry_v8,51,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026762.pdf
+2025,20026770,Jefferson Shreve,2/12/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026770.pdf
+2025,20026774,Scott H. Peters,2/18/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026774.pdf
+2025,20026791,Marjorie Taylor Greene,2/14/2025,geometry_v8,11,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026791.pdf
+2025,20026792,Mike Kelly,2/14/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026792.pdf
+2025,20026794,Kevin Hern,2/14/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026794.pdf
+2025,20026796,Tim Moore,2/15/2025,geometry_v8,24,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026796.pdf
+2025,20026802,Thomas H. Kean,2/19/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026802.pdf
+2025,20027805,Susie Lee,3/14/2025,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027805.pdf
+2025,20027807,Suzan K. DelBene,2/25/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027807.pdf
+2025,20027810,Jake Auchincloss,2/21/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027810.pdf
+2025,20027820,Michael A. Collins,2/21/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027820.pdf
+2025,20027834,Scott Scott Franklin,2/23/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027834.pdf
+2025,20027837,William R. Keating,2/25/2025,geometry_v8,11,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027837.pdf
+2025,20027838,Max Miller,2/24/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027838.pdf
+2025,20027845,Mark Dr Green,2/28/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027845.pdf
+2025,20027846,Brad Knott,2/25/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027846.pdf
+2025,20027855,Cleo Fields,3/14/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027855.pdf
+2025,20027867,Roger Williams,3/1/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027867.pdf
+2025,20027876,Virginia Foxx,3/3/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027876.pdf
+2025,20027879,Jefferson Shreve,3/9/2025,geometry_v8,66,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027879.pdf
+2025,20027885,Greg Landsman,3/5/2025,geometry_v8,10,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027885.pdf
+2025,20027891,Gilbert Cisneros,3/6/2025,geometry_v8,28,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027891.pdf
+2025,20027895,"Neal Patrick MD, Facs Dunn",3/10/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027895.pdf
+2025,20027896,Jared Moskowitz,3/6/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027896.pdf
+2025,20027900,Mark Dr Green,3/5/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027900.pdf
+2025,20027901,Josh Gottheimer,3/6/2025,geometry_v8,60,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027901.pdf
+2025,20027903,Byron Donalds,3/25/2025,geometry_v8,8,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027903.pdf
+2025,20027907,Kelly Louise Morrison,3/10/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027907.pdf
+2025,20027911,Bradley S. Schneider,3/5/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027911.pdf
+2025,20027912,Debbie Wasserman Schultz,3/6/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027912.pdf
+2025,20027913,Earl Leroy Carter,3/6/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027913.pdf
+2025,20027916,Daniel Goldman,3/28/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027916.pdf
+2025,20027923,Rob Bresnahan,3/7/2025,geometry_v8,12,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027923.pdf
+2025,20027927,Richard W. Allen,3/12/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027927.pdf
+2025,20027931,Thomas H. Kean,3/14/2025,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027931.pdf
+2025,20027932,Donald Sternoff Beyer,3/8/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027932.pdf
+2025,20027933,Marjorie Taylor Greene,3/9/2025,geometry_v8,7,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027933.pdf
+2025,20027935,Lloyd Doggett,3/10/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027935.pdf
+2025,20027936,Julie Johnson,3/12/2025,geometry_v8,49,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027936.pdf
+2025,20027937,Mikie Sherrill,3/10/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027937.pdf
+2025,20027940,Rob Bresnahan,3/10/2025,geometry_v8,8,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027940.pdf
+2025,20027944,Tim Moore,3/11/2025,geometry_v8,22,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027944.pdf
+2025,20027950,Eleanor Holmes Norton,3/11/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027950.pdf
+2025,20027951,Kelly Louise Morrison,3/11/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027951.pdf
+2025,20027961,Scott H. Peters,3/14/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027961.pdf
+2025,20027962,Michael A. Collins,3/12/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027962.pdf
+2025,20027975,April McClain Delaney,3/20/2025,geometry_v8,38,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027975.pdf
+2025,20027982,George Whitesides,4/23/2025,geometry_v8,34,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027982.pdf
+2025,20027995,Scott Scott Franklin,3/18/2025,geometry_v8,12,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027995.pdf
+2025,20027999,Suzan K. DelBene,3/26/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027999.pdf
+2025,20028002,Marjorie Taylor Greene,3/19/2025,geometry_v8,13,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20028002.pdf
+2025,20028007,William R. Keating,3/21/2025,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20028007.pdf
+2025,20028016,Marjorie Taylor Greene,3/23/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20028016.pdf
+2025,20028025,Steve Cohen,4/1/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20028025.pdf
+2025,20029026,Gilbert Cisneros,4/7/2025,geometry_v8,40,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029026.pdf
+2025,20029028,Marjorie Taylor Greene,3/26/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029028.pdf
+2025,20029034,Rob Bresnahan,3/27/2025,geometry_v8,114,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029034.pdf
+2025,20029035,Max Miller,3/27/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029035.pdf
+2025,20029038,Jefferson Shreve,4/11/2025,geometry_v8,114,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029038.pdf
+2025,20029046,Kathy Manning,4/21/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029046.pdf
+2025,20029053,Debbie Dingell,4/2/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029053.pdf
+2025,20029055,Rob Bresnahan,4/9/2025,geometry_v8,19,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029055.pdf
+2025,20029059,April McClain Delaney,4/2/2025,geometry_v8,17,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029059.pdf
+2025,20029060,David J. Taylor,4/3/2025,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029060.pdf
+2025,20029061,Virginia Foxx,4/4/2025,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029061.pdf
+2025,20029062,Dwight Evans,4/2/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029062.pdf
+2025,20029064,Julie Johnson,4/14/2025,geometry_v8,19,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029064.pdf
+2025,20029065,Jonathan Jackson,4/8/2025,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029065.pdf
+2025,20029067,Kelly Louise Morrison,4/4/2025,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029067.pdf
+2025,20029068,"Neal Patrick MD, Facs Dunn",4/3/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029068.pdf
+2025,20029069,David J. Taylor,4/3/2025,geometry_v8,7,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029069.pdf
+2025,20029070,Suzan K. DelBene,4/10/2025,geometry_v8,22,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029070.pdf
+2025,20029079,Jared Moskowitz,4/8/2025,geometry_v8,16,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029079.pdf
+2025,20029082,Susie Lee,4/11/2025,geometry_v8,11,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029082.pdf
+2025,20029083,Josh Gottheimer,4/10/2025,geometry_v8,48,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029083.pdf
+2025,20029084,Greg Landsman,4/8/2025,geometry_v8,43,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029084.pdf
+2025,20029088,Lloyd Doggett,4/7/2025,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029088.pdf
+2025,20029089,Marjorie Taylor Greene,4/7/2025,geometry_v8,19,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029089.pdf
+2025,20029092,Byron Donalds,4/14/2025,geometry_v8,50,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029092.pdf
+2025,20029097,Mark Dr Green,4/8/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029097.pdf
+2025,20029100,Dave Min,4/14/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029100.pdf
+2025,20029105,Debbie Dingell,12/6/2025,geometry_v8,8,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029105.pdf
+2025,20029120,Scott H. Peters,4/18/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029120.pdf
+2025,20029121,Kelly Louise Morrison,4/11/2025,geometry_v8,18,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029121.pdf
+2025,20029130,Michael A. Collins,4/11/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029130.pdf
+2025,20029131,Michael A. Collins,5/1/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029131.pdf
+2025,20029132,Scott Scott Franklin,4/11/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029132.pdf
+2025,20029134,Tim Moore,4/14/2025,geometry_v8,30,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029134.pdf
+2025,20029135,Carol Devine Miller,4/11/2025,geometry_v8,14,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029135.pdf
+2025,20029138,Marjorie Taylor Greene,4/11/2025,geometry_v8,22,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029138.pdf
+2025,20030146,Bruce Westerman,4/16/2025,geometry_v8,110,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030146.pdf
+2025,20030155,Thomas H. Kean,4/18/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030155.pdf
+2025,20030158,Rick Larsen,4/15/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030158.pdf
+2025,20030174,William R. Keating,6/23/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030174.pdf
+2025,20030179,Dwight Evans,4/17/2025,geometry_v8,13,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030179.pdf
+2025,20030181,Darrell E. Issa,4/17/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030181.pdf
+2025,20030185,Kevin Hern,4/23/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030185.pdf
+2025,20030187,Scott Scott Franklin,4/17/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030187.pdf
+2025,20030188,Thomas Suozzi,4/21/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030188.pdf
+2025,20030207,Greg Landsman,5/13/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030207.pdf
+2025,20030212,Rob Bresnahan,4/22/2025,geometry_v8,22,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030212.pdf
+2025,20030215,Earl Leroy Carter,4/23/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030215.pdf
+2025,20030231,Jefferson Shreve,5/8/2025,geometry_v8,142,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030231.pdf
+2025,20030233,Victoria Spartz,4/26/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030233.pdf
+2025,20030234,Robert E. Latta,4/27/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030234.pdf
+2025,20030235,Terri A. Sewell,5/12/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030235.pdf
+2025,20030236,Max Miller,4/28/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030236.pdf
+2025,20030237,Guy Mr Reschenthaler,4/29/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030237.pdf
+2025,20030238,Rob Bresnahan,4/28/2025,geometry_v8,52,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030238.pdf
+2025,20030262,Donald Sternoff Beyer,5/2/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030262.pdf
+2025,20030265,April McClain Delaney,5/2/2025,geometry_v8,21,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030265.pdf
+2025,20030267,Kelly Louise Morrison,5/5/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030267.pdf
+2025,20030275,Thomas H. Kean,5/15/2025,geometry_v8,11,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030275.pdf
+2025,20030282,Jared Moskowitz,5/9/2025,geometry_v8,35,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030282.pdf
+2025,20030283,Jonathan Jackson,5/13/2025,geometry_v8,7,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030283.pdf
+2025,20030285,Lloyd Doggett,5/5/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030285.pdf
+2025,20030288,Gilbert Cisneros,5/6/2025,geometry_v8,51,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030288.pdf
+2025,20030289,Suzan K. DelBene,5/7/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030289.pdf
+2025,20030291,Rob Bresnahan,5/8/2025,geometry_v8,127,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030291.pdf
+2025,20030292,Dan Newhouse,5/16/2025,geometry_v8,53,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030292.pdf
+2025,20030295,Marjorie Taylor Greene,5/6/2025,geometry_v8,61,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030295.pdf
+2025,20030296,Julie Johnson,5/14/2025,geometry_v8,144,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030296.pdf
+2025,20030307,Thomas Suozzi,8/13/2025,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030307.pdf
+2025,20030311,Rudy C. Yakym,5/8/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030311.pdf
+2025,20030312,Rob Bresnahan,5/11/2025,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030312.pdf
+2025,20030313,Kelly Louise Morrison,5/13/2025,geometry_v8,11,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030313.pdf
+2025,20030316,Richard W. Allen,5/15/2025,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030316.pdf
+2025,20030331,Mark Dr Green,5/12/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030331.pdf
+2025,20030332,Bruce Westerman,5/12/2025,geometry_v8,103,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030332.pdf
+2025,20030336,Rob Bresnahan,5/12/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030336.pdf
+2025,20030338,Josh Gottheimer,5/14/2025,geometry_v8,118,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030338.pdf
+2025,20030339,Kevin Hern,5/13/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030339.pdf
+2025,20030340,Scott H. Peters,5/16/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030340.pdf
+2025,20030342,Byron Donalds,5/24/2025,geometry_v8,8,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030342.pdf
+2025,20030371,Guy Mr Reschenthaler,5/20/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030371.pdf
+2025,20030387,Jefferson Shreve,6/22/2025,geometry_v8,296,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030387.pdf
+2025,20030388,Gerald E. Connolly,5/17/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030388.pdf
+2025,20030389,Marjorie Taylor Greene,5/19/2025,geometry_v8,21,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030389.pdf
+2025,20030397,Jake Auchincloss,5/22/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030397.pdf
+2025,20030401,Max Miller,5/22/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030401.pdf
+2025,20030402,David J. Taylor,6/2/2025,geometry_v8,8,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030402.pdf
+2025,20030416,Steve Cohen,5/28/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030416.pdf
+2025,20030417,Brandon Gill,5/30/2025,geometry_v8,7,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030417.pdf
+2025,20030433,Rob Bresnahan,5/31/2025,geometry_v8,44,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030433.pdf
+2025,20030439,Michael A. Collins,6/2/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030439.pdf
+2025,20030441,Mark Dr Green,6/6/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030441.pdf
+2025,20030442,April McClain Delaney,6/2/2025,geometry_v8,10,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030442.pdf
+2025,20030444,Suzan K. DelBene,6/8/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030444.pdf
+2025,20030445,Scott Scott Franklin,6/2/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030445.pdf
+2025,20030448,Kelly Louise Morrison,6/4/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030448.pdf
+2025,20030450,Virginia Foxx,6/3/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030450.pdf
+2025,20030452,Jonathan Jackson,6/13/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030452.pdf
+2025,20030454,Lloyd Doggett,6/4/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030454.pdf
+2025,20030455,Jared Moskowitz,6/27/2025,geometry_v8,7,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030455.pdf
+2025,20030458,Laurel Lee,6/22/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030458.pdf
+2025,20030461,Gilbert Cisneros,6/6/2025,geometry_v8,47,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030461.pdf
+2025,20030462,Josh Gottheimer,6/11/2025,geometry_v8,24,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030462.pdf
+2025,20030466,Michael A. Collins,6/5/2025,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030466.pdf
+2025,20030472,Cleo Fields,7/1/2025,geometry_v8,44,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030472.pdf
+2025,20030474,Julie Johnson,6/13/2025,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030474.pdf
+2025,20030475,Kelly Louise Morrison,6/18/2025,geometry_v8,19,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030475.pdf
+2025,20030480,Robert E. Latta,6/8/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030480.pdf
+2025,20030482,Rob Bresnahan,6/9/2025,geometry_v8,54,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030482.pdf
+2025,20030491,Thomas H. Kean,6/17/2025,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030491.pdf
+2025,20030492,Chellie Pingree,6/11/2025,geometry_v8,7,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030492.pdf
+2025,20030494,Scott Scott Franklin,7/3/2025,geometry_v8,35,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030494.pdf
+2025,20030502,Richard W. Allen,6/18/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030502.pdf
+2025,20030509,John McGuire,6/12/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030509.pdf
+2025,20030516,Tim Moore,6/13/2025,geometry_v8,9,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030516.pdf
+2025,20030517,Scott H. Peters,6/23/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030517.pdf
+2025,20030522,Tim Moore,6/13/2025,geometry_v8,24,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030522.pdf
+2025,20030539,Marjorie Taylor Greene,6/18/2025,geometry_v8,8,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030539.pdf
+2025,20030541,Suzan K. DelBene,6/24/2025,geometry_v8,19,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030541.pdf
+2025,20030542,Mike Kennedy,6/20/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030542.pdf
+2025,20030544,Pete Sessions,6/21/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030544.pdf
+2025,20030546,Rob Bresnahan,6/23/2025,geometry_v8,13,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030546.pdf
+2025,20030548,Marjorie Taylor Greene,6/23/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030548.pdf
+2025,20030551,James French Hill,7/24/2025,geometry_v8,14,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030551.pdf
+2025,20030558,Susie Lee,7/10/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030558.pdf
+2025,20030567,David J. Taylor,6/26/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030567.pdf
+2025,20030577,Debbie Wasserman Schultz,7/1/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030577.pdf
+2025,20030579,Mark Dr Green,7/16/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030579.pdf
+2025,20030585,Max Miller,7/1/2025,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030585.pdf
+2025,20030587,Virginia Foxx,7/3/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030587.pdf
+2025,20030591,Bradley S. Schneider,7/1/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030591.pdf
+2025,20030592,April McClain Delaney,7/2/2025,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030592.pdf
+2025,20030594,Bradley S. Schneider,7/2/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030594.pdf
+2025,20030599,Jonathan Jackson,7/14/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030599.pdf
+2025,20030600,Debbie Wasserman Schultz,7/25/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030600.pdf
+2025,20030608,Richard W. Allen,7/15/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030608.pdf
+2025,20030610,John W. Rose,7/4/2025,geometry_v8,10,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030610.pdf
+2025,20030611,John W. Rose,7/4/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030611.pdf
+2025,20030618,Lloyd Doggett,7/7/2025,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030618.pdf
+2025,20030619,Suzan K. DelBene,7/17/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030619.pdf
+2025,20030620,John McGuire,7/10/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030620.pdf
+2025,20030621,Josh Gottheimer,7/16/2025,geometry_v8,18,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030621.pdf
+2025,20030622,Michael A. Collins,7/7/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030622.pdf
+2025,20030630,Nancy Pelosi,7/9/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030630.pdf
+2025,20030632,Earl Leroy Carter,7/8/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030632.pdf
+2025,20030634,Gilbert Cisneros,7/10/2025,geometry_v8,27,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030634.pdf
+2025,20030635,Rob Bresnahan,7/8/2025,geometry_v8,25,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030635.pdf
+2025,20030637,Tim Moore,7/9/2025,geometry_v8,10,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030637.pdf
+2025,20030639,Mike Kelly,7/9/2025,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030639.pdf
+2025,20030641,Brandon Gill,7/10/2025,geometry_v8,13,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030641.pdf
+2025,20030646,Cliff Bentz,7/9/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030646.pdf
+2025,20030647,Julie Johnson,7/14/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030647.pdf
+2025,20030663,Scott H. Peters,7/16/2025,geometry_v8,7,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030663.pdf
+2025,20030670,Scott Scott Franklin,7/14/2025,geometry_v8,16,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030670.pdf
+2025,20030671,Thomas H. Kean,7/16/2025,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030671.pdf
+2025,20030673,Greg Steube,7/16/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030673.pdf
+2025,20030692,Michael A. Collins,7/19/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030692.pdf
+2025,20030699,Richard Dean Dr McCormick,9/17/2025,geometry_v8,33,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030699.pdf
+2025,20030711,Marjorie Taylor Greene,7/22/2025,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030711.pdf
+2025,20030714,August Lee Pfluger,7/23/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030714.pdf
+2025,20030716,James Comer,8/11/2025,geometry_v8,10,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030716.pdf
+2025,20030730,Robert E. Latta,7/25/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030730.pdf
+2025,20030735,"Neal Patrick MD, Facs Dunn",8/13/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030735.pdf
+2025,20030737,August Lee Pfluger,8/13/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030737.pdf
+2025,20030742,Max Miller,7/27/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030742.pdf
+2025,20030746,Donald Sternoff Beyer,8/2/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030746.pdf
+2025,20030756,Seth Moulton,8/5/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030756.pdf
+2025,20030778,Scott Scott Franklin,7/31/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030778.pdf
+2025,20030782,David J. Taylor,9/2/2025,geometry_v8,21,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030782.pdf
+2025,20030800,Patrick Ryan,10/10/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030800.pdf
+2025,20030802,Kelly Louise Morrison,8/3/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030802.pdf
+2025,20030803,Cleo Fields,8/6/2025,geometry_v8,58,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030803.pdf
+2025,20030810,Laurel Lee,8/9/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030810.pdf
+2025,20030820,Lloyd Doggett,8/4/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030820.pdf
+2025,20030822,Susie Lee,8/22/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030822.pdf
+2025,20030824,Tim Moore,8/5/2025,geometry_v8,21,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030824.pdf
+2025,20030826,Suzan K. DelBene,8/9/2025,geometry_v8,20,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030826.pdf
+2025,20030832,April McClain Delaney,8/5/2025,geometry_v8,9,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030832.pdf
+2025,20030839,Debbie Wasserman Schultz,8/6/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030839.pdf
+2025,20030848,Josh Gottheimer,8/11/2025,geometry_v8,7,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030848.pdf
+2025,20030850,Richard W. Allen,8/11/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030850.pdf
+2025,20030857,Rob Bresnahan,8/25/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030857.pdf
+2025,20030860,Jonathan Jackson,8/25/2025,geometry_v8,33,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030860.pdf
+2025,20030868,Adam Smith,8/8/2025,geometry_v8,18,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030868.pdf
+2025,20030869,Shri Thanedar,8/11/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030869.pdf
+2025,20030875,Laurel Lee,8/11/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030875.pdf
+2025,20030876,Scott H. Peters,8/11/2025,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030876.pdf
+2025,20030884,Daniel Meuser,8/13/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030884.pdf
+2025,20030886,George Whitesides,8/13/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030886.pdf
+2025,20030889,Brandon Gill,8/12/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030889.pdf
+2025,20030891,Lisa McClain,8/13/2025,geometry_v8,722,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030891.pdf
+2025,20030892,Mike Kelly,8/12/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030892.pdf
+2025,20030893,Kelly Louise Morrison,8/19/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030893.pdf
+2025,20030894,Donald W. Norcross,9/4/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030894.pdf
+2025,20030901,Gilbert Cisneros,8/14/2025,geometry_v8,25,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030901.pdf
+2025,20030902,Austin Scott,8/13/2025,geometry_v8,17,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030902.pdf
+2025,20030909,Julie Johnson,8/14/2025,geometry_v8,14,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030909.pdf
+2025,20030918,Scott Scott Franklin,8/14/2025,geometry_v8,7,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030918.pdf
+2025,20030922,Daniel Meuser,8/20/2025,geometry_v8,9,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030922.pdf
+2025,20030924,Marjorie Taylor Greene,8/15/2025,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030924.pdf
+2025,20030925,Marjorie Taylor Greene,8/15/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030925.pdf
+2025,20030929,Debbie Wasserman Schultz,8/18/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030929.pdf
+2025,20030930,Ritchie John Torres,8/20/2025,geometry_v8,156,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030930.pdf
+2025,20030932,Lisa McClain,9/12/2025,geometry_v8,141,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030932.pdf
+2025,20030933,Rudy C. Yakym,8/18/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030933.pdf
+2025,20030944,Marjorie Taylor Greene,8/20/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030944.pdf
+2025,20030946,Thomas H. Kean,8/20/2025,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030946.pdf
+2025,20030952,Andrew Garbarino,8/21/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030952.pdf
+2025,20030955,Suzan K. DelBene,8/29/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030955.pdf
+2025,20030976,Jake Auchincloss,8/27/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030976.pdf
+2025,20030989,Max Miller,8/28/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030989.pdf
+2025,20030996,Marjorie Taylor Greene,8/29/2025,geometry_v8,13,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030996.pdf
+2025,20030998,Rob Bresnahan,8/29/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030998.pdf
+2025,20031001,Judy Chu,8/30/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031001.pdf
+2025,20031007,Michael A. Collins,9/2/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031007.pdf
+2025,20031011,Steve Cohen,9/12/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031011.pdf
+2025,20031013,April McClain Delaney,9/2/2025,geometry_v8,16,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031013.pdf
+2025,20031014,William R. Keating,9/4/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031014.pdf
+2025,20031017,Cleo Fields,9/3/2025,geometry_v8,38,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031017.pdf
+2025,20031020,Tim Moore,9/3/2025,geometry_v8,27,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031020.pdf
+2025,20031022,Gilbert Cisneros,9/12/2025,geometry_v8,64,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031022.pdf
+2025,20031023,Jonathan Jackson,9/23/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031023.pdf
+2025,20031032,Josh Gottheimer,9/5/2025,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031032.pdf
+2025,20032038,Byron Donalds,9/5/2025,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032038.pdf
+2025,20032040,Virginia Foxx,9/8/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032040.pdf
+2025,20032051,Laura Friedman,9/9/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032051.pdf
+2025,20032052,Richard W. Allen,9/12/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032052.pdf
+2025,20032054,Scott H. Peters,9/15/2025,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032054.pdf
+2025,20032061,Kelly Louise Morrison,9/11/2025,geometry_v8,11,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032061.pdf
+2025,20032062,Robert B. Aderholt,9/10/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032062.pdf
+2025,20032066,Julie Johnson,9/11/2025,geometry_v8,61,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032066.pdf
+2025,20032070,Valerie Hoyle,9/12/2025,geometry_v8,230,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032070.pdf
+2025,20032080,Pete Sessions,9/15/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032080.pdf
+2025,20032087,Debbie Wasserman Schultz,10/6/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032087.pdf
+2025,20032089,Thomas H. Kean,9/18/2025,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032089.pdf
+2025,20032091,Dan Newhouse,9/17/2025,geometry_v8,16,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032091.pdf
+2025,20032094,David J. Taylor,9/16/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032094.pdf
+2025,20032102,Suzan K. DelBene,9/28/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032102.pdf
+2025,20032106,Cleo Fields,9/30/2025,geometry_v8,21,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032106.pdf
+2025,20032129,Lisa McClain,10/22/2025,geometry_v8,93,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032129.pdf
+2025,20032149,Sheri Biggs,10/5/2025,geometry_v8,189,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032149.pdf
+2025,20032174,Marjorie Taylor Greene,9/27/2025,geometry_v8,11,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032174.pdf
+2025,20032187,Max Miller,10/28/2025,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032187.pdf
+2025,20032191,"Neal Patrick MD, Facs Dunn",10/1/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032191.pdf
+2025,20032200,Donald Sternoff Beyer,10/2/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032200.pdf
+2025,20032204,Richard W. Allen,10/7/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032204.pdf
+2025,20032205,Katherine M. Clark,10/3/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032205.pdf
+2025,20032211,Valerie Hoyle,10/10/2025,geometry_v8,162,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032211.pdf
+2025,20032215,Virginia Foxx,10/6/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032215.pdf
+2025,20032230,Debbie Wasserman Schultz,10/6/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032230.pdf
+2025,20032232,Jonathan Jackson,10/15/2025,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032232.pdf
+2025,20032233,April McClain Delaney,10/6/2025,geometry_v8,8,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032233.pdf
+2025,20032234,Byron Donalds,10/7/2025,geometry_v8,18,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032234.pdf
+2025,20032236,David J. Taylor,10/7/2025,geometry_v8,7,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032236.pdf
+2025,20032242,Julie Johnson,10/7/2025,geometry_v8,20,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032242.pdf
+2025,20032245,Suzan K. DelBene,10/13/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032245.pdf
+2025,20032246,Josh Gottheimer,10/15/2025,geometry_v8,10,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032246.pdf
+2025,20032248,Gilbert Cisneros,10/10/2025,geometry_v8,69,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032248.pdf
+2025,20032250,Laura Friedman,10/8/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032250.pdf
+2025,20032254,Mike Kelly,10/9/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032254.pdf
+2025,20032255,Richard Dean Dr McCormick,10/9/2025,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032255.pdf
+2025,20032256,Tim Moore,10/10/2025,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032256.pdf
+2025,20032269,Thomas H. Kean,10/14/2025,geometry_v8,8,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032269.pdf
+2025,20032276,Rob Bresnahan,10/14/2025,geometry_v8,7,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032276.pdf
+2025,20032283,Scott H. Peters,10/17/2025,geometry_v8,11,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032283.pdf
+2025,20032284,Kevin Hern,10/16/2025,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032284.pdf
+2025,20032298,Rick Larsen,10/16/2025,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032298.pdf
+2025,20033314,Marjorie Taylor Greene,10/20/2025,geometry_v8,10,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033314.pdf
+2025,20033318,Eleanor Holmes Norton,10/21/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033318.pdf
+2025,20033320,Debbie Wasserman Schultz,10/24/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033320.pdf
+2025,20033321,Thomas Suozzi,10/21/2025,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033321.pdf
+2025,20033325,Donald Sternoff Beyer,11/2/2025,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033325.pdf
+2025,20033326,Cleo Fields,10/30/2025,geometry_v8,8,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033326.pdf
+2025,20033327,Scott Scott Franklin,10/22/2025,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033327.pdf
+2025,20033330,Pete Sessions,10/22/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033330.pdf
+2025,20033335,Suzan K. DelBene,10/30/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033335.pdf
+2025,20033337,Nancy Pelosi,10/24/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033337.pdf
+2025,20033346,Robert E. Latta,10/27/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033346.pdf
+2025,20033360,Marjorie Taylor Greene,10/28/2025,geometry_v8,14,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033360.pdf
+2025,20033370,Dwight Evans,10/30/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033370.pdf
+2025,20033379,Sheri Biggs,10/31/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033379.pdf
+2025,20033393,Katherine M. Clark,11/6/2025,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033393.pdf
+2025,20033394,Thomas Suozzi,11/3/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033394.pdf
+2025,20033395,David J. Taylor,11/3/2025,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033395.pdf
+2025,20033398,Josh Gottheimer,11/17/2025,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033398.pdf
+2025,20033402,Chellie Pingree,11/4/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033402.pdf
+2025,20033403,Ann Wagner,11/4/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033403.pdf
+2025,20033408,April McClain Delaney,11/4/2025,geometry_v8,17,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033408.pdf
+2025,20033409,Jonathan Jackson,11/10/2025,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033409.pdf
+2025,20033413,Tim Moore,11/12/2025,geometry_v8,10,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033413.pdf
+2025,20033415,Richard W. Allen,11/13/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033415.pdf
+2025,20033416,Michael Patrick Guest,11/19/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033416.pdf
+2025,20033420,Julie Johnson,11/14/2025,geometry_v8,17,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033420.pdf
+2025,20033421,Jared Moskowitz,11/22/2025,geometry_v8,30,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033421.pdf
+2025,20033424,Cleo Fields,11/12/2025,geometry_v8,11,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033424.pdf
+2025,20033425,Kelly Louise Morrison,11/6/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033425.pdf
+2025,20033427,Pete Sessions,11/7/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033427.pdf
+2025,20033428,Marjorie Taylor Greene,11/7/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033428.pdf
+2025,20033431,Suzan K. DelBene,11/12/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033431.pdf
+2025,20033446,Lisa McClain,11/21/2025,geometry_v8,473,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033446.pdf
+2025,20033447,Mike Kelly,11/11/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033447.pdf
+2025,20033455,Gilbert Cisneros,11/18/2025,geometry_v8,121,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033455.pdf
+2025,20033458,Kevin Hern,11/16/2025,geometry_v8,15,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033458.pdf
+2025,20033462,Marjorie Taylor Greene,11/13/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033462.pdf
+2025,20033472,Scott H. Peters,11/14/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033472.pdf
+2025,20033474,Thomas H. Kean,11/17/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033474.pdf
+2025,20033476,Brandon Gill,11/18/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033476.pdf
+2025,20033488,Peter Allen Stauber,11/21/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033488.pdf
+2025,20033490,Scott DesJarlais,11/18/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033490.pdf
+2025,20033491,Byron Donalds,11/18/2025,geometry_v8,19,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033491.pdf
+2025,20033492,Jake Auchincloss,11/18/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033492.pdf
+2025,20033493,Cleo Fields,11/19/2025,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033493.pdf
+2025,20033495,David J. Taylor,11/18/2025,geometry_v8,11,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033495.pdf
+2025,20033505,Marjorie Taylor Greene,11/19/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033505.pdf
+2025,20033553,Virginia Foxx,12/1/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033553.pdf
+2025,20033559,Cleo Fields,12/10/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033559.pdf
+2025,20033564,Tim Moore,12/2/2025,geometry_v8,14,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033564.pdf
+2025,20033565,Thomas Suozzi,12/1/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033565.pdf
+2025,20033566,Jonathan Jackson,12/5/2025,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033566.pdf
+2025,20033570,Marjorie Taylor Greene,12/2/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033570.pdf
+2025,20033572,Steve Cohen,12/16/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033572.pdf
+2025,20033574,Rob Bresnahan,12/19/2025,geometry_v8,12,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033574.pdf
+2025,20033575,Jefferson Shreve,12/14/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033575.pdf
+2025,20033576,Josh Gottheimer,12/29/2025,geometry_v8,8,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033576.pdf
+2025,20033579,Sheri Biggs,12/4/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033579.pdf
+2025,20033581,Debbie Wasserman Schultz,12/8/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033581.pdf
+2025,20033587,Suzan K. DelBene,12/8/2025,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033587.pdf
+2025,20033588,Scott H. Peters,12/11/2025,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033588.pdf
+2025,20033589,Richard W. Allen,12/9/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033589.pdf
+2025,20033590,David J. Taylor,12/5/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033590.pdf
+2025,20033604,April McClain Delaney,12/8/2025,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033604.pdf
+2025,20033610,Richard Dean Dr McCormick,12/9/2025,geometry_v8,26,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033610.pdf
+2025,20033611,Julie Johnson,12/11/2025,geometry_v8,63,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033611.pdf
+2025,20033615,Mike Kelly,12/9/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033615.pdf
+2025,20033616,Cleo Fields,12/17/2025,geometry_v8,15,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033616.pdf
+2025,20033619,Gilbert Cisneros,12/15/2025,geometry_v8,178,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033619.pdf
+2025,20033628,William R. Keating,12/16/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033628.pdf
+2025,20033649,Marjorie Taylor Greene,12/16/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033649.pdf
+2025,20033651,Kelly Louise Morrison,12/19/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033651.pdf
+2025,20033659,Thomas H. Kean,12/19/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033659.pdf
+2025,20033666,David J. Taylor,12/19/2025,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033666.pdf
+2025,20033667,Dwight Evans,12/19/2025,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033667.pdf
+2025,20033670,Tim Moore,12/19/2025,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033670.pdf
+2025,20033684,Rudy C. Yakym,12/23/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033684.pdf
+2025,20033691,Ed Case,12/24/2025,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033691.pdf
+2025,20033694,Sheri Biggs,12/29/2025,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033694.pdf
+2025,20033699,Jefferson Shreve,12/30/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033699.pdf
+2025,20033700,Jefferson Shreve,12/31/2025,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033700.pdf
+2025,8220731,Keith Alan Self,1/23/2025,needs_fallback,0,2,0,9aec069a88b1fa366dac9d5a091a6d071a9e500efce3311267ca170b36247273,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220731.pdf
+2025,8220747,Gus M. Bilirakis,2/6/2025,needs_fallback,0,2,0,abddefd1e463f88e62e9173f6a12e07e8457f56503619e40f85e034645eb7be8,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220747.pdf
+2025,8220750,Rohit Khanna,2/6/2025,needs_fallback,0,34,0,f846e21d204830941cee2cf6dc402c48999a0548ca6c8bf465537f8e0ee3a1b6,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220750.pdf
+2025,8220753,"Charles J. ""Chuck"" Fleischmann",2/10/2025,needs_fallback,0,4,0,0be0a8cc452f3eb60de294c7b45ae8234a1713323486591814b637ce48db534a,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220753.pdf
+2025,8220754,Michael T. McCaul,2/11/2025,needs_fallback,0,4,0,3e3736f784e4cb8148913c8b195f3a8fd5268cebbecc976960fa5a273f1746ba,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220754.pdf
+2025,8220755,Harold Dallas Rogers,2/12/2025,needs_fallback,0,1,0,9915df4dbb47c382f8b75e61e785acdeef12da455b119bb669052b794450bcb3,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220755.pdf
+2025,8220757,Tony Wied,2/10/2025,needs_fallback,0,1,0,b922fcd97daf5b4764ca794f842d87858ba7f7aac1711359d62eb938c48fe142,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220757.pdf
+2025,8220764,Adrian Smith,2/13/2025,needs_fallback,0,2,0,2448a8a060efb21fb9c88e4f18271594e86bfcd40de359a4da850879b06399df,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220764.pdf
+2025,8220765,Ann Wagner,2/14/2025,needs_fallback,0,2,0,7343d48fea21f727bba4264c8a6e9b015740d659a95571816eac94d7b7a791bc,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220765.pdf
+2025,8220768,Brad Sherman,2/20/2025,needs_fallback,0,2,0,f02eeb304da4667e2336f5871873ab13c79ee08df83af46146ed2442e6987661,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220768.pdf
+2025,8220770,Brad Sherman,2/25/2025,needs_fallback,0,1,0,e34a2d9e9eeebf5b1f3fc355c5b6753952cfeb428686eb9ff71563a46de6d5ea,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220770.pdf
+2025,8220780,Brad Sherman,3/3/2025,needs_fallback,0,2,0,793194656b286fe9831641a63c03f9d03295f781c819feb2ff59b4a356e5e103,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220780.pdf
+2025,8220782,Harold Dallas Rogers,3/6/2025,needs_fallback,0,1,0,ccbd04ac1d308dd673bc0ddceb0be14e009c7fa4cc06df50a4026af7be9a8426,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220782.pdf
+2025,8220783,Rohit Khanna,3/6/2025,needs_fallback,0,28,0,10be37678414505ab67ba3a9bdb78721ebe7367dc61863fd065d16536b15f045,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220783.pdf
+2025,8220796,Vicente Gonzalez,3/13/2025,needs_fallback,0,1,0,bb925a780fd110803f7f2057581726a925e943adeea725fdf5bb82b541a93216,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220796.pdf
+2025,8220799,Tony Wied,3/14/2025,needs_fallback,0,2,0,99bcfa9969d77d1757c80eb28a8d9a42851e01d9385b7586abc5d74653a40b1b,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220799.pdf
+2025,8220809,Vicente Gonzalez,3/31/2025,needs_fallback,0,1,0,b18ccf817de96090cd07d8c7027dbdd91990701c93cfd6bb592142cbdbc65952,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220809.pdf
+2025,8220824,Tony Wied,4/4/2025,needs_fallback,0,1,0,3d5e0208d6dc52fe3a2f8e7962923402db738b438a4332d9115dfe33677f6fde,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220824.pdf
+2025,8220827,Rohit Khanna,4/10/2025,needs_fallback,0,28,0,158f7364b91e2ac6537343f21f4409da6a56c9fb44f92bf490bbceb0a33f29ee,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220827.pdf
+2025,8220828,Jamie Raskin,4/9/2025,needs_fallback,0,1,0,f91f74662af9bf57ca07b19974f74472a3e46cbda409950fafb835fb409125ad,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220828.pdf
+2025,8220834,Michael T. McCaul,4/17/2025,needs_fallback,0,3,0,6cb7ee5457c83e6f1d811c72f90cd2bcd23fcb006255caab64f729d6180cc218,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220834.pdf
+2025,8220836,Ann Wagner,4/16/2025,needs_fallback,0,2,0,395c59539ca9bf51fd9fcb2f56853212ee59fb376f421dc4ab17bf02b519f6b8,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220836.pdf
+2025,8220844,Harold Dallas Rogers,5/1/2025,needs_fallback,0,1,0,75d5150a91f672273e6c777fd68947e1ef173c376b48a0c3b4ae1b730f9d86f7,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220844.pdf
+2025,8220845,Vicente Gonzalez,4/30/2025,needs_fallback,0,1,0,f6f57d9e6843aa4acc8486b6c15f1b7bc436da576e2bf8976bafabdbf7fe6338,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220845.pdf
+2025,8220902,"Charles J. ""Chuck"" Fleischmann",5/13/2025,needs_fallback,0,5,0,7647f4de09f8bda070558a9085784e4a81b422e9c0c8af97038ef923a13047c5,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220902.pdf
+2025,8220903,Tony Wied,5/13/2025,needs_fallback,0,2,0,03baecbee5ac57cfbe01c351d880ca3fc77d15e5c17d96038cb86edbefcb0347,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220903.pdf
+2025,8220904,Michael T. McCaul,5/12/2025,needs_fallback,0,5,0,54efee50f786514c90124ac9767d66007242cf78ee143e3bfc41a59e47cec5a5,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220904.pdf
+2025,8220906,Rohit Khanna,5/12/2025,needs_fallback,0,51,0,5958b9bd3281ebc563a6a9642d77fe3372e084da8a1c26fbd95a19aeb98c21cf,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220906.pdf
+2025,8220958,Harold Dallas Rogers,5/20/2025,needs_fallback,0,1,0,3da69a7fae363a68bbd173ca6428b33f571c67f30df5c0a22326601f1596c230,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220958.pdf
+2025,8221120,Michael T. McCaul,6/9/2025,needs_fallback,0,2,0,c0d71adc4e78549f1e0b5c93c333c1771b9cfe236a72c597941f1720bb11c49a,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221120.pdf
+2025,8221123,Harold Dallas Rogers,6/11/2025,needs_fallback,0,1,0,dd48f701c163ca86037f14ea22997f416a153befa980fcbd3b1bd805a1b62a97,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221123.pdf
+2025,8221124,Rohit Khanna,6/10/2025,needs_fallback,0,26,0,513101cd0041b1429e110af2deb19171ea8f4e8d9e0e43b393fc68fbb48e05f1,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221124.pdf
+2025,8221173,Michael T. McCaul,7/7/2025,needs_fallback,0,8,0,b5f8c596026c819d3df8a5fb038e5b3b165de44a9a4715bb5340fbd11f7421a8,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221173.pdf
+2025,8221176,Rohit Khanna,7/9/2025,needs_fallback,0,20,0,3fa97844820d2f49dd5d4988c455d6e6f1004276916ce2ea24470fd27967a7f5,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221176.pdf
+2025,8221177,Tony Wied,7/9/2025,needs_fallback,0,1,0,eb2e3a232b1765870cd2ff584010479a1bc5e2142de352c79b7f5db41f3624de,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221177.pdf
+2025,8221212,Lisa McClain,10/23/2025,needs_fallback,0,14,0,bf1ff552a81fc57bb9d41c9077e263242224853f128f598584a47b0b73149978,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221212.pdf
+2025,8221223,Harold Dallas Rogers,11/5/2025,needs_fallback,0,1,0,ca1ecd0d335ebd29b002cbc432bc176f23bd192b092b2df4a9a63400c3eaad79,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221223.pdf
+2025,8221228,Michael T. McCaul,11/10/2025,needs_fallback,0,9,0,c8d1ccdf4e14ad4a737bd4b12d76e3e49a357de3fadbcdf0cdbe8a7bf8e167ff,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221228.pdf
+2025,8221231,Rohit Khanna,11/6/2025,needs_fallback,0,23,0,33266c68e77b215e459e3eb781d8cef7e3ee3448f7db32cfca213ff6cdc18620,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221231.pdf
+2025,8221233,Tony Wied,11/10/2025,needs_fallback,0,2,0,94813f83ca2b517f962d8e977b8b160ea9f63a33730580d4557c0383454e1f47,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221233.pdf
+2025,8221237,"Charles J. ""Chuck"" Fleischmann",11/14/2025,needs_fallback,0,2,0,52f077dc7a3fdef9a747738e4dd6669350b05a957ee49bec217736d6e1db5866,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221237.pdf
+2025,8221238,Adrian Smith,11/14/2025,needs_fallback,0,1,0,733ca370b1988f5478d9b8eb958ac1092f6ad7aa37e839994eecba2f0af6ffae,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221238.pdf
+2025,8221263,Michael T. McCaul,12/9/2025,needs_fallback,0,2,0,d2773be13c2d085a041077f04a7d352f9194b019b238ece247fdf0331e8216b0,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221263.pdf
+2025,8221264,Rohit Khanna,12/8/2025,needs_fallback,0,24,0,516b74c086fcc8dc7b1de3d66451c0ed423b18c559ffaebebcdbf4956316a39c,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221264.pdf
+2025,8221270,Harold Dallas Rogers,12/11/2025,needs_fallback,0,1,0,73b40a946526d4158701ec21ea37d47582d721f8d4ea0938398c9eca2c14ec56,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221270.pdf
+2025,8221276,Nicole Malliotakis,12/19/2025,needs_fallback,0,1,0,c2ceb1c998ffd7f162aa3b9b3ed2b044b6cabd386e71a73f5b92ed849a5d264b,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221276.pdf
+2025,8221285,Rohit Khanna,1/6/2026,needs_fallback,0,21,0,da072c0cef208af0fb7f3e2180c3a93b7118f1a2894c9080cb9950a47f42ddbc,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221285.pdf
+2025,8221287,Nicole Malliotakis,1/7/2026,needs_fallback,0,1,0,47ae719c5ec8f48e361a9e76e2a4427078241002cf69d996d648d04815fbb431,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221287.pdf
+2025,8221297,Tony Wied,1/9/2026,needs_fallback,0,2,0,72175c7c8ad976bb60562a5247b26c41f3da14ad7c6963921d21ddf0680265aa,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221297.pdf
+2025,8221302,Michael T. McCaul,1/15/2026,needs_fallback,0,5,0,47eabd41a18b2b31be6a5d9dba80725f5bb1978a8e684ab1a50f56b539ab56ed,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221302.pdf
+2025,8221310,Harold Dallas Rogers,1/16/2026,needs_fallback,0,1,0,2dcca87f6b23477b9c686ba3eb06fd6d31d4fcb73cc086089660c3f4e1b31de4,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221310.pdf
+2025,9115546,Harold Dallas Rogers,7/23/2025,needs_fallback,0,1,0,2f782e947e76d04164da93805c01307820d5b23f15c0c815d60821b648e487b1,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115546.pdf
+2025,9115549,Adrian Smith,7/24/2025,needs_fallback,0,2,0,cb4956f25f93be24ba5cb07355b879d12aa0d156749927c3cdfc75cbc4e34ee4,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115549.pdf
+2025,9115623,Harold Dallas Rogers,8/27/2025,needs_fallback,0,1,0,59eae409d2cd16432774be997a4e77f2b79a07f1a6602b865d05db40765bcf68,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115623.pdf
+2025,9115635,Harold Dallas Rogers,9/4/2025,needs_fallback,0,2,0,31f1570690483887a955cbd063d231e104d832c8fbab19209e73924baa227e93,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115635.pdf
+2025,9115662,Michael T. McCaul,9/25/2025,needs_fallback,0,4,0,ad9073f9159f20000ebcdb77fbb750057d65ddbe19b72983864e3bbb24a40fa4,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115662.pdf
+2025,9115664,Michael T. McCaul,8/12/2025,needs_fallback,0,4,0,7dffa46858d5431f1f673ee05f92df3997d7ebf47fcbae4c77966f498e926e57,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115664.pdf
+2025,9115665,Tony Wied,8/6/2025,needs_fallback,0,1,0,09125f2e74f15ab07780504550cf44a1c7cb8474e27e5d65e2750e03ecad4786,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115665.pdf
+2025,9115670,"Charles J. ""Chuck"" Fleischmann",8/15/2025,needs_fallback,0,3,0,2f327e4ba9bcbd0f53ee44ffefacaeddb89c658a85afccee7925e652e0289093,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115670.pdf
+2025,9115671,Rohit Khanna,8/7/2025,needs_fallback,0,21,0,48e25a833bb1a8617714a51f576fbfbfe15f19ddcc78bea70c1d4022c8aabbcf,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115671.pdf
+2025,9115676,Rohit Khanna,9/9/2025,needs_fallback,0,15,0,5517c29d1f968ffc0921ebf667af564e9e4a059d300494cfe5a4e8f3e17d68f7,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115676.pdf
+2025,9115677,Michael T. McCaul,9/11/2025,needs_fallback,0,8,0,047ef781556a9ad91e925aefab08f685a09937a8c54ab51c6df27ce60af998dd,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115677.pdf
+2025,9115679,Rohit Khanna,10/3/2025,needs_fallback,0,20,0,cacef2564e9c121c8cc9916060b6dffd592bea668c4e308fb066769c598d0bb2,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115679.pdf
+2025,9115684,Michael T. McCaul,10/10/2025,needs_fallback,0,5,0,1f303cd11e91773497be18ef2c5848adc0627149acfeeb946e24450effd9f4a2,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115684.pdf
+2025,9115686,Keith Alan Self,10/14/2025,needs_fallback,0,1,0,a10ed0f71d8bccd6aa262acb880ddb11f3c4113677ffda50ce5f07ab278574c4,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115686.pdf
+2025,9115689,Harold Dallas Rogers,10/16/2025,needs_fallback,0,4,0,e06b24e6d67c35b8fc96d1add91bab4617e685e8e041b355a20e482797997b07,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115689.pdf
+2026,20019182,Lloyd K. Smucker,4/30/2026,geometry_v8,8,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20019182.pdf
+2026,20020055,Nicholas Begich,6/12/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20020055.pdf
+2026,20022577,William R. Timmons,7/19/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20022577.pdf
+2026,20030977,Julia Letlow,1/13/2026,geometry_v8,224,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20030977.pdf
+2026,20032279,Austin Scott,3/12/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20032279.pdf
+2026,20033500,Pete Sessions,3/9/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033500.pdf
+2026,20033648,Richard Dean Dr McCormick,4/7/2026,geometry_v8,20,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033648.pdf
+2026,20033654,Dan Newhouse,1/15/2026,geometry_v8,19,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033654.pdf
+2026,20033661,James French Hill,1/23/2026,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033661.pdf
+2026,20033695,Doris O. Matsui,1/9/2026,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033695.pdf
+2026,20033705,Jefferson Shreve,1/1/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033705.pdf
+2026,20033709,Jefferson Shreve,1/2/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033709.pdf
+2026,20033713,Lloyd Doggett,1/2/2026,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033713.pdf
+2026,20033714,Donald Sternoff Beyer,1/2/2026,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033714.pdf
+2026,20033718,Ann Wagner,1/2/2026,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033718.pdf
+2026,20033725,Nancy Pelosi,1/23/2026,geometry_v8,18,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033725.pdf
+2026,20033732,Cleo Fields,1/16/2026,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033732.pdf
+2026,20033734,Virginia Foxx,1/5/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033734.pdf
+2026,20033736,Lisa McClain,1/7/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033736.pdf
+2026,20033737,April McClain Delaney,1/5/2026,geometry_v8,16,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033737.pdf
+2026,20033738,Zoe Lofgren,1/6/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033738.pdf
+2026,20033739,Jonathan Jackson,1/8/2026,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033739.pdf
+2026,20033744,Debbie Dingell,1/12/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033744.pdf
+2026,20033746,Tim Moore,1/7/2026,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033746.pdf
+2026,20033747,Byron Donalds,1/7/2026,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033747.pdf
+2026,20033751,Richard W. Allen,1/15/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033751.pdf
+2026,20033754,Steve Cohen,1/14/2026,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033754.pdf
+2026,20033755,Linda T. Sanchez,1/9/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033755.pdf
+2026,20033756,Josh Gottheimer,1/14/2026,geometry_v8,9,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033756.pdf
+2026,20033758,David Rouzer,1/7/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033758.pdf
+2026,20033759,David Rouzer,1/7/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033759.pdf
+2026,20033760,Jared Moskowitz,1/16/2026,geometry_v8,8,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033760.pdf
+2026,20033762,Gilbert Cisneros,1/12/2026,geometry_v8,121,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033762.pdf
+2026,20033763,Mike Kelly,1/8/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033763.pdf
+2026,20033766,Suzan K. DelBene,1/12/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033766.pdf
+2026,20033779,Carol Devine Miller,8/13/2026,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033779.pdf
+2026,20033780,Byron Donalds,1/9/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033780.pdf
+2026,20033783,Roger Williams,1/15/2026,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033783.pdf
+2026,20033789,Julie Johnson,1/15/2026,geometry_v8,62,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033789.pdf
+2026,20033800,Sheri Biggs,1/14/2026,geometry_v8,19,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033800.pdf
+2026,20033803,James D Jordan,1/14/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033803.pdf
+2026,20033804,August Lee Pfluger,1/20/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033804.pdf
+2026,20033813,Steve Cohen,1/26/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033813.pdf
+2026,20033814,Rick Larsen,1/14/2026,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033814.pdf
+2026,20033815,Scott H. Peters,1/19/2026,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033815.pdf
+2026,20033821,Thomas H. Kean,1/16/2026,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033821.pdf
+2026,20033829,Kevin Hern,1/22/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033829.pdf
+2026,20033830,Kelly Louise Morrison,1/20/2026,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033830.pdf
+2026,20033835,Suzan K. DelBene,1/23/2026,geometry_v8,15,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033835.pdf
+2026,20033840,Michael A. Collins,1/20/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033840.pdf
+2026,20033845,David J. Taylor,1/21/2026,geometry_v8,9,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033845.pdf
+2026,20033856,Tim Moore,1/24/2026,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033856.pdf
+2026,20033857,Robert E. Latta,1/23/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033857.pdf
+2026,20033858,Cleo Fields,2/3/2026,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033858.pdf
+2026,20033881,Max Miller,1/29/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033881.pdf
+2026,20033889,Steve Cohen,2/9/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033889.pdf
+2026,20033903,Donald Sternoff Beyer,1/31/2026,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033903.pdf
+2026,20033910,Shri Thanedar,8/13/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033910.pdf
+2026,20033916,David J. Taylor,2/2/2026,geometry_v8,32,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033916.pdf
+2026,20033918,David J. Taylor,2/2/2026,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033918.pdf
+2026,20033920,August Lee Pfluger,2/11/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033920.pdf
+2026,20033921,April McClain Delaney,2/2/2026,geometry_v8,15,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033921.pdf
+2026,20033927,Sheri Biggs,2/5/2026,geometry_v8,26,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033927.pdf
+2026,20033928,Kelly Louise Morrison,2/4/2026,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033928.pdf
+2026,20033929,Jonathan Jackson,2/23/2026,geometry_v8,10,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033929.pdf
+2026,20033930,Josh Gottheimer,2/26/2026,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033930.pdf
+2026,20033944,Michael Patrick Guest,2/17/2026,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033944.pdf
+2026,20033945,Richard W. Allen,2/17/2026,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033945.pdf
+2026,20033946,William R. Keating,2/6/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033946.pdf
+2026,20033947,Virginia Foxx,2/6/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033947.pdf
+2026,20033956,John McGuire,2/10/2026,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033956.pdf
+2026,20033964,Lisa McClain,2/11/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033964.pdf
+2026,20033981,Byron Donalds,2/12/2026,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033981.pdf
+2026,20033983,Gilbert Cisneros,2/13/2026,geometry_v8,151,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033983.pdf
+2026,20033989,Kelly Louise Morrison,2/12/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033989.pdf
+2026,20033991,Mike Kelly,2/12/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033991.pdf
+2026,20033993,Maria Elvira Salazar,4/21/2026,geometry_v8,25,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033993.pdf
+2026,20034010,Scott H. Peters,2/25/2026,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034010.pdf
+2026,20034012,Kevin Hern,2/18/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034012.pdf
+2026,20034013,Sheri Biggs,2/17/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034013.pdf
+2026,20034016,Daniel Meuser,2/17/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034016.pdf
+2026,20034018,Cleo Fields,2/24/2026,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034018.pdf
+2026,20034024,Jake Auchincloss,2/19/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034024.pdf
+2026,20034025,Thomas H. Kean,2/19/2026,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034025.pdf
+2026,20034034,Tim Moore,2/20/2026,geometry_v8,8,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034034.pdf
+2026,20034035,Debbie Dingell,2/23/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034035.pdf
+2026,20034036,David J. Taylor,2/20/2026,geometry_v8,8,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034036.pdf
+2026,20034044,Rob Bresnahan,2/22/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034044.pdf
+2026,20034050,Scott Scott Franklin,2/23/2026,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034050.pdf
+2026,20034054,August Lee Pfluger,3/19/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034054.pdf
+2026,20034056,Kelly Louise Morrison,2/25/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034056.pdf
+2026,20034068,William R. Keating,2/26/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034068.pdf
+2026,20034082,Kelly Louise Morrison,3/2/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034082.pdf
+2026,20034084,Jefferson Shreve,3/14/2026,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034084.pdf
+2026,20034085,Donald Sternoff Beyer,3/1/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034085.pdf
+2026,20034095,Virginia Foxx,3/2/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034095.pdf
+2026,20034099,Christian D. Menefee,6/1/2026,geometry_v8,7,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034099.pdf
+2026,20034102,Kelly Louise Morrison,3/3/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034102.pdf
+2026,20034105,Lisa McClain,3/4/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034105.pdf
+2026,20034106,Julia Letlow,3/12/2026,geometry_v8,33,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034106.pdf
+2026,20034113,Jonathan Jackson,3/12/2026,geometry_v8,14,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034113.pdf
+2026,20034114,"Neal Patrick MD, Facs Dunn",3/17/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034114.pdf
+2026,20034119,Steve Cohen,3/5/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034119.pdf
+2026,20034123,Kelly Louise Morrison,3/5/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034123.pdf
+2026,20034128,Kevin Hern,3/6/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034128.pdf
+2026,20034129,Jared Moskowitz,3/30/2026,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034129.pdf
+2026,20034130,Josh Gottheimer,3/16/2026,geometry_v8,16,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034130.pdf
+2026,20034132,Lloyd Doggett,3/5/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034132.pdf
+2026,20034133,Richard W. Allen,3/11/2026,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034133.pdf
+2026,20034134,Byron Donalds,3/6/2026,geometry_v8,8,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034134.pdf
+2026,20034138,David J. Taylor,3/6/2026,geometry_v8,28,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034138.pdf
+2026,20034144,Gilbert Cisneros,3/9/2026,geometry_v8,85,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034144.pdf
+2026,20034155,Suzan K. DelBene,3/12/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034155.pdf
+2026,20034156,Kelly Louise Morrison,3/10/2026,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034156.pdf
+2026,20034158,Daniel Meuser,4/3/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034158.pdf
+2026,20034159,April McClain Delaney,3/10/2026,geometry_v8,45,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034159.pdf
+2026,20034160,Pramila Jayapal,3/15/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034160.pdf
+2026,20034167,Steve Cohen,3/26/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034167.pdf
+2026,20034168,Mike Kelly,3/12/2026,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034168.pdf
+2026,20034176,Ed Case,3/14/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034176.pdf
+2026,20034177,William R. Keating,3/16/2026,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034177.pdf
+2026,20034178,Scott H. Peters,3/18/2026,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034178.pdf
+2026,20034179,Cleo Fields,3/17/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034179.pdf
+2026,20034188,Thomas Suozzi,3/17/2026,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034188.pdf
+2026,20034190,Thomas H. Kean,3/18/2026,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034190.pdf
+2026,20034195,Sheri Biggs,3/21/2026,geometry_v8,8,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034195.pdf
+2026,20034201,Mark Alford,3/31/2026,geometry_v8,9,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034201.pdf
+2026,20034202,Rob Bresnahan,3/18/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034202.pdf
+2026,20034207,David J. Taylor,3/20/2026,geometry_v8,11,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034207.pdf
+2026,20034213,Kelly Louise Morrison,4/2/2026,geometry_v8,10,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034213.pdf
+2026,20034217,Tim Moore,3/24/2026,geometry_v8,9,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034217.pdf
+2026,20034221,Ed Case,4/6/2026,geometry_v8,7,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034221.pdf
+2026,20034223,Warren Davidson,3/25/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034223.pdf
+2026,20034224,Ritchie John Torres,7/8/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034224.pdf
+2026,20034247,Max Miller,3/30/2026,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034247.pdf
+2026,20034262,Kevin Hern,4/3/2026,geometry_v8,16,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034262.pdf
+2026,20034274,Jared Moskowitz,4/30/2026,geometry_v8,50,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034274.pdf
+2026,20034280,David J. Taylor,4/2/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034280.pdf
+2026,20034285,Gilbert Cisneros,4/7/2026,geometry_v8,139,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034285.pdf
+2026,20034292,Lloyd Doggett,4/6/2026,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034292.pdf
+2026,20034295,Cleo Fields,4/7/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034295.pdf
+2026,20034297,Byron Donalds,4/8/2026,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034297.pdf
+2026,20034298,Rudy C. Yakym,4/6/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034298.pdf
+2026,20034299,April McClain Delaney,4/6/2026,geometry_v8,27,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034299.pdf
+2026,20034300,Kelly Louise Morrison,5/5/2026,geometry_v8,7,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034300.pdf
+2026,20034301,Jonathan Jackson,4/8/2026,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034301.pdf
+2026,20034302,Mike Kelly,4/7/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034302.pdf
+2026,20034305,Josh Gottheimer,4/8/2026,geometry_v8,18,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034305.pdf
+2026,20034307,William R. Keating,4/13/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034307.pdf
+2026,20034311,Jennifer McClellan,4/16/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034311.pdf
+2026,20034315,Richard W. Allen,5/4/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034315.pdf
+2026,20034327,Thomas H. Kean,4/13/2026,geometry_v8,8,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034327.pdf
+2026,20034342,Scott H. Peters,4/29/2026,geometry_v8,10,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034342.pdf
+2026,20034345,Greg Steube,4/14/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034345.pdf
+2026,20034346,Sheri Biggs,4/16/2026,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034346.pdf
+2026,20034348,August Lee Pfluger,4/15/2026,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034348.pdf
+2026,20034351,Rick Larsen,4/15/2026,geometry_v8,11,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034351.pdf
+2026,20034355,Laura Friedman,4/17/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034355.pdf
+2026,20034357,Cleo Fields,4/20/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034357.pdf
+2026,20034359,Daniel Meuser,4/21/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034359.pdf
+2026,20034368,Steve Cohen,4/28/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034368.pdf
+2026,20034375,Chip Roy,5/9/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034375.pdf
+2026,20034379,Dwight Evans,4/20/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034379.pdf
+2026,20034384,Terri A. Sewell,4/21/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034384.pdf
+2026,20034400,Suzan K. DelBene,4/28/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034400.pdf
+2026,20034401,Robert E. Latta,4/24/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034401.pdf
+2026,20034413,Elizabeth Fletcher,5/1/2026,geometry_v8,11,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034413.pdf
+2026,20034414,Lori Trahan,4/30/2026,geometry_v8,10,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034414.pdf
+2026,20034416,Debbie Dingell,4/28/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034416.pdf
+2026,20034417,William R. Keating,5/18/2026,geometry_v8,8,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034417.pdf
+2026,20034419,Max Miller,4/28/2026,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034419.pdf
+2026,20034424,Tim Moore,4/28/2026,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034424.pdf
+2026,20034452,Steve Cohen,5/15/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034452.pdf
+2026,20034461,Kevin Hern,5/5/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034461.pdf
+2026,20034462,Ann Wagner,5/4/2026,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034462.pdf
+2026,20034466,Suzan K. DelBene,5/8/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034466.pdf
+2026,20034473,Richard W. Allen,6/5/2026,geometry_v8,7,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034473.pdf
+2026,20034478,Byron Donalds,5/13/2026,geometry_v8,8,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034478.pdf
+2026,20034479,Maria Elvira Salazar,5/8/2026,geometry_v8,12,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034479.pdf
+2026,20034486,Lloyd Doggett,5/6/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034486.pdf
+2026,20034487,April McClain Delaney,5/6/2026,geometry_v8,24,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034487.pdf
+2026,20034489,David J. Taylor,5/7/2026,geometry_v8,10,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034489.pdf
+2026,20034496,Sheri Biggs,6/9/2026,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034496.pdf
+2026,20034498,Sara Jacobs,5/20/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034498.pdf
+2026,20034499,Greg Stanton,5/7/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034499.pdf
+2026,20034500,Gilbert Cisneros,5/8/2026,geometry_v8,94,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034500.pdf
+2026,20034502,Earl Leroy Carter,5/8/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034502.pdf
+2026,20034503,Thomas Suozzi,5/8/2026,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034503.pdf
+2026,20034519,Jonathan Jackson,5/27/2026,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034519.pdf
+2026,20034520,Kelly Louise Morrison,5/21/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034520.pdf
+2026,20034521,John McGuire,5/13/2026,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034521.pdf
+2026,20034522,Brian Babin,5/18/2026,geometry_v8,12,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034522.pdf
+2026,20034524,Cliff Bentz,5/9/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034524.pdf
+2026,20034528,Chip Roy,5/11/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034528.pdf
+2026,20034542,Richard Dean Dr McCormick,5/12/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034542.pdf
+2026,20034547,Daniel Meuser,5/21/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034547.pdf
+2026,20034552,Susie Lee,6/4/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034552.pdf
+2026,20034556,Dwight Evans,5/15/2026,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034556.pdf
+2026,20034562,Daniel Webster,6/1/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034562.pdf
+2026,20034563,Laura Friedman,5/14/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034563.pdf
+2026,20034579,Scott H. Peters,5/18/2026,geometry_v8,40,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034579.pdf
+2026,20034581,Valerie Hoyle,5/15/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034581.pdf
+2026,20034585,Josh Gottheimer,5/19/2026,geometry_v8,26,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034585.pdf
+2026,20034587,Tim Moore,5/19/2026,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034587.pdf
+2026,20034589,Steve Cohen,5/20/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034589.pdf
+2026,20034591,Cleo Fields,6/3/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034591.pdf
+2026,20034607,Mike Kelly,5/20/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034607.pdf
+2026,20034615,Suzan K. DelBene,5/26/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034615.pdf
+2026,20034616,Thomas H. Kean,5/22/2026,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034616.pdf
+2026,20034622,Jake Auchincloss,5/22/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034622.pdf
+2026,20034650,David J. Taylor,5/28/2026,geometry_v8,12,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034650.pdf
+2026,20034651,Max Miller,5/29/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034651.pdf
+2026,20034653,Jefferson Shreve,6/6/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034653.pdf
+2026,20034660,Tim Walberg,6/3/2026,geometry_v8,16,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034660.pdf
+2026,20034668,Ed Case,5/31/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034668.pdf
+2026,20034670,Virginia Foxx,6/2/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034670.pdf
+2026,20034688,Jonathan Jackson,6/16/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034688.pdf
+2026,20034693,Josh Gottheimer,6/3/2026,geometry_v8,20,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034693.pdf
+2026,20034694,Laurel Lee,7/19/2026,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034694.pdf
+2026,20034695,Kevin Hern,6/2/2026,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034695.pdf
+2026,20034702,Debbie Dingell,6/5/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034702.pdf
+2026,20034706,Julie Johnson,6/12/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034706.pdf
+2026,20034709,Maria Elvira Salazar,6/8/2026,geometry_v8,14,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034709.pdf
+2026,20034712,Lloyd Doggett,6/4/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034712.pdf
+2026,20034713,Gilbert Cisneros,6/8/2026,geometry_v8,103,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034713.pdf
+2026,20034717,Greg Stanton,6/26/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034717.pdf
+2026,20034718,April McClain Delaney,6/5/2026,geometry_v8,53,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034718.pdf
+2026,20034721,Tim Moore,6/5/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034721.pdf
+2026,20034726,Robert E. Latta,6/5/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034726.pdf
+2026,20034727,Suzan K. DelBene,6/11/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034727.pdf
+2026,20034736,Sam T. Liccardo,7/27/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034736.pdf
+2026,20034740,Richard W. Allen,6/16/2026,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034740.pdf
+2026,20034747,Thomas Suozzi,6/9/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034747.pdf
+2026,20034748,John McGuire,6/10/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034748.pdf
+2026,20034749,Jared Moskowitz,6/19/2026,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034749.pdf
+2026,20034762,Chip Roy,6/10/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034762.pdf
+2026,20034767,Mike Kelly,6/11/2026,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034767.pdf
+2026,20034774,Daniel Meuser,7/2/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034774.pdf
+2026,20034780,David J. Taylor,6/12/2026,geometry_v8,7,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034780.pdf
+2026,20034783,Thomas H. Kean,6/18/2026,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034783.pdf
+2026,20034784,Scott H. Peters,6/19/2026,geometry_v8,30,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034784.pdf
+2026,20034790,Susie Lee,7/8/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034790.pdf
+2026,20034796,Steve Cohen,6/17/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034796.pdf
+2026,20034800,Cleo Fields,6/26/2026,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034800.pdf
+2026,20034806,Kelly Louise Morrison,7/9/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034806.pdf
+2026,20034807,Matthew Robert Van Epps,6/17/2026,geometry_v8,13,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034807.pdf
+2026,20034815,"Neal Patrick MD, Facs Dunn",6/23/2026,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034815.pdf
+2026,20034836,Nancy Pelosi,6/23/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034836.pdf
+2026,20034851,Dwight Evans,6/24/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034851.pdf
+2026,20034869,Max Miller,7/1/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034869.pdf
+2026,20034891,Donald Sternoff Beyer,7/1/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034891.pdf
+2026,20034892,Katherine M. Clark,7/14/2026,geometry_v8,8,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034892.pdf
+2026,20034894,Cleo Fields,7/16/2026,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034894.pdf
+2026,20034895,Virginia Foxx,7/10/2026,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034895.pdf
+2026,20034897,David J. Taylor,7/1/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034897.pdf
+2026,20034898,William R. Keating,8/13/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034898.pdf
+2026,20034906,Gilbert Cisneros,7/2/2026,geometry_v8,66,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034906.pdf
+2026,20034908,Jonathan Jackson,7/15/2026,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034908.pdf
+2026,20034911,Scott H. Peters,7/10/2026,geometry_v8,13,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034911.pdf
+2026,20034915,Ann Wagner,7/2/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034915.pdf
+2026,20034916,Robert J. Wittman,7/10/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034916.pdf
+2026,20034920,Nicholas Begich,7/7/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034920.pdf
+2026,20034923,Lloyd Doggett,7/6/2026,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034923.pdf
+2026,20034928,Maria Elvira Salazar,7/7/2026,geometry_v8,10,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034928.pdf
+2026,20034932,April McClain Delaney,7/7/2026,geometry_v8,19,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034932.pdf
+2026,20034938,Josh Gottheimer,7/7/2026,geometry_v8,7,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034938.pdf
+2026,20034942,John McGuire,7/8/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034942.pdf
+2026,20034945,Richard W. Allen,7/15/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034945.pdf
+2026,20034947,Mike Kelly,7/8/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034947.pdf
+2026,20034949,John James,7/12/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034949.pdf
+2026,20034952,Tim Moore,7/9/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034952.pdf
+2026,20034954,Richard Dean Dr McCormick,7/9/2026,geometry_v8,16,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034954.pdf
+2026,20034960,Debbie Dingell,7/15/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034960.pdf
+2026,20034963,Jared Moskowitz,7/26/2026,geometry_v8,16,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034963.pdf
+2026,20034968,Byron Donalds,7/15/2026,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034968.pdf
+2026,20034972,Kelly Louise Morrison,7/30/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034972.pdf
+2026,20034977,Rick Larsen,7/12/2026,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034977.pdf
+2026,20034984,Rudy C. Yakym,7/13/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034984.pdf
+2026,20034998,Dan Newhouse,7/17/2026,geometry_v8,31,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034998.pdf
+2026,20034999,Debbie Wasserman Schultz,7/14/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034999.pdf
+2026,20035003,Thomas H. Kean,7/15/2026,geometry_v8,18,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035003.pdf
+2026,20035007,Sheri Biggs,7/27/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035007.pdf
+2026,20035013,Kevin Hern,7/16/2026,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035013.pdf
+2026,20035023,Cleo Fields,7/30/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035023.pdf
+2026,20035024,Daniel Crenshaw,7/16/2026,geometry_v8,8,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035024.pdf
+2026,20035035,Julie Johnson,8/5/2026,geometry_v8,77,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035035.pdf
+2026,20035042,William R. Timmons,7/19/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035042.pdf
+2026,20035047,James A. Himes,7/20/2026,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035047.pdf
+2026,20035048,Debbie Dingell,7/22/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035048.pdf
+2026,20035065,Robert E. Latta,7/24/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035065.pdf
+2026,20035067,Adrian Smith,7/27/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035067.pdf
+2026,20035068,Pete Sessions,7/24/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035068.pdf
+2026,20035075,Max Miller,7/26/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035075.pdf
+2026,20035106,Donald Sternoff Beyer,8/1/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035106.pdf
+2026,20035118,April McClain Delaney,8/3/2026,geometry_v8,62,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035118.pdf
+2026,20035130,Michael Patrick Guest,8/14/2026,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035130.pdf
+2026,20035131,Lisa McClain,8/5/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035131.pdf
+2026,20035134,Kevin Hern,8/10/2026,geometry_v8,14,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035134.pdf
+2026,20035136,Lloyd Doggett,8/5/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035136.pdf
+2026,20035138,Maria Elvira Salazar,8/7/2026,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035138.pdf
+2026,20035143,Nancy Pelosi,8/21/2026,geometry_v8,7,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035143.pdf
+2026,20035146,David J. Taylor,8/6/2026,geometry_v8,10,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035146.pdf
+2026,20035147,Michael Rulli,8/7/2026,geometry_v8,32,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035147.pdf
+2026,20035157,Christian D. Menefee,8/7/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035157.pdf
+2026,20035175,Suzan K. DelBene,8/11/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035175.pdf
+2026,20035180,John J Mr McGuire,8/10/2026,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035180.pdf
+2026,20035183,Derek Tran,8/13/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035183.pdf
+2026,20035186,Josh Gottheimer,8/10/2026,geometry_v8,13,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035186.pdf
+2026,20035190,Gilbert Cisneros,9/4/2026,geometry_v8,66,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035190.pdf
+2026,20035191,Scott H. Peters,8/17/2026,geometry_v8,15,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035191.pdf
+2026,20035196,Kevin Hern,8/12/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035196.pdf
+2026,20035203,Mike Kelly,8/12/2026,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035203.pdf
+2026,20035204,Richard Dean Dr McCormick,8/14/2026,geometry_v8,26,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035204.pdf
+2026,20035209,Mike Kelly,8/12/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035209.pdf
+2026,20035216,Rob Bresnahan,8/12/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035216.pdf
+2026,20035235,Steve Cohen,8/17/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035235.pdf
+2026,20035243,Jared Moskowitz,8/27/2026,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035243.pdf
+2026,20035244,Kelly Louise Morrison,8/25/2026,geometry_v8,7,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035244.pdf
+2026,20035260,Richard W. Allen,8/18/2026,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035260.pdf
+2026,20035273,Thomas H. Kean,8/18/2026,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035273.pdf
+2026,20035274,Suzan K. DelBene,8/21/2026,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035274.pdf
+2026,20035275,Ed Case,8/18/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035275.pdf
+2026,20035289,David J. Taylor,8/20/2026,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035289.pdf
+2026,20035291,Tim Moore,8/20/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035291.pdf
+2026,20035293,William R. Keating,8/25/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035293.pdf
+2026,20035309,Michael Rulli,8/25/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035309.pdf
+2026,20035326,Kevin Hern,9/1/2026,geometry_v8,29,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf
+2026,20035345,Cleo Fields,9/2/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035345.pdf
+2026,20035349,Donald Sternoff Beyer,9/1/2026,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035349.pdf
+2026,20035350,Steve Cohen,9/1/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035350.pdf
+2026,20035365,Michael Rulli,9/2/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035365.pdf
+2026,20035367,John J Mr McGuire,9/2/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035367.pdf
+2026,20035370,Jonathan Jackson,9/3/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035370.pdf
+2026,20035390,Gilbert Cisneros,9/10/2026,geometry_v8,58,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035390.pdf
+2026,20035392,David J. Taylor,9/5/2026,geometry_v8,9,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035392.pdf
+2026,20035400,Suzan K. DelBene,9/14/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035400.pdf
+2026,20035401,Lloyd Doggett,9/8/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035401.pdf
+2026,20035403,Mike Kelly,9/8/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035403.pdf
+2026,20035408,April McClain Delaney,9/9/2026,geometry_v8,78,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035408.pdf
+2026,20035410,Brandon Gill,9/9/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035410.pdf
+2026,20035411,Maria Elvira Salazar,9/9/2026,geometry_v8,12,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035411.pdf
+2026,20035420,Byron Donalds,9/15/2026,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035420.pdf
+2026,20035431,Thomas H. Kean,9/12/2026,geometry_v8,6,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035431.pdf
+2026,20035432,August Lee Pfluger,9/14/2026,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035432.pdf
+2026,20035434,Scott H. Peters,9/21/2026,geometry_v8,17,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035434.pdf
+2026,20035444,John W. Rose,9/12/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035444.pdf
+2026,20035445,John W. Rose,9/12/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035445.pdf
+2026,20035450,Scott Scott Franklin,9/17/2026,geometry_v8,12,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035450.pdf
+2026,20035455,Josh Gottheimer,9/14/2026,geometry_v8,7,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035455.pdf
+2026,20035464,Cleo Fields,10/1/2026,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035464.pdf
+2026,20035471,David J. Taylor,9/17/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035471.pdf
+2026,20035480,Pete Sessions,9/18/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035480.pdf
+2026,20035489,Sheri Biggs,9/22/2026,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035489.pdf
+2026,20035491,Kevin Hern,9/25/2026,geometry_v8,99,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf
+2026,20035492,Richard W. Allen,9/22/2026,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035492.pdf
+2026,20035498,Suzan K. DelBene,9/30/2026,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035498.pdf
+2026,20035499,Pete Sessions,9/22/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035499.pdf
+2026,20035528,Max Miller,9/27/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035528.pdf
+2026,20035539,Vince Fong,10/5/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035539.pdf
+2026,20035549,David J. Taylor,10/1/2026,geometry_v8,5,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035549.pdf
+2026,20035553,Nancy Pelosi,10/2/2026,geometry_v8,1,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035553.pdf
+2026,20035555,Donald Sternoff Beyer,10/1/2026,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035555.pdf
+2026,20035558,Michael Rulli,10/2/2026,geometry_v8,3,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035558.pdf
+2026,20035562,Maria Elvira Salazar,10/7/2026,geometry_v8,42,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035562.pdf
+2026,20035580,Lloyd Doggett,10/5/2026,geometry_v8,4,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035580.pdf
+2026,20035590,Josh Gottheimer,10/7/2026,geometry_v8,2,,,,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035590.pdf
+2026,8221321,"Charles J. ""Chuck"" Fleischmann",2/9/2026,needs_fallback,0,2,0,a11a8608a49ddd4dc599c5c7cdd00c08d4a18849bd5ca9157f5678f8de83e67b,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221321.pdf
+2026,8221322,Rohit Khanna,2/6/2026,needs_fallback,0,56,0,26f1ce2fb7823d2e84ea4fbde24514c5c6371b43a828720d50f21b1c8c7ad314,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221322.pdf
+2026,8221326,Michael T. McCaul,2/11/2026,needs_fallback,0,3,0,adbb2422df7a789bed852b5b6a319be744eea57b55802c17df8ecddd522b8a87,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221326.pdf
+2026,8221332,Harold Dallas Rogers,2/13/2026,needs_fallback,0,1,0,881e6363952d6a6e502d0b46335712d806c3503966c051bdd2a2212c6eecefe3,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221332.pdf
+2026,8221358,Rohit Khanna,3/9/2026,needs_fallback,0,41,0,4df42ba1c69022a27f57daa8928ab9f74db7614a678da296fc1e76083d82e816,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221358.pdf
+2026,8221359,Michael T. McCaul,3/10/2026,needs_fallback,0,5,0,f9a70eab14f09a3ee99748058a7eed7dfa9be2f62817066a35d6acfd673b097e,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221359.pdf
+2026,8221360,Tony Wied,3/9/2026,needs_fallback,0,5,0,106083fc58815d570a6f4128e6f76d9e791d38707f55275b9c5686dd35179d3a,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/8221360.pdf
+2026,9115704,"Charles J. ""Chuck"" Fleischmann",3/20/2026,needs_fallback,0,2,0,c830ee046083e8894f0a360f011186e755f3bbf0d6b83c7084611e80e1776d81,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115704.pdf
+2026,9115711,Harold Dallas Rogers,3/20/2026,needs_fallback,0,1,0,42d8eda1c952b16aa21f1293a8f7f34592441c0757eac9a1650bbc8c95d7e564,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115711.pdf
+2026,9115726,Rohit Khanna,4/7/2026,needs_fallback,0,43,0,b453fddb193c7cabca36c818e2f8a92e4140c1a77e12a4ecae4d3b530bdceca1,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115726.pdf
+2026,9115728,Michael T. McCaul,4/8/2026,needs_fallback,0,5,0,38fd4e814542a1010e7df774145956510e37f0b6c2085bbf84c4a0077ef5d767,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115728.pdf
+2026,9115762,Harold Dallas Rogers,4/21/2026,needs_fallback,0,1,0,0f8693b3d1df1b5620ca75a7cfcd8ec1150e3cc22a264afd81f614756e72fc3b,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115762.pdf
+2026,9115808,Harold Dallas Rogers,5/8/2026,needs_fallback,0,1,0,05b2fa3becd71c9bb141690130708079407e52a6e169cdacf42a467e09e0bda5,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115808.pdf
+2026,9115809,Diana Harshbarger,5/6/2026,needs_fallback,0,2,0,0955f6961d01717aefa76635a84579d868b66d73cddbefdb9ec87f59bcc3fbbf,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115809.pdf
+2026,9115811,Diana Harshbarger,5/6/2026,needs_fallback,0,1,0,2f4b2b6e98e044e6368a072275804bc61dda52f6f1e15c09ddb9074ea1b8952c,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115811.pdf
+2026,9115812,Diana Harshbarger,5/6/2026,needs_fallback,0,2,0,f482dc24b86f6099b22cb2ad15cc400f63eefdaa54354e779832f6a337a962c8,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115812.pdf
+2026,9115813,Diana Harshbarger,5/6/2026,needs_fallback,0,2,0,737955c7c26c497eda37f4378e1af51409b6231204a82d7ae2c3f25c10e0ae84,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115813.pdf
+2026,9115814,Diana Harshbarger,5/6/2026,needs_fallback,0,2,0,fa5caf02b1b6d2b3238b28277a32fbfb0cdf1f452ee1e5246bf2a9719bdf04c6,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115814.pdf
+2026,9115815,Diana Harshbarger,5/6/2026,needs_fallback,0,2,0,cd5d96fd9574074203021afd03aba9950b28199951a06a26d4c0d39b7a16c8ad,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115815.pdf
+2026,9115816,Tony Wied,5/5/2026,needs_fallback,0,1,0,7b63c7eed7a3568ac352bba8e968a330768ddbe7590a632924fca11db18f9cc0,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115816.pdf
+2026,9115820,Michael T. McCaul,5/4/2026,needs_fallback,0,4,0,e1254f953327174fe80a856137e386c3dea42aa58728d350105822bfabab6860,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115820.pdf
+2026,9115821,"Charles J. ""Chuck"" Fleischmann",5/12/2026,needs_fallback,0,2,0,01062352d9464041e4f4a4ca934a2690fa924e95d57c66836bbbd75905d7c7c4,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115821.pdf
+2026,9115822,Rohit Khanna,5/11/2026,needs_fallback,0,30,0,9b345e0f1377af7bbdd227a11d10cf1ec302462b113ede890a5b65998d1e86af,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115822.pdf
+2026,9115901,Diana Harshbarger,6/4/2026,needs_fallback,0,2,0,4733b9c84441cefbcfdf929c349dfbb7010546c81d916c622c775610a8c48ccd,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9115901.pdf
+2026,9116141,Michael T. McCaul,6/10/2026,needs_fallback,0,6,0,716cdcc10bd57c400f10d8bb4133eb667931a9699fb1835ed3b7deca010a36a1,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116141.pdf
+2026,9116142,Rohit Khanna,6/9/2026,needs_fallback,0,41,0,e2e0fb69369dbb5b56c3c214792a126ab73c4bcd280e960f14e76eaa0368f6b0,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116142.pdf
+2026,9116146,Harold Dallas Rogers,6/10/2026,needs_fallback,0,1,0,30c359457b29fde3cf0d76216c9b9927e21d675f2e8f8b8541042637a875204a,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116146.pdf
+2026,9116197,Keith Alan Self,6/30/2026,needs_fallback,0,2,0,e89ec2f7ff2bd362f273002d70184a21a7da1da382b41e756fed163377802a71,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116197.pdf
+2026,9116206,Rohit Khanna,7/6/2026,needs_fallback,0,32,0,e52065ddff1df9c62032993d8352c66d9ad3971b7bd27518c5fe5bbf3a8048e4,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116206.pdf
+2026,9116211,Michael T. McCaul,7/8/2026,needs_fallback,0,6,0,4b9b6aff9ef8f857ea3483be1643667994bfdeee625679dab290f6332afacebe,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116211.pdf
+2026,9116212,"Charles J. ""Chuck"" Fleischmann",7/8/2026,needs_fallback,0,1,0,758f38089886db42330f33a9fc8ed8b9960b0edf0c28247fa34afc1a2694a660,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116212.pdf
+2026,9116217,Nicole Malliotakis,7/14/2026,needs_fallback,0,1,0,9a68e774d4a7948d523a8fecf4ce835fe0fa9dee34089a84b4234306beca3408,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116217.pdf
+2026,9116218,Harold Dallas Rogers,7/14/2026,needs_fallback,0,1,0,58579e4ebcaf0aac95dacb7d84fc886004cb47a6620c2c94c39172038d00daf4,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116218.pdf
+2026,9116249,Tom Cole,7/21/2026,needs_fallback,0,1,0,6578dc8f56ca3b087743fa89e5cf82140de1444a7f09f9d3709b5cd63fdb366e,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116249.pdf
+2026,9116256,Diana Harshbarger,8/3/2026,needs_fallback,0,2,0,20a57322d6853c46b523003c13d6c795d145eb0bca5796c5110c7b847d2a9edd,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116256.pdf
+2026,9116257,Diana Harshbarger,8/3/2026,needs_fallback,0,1,0,974a902f4dd6fe7eaeba9968d8fd2b70ba0ca8e522116fe5c0bcb1e617b736f5,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116257.pdf
+2026,9116258,Diana Harshbarger,8/3/2026,needs_fallback,0,2,0,73e80d211184171ae2eef8dd089ef3271ceff76978abe95e24fbc681bd6d4155,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116258.pdf
+2026,9116260,Tony Wied,7/24/2026,needs_fallback,0,2,0,40abd1de969ff344fab5f3c8950a17ebb8ab5df993ded910f00e48d0d47e385d,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116260.pdf
+2026,9116267,Rohit Khanna,8/7/2026,needs_fallback,0,18,0,05081479c7a1e25becfb7035cbc0107c3d56aedcd82eeff50d4a8f26b9e026a5,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116267.pdf
+2026,9116290,"Charles J. ""Chuck"" Fleischmann",8/12/2026,needs_fallback,0,2,0,7cc36ca57a26ba0331fff01f6210d58d41719f074017442c14fc47983b27b42d,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116290.pdf
+2026,9116292,Tracey Robert Mann,8/13/2026,needs_fallback,0,2,0,7bc49307a68e1dcfc8676fb885118da00f7fcf5b51a297eae214a65e564f209d,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116292.pdf
+2026,9116308,Tony Wied,8/18/2026,needs_fallback,0,2,0,58443ef6f4d8ffb63524a94d2ed65b186f8eb7d38e5651947ea932751c8c0452,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116308.pdf
+2026,9116311,Harold Dallas Rogers,8/20/2026,needs_fallback,0,1,0,aa3092ca162c206e04512a28baf0e06619e49252779e035cdf10e5afa6ccbe8c,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116311.pdf
+2026,9116326,Tony Wied,9/2/2026,needs_fallback,0,2,0,be114957d03486636e639fe9d6c124c71ba8634e2f38f5dfb672eee92502ad2d,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116326.pdf
+2026,9116328,Rohit Khanna,9/4/2026,needs_fallback,0,18,0,2b8a3cebc4a69f509593496502f0821ebac60359a37fd2e7908d0ddf1fbd3526,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116328.pdf
+2026,9116331,Diana Harshbarger,9/11/2026,needs_fallback,0,2,0,58cefce89a3fe84a5d4893337e79b4bc9add769d02fac1869403456afd5a4343,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116331.pdf
+2026,9116342,Harold Dallas Rogers,9/23/2026,needs_fallback,0,1,0,595f56ee7d8b5528b34939d9e7a85ec01981d89432f525289d7320cca4c4ea69,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116342.pdf
+2026,9116355,Diana Harshbarger,10/1/2026,needs_fallback,0,2,0,ba4aa68e3aad02aad29efc952b777a0fc3bd416bbeb48e335497e15146d10763,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116355.pdf
+2026,9116356,Diana Harshbarger,10/1/2026,needs_fallback,0,2,0,6a7145534565f06a8a399ef611fc51c46cdeaa13fa8392beabb2978b8def98f7,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116356.pdf
+2026,9116357,Diana Harshbarger,10/1/2026,needs_fallback,0,2,0,470d2adc55e9a76e321d398323ddca8fe4c4037248299e91c32ea1a0eefe83c5,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116357.pdf
+2026,9116361,Tony Wied,10/2/2026,needs_fallback,0,1,0,438b1c89ec6f78c9ec39f30799b499a8e2fb734cd53dd5b2787f71a6d3b01385,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116361.pdf
+2026,9116376,Rohit Khanna,10/7/2026,needs_fallback,0,31,0,9112dbf52d805f97500c314cbfacf58b114c9448d0f9a81091bafdff63da1a95,https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116376.pdf
