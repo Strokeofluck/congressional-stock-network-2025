@@ -33,6 +33,8 @@ The member projection opens with **Democrats left · Republicans right** and ret
 
 Click a member to emphasize their direct connections at the current **Minimum shared stocks** threshold. Their connected members retain party colors, their incident lines darken, and unrelated members, labels and lines fade. The selection panel lists connected members and shared-stock counts. Click empty canvas or **Clear highlight** to restore the full display. Highlighting also works through search and persists when switching member layouts; it does not change the data or statistics.
 
+The other Explore views have a **Graph layout** selector: their original force-directed layout is the default, with optional **Party layout · Democrats left · Republicans right**. Party grouping places members alphabetically at the sides and centers the stabilized arrangement of stocks, committees and subcommittees, compressing its vertical coordinates by half for a wider display. It is an assigned orientation, not community detection. Clicking a node keeps its direct graph neighbors and incident lines prominent and fades the rest; click empty canvas or **Clear highlight** to restore the display. Layout selection survives view switches, is included in shared links, and Reset restores positions within the selected layout. No nodes, edges, analytical values or frozen inputs change.
+
 The interface also includes graph search, reset/recenter controls, institution drawers, original PTR links, shareable selections, CSV export, House coverage diagnostics, and a compact mobile view/legend control.
 
 Member overlap uses the same comparison widget on the main canvas and the detailed comparison page. Its separate minimum-shared-stocks control filters member-pair lines; it does not change the opening stock rule, remove members or recalculate analytical statistics. The main search, zoom and reset controls apply to the selected graph. On phones, select Member–member · one-mode projection and use Options for its threshold and legend. A member–stock–member path becomes a direct member–member edge; committee views add node types and are mixed networks.
@@ -89,7 +91,7 @@ Run:
 Rscript render.R
 ```
 
-`render.R` is the canonical renderer. It renders `2025_Congressional_Stock_Network.Rmd` and includes `mobile-network-controls.html`, so local and GitHub Pages builds use the same responsive interface source. The generated `index.html` is not patched after rendering.
+`render.R` is the canonical renderer. It renders `2025_Congressional_Stock_Network.Rmd` and includes the performance, mobile, member-comparison and affiliation-layout controllers, so local and GitHub Pages builds use the same interface source. The generated `index.html` is not patched after rendering.
 
 Install Python 3, R and Pandoc, then `Rscript INSTALL_PACKAGES.R`. Source data are bundled; rebuilding needs no scraper or legislator repository. Downloading/installing software dependencies and opening original PDF/readings links still require their usual access. On systems with multiple Python installations, set `CONGRESS_PYTHON` to the desired Python 3 executable.
 
@@ -101,6 +103,8 @@ python3 scripts/verify_2025_inputs.py
 Rscript render.R
 python3 verify_v1.py
 ```
+
+After rendering, `node scripts/verify_party_layouts.cjs .` (Node.js 22) checks party separation, the central coordinate transform, exact restoration, highlighting, clearing/reset, and unchanged analytical fields on all three affiliation graphs. Layouts use a single batched coordinate update instead of redrawing once for each moved node. Both verification and Pages workflows run this check.
 
 Rendering verifies the manifest first and reuses compiled reference caches only while their source, code and table hashes match. Fresh checkouts reconstruct both reference tables from the bundled YAML subsets. See [input provenance and limits](data/2025/README.md) and [the import audit](validation/input-audit.json).
 

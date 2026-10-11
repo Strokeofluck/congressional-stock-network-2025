@@ -370,7 +370,7 @@
       const current = activeView();
       const label = trigger.querySelector('.mobile-view-trigger-label');
       if (label) label.textContent = 'View: ' + current.label;
-      legendToggle.textContent = current.source === memberButton ? 'Options' : 'Legend';
+      legendToggle.textContent = 'Options';
 
       options.forEach(function (item) {
         item.option.classList.toggle('active', item.view === current);

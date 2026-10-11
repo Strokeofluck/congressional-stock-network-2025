@@ -21,7 +21,7 @@ rmarkdown::render(
   output_file = "index.html",
   output_options = list(
     includes = rmarkdown::includes(
-      after_body = c("performance-ui.html", "mobile-network-controls.html", "v1-ui.html")
+      after_body = c("performance-ui.html", "mobile-network-controls.html", "v1-ui.html", "affiliation-ui.html")
     )
   ),
   quiet = FALSE

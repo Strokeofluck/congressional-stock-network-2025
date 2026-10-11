@@ -3466,6 +3466,7 @@ make_network <- function(
     "function() {",
       "window.networkInstances = window.networkInstances || {};",
       "window.networkInstances[", view_key_json, "] = this;",
+      "if(window.bindAffiliationNetwork)window.bindAffiliationNetwork(", view_key_json, ",this);",
     "}"
   )
 
@@ -3488,6 +3489,7 @@ make_network <- function(
             "network.setSize(host.clientWidth + 'px', host.clientHeight + 'px');",
             "network.redraw();",
             "network.fit({animation:false});",
+            "if(window.afterAffiliationStabilized)window.afterAffiliationStabilized(", view_key_json, ",network);",
           "}",
         "} catch (error) {}",
       "}, 120);",
@@ -3634,13 +3636,6 @@ make_network <- function(
       hideEdgesOnZoom = FALSE,
       multiselect = TRUE
     ) %>%
-    visOptions(
-      highlightNearest = list(
-        enabled = TRUE,
-        degree = 1,
-        hover = FALSE
-      )
-    ) %>%
     visEvents(
       # Save a reference to each network so the custom search/reset controls
       # can focus, recenter, and restore its original stabilized layout.
@@ -3658,7 +3653,8 @@ make_network <- function(
       dragEnd = "function(params) { var network = this; window.clearTimeout(network.__fastMotionTimer); network.__fastMotionTimer = window.setTimeout(function() { network.__fastMotion = false; network.setOptions({interaction:{hover:true}}); }, 70); }",
       zoom = "function(params) { var network = this; if (!network.__fastMotion) { network.__fastMotion = true; network.setOptions({interaction:{hover:false}}); } window.clearTimeout(network.__fastMotionTimer); network.__fastMotionTimer = window.setTimeout(function() { network.__fastMotion = false; network.setOptions({interaction:{hover:true}}); }, 110); }",
 
-      selectNode = "function(params) { var id = params.nodes[0]; if (window.clearInstitutionFocusForNetwork) { window.clearInstitutionFocusForNetwork(this); } if (typeof id !== 'string') return; if (id.indexOf('STOCK_') === 0 && window.showStockDetail) { window.showStockDetail(id.replace('STOCK_', '')); } else if (id.indexOf('COMMITTEE_') === 0 && window.showCommitteeDetail) { window.showCommitteeDetail(id.replace('COMMITTEE_', '')); } else if (id.indexOf('SUBCOMMITTEE_') === 0 && window.showSubcommitteeDetail) { window.showSubcommitteeDetail(id.replace('SUBCOMMITTEE_', '')); } else if (id.indexOf('POL_') === 0 && window.showPoliticianNodeDetail) { window.showPoliticianNodeDetail(id); } }"
+      selectNode = "function(params) { var id = params.nodes[0]; if (window.clearInstitutionFocusForNetwork) { window.clearInstitutionFocusForNetwork(this); } if (typeof id !== 'string') return; if (window.highlightAffiliationNode) window.highlightAffiliationNode(this,id); if (id.indexOf('STOCK_') === 0 && window.showStockDetail) { window.showStockDetail(id.replace('STOCK_', '')); } else if (id.indexOf('COMMITTEE_') === 0 && window.showCommitteeDetail) { window.showCommitteeDetail(id.replace('COMMITTEE_', '')); } else if (id.indexOf('SUBCOMMITTEE_') === 0 && window.showSubcommitteeDetail) { window.showSubcommitteeDetail(id.replace('SUBCOMMITTEE_', '')); } else if (id.indexOf('POL_') === 0 && window.showPoliticianNodeDetail) { window.showPoliticianNodeDetail(id); } }",
+      click = "function(params){if((!params.nodes||!params.nodes.length)&&window.clearAffiliationFocus)window.clearAffiliationFocus(this);}"
     )
 
   widget
@@ -6190,6 +6186,15 @@ page <- tags$div(
             )
           ),
           tags$p(class = "graph-coverage-note", "Partial extraction: 66 scanned 2025 filings have no parsed transactions. See About for the coverage audit."),
+          tags$div(id = "affiliationOptions",
+            tags$label(`for` = "affiliationLayout", "Graph layout"),
+            tags$select(id = "affiliationLayout",
+              tags$option(value = "network", "Network structure (force-directed)"),
+              tags$option(value = "party", "Party layout · Democrats left · Republicans right")),
+            tags$p(id = "affiliationLayoutNote", "Force-directed layout: positions follow the network structure. Screen distance is not a numerical similarity measure."),
+            tags$p("Click a politician, stock or institution to highlight its direct connections and fade the rest. Click empty space or Clear highlight to restore the display."),
+            tags$button(id = "affiliationClearFocus", class = "nav-button", hidden = "hidden", "Clear highlight")
+          ),
           tags$div(id = "mainOverlapOptions",
             tags$label(`for` = "mainOverlapLayout", "Member layout"),
             tags$select(id = "mainOverlapLayout",
@@ -6807,6 +6812,7 @@ buyers <- matched_purchase_rows %>%
 
       tags$h2("10. Use a collision-aware force-directed layout"),
       tags$p("The member–member view opens with an assigned party layout: Democrats left, Republicans right, with members alphabetical within party. Member layout can restore the stabilized force-directed view. Party grouping is a display choice, not community detection, and neither layout makes distances numerical similarities. All nodes, connections, stock counts and analytical statistics are retained."),
+      tags$p("The member–stock, committee and subcommittee views offer the same optional party orientation through Graph layout. Their default remains the stabilized force-directed layout. In Party layout, members are assigned to alphabetical groups at the left and right; the stabilized arrangement of stocks and institutions is centered and compressed vertically by half for a wider display. This changes presentation only. Clicking a node emphasizes its direct graph neighbors and incident lines; it does not add inferred ties."),
       tags$div(class = "book-reference", "Textbook connection: ", v1_book("§4.1: Force Directed Layouts (general principle; the implementation uses ForceAtlas2)", "graph_layouts.html#force-directed-layouts")),
       tags$p(
         "ForceAtlas2 keeps the exploratory network shape while avoidOverlap reduces circle-on-circle collisions. Stabilization is capped at 200 iterations, and dragging no longer restarts whole-network physics. Hidden networks initialize only when opened. Edges stay visible during dragging and zooming; hover hit-testing still pauses briefly while the viewer is moving. The lower label draw threshold is unchanged so names stay visible farther out while zooming."
@@ -6973,6 +6979,8 @@ visPhysics(
           if (getActiveViewKey() === 'members') {
             params.set('minimum', document.getElementById('mainOverlapThreshold').value);
             params.set('layout', document.getElementById('mainOverlapLayout').value);
+          } else {
+            params.set('layout', document.getElementById('affiliationLayout').value);
           }
 
           const pathItems = detailHistory.slice();
@@ -7232,6 +7240,7 @@ visPhysics(
                 [institutionNodeId],
                 false
               );
+              if (window.highlightAffiliationNode) window.highlightAffiliationNode(network, institutionNodeId);
 
               network.__institutionFocus = focus;
 
@@ -7599,8 +7608,13 @@ visPhysics(
 
         function focusNode(nodeId) {
           withActiveNetwork(function(network) {
+            if (!nodeId || !network.body.data.nodes.get(nodeId)) {
+              if (window.clearAffiliationFocus) window.clearAffiliationFocus(network);
+              return;
+            }
             try {
               network.selectNodes([nodeId]);
+              if (getActiveViewKey() !== 'members' && window.highlightAffiliationNode) window.highlightAffiliationNode(network, nodeId);
               network.focus(
                 nodeId,
                 {
@@ -7641,6 +7655,7 @@ visPhysics(
 
         function recenterActiveNetwork() {
           if (getActiveViewKey() === 'members' && window.fitMemberOverlap) { window.fitMemberOverlap(); return; }
+          if (getActiveViewKey() !== 'members' && window.fitAffiliationNetwork && window.fitAffiliationNetwork()) return;
           withActiveNetwork(function(network) {
             try {
               syncNetworkCanvasSize(network);
@@ -7662,6 +7677,7 @@ visPhysics(
           resizeFitTimer = window.setTimeout(function() {
             if (explorePage.style.display === 'none') return;
             if (getActiveViewKey() === 'members' && window.fitMemberOverlap) { window.fitMemberOverlap(); return; }
+            if (getActiveViewKey() !== 'members' && window.fitAffiliationNetwork && window.fitAffiliationNetwork()) return;
 
             withActiveNetwork(function(network) {
               try {
@@ -7689,6 +7705,7 @@ visPhysics(
           if (viewKey === 'members' && window.resetMemberOverlap) { window.resetMemberOverlap(); return; }
 
           withActiveNetwork(function(network) {
+            if (window.resetAffiliationNetwork && window.resetAffiliationNetwork(network)) return;
             const saved = window.networkInitialPositions[viewKey];
 
             try {
@@ -8154,6 +8171,8 @@ visPhysics(
             const input = document.getElementById('mainOverlapThreshold');
             input.value = Math.min(Number(input.max), Math.max(1, Math.floor(Number(params.get('minimum')) || 1)));
             document.getElementById('mainOverlapLayout').value = params.get('layout') === 'network' ? 'network' : 'party';
+          } else {
+            document.getElementById('affiliationLayout').value = params.get('layout') === 'party' ? 'party' : 'network';
           }
 
           const pathItems = parseSharedPath(

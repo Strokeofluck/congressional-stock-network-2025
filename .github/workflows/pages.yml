@@ -49,6 +49,13 @@ jobs:
       - name: Render interactive network
         run: Rscript render.R
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Verify party layout geometry and highlighting
+        run: node scripts/verify_party_layouts.cjs .
+
       - name: Verify rendered calculations
         run: |
           python3 verify_v1.py
